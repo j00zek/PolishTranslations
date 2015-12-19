@@ -202,11 +202,15 @@ class j00zekTUMenu(Screen,):
             if ret:
                 from enigma import quitMainloop
                 quitMainloop(3)
-                self.quit()
+                try:
+                    self.quit()
+                except:
+                    pass
             return
         #odświerzamy menu
-        with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
-        self.system( "%s/_MenuGenerator.sh %s" % (self.myPath, self.myPath) )
+        if not path.exists(self.MenuFile):
+            with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
+            self.system( "%s/_MenuGenerator.sh %s" % (self.myPath, self.myPath) )
         self.reloadLIST()
         if path.exists("/tmp/.rebootGUI"):
             self.session.openWithCallback(rebootQuestionAnswered, MessageBox,"Zrestartować system teraz?",  type = MessageBox.TYPE_YESNO, timeout = 10, default = False)
