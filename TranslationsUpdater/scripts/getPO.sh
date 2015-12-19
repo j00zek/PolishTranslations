@@ -51,4 +51,4 @@ rm -rf /tmp/$addon
 rm -rf /tmp/paths.conf
 echo
 echo "$addon zainstalowany poprawnie, zrestartuj teraz system."
-touch /tmp/.reboot
+touch /tmp/.rebootGUI

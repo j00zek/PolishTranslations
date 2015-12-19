@@ -70,7 +70,7 @@ class j00zekTUConsole(Screen):
         }, -1)
         
         self.cmdlist = cmdlist
-        self.newtitle = title
+        self.newtitle = title.replace('\t',' ').replace('  ',' ').strip()
         
         self.onShown.append(self.updateTitle)
         
@@ -198,13 +198,19 @@ class j00zekTUMenu(Screen,):
                             
 
     def endrun(self, ret =0):
+        def rebootQuestionAnswered(ret):
+            if ret:
+                from enigma import quitMainloop
+                quitMainloop(3)
+                self.quit()
+            return
         #odświerzamy menu
         with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
         self.system( "%s/_MenuGenerator.sh %s" % (self.myPath, self.myPath) )
         self.reloadLIST()
-        #self.onStart()
-        return
-    
+        if path.exists("/tmp/.rebootGUI"):
+            self.session.openWithCallback(rebootQuestionAnswered, MessageBox,"Zrestartować system teraz?",  type = MessageBox.TYPE_YESNO, timeout = 10, default = False)
+
     def SkryptOpcjiWithFullPAth(self, txt):
         if not txt.startswith('/'):
             return ('%s/%s') %(self.myPath,txt)
