@@ -22,7 +22,13 @@
 ###########################################################################################################
 #curl -s --ftp-pasv $addons 1>/dev/null 2>%1
 #[ $? -gt 0 ] && addons="$addons/"
+myPath=$1
+
 DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\1\t\2;'|sort`
+if [ $? -gt 0 ]; then
+  echo "ITEM|Błąd pobierania tłumaczeń|DONOTHING|">>/tmp/_GetTranslations
+  exit 0
+fi
 
 echo "MENU|Aktualizuj tłumaczenia:">/tmp/_GetTranslations
 if [ -z "$DownloadableArchives" ];then
@@ -57,3 +63,11 @@ do
   #echo "$ArchiveName > $addonLink"
   echo -e "ITEM|$addonName\t$extraTAB $addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
 done
+
+#aktualizacja wtyczki, jesli potrzebna
+wersjaCurrent=`grep "^wersja" < $myPath/../__init__.py|cut -d '=' -f2`
+wersjaOnline=`curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslations/master/TranslationsUpdater/__init__.py|grep "^wersja"|cut -d '=' -f2`
+[ $? -gt 0 ] && exit 0
+if [ $wersjaOnline -gt $wersjaCurrent ];then
+  echo -e "ITEM|>>> Aktualizuj wtyczkę <<<|CONSOLE|pluginUpdate.sh">>/tmp/_GetTranslations
+fi
