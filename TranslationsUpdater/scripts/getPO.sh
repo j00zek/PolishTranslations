@@ -28,8 +28,10 @@ if [ -z $addonConfig ];then
   foundN=`find $findPath -name $myConfig||head -1`
   if [ -z $foundN ];then
     echo "Nie znaleziono konfiguracji dla $myConfig, koniec :("
-    exit 0
+  else
+    echo "Znaleziono $foundN"
   fi
+  exit 0
 fi
 
 echo "Pobieram $addon..."
