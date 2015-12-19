@@ -10,7 +10,7 @@ url="https://raw.githubusercontent.com/j00zek/PolishTranslations/master/$addon"
 
 [ -e /tmp/$addon ] && rm -rf /tmp/$addon
 [ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
-[ -e /tmp/.reboot ] && rm -rf /tmp/.reboot
+[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 
 echo "Pobieram plik konfiguracyjny..."
 curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslations/master/paths.conf -o /tmp/paths.conf
@@ -25,13 +25,13 @@ fi
 if [ -z $addonConfig ];then
   echo "Brak konfiguracji dla $myConfig, wyszukiwanie po nazwie..."
   findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`
-  foundN=`find $findPath -name $myConfig||head -1`
-  if [ -z $foundN ];then
-    echo "Nie znaleziono konfiguracji dla $myConfig, koniec :("
+  foundN=`find $findPath -name $myConfig.mo|grep -m1 '/pl/LC_MESSAGES/'`
+  if `find $findPath -name $myConfig.mo|grep -q '/pl/LC_MESSAGES/'`;then
+    addonConfig=`find $findPath -name $myConfig.mo|grep -m1 '/pl/LC_MESSAGES/'`
   else
-    echo "Znaleziono $foundN"
+    echo "Nie znaleziono konfiguracji dla $myConfig, koniec :("
+    exit 0
   fi
-  exit 0
 fi
 
 echo "Pobieram $addon..."
