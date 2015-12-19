@@ -25,7 +25,7 @@
 myPath=$1
 
 [ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
-[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
+#[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 
 DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\1\t\2;'|sort`
 if [ $? -gt 0 ]; then
