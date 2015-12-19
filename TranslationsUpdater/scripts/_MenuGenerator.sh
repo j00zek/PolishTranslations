@@ -30,6 +30,15 @@ if [ -z "$DownloadableArchives" ];then
   exit 0
 fi
 
+#coby ładnie się kolumienki zgadzały ;)
+maxLenght=0
+for ArchiveName in $DownloadableArchives
+do
+  addonName=`echo $ArchiveName|cut -d$'\t' -f1|cut -d$'.' -f1`
+  NameLen=${#addonName}
+  [ $NameLen -gt $maxLenght ] && maxLenght=$NameLen
+done
+echo "MAXLENGHT = $maxLenght"
 
 IFS=$'\n'
 for ArchiveName in $DownloadableArchives
@@ -37,6 +46,14 @@ do
   addonLink=`echo $ArchiveName|cut -d$'\t' -f1`
   addonName=`echo $ArchiveName|cut -d$'\t' -f1|cut -d$'.' -f1`
   addonDate=`echo $ArchiveName|cut -d$'\t' -f2`
-  echo "$ArchiveName > $addonLink"
-  echo "ITEM|$addonName\t$addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
+  DateABBR=`echo $addonDate|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
+  if [ $DateABBR == ' ' ];then
+    echo "Month abbreviation found probably, let's try translate it"
+    addonDate=`echo $addonDate|sed 's/^\(...\)/_(\1)/'`
+  fi
+  NameLen=${#addonName}
+  LenDiff=$(( maxLenght - NameLen ))
+  [ $LenDiff -gt 3 ] && extraTAB='\t' || extraTAB=''
+  #echo "$ArchiveName > $addonLink"
+  echo -e "ITEM|$addonName\t$extraTAB $addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
 done

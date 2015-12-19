@@ -34,4 +34,4 @@ def Plugins(**kwargs):
 
 def main(session, **kwargs):
     from myComponents import j00zekTUMenu
-    session.open(j00zekTUMenu, MenuFolder = '%sscripts' % PluginPath, MenuFile = '_GetTranslations', MenuTitle = "Aktualizuj tłumaczenie...")
+    session.open(j00zekTUMenu, MenuFolder = '%sscripts' % PluginPath, MenuFile = '_GetTranslations', MenuTitle = "Aktualizacja tłumaczeń")

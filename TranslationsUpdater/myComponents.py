@@ -22,7 +22,13 @@ def substring_2_translate(text):
     to_translate = text.split(')', 2)
     text = to_translate[0]
     return text
-    
+
+def lastChance(text):
+    NonStandardTranslations=[(('Dec','Grud'))]
+    for tr in NonStandardTranslations:
+        text=text.replace(tr[0],tr[1])
+    return text
+
 def __(txt):
     if txt.find('_(') == -1:
         txt = _(txt)
@@ -31,6 +37,8 @@ def __(txt):
         while txt.find('_(') != -1:
             tmptxt = substring_2_translate(txt)
             translated_tmptxt = _(tmptxt)
+            if translated_tmptxt == tmptxt:
+                translated_tmptxt = lastChance(tmptxt)
             txt = txt.replace('_(' + tmptxt + ')', translated_tmptxt)
             index += 1
             if index == 10:
@@ -126,8 +134,10 @@ class j00zekTUMenu(Screen,):
         picHeight = 0
         self.MenuTitle = MenuTitle
 
-        skin  = """<screen name="j00zekTUMenu" position="center,center" size="460,410" title="j00zekTUMenu" >\n"""
-        skin += """<widget name="list" position="5,0" size="450,340" scrollbarMode="showOnDemand" />\n"""
+        skin  = """<screen name="j00zekTUMenu" position="center,center" size="470,410" title="j00zekTUMenu" >\n"""
+        skin += """<eLabel text="Plik" position="10,0" size="150,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />"""
+        skin += """<eLabel text="z dnia" position="145,0" size="460,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />"""
+        skin += """<widget name="list" position="5,30" font="Regular;20" size="460,340" scrollbarMode="showOnDemand" />\n"""
         skin += """<eLabel text="Tłumaczenia: Mariusz1970" position="0,350" size="460,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />"""
         skin += """<eLabel text="Wtyczka: (c)2015 j00zek" position="0,380" size="460,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />"""
         skin += """</screen>"""
@@ -210,7 +220,6 @@ class j00zekTUMenu(Screen,):
             self["list"].hide()
             with open (self.MenuFile, "r") as myMenufile:
                 for MenuItem in myMenufile:
-                    print MenuItem
                     MenuItem = MenuItem.rstrip('\n') 
                     if not MenuItem or MenuItem[0] == '#': #omijamy komentarze
                         continue
@@ -222,7 +231,9 @@ class j00zekTUMenu(Screen,):
                         if len(skladniki) == 3:
                             (NazwaOpcji, TypOpcji, SkryptOpcji) = skladniki
                             if NazwaOpcji != "":
-                                NazwaOpcji = _(NazwaOpcji)
+                                NazwaOpcji = __(NazwaOpcji)
+                                #NazwaOpcji = NazwaOpcji.replace(NazwaOpcji[:3],_(NazwaOpcji[:3]))
+                                
                             self.myList.append( (NazwaOpcji, TypOpcji, self.SkryptOpcjiWithFullPAth(SkryptOpcji)) )
                             self.list.append( NazwaOpcji )
                 myMenufile.close()
