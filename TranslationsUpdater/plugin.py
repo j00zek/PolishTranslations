@@ -30,7 +30,7 @@ from Tools.LoadPixmap import LoadPixmap
 #import re
         
 def Plugins(**kwargs):
-    return [PluginDescriptor(name="Aktualizator tłumaczeń", description="Bo Polacy nie gęsi i swój język mają ;)", where = PluginDescriptor.WHERE_PLUGINMENU, fnc=main)]
+    return [PluginDescriptor(name="Aktualizator tłumaczeń", description="Bo Polacy nie gęsi i swój język mają ;)", where = PluginDescriptor.WHERE_PLUGINMENU, fnc=main,icon="logo.png")]
 
 def main(session, **kwargs):
     from myComponents import j00zekTUMenu
