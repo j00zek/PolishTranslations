@@ -202,12 +202,10 @@ class j00zekTUMenu(Screen,):
             return txt
             
     def reloadLIST(self):
-        print "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
         #czyścimy listę w ten dziwny sposób, aby GUI działało, bo nie zmienimy obiektów ;)
         while len(self.list) > 0:
             del self.myList[-1]
             del self.list[-1]
-        print self.MenuFile
         if path.exists(self.MenuFile) is True:
             self["list"].hide()
             with open (self.MenuFile, "r") as myMenufile:
