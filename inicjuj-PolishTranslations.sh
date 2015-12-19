@@ -1,5 +1,5 @@
 # @j00zek 15.12.2015
-#This script downloads IPTVPlayer from github and installs all necessary components
+#This script downloads TranslationsUpdater from github and installs all necessary components
 #
 if `grep -q 'osd.language=pl_PL' </etc/enigma2/settings`; then
   isInstalled="jest już zainstalowany"
@@ -14,8 +14,8 @@ if `grep -q 'osd.language=pl_PL' </etc/enigma2/settings`; then
   unpacking="Wypakowywanie archiwum..."
   unpackError="Archiwum wypakowane niepoprawnie"
   archiveIncorrect="Archiwum pobrane niepoprawnie"
-  cleaning="Czyszczenie katalogu IPTVPlayer-a"
-  creating="Tworzenie katalogu IPTVPlayer"
+  cleaning="Czyszczenie katalogu TranslationsUpdater-a"
+  creating="Tworzenie katalogu TranslationsUpdater"
   installing="Instalacja nowej wersji..."
   success="Sukces: Zrestartuj GUI ręcznie, aby aktywować nową wersję wtyczki"
 else
@@ -32,7 +32,7 @@ else
   unpackError="Archive unpacked improperly"
   archiveIncorrect="Archive downloaded improperly"
   cleaning="Cleaning existing folder"
-  creating="Creating IPTVPlayer folder"
+  creating="Creating TranslationsUpdater folder"
   installing="Installing new version..."
   success="Success: Restart GUI manually to use new plugin version"
 fi
