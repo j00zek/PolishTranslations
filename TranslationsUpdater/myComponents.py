@@ -180,7 +180,7 @@ class j00zekTUMenu(Screen,):
                 if opcja[0] == selecteditem:
                     self.SkryptOpcji = opcja[2]
                     if opcja[1] == "CONSOLE":
-                        self.session.openWithCallback(self.endrun ,j00zekTUConsole, title = "%s" % selecteditem, cmdlist = [ ('%s' %  self.SkryptOpcji) ])
+                        self.session.openWithCallback(self.endrun ,j00zekTUConsole, title = "%s" % selecteditem, cmdlist = [ ('chmod 775 %s 2>/dev/null' %  self.SkryptOpcji),('%s' %  self.SkryptOpcji) ])
                     if opcja[1] == "YESNO":
                         self.session.openWithCallback(self.YESNO ,MessageBox,_("Execute %s?") % selecteditem, MessageBox.TYPE_YESNO)
                     if opcja[1] == "SILENT":
@@ -200,7 +200,7 @@ class j00zekTUMenu(Screen,):
     def endrun(self, ret =0):
         #odświerzamy menu
         with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
-        self.system( "%s/_MenuGenerator.sh %s %s" % (self.myPath, self.myPath, SkinPath) )
+        self.system( "%s/_MenuGenerator.sh %s" % (self.myPath, self.myPath) )
         self.reloadLIST()
         #self.onStart()
         return
