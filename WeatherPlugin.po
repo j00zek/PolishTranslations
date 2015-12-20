@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WeatherPlugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-12 19:02+0100\n"
-"PO-Revision-Date: 2015-12-18 13:51+0100\n"
+"PO-Revision-Date: 2015-12-20 21:45+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: madu <mcfreis@gmx.net>\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgid "City"
 msgstr "Miasto"
 
 msgid "Current: %s"
-msgstr "Aktualnie: %s"
+msgstr "Aktualnie:%s"
 
 msgid "Delete"
 msgstr "Wyczyść"
@@ -37,13 +37,13 @@ msgid "Edit"
 msgstr "Edytuj"
 
 msgid "Feels like %s"
-msgstr "Temp.odczuwalna %s"
+msgstr "Temp.odczuwalna%s"
 
 msgid "Getting weather information..."
-msgstr "Pobieranie informacje o pogodzie..."
+msgstr "Pierwsze informacje o pogodzie ..."
 
 msgid "Humidity: %s %%"
-msgstr "Wilgotność: %s %%"
+msgstr "Wilgotność:%s %%"
 
 msgid "Language"
 msgstr "Język"
@@ -52,7 +52,7 @@ msgid "Location code"
 msgstr "Kod lokalizacji"
 
 msgid "MSN location search result"
-msgstr "Wynik wyszukiwania kodu lokalizacji MSN"
+msgstr "Wynik wyszukiwania MSN kod lokalizacji"
 
 msgid ""
 "No locations defined...\n"
@@ -61,14 +61,11 @@ msgstr ""
 "Brak wpisów do.\n"
 "Kliknij przycisk 'Menu' aby utworzyć wpis."
 
-msgid "OK"
-msgstr "OK"
-
 msgid "Observation point: %s"
-msgstr "Stacja obserwacyjna: %s"
+msgstr "Stacja obserwacyjna:%s"
 
 msgid "Observation time: %s"
-msgstr "Godzina obserwacji: %s"
+msgstr "Godzina obserwacji:%s"
 
 msgid "Please enter a valid city name."
 msgstr "Proszę wpisać poprawną nazwę miasta."
@@ -80,25 +77,25 @@ msgid "Really delete this WeatherPlugin Entry?"
 msgstr "Czy na pewno usunąć ten wpis?"
 
 msgid "Search Code"
-msgstr "Szukaj Kodu"
+msgstr "Szukaj kodu"
 
 msgid "Show Weather Forecast"
-msgstr "Pokazuje prognozę"
+msgstr "Pokazuje prognozę pogody"
 
 msgid "System"
 msgstr "System"
 
 msgid "Weather Plugin"
-msgstr "Wtyczka Pogodowa"
+msgstr "Pogodowa wtyczka"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "Wtyczka Pogodowa:Edytuj wpis"
+msgstr "Pogodowa wtyczka:Edytuj wpis"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "Wtyczka Pogodowa:Lista wpisów"
+msgstr "Pogodowa wtyczka:Lista wpisów"
 
 msgid "You need to enter a valid city name before, aby wyszukać kod code."
-msgstr "Musisz wcześniej wprowadzić poprawną nazwę miasta,aby wyszukać kod."
+msgstr "Musisz wprowadzić poprawną nazwę miasta aby wyszukać kod."
 
 msgid "imperial system"
 msgstr "stopnie fahrenheita"
