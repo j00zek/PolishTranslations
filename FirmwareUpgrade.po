@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: openATV-FirmwareUpgrade\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-07 11:28+0100\n"
-"PO-Revision-Date: 2015-12-16 13:58+0100\n"
+"PO-Revision-Date: 2015-12-20 19:38+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: openATV <Mariusz1970@onet.eu>\n"
 "Language: pl\n"
@@ -15,22 +15,31 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "Can't cancel during upgrade!!"
-msgstr "Nie można anulować podczas aktualizacji !!"
+msgstr "Nie można anulować podczas aktualizacji!!!"
 
 msgid "Can't find /usr/bin/md5sum"
 msgstr "Nie można znaleźć katalogu /usr/bin/md5sum"
+
+msgid "You choose the incorrect file. "
+msgstr "Wybierasz niepoprawny plik. "
 
 msgid "Can't found MD5 file."
 msgstr "Nie można znaleźć pliku MD5."
 
 msgid "Can't found binary file."
-msgstr "Nie można znaleźć pliku binarnego."
+msgstr "Nie można znaleźć binarnego pliku."
 
 msgid "Can't found device file!!"
-msgstr "Nie można znaleźć pliku urządzenia !!"
+msgstr "Nie można znaleźć pliku w urządzeniu!!"
 
 msgid "Can't found model name."
-msgstr "Nie można znaleźć nazwy modelu."
+msgstr "Nie można znaleźć nazwy marki."
+
+msgid "Can't download the firmware file."
+msgstr "Nie można pobrać pliku z oprogramowaniem."
+
+msgid "Can't download the checksum file."
+msgstr "Nie można pobrać pliku sumy kontrolnej."
 
 msgid "Close"
 msgstr "Zamknij"
@@ -39,31 +48,66 @@ msgid "Do you want to remove binary data?"
 msgstr "Czy chcesz usunąć dane binarne?"
 
 msgid "Fail to upgrade!! Retry!!"
-msgstr "Nie udało się uaktualnić !! Ponowić !!"
+msgstr "Nie udało się uaktualnić!!!Spróbować ponownie!!!"
+
+msgid "fail to upgrade : %d"
+msgstr "Nie udało się uaktualnić: %d"
+
+msgid "fail to upgrade, retry.."
+msgstr "Nie udało się uaktualnić,spróbować ponownie.."
+
+msgid "wrong fpga file."
+msgstr "niewłaściwy plik FPGA."
+
+msgid "fail to programming : %d"
+msgstr "Nie powiodło się programowanie: %d"
+
+msgid "fail to set programming mode : %d"
+msgstr "Nie można ustawić trybu programowania: %d"
 
 msgid ""
 "Fail to verify data file. \n"
 "file[%s]\n"
 "md5[%s]"
 msgstr ""
-"Nie udało się sprawdzić pliku danych \n"
+"Nie udało się sprawdzić danych pliku. \n"
 "plik[%s]\n"
 "md5[%s]"
 
 msgid "Firmware does not exist."
 msgstr "Oprogramowanie nie istnieje."
 
+msgid "Fail to download."
+msgstr "Nie udało się pobrać."
+
+msgid ""
+"Downloaded : %s\n"
+"Press OK to select, Press Cancel to exit."
+msgstr ""
+"Pobrano: %s\n"
+"Naciśnij przycisk OK,aby wybrać opcję,naciśnij przycisk anuluj,aby wyjść."
+
+msgid ""
+"Press OK to select, Press Cancel to exit.\n"
+"Press BLUE to download the latest firmware."
+msgstr ""
+"Naciśnij przycisk OK,aby wybrać opcję,naciśnij przycisk anuluj,aby wyjść.\n"
+"Naciśnij przycisk NIEBIESKI,aby pobrać najnowsze oprogramowanie."
+
 msgid "No selected binary data!!"
-msgstr "Nie wybrano danych binarnych !!"
+msgstr "Nie wybrano danych binarnych!!"
+
+msgid "Reboot in %d seconds. Press OK to reboot now."
+msgstr "Uruchom ponownie w ciągu %d sek.Naciśnij przycisk OK,aby ponownie uruchomić teraz."
 
 msgid "Success. Press OK to exit."
-msgstr "Sukces. Naciśnij przycisk 'OK', aby wyjść."
+msgstr "Sukces.Naciśnij przycisk 'OK',aby wyjść."
 
 msgid "Download the firmware (latest)"
-msgstr "Pobierz oprogramowanie (najnowsze)"
+msgstr "Pobierz oprogramowanie(najnowsze)"
 
 msgid "This plugin is supported only the Ultimo/Uno."
-msgstr "Wtyczka jest obsługiwana tylko w Ultimo/Uno."
+msgstr "Wtyczka jest wspierana tylko w Ultimo/Uno."
 
 msgid "You chose the incorrect file."
 msgstr "Wybrano niewłaściwy plik."
@@ -71,8 +115,18 @@ msgstr "Wybrano niewłaściwy plik."
 msgid "Firmware Upgrade"
 msgstr "Aktualizacja VFD/FPGA/FP"
 
+msgid "Duo/Solo was not support."
+msgstr "Nie wspierana w Duo/Solo"
+
 msgid "Upgrade Firmware.."
-msgstr "Oprogramowanie Aktualizacja.."
+msgstr "Aktualizacja Oprogramowania..."
+
+msgid ""
+"You can't cancel during upgrade.\n"
+"Do you want to continue?"
+msgstr ""
+"Nie można anulować podczas aktualizacji.\n"
+"Czy chcesz kontynuować?"
 
 msgid "Upgrade"
 msgstr "Aktualizacja"
@@ -84,24 +138,34 @@ msgid "Download"
 msgstr "Pobierz"
 
 msgid "Press OK to select, Press Cancel to exit. Press BLUE to download the firmware."
-msgstr ""
-"Naciśnij przycisk 'OK'aby wybrać.Naciśnij przycisk anuluj aby wyjść. Naciśnij przycisk 'NIEBIESKI',"
-"aby pobrać oprogramowanie."
+msgstr "Naciśnij przycisk 'OK'aby wybrać.Naciśnij przycisk anuluj aby wyjść.Naciśnij przycisk 'NIEBIESKI',aby pobrać oprogramowanie."
 
 msgid "Downloaded: /tmp/duo2.bin.vfd Press OK to select.Press Cancel to exit."
 msgstr "Pobrano:/tmp/duo2.bin.vfd Naciśnij przycisk 'OK'aby wybrać.Naciśnij przycisk anuluj aby wyjść."
 
-msgid "FPGA File Browser"
-msgstr "Przeglądarka plików FPGA"
+msgid " File Browser"
+msgstr " Przeglądarka plików"
 
-msgid "VFD File Browser"
-msgstr "Przeglądarka plików VFD"
+msgid "%s Upgrade Status (%d)"
+msgstr "%s Stan aktualizacji (%d)"
 
-msgid "FP File Browser"
-msgstr "Przeglądarka plików FP"
+msgid " Upgrade Status"
+msgstr " Stan aktualizacji"
+
+msgid "Status : 0%"
+msgstr "Stan: 0%"
+
+msgid "Reboot now for a successful upgrade."
+msgstr "Uruchom ponownie teraz po udanej aktualizacji."
 
 msgid "Please wait during download."
 msgstr "Proszę czekać podczas pobierania."
 
 msgid "Message"
 msgstr "Wiadomość"
+
+msgid "upgrade done"
+msgstr "Aktualizacja zakończona"
+
+msgid "fail to set size : %d"
+msgstr "nie ustawiono rozmiaru: %d"
