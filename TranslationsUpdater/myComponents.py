@@ -1,20 +1,26 @@
 # -*- coding: utf-8 -*-
-# @j00zek 2014/2015 dla Graterlia
+# @j00zek 2015
 
-from enigma import eConsoleAppContainer, eTimer
-from Screens.Screen import Screen
+from __init__ import *
+
 from Components.ActionMap import ActionMap
+from Components.config import *
 from Components.MenuList import MenuList
 from Components.ScrollLabel import ScrollLabel
-from __init__ import *
-#
-from Components.Pixmap import Pixmap
-from enigma import ePicLoad, ePoint, getDesktop, eTimer, ePixmap
-from os import system as os_system, popen as os_popen, path
-#from Plugins.Plugin import PluginDescriptor
-from Screens.Screen import Screen
-from Screens.MessageBox import MessageBox
+from Components.Sources.StaticText import StaticText
+
+from enigma import eConsoleAppContainer, eTimer
+
 from Screens.ChoiceBox import ChoiceBox
+from Screens.MessageBox import MessageBox
+from Screens.Screen import Screen
+#
+from os import system as os_system, popen as os_popen, path as os_path
+
+config.plugins.TranslationsUpdater = ConfigSubsection()
+config.plugins.TranslationsUpdater.SortowaniePoDacie = ConfigYesNo(default = False)
+config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych = ConfigYesNo(default = False)
+
 
 def substring_2_translate(text):
     to_translate = text.split('_(', 2)
@@ -46,14 +52,14 @@ def __(txt):
 
     return txt
 
-class j00zekTUConsole(Screen):
+class translatedConsole(Screen):
     #TODO move this to skin.xml
     skin = """
-        <screen position="center,center" size="550,450" title="Command execution..." >
+        <screen position="center,center" size="550,450" title="Instalacja..." >
             <widget name="text" position="0,0" size="550,450" font="Console;14" />
         </screen>"""
         
-    def __init__(self, session, title = "j00zekTUConsole", cmdlist = None, finishedCallback = None, closeOnSuccess = False):
+    def __init__(self, session, title = "translatedConsole", cmdlist = None, finishedCallback = None, closeOnSuccess = False):
         Screen.__init__(self, session)
 
         self.finishedCallback = finishedCallback
@@ -109,10 +115,21 @@ class j00zekTUConsole(Screen):
                 self.cancel()
 
     def cancel(self):
+        def rebootQuestionAnswered(ret):
+            if ret:
+                from enigma import quitMainloop
+                quitMainloop(3)
+            try: self.close()
+            except: pass
+            return
         if self.run == len(self.cmdlist):
-            self.close()
             self.container.appClosed.remove(self.runFinished)
             self.container.dataAvail.remove(self.dataAvail)
+            if os_path.exists("/tmp/.rebootGUI"):
+                from Screens.MessageBox import MessageBox
+                self.session.openWithCallback(rebootQuestionAnswered, MessageBox,"Restart GUI now?",  type = MessageBox.TYPE_YESNO, timeout = 10, default = False)
+            else:
+                self.close()
 
     def dataAvail(self, str):
         #lastpage = self["text"].isAtLastPage()
@@ -134,13 +151,21 @@ class j00zekTUMenu(Screen,):
         picHeight = 0
         self.MenuTitle = MenuTitle
 
-        skin  = """<screen name="j00zekTUMenu" position="center,center" size="470,410" title="j00zekTUMenu" >\n"""
-        skin += """<eLabel text="Plik" position="10,0" size="150,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />"""
-        skin += """<eLabel text="z dnia" position="145,0" size="460,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />"""
-        skin += """<widget name="list" position="5,30" font="Regular;20" size="460,340" scrollbarMode="showOnDemand" />\n"""
-        skin += """<eLabel text="Tłumaczenia: Mariusz1970" position="0,350" size="460,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />"""
-        skin += """<eLabel text="Wtyczka: (c)2015 j00zek" position="0,380" size="460,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />"""
-        skin += """</screen>"""
+        skin  = """
+        <screen name="j00zekTUMenu" position="center,center" size="470,450" title="j00zekTUMenu" >
+        <widget name="list" position="5,30" font="Regular;20" size="460,340" scrollbarMode="showOnDemand" />
+        <eLabel text="Tłumaczenia: Mariusz1970" position="0,350" size="460,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />
+        <eLabel text="Wtyczka: (c)2015 j00zek" position="0,380" size="460,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />
+        <eLabel position="  5,415" size="228, 40" zPosition="-10" backgroundColor="#20b81c46" />
+        <eLabel position="237,415" size="228, 40" zPosition="-10" backgroundColor="#20009f3c" />
+        
+        <widget source="key_red"   render="Label" position="  5,415" size="228,40" zPosition="1" font="Regular;20" valign="center" halign="center" transparent="1" />
+        <widget source="key_green" render="Label" position="237,415" size="228,40" zPosition="1" font="Regular;20" valign="center" halign="center" transparent="1" />
+        
+        <widget source="Header1" render="Label" position=" 10,0" size="150,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />
+        <widget source="Header2" render="Label" position="145,0" size="460,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />
+
+        </screen>"""
 
         self.skin = skin
         self.session = session
@@ -148,22 +173,72 @@ class j00zekTUMenu(Screen,):
 
         self["list"] = MenuList(self.list)
         
-        self["actions"] = ActionMap(["OkCancelActions"], {"ok": self.run, "cancel": self.close}, -1)
+        self["actions"] = ActionMap(["OkCancelActions", "ColorActions"],
+            {"ok": self.run,
+            "cancel": self.close,
+            "red": self.ZmienSortowanie,
+            "green": self.ZmienUkrywanieNiezainstalowanych,
+            }, -1)
 
         self.onLayoutFinish.append(self.onStart)
         self.visible = True
         self.setTitle("Pobieranie danych...")
-
+        self["key_red"] = StaticText("")
+        self["key_green"] = StaticText("")
+        self["Header1"] = StaticText("")
+        self["Header2"] = StaticText("")
+      
     def onStart(self):
-        self.hideOSDTimer = eTimer()
-        self.hideOSDTimer.callback.append(self.delayedStart)
-        self.hideOSDTimer.start(500, True) # singleshot
+        self.updateDataTimer = eTimer()
+        self.updateDataTimer.callback.append(self.updateData)
+        self.updateDataTimer.start(500, True) # singleshot
         
-    def delayedStart(self):
+    def updateData(self):
+        self.setButtons(czysc=True)
+        self.setTitle("Pobieranie danych...")
         self.system( "%s/_MenuGenerator.sh %s" % (self.myPath, self.myPath) )
         self.setTitle(self.MenuTitle)
+        self.clearLIST()
         self.reloadLIST()
+        self.setButtons()
     
+    def ZmienSortowanie(self):
+        config.plugins.TranslationsUpdater.SortowaniePoDacie.value = not config.plugins.TranslationsUpdater.SortowaniePoDacie.value
+        config.plugins.TranslationsUpdater.SortowaniePoDacie.save()
+        configfile.save()
+        self.setButtons(czysc=True)
+        self.clearLIST()
+        self.updateDataTimer.start(100, True) # singleshot
+        
+    def ZmienUkrywanieNiezainstalowanych(self):
+        config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych.value = not config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych.value
+        config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych.save()
+        configfile.save()
+        self.setButtons(czysc=True)
+        self.clearLIST()
+        self.updateDataTimer.start(100, True) # singleshot
+  
+    def setButtons(self, czysc=False):
+        if czysc == True:
+            self["key_red"].setText("")
+            self["key_green"].setText("")
+            self["Header1"].setText("")
+            self["Header2"].setText("")
+            return
+        if config.plugins.TranslationsUpdater.SortowaniePoDacie.value == True:
+            self["key_red"].setText("Posortuj po nazwie")
+            self["Header1"].setText("Z dnia")
+            self["Header2"].setText("Plik")
+        else:
+            self["key_red"].setText("Posortuj po dacie")
+            self["Header1"].setText("Plik")
+            self["Header2"].setText("z dnia")
+            
+        if config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych.value == True:
+            self["key_green"].setText("Pokaż wszystkie")
+        else:
+            self["key_green"].setText("Ukryj niezainstalowane")
+            
     def YESNO(self, decyzja):
         if decyzja is False:
             return
@@ -180,7 +255,7 @@ class j00zekTUMenu(Screen,):
                 if opcja[0] == selecteditem:
                     self.SkryptOpcji = opcja[2]
                     if opcja[1] == "CONSOLE":
-                        self.session.openWithCallback(self.endrun ,j00zekTUConsole, title = "%s" % selecteditem, cmdlist = [ ('chmod 775 %s 2>/dev/null' %  self.SkryptOpcji),('%s' %  self.SkryptOpcji) ])
+                        self.session.openWithCallback(self.endrun ,translatedConsole, title = "%s" % selecteditem, cmdlist = [ ('chmod 775 %s 2>/dev/null' %  self.SkryptOpcji),('%s' %  self.SkryptOpcji) ])
                     if opcja[1] == "YESNO":
                         self.session.openWithCallback(self.YESNO ,MessageBox,_("Execute %s?") % selecteditem, MessageBox.TYPE_YESNO)
                     if opcja[1] == "SILENT":
@@ -197,23 +272,13 @@ class j00zekTUMenu(Screen,):
                         self.session.openWithCallback(self.endrun,MessageBox, "%s" %( msgline ), MessageBox.TYPE_INFO, timeout=15)
                             
 
-    def endrun(self, ret =0):
-        def rebootQuestionAnswered(ret):
-            if ret:
-                from enigma import quitMainloop
-                quitMainloop(3)
-                try:
-                    self.quit()
-                except:
-                    pass
-            return
+    def endrun(self, ret =0, wymusUpdate=False):
         #odświerzamy menu
-        if not path.exists(self.MenuFile):
+        if not os_path.exists(self.MenuFile) or wymusUpdate == True:
             with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
             self.system( "%s/_MenuGenerator.sh %s" % (self.myPath, self.myPath) )
+        self.clearLIST()
         self.reloadLIST()
-        if path.exists("/tmp/.rebootGUI"):
-            self.session.openWithCallback(rebootQuestionAnswered, MessageBox,"Zrestartować system teraz?",  type = MessageBox.TYPE_YESNO, timeout = 10, default = False)
 
     def SkryptOpcjiWithFullPAth(self, txt):
         if not txt.startswith('/'):
@@ -221,12 +286,16 @@ class j00zekTUMenu(Screen,):
         else:
             return txt
             
-    def reloadLIST(self):
+    def clearLIST(self):
         #czyścimy listę w ten dziwny sposób, aby GUI działało, bo nie zmienimy obiektów ;)
         while len(self.list) > 0:
             del self.myList[-1]
             del self.list[-1]
-        if path.exists(self.MenuFile) is True:
+        self["list"].hide()
+        self["list"].show()
+
+    def reloadLIST(self):
+        if os_path.exists(self.MenuFile) is True:
             self["list"].hide()
             with open (self.MenuFile, "r") as myMenufile:
                 for MenuItem in myMenufile:

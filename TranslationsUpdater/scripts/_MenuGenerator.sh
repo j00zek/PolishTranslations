@@ -26,8 +26,22 @@ myPath=$1
 
 [ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
 #[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
+[ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
 
-DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\1\t\2;'|sort -bfi`
+if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
+  ByDate=1
+  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\2\t\1;'|sort -bfir`
+else
+  ByDate=0
+  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\1\t\2;'|sort -bfi`
+fi
+
+if `grep -q 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile`;then
+  UkryjNiezainstalowane=1
+else
+  UkryjNiezainstalowane=0
+fi
+
 if [ $? -gt 0 ]; then
   echo "ITEM|Błąd pobierania tłumaczeń|DONOTHING|">>/tmp/_GetTranslations
   exit 0
@@ -41,30 +55,65 @@ fi
 
 #coby ładnie się kolumienki zgadzały ;)
 maxLenght=0
-for ArchiveName in $DownloadableArchives
+IFS=$'\n'
+for item in $DownloadableArchives
 do
-  addonName=`echo $ArchiveName|cut -d$'\t' -f1|cut -d$'.' -f1`
+  #echo "'$item'"
+  addonName=`echo $item|cut -d$'\t' -f1|cut -d$'.' -f1`
   NameLen=${#addonName}
+  #echo $addonName $NameLen
   [ $NameLen -gt $maxLenght ] && maxLenght=$NameLen
 done
 echo "MAXLENGHT = $maxLenght"
 
-IFS=$'\n'
 for ArchiveName in $DownloadableArchives
 do
-  addonLink=`echo $ArchiveName|cut -d$'\t' -f1`
-  addonName=`echo $ArchiveName|cut -d$'\t' -f1|cut -d$'.' -f1`
-  addonDate=`echo $ArchiveName|cut -d$'\t' -f2`
-  DateABBR=`echo $addonDate|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
-  if [ $DateABBR == ' ' ];then
-    echo "Month abbreviation found probably, let's try translate it"
-    addonDate=`echo $addonDate|sed 's/^\(...\)/_(\1)/'`
+  if `echo $ArchiveName|grep -q 'enigma2.po'`;then
+    dodajDoListy=1
+  elif [ $UkryjNiezainstalowane -ne 1 ];then
+    dodajDoListy=1
+  else
+    if [ $ByDate -eq 1 ];then #data na początku
+      addonLink=`echo $ArchiveName|cut -d$'\t' -f2`
+    else
+      addonLink=`echo $ArchiveName|cut -d$'\t' -f1`
+    fi
+    findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`
+    if `find $findPath -name $myConfig.mo|grep -m1 '/pl/LC_MESSAGES/'`;then
+      dodajDoListy=1
+    else
+      dodajDoListy=0
+    fi
   fi
-  NameLen=${#addonName}
-  LenDiff=$(( maxLenght - NameLen ))
-  [ $LenDiff -gt 3 ] && extraTAB='\t' || extraTAB=''
-  #echo "$ArchiveName > $addonLink"
-  echo -e "ITEM|$addonName\t$extraTAB $addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
+  
+  if [ $dodajDoListy -eq 1 ];then
+    if [ $ByDate -eq 1 ];then #data na początku
+      addonLink=`echo $ArchiveName|cut -d$'\t' -f2`
+      addonName=`echo $ArchiveName|cut -d$'\t' -f1`
+      addonDate=`echo $ArchiveName|cut -d$'\t' -f2|cut -d$'.' -f1`
+    
+      DateABBR=`echo $addonName|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
+      if [ $DateABBR == ' ' ];then
+        #echo "Month abbreviation found probably, let's try translate it"
+        addonName=`echo $addonName|sed 's/^\(...\)/_(\1)/'`
+      fi
+    else
+      addonLink=`echo $ArchiveName|cut -d$'\t' -f1`
+      addonName=`echo $ArchiveName|cut -d$'\t' -f1|cut -d$'.' -f1`
+      addonDate=`echo $ArchiveName|cut -d$'\t' -f2`
+    
+      DateABBR=`echo $addonDate|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
+      if [ $DateABBR == ' ' ];then
+        #echo "Month abbreviation found probably, let's try translate it"
+        addonDate=`echo $addonDate|sed 's/^\(...\)/_(\1)/'`
+      fi
+    fi
+    NameLen=${#addonName}
+    LenDiff=$(( maxLenght - NameLen ))
+    [ $LenDiff -gt 3 ] && extraTAB='\t' || extraTAB=''
+    #echo "$ArchiveName > $addonLink"
+    echo -e "ITEM|$addonName\t$extraTAB $addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
+  fi
 done
 
 #aktualizacja wtyczki, jesli potrzebna
