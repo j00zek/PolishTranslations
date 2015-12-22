@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HistoryZapSelector ver.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-22 01:45+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
+"Language-Team: Dima-73@inbox.lv <Mariusz1970@onet.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: pl\n"
+"X-Generator: Poedit 1.8.6\n"
+
+msgid " ver. 2.1"
+msgstr "wer.2.1"
+
+msgid "%02d.%02d - %02d.%02d (%s%d min)"
+msgstr "%02d.%02d - %02d.%02d (%s%d min)"
+
+msgid "Clear History"
+msgstr "Wyczyść historię"
+
+msgid "Duration type"
+msgstr "Tryp czasu trwania"
+
+msgid "Enable Zap History"
+msgstr "Włączyć zapis przełączania"
+
+msgid "History list clean is failed!"
+msgstr "Czyszczenie nie powiodło się!"
+
+msgid "History list clean is successed!"
+msgstr "Czyszczenie zakończone sukcesem"
+
+msgid "History zap: count %d"
+msgstr "Historia przełączania:ilość %d"
+
+msgid "Maximum zap history entries"
+msgstr "Historia wpisów maks.przełączeń"
+
+msgid "Preview zap to service ?"
+msgstr "Podgląd zapisu do kanałów?"
+
+msgid "Really clear history list ?"
+msgstr "Naprawdę czyścić listę przełączania?"
+
+msgid "Really delete current entry ?"
+msgstr "Czy na pewno usunąć bieżący wpis?"
+
+msgid "Settings zap history"
+msgstr "Ustawienia historii przełączania"
+
+msgid "Setup Zap History:"
+msgstr "Ustawienia Historii Przełączania:"
+
+msgid "Show duration events"
+msgstr "Pokazać czas trwania wydarzenia"
+
+msgid "Style services list"
+msgstr "Styl listy kanałów"
+
+msgid "Use picons"
+msgstr "Użyć loga kanałów"
+
+msgid "default (only service name)"
+msgstr "domyślne(tylko nazwa kanału)"
+
+msgid "event name"
+msgstr "Nazwa wydarzenia"
+
+msgid "event name and description"
+msgstr "Nazwa i opis wydarzenia"
+
+msgid "progress bar"
+msgstr "Pasek postępu"
+
+msgid "remaining minutes"
+msgstr "Pozostałe minuty"
+
+msgid "Use number zap"
+msgstr "Użyć numeru kanału"
+
+msgid "%s  number: %s"
+msgstr "%s  numer: %s"
+
+msgid "Invalid number: %s"
+msgstr "Nieprawidłowy numer: %s"
+
+msgid "Cancel"
+msgstr "Usuń"
+
+msgid "Save"
+msgstr "Zapisz"
