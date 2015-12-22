@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumberZapExt-2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-28 19:54+0100\n"
+"PO-Revision-Date: 2015-12-21 14:51+0100\n"
+"Language-Team: Poland <Mariusz1970@onet.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
+"Language: pl\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "<< Press colors keys (the first four bouquets) >>"
+msgstr "<<Naciśnij kolorowy przycisk(pierwsze cztery bukiety)>>"
+
+msgid "<< Press menu key (for priority bouquets) >>"
+msgstr "<<Naciśnij przycisk menu(dla priorytetowych bukietów)>>"
+
+msgid "Action:"
+msgstr "Działanie:"
+
+msgid "Alternative service counter in bouquets"
+msgstr "Alternatywne zliczanie kanałów w bukietach"
+
+msgid "Behavior when timeshift is enabled"
+msgstr "Zachowanie przy timeshifcie gdy jest włączony"
+
+msgid "Bouquet:"
+msgstr "Bukiet:"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Channel"
+msgstr "Kanał"
+
+msgid "Channel:"
+msgstr "Kanał:"
+
+msgid "Check timeshift of 0 key in recall service"
+msgstr "Sprawdź timeshift z przyciskiem '0' przywołania kanału"
+
+msgid "Confirmation on hotkey action"
+msgstr "Potwierdzenie działania skrótu przycisków"
+
+msgid "Directory browser"
+msgstr "Przeglądarka katalogów"
+
+msgid "Enable bouquets hotkeys"
+msgstr "Włączyć skróty przycisków/bukiety"
+
+msgid "Enable extended number zap"
+msgstr "Włączyć rozszerzone numery przełączeń"
+
+msgid "Enable number hotkeys"
+msgstr "Włączyć numeryczne przyciski skrótów"
+
+msgid "Enable picons"
+msgstr "Włączyć loga stacji"
+
+msgid "Enigma Restart"
+msgstr "Ponowne uruchamianie Enigmy"
+
+msgid "Enigma Standby"
+msgstr "Czuwanie Enigmy"
+
+msgid "Extended NumberZap Setup "
+msgstr "Ustawienia rozszerzonej numeracji przełączeń"
+
+msgid "Extensions Menu"
+msgstr "Menu rozszerzeń"
+
+msgid ""
+"GUI needs a restart to apply changes 'Behavior when timeshift is enabled'.\n"
+"Restart the GUI now?"
+msgstr ""
+"Wymagane ponowne uruchomienie GUI odbiornika w celu zastosowania zmian \"Zachowanie przy Timeshifcie gdy jest włączony\".\n"
+"Uruchomić ponownie teraz GUI?"
+
+msgid "Hotkey action have priority"
+msgstr "Skróty działania mają pierwszeństwo"
+
+msgid "Hotkey bouquets have priority"
+msgstr "Skróty działania bukietów mają pierwszeństwo"
+
+msgid "Menu Harddisk"
+msgstr "Menu twardego dysku"
+
+msgid "Menu Information"
+msgstr "Menu informacji"
+
+msgid "Menu Mainmenu"
+msgstr "Menu główne"
+
+msgid "Menu Service Searching"
+msgstr "Menu wyszukiwani kanałów"
+
+msgid "Menu Setup"
+msgstr "Menu ustawienia"
+
+msgid "Menu Standby/Restart"
+msgstr "Menu tryb czuwania/Ponownego uruchamiania"
+
+msgid "Menu System"
+msgstr "Menu systemowe"
+
+msgid "Menuitem About"
+msgstr "Podmenu Informacje o obrazie. "
+
+msgid "Menuitem Language"
+msgstr "Podmenu wybór języka"
+
+msgid "Menuitem Manual Scan"
+msgstr "Podmenu ręczne wyszukiwanie"
+
+msgid "Menuitem Network"
+msgstr "Podmenu sieci"
+
+msgid "No (close)"
+msgstr "Nie(zamykaj)"
+
+msgid "No (do not remind)"
+msgstr "Nie(Nie przypominaj mi)"
+
+msgid "Picons directory (press OK)"
+msgstr "Wybierz ścieżkę do folderu z logami stacji(kliknij OK)"
+
+msgid "Plugin Browser"
+msgstr "Przeglądarka wtyczek"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Service"
+msgstr "Kanał"
+
+msgid "Setup A/V Settings"
+msgstr "Ustawienia Audio/Wideo"
+
+msgid "Setup Customize"
+msgstr "Dostosuj ustawienia"
+
+msgid "Setup Network"
+msgstr "Konfiguracja sieci"
+
+msgid "Setup Timezone"
+msgstr "Ustawienia strefy czasowej"
+
+msgid "System Reboot"
+msgstr "Ponowne uruchomienie systemu"
+
+msgid "System Shutdown"
+msgstr "Zamykanie systemu"
+
+msgid "Time to wait next keypress (milliseconds)"
+msgstr "Czas oczekiwania na następne naciśnięcie przycisku(ms)"
+
+msgid "Timers List"
+msgstr "Lista timerów"
+
+msgid "always number zap"
+msgstr "zawsze zliczać przełączanie"
+
+msgid "current:  %s"
+msgstr "obecny:  %s"
+
+msgid "only seek jump if available"
+msgstr "tylko szukać przełączeń,jeżeli są dostępne"
+
+msgid "standart"
+msgstr "standartowe"
+
+msgid "Extended NumberZap"
+msgstr "Rozszerzona numeracja przełączeń"
+
+msgid "Extended NumberZap Setup"
+msgstr "Ustawienia rozszerzonej numeracji przełączeń"
+
+msgid "Number:"
+msgstr "Numer:"
+
+msgid "Plugins"
+msgstr "Wtyczki"
+
+msgid "Really run %s now?"
+msgstr "Naprawdę uruchomić %s teraz?"
+
+msgid "Reboot"
+msgstr "Ponowne uruchomienie"
+
+msgid "Restart GUI"
+msgstr "Ponowne uruchamianie GUI"
+
+msgid "Service Info"
+msgstr "Informacja o kanale"
+
+msgid "Shutdown"
+msgstr "Wyłączanie"
+
+msgid "Standby"
+msgstr "Czuwanie"
+
+msgid "alternative service counter in bouquets"
+msgstr "Alternatywne zliczanie kanałów w bukietach"
+
+msgid "confirmation on hotkey action"
+msgstr "Potwierdź działanie skrótu przycisków"
+
+msgid "enable extended number zap"
+msgstr "Aktywować rozszerzoną numerację przełączeń"
+
+msgid "enable number hotkeys"
+msgstr "Aktywować skróty numeryczne przycisków"
+
+msgid "enable picons"
+msgstr "Aktywować loga stacji"
+
+msgid "invalid channel number"
+msgstr "Nieprawidłowy numer kanału"
+
+msgid "picons directory:"
+msgstr "Ścieszka do katalogu z logami stacji:"
+
+msgid "service not found"
+msgstr "Nie znaleziono kanału"
+
+msgid "time to wait next keypress (millisecond)"
+msgstr "Czas oczekiwania na naciśnięcie następnego przycisku(ms)"
