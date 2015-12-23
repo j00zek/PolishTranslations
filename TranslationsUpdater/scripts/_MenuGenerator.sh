@@ -74,18 +74,18 @@ do
     dodajDoListy=1
   else
     if [ $ByDate -eq 1 ];then #data na początku
-      addonLink=`echo $ArchiveName|cut -d$'\t' -f2`
+      addonLink=`echo $ArchiveName|cut -d$'\t' -f2|sed 's/\.po//'`
     else
-      addonLink=`echo $ArchiveName|cut -d$'\t' -f1`
+      addonLink=`echo $ArchiveName|cut -d$'\t' -f1|sed 's/\.po//'`
     fi
+    echo $addonLink
     findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`
-    if `find $findPath -name $myConfig.mo|grep -m1 '/pl/LC_MESSAGES/'`;then
+    if `find $findPath -name $addonLink.mo|grep -q -m1 "$addonLink.mo"`;then
       dodajDoListy=1
     else
       dodajDoListy=0
     fi
   fi
-  
   if [ $dodajDoListy -eq 1 ];then
     if [ $ByDate -eq 1 ];then #data na początku
       addonLink=`echo $ArchiveName|cut -d$'\t' -f2`

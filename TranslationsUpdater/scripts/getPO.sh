@@ -23,13 +23,16 @@ if [ -f /tmp/paths.conf ];then
   addonConfig=`grep "$myConfig=" < /tmp/paths.conf| cut -d '=' -f2`
 fi
 if [ -z $addonConfig ];then
-  echo "Brak konfiguracji dla $myConfig, wyszukiwanie po nazwie..."
   findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`
-  foundN=`find $findPath -name $myConfig.mo|grep -m1 '/pl/LC_MESSAGES/'`
-  if `find $findPath -name $myConfig.mo|grep -q '/pl/LC_MESSAGES/'`;then
-    addonConfig=`find $findPath -name $myConfig.mo|grep -m1 '/pl/LC_MESSAGES/'`
-  else
-    echo "Nie znaleziono konfiguracji dla $myConfig, koniec :("
+  echo "Brak konfiguracji dla $myConfig, wyszukiwanie po nazwie..."
+  #znajdujemy jakiekolwiek tłumaczenie i zamieniamy ścieżkę na pl
+  addonConfig=`find $findPath -name $myConfig.mo|grep -m1 "/pl/"`
+  [ -z $addonConfig ] && addonConfig=`find $findPath -name $myConfig.mo|grep -m1 "/en/"|sed 's;/en/;/pl/;'`
+  [ -z $addonConfig ] && addonConfig=`find $findPath -name $myConfig.mo|grep -m1 "/de/"|sed 's;/de/;/pl/;'`
+  [ -z $addonConfig ] && addonConfig=`find $findPath -name $myConfig.mo|grep -m1 "/ru/"|sed 's;/ru/;/pl/;'`
+  #echo $addonConfig
+  if [ -z $addonConfig ]; then
+    echo "Wygląda na to, że $myConfig nie jest zainstalowany, koniec :("
     exit 0
   fi
 fi
@@ -48,6 +51,7 @@ if [ $? -gt 0 ]; then
   echo "Błąd podczas kompilacji, koniec :("
   exit 0
 fi
+mkdir -p `dirname $addonConfig`
 mv -f /tmp/$myConfig.mo $addonConfig
 rm -rf /tmp/$addon
 rm -rf /tmp/paths.conf
