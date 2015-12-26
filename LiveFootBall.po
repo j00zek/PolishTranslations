@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: LiveFootBall\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 22:04+0200\n"
-"PO-Revision-Date: 2015-12-24 19:01+0100\n"
+"PO-Revision-Date: 2015-12-26 20:22+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -296,6 +296,9 @@ msgstr "Pobieranie listy meczów...proszę czekać"
 msgid "Download error,source is down or internet problem or box date is wrong"
 msgstr "Błąd pobierania,źródło jest nieczynne,problemem z internetem lub dane odbiornika są nie takie"
 
+msgid "Download error,source is down "
+msgstr "Błąd pobierania,źródło jest nieczynne "
+
 msgid "Downloading news list...please wait"
 msgstr "Pobieranie nowych list...proszę czekać"
 
@@ -461,6 +464,9 @@ msgstr "Wpisz adres url do nowego źródła"
 msgid "Please wait as tables were being downloaded"
 msgstr "Proszę czekać,pobieranie tabel w toku..."
 
+msgid "table"
+msgstr "tabele"
+
 msgid "Please wait while downloading feeds"
 msgstr "Proszę czekać,podczas pobierania źródła"
 
@@ -481,7 +487,7 @@ msgid "Processing data,please wait"
 msgstr "Przetwarzanie danych,proszę czekać"
 
 msgid "Sorry,unable to get table from the source-check season from settings,check internet or server is down,try soccerway.com for correct season and data,update software or livefootball data from about&update menu"
-msgstr "Niestety,nie mogąc otrzymać tabeli z wyboru sezonu źródłowego z ustawieniami,sprawdź internet lub serwer,sprawdż SoccerWay.com dla prawidłowego sezonu i aktualizacji danych,oprogramowania lub danych livefootball z o&menu aktualizacji"
+msgstr "Przepraszamy,nie mogę otrzymać tabeli z wyboru sezonu źródłowego z ustawieniami,sprawdź internet lub serwer, SoccerWay.com dla prawidłowego sezonu i aktualizuj dane,oprogramowania lub dane livefootball z o&menu aktualizacji"
 
 msgid "Processing data,please wait.."
 msgstr "Przetwarzanie danych,proszę czekać..."
@@ -524,6 +530,13 @@ msgstr "Bezpośrednie źródło"
 
 msgid "Soccer matches-stats-tables"
 msgstr "Mecze/tabele/statystyki"
+
+msgid ""
+"LiveFootBall\n"
+"Soccer matches-stats-tables"
+msgstr ""
+"LiveFootBall\n"
+"Mecze/tabele/statystyki"
 
 msgid "LiveFootBall-soccer news feeds"
 msgstr "Nowe źródła wiadomości"
@@ -584,19 +597,19 @@ msgid "Sorry no players table available"
 msgstr "Niestety nie ma dostępnych tabel"
 
 msgid "Sorry,No league tables available"
-msgstr "Przepraszamy nie ma dostępnych tabel ligi"
+msgstr "Przepraszamy,tabel ligi nie dostępne"
 
 msgid "Sorry,No satellites data available"
-msgstr "Przepraszam,brak dostępnych danych satelity"
+msgstr "Przepraszam,dane satelit nie dostępne"
 
 msgid "Sorry,Table is not available in the source or selected season is wrong"
 msgstr "Przepraszamy tabela nie jest dostępna w źródle lub wybrany sezon jest źły"
 
 msgid "Sorry-,unable to get archive table"
-msgstr "Niestety,nie można pobrać archiwum tabele"
+msgstr "Przepraszamy,archiwum tabele nie dostępne"
 
 msgid "Sorry-,unable to get data,could be not available yet,try later"
-msgstr "Niestety,nie można pobrać danych,mogą nie być jeszcze dostępne,spróbuj później"
+msgstr "Przepraszamy,nie można pobrać danych,mogą nie być jeszcze dostępne,spróbuj później"
 
 msgid "Sport News"
 msgstr "Sport Nowości"
@@ -653,7 +666,10 @@ msgid "Tables"
 msgstr "Tabele"
 
 msgid "Sorry no data available"
-msgstr "Niestety brak dostępnych danych"
+msgstr "Przepraszamy,brak dostępnych danych"
+
+msgid "schedules"
+msgstr "harmonogramy"
 
 msgid "leaguetable sortable table detailed-table"
 msgstr "Szczegóły tabel ligowych"
@@ -665,7 +681,7 @@ msgid "National leagues"
 msgstr "Ligi krajowe"
 
 msgid "Unkown league"
-msgstr "Nieznane ligi"
+msgstr "Nieznana liga"
 
 msgid "Update software"
 msgstr "Aktualizacja wtyczki"
@@ -847,6 +863,9 @@ msgstr "Przepraszamy źródła nie dostępne,spróbuj później"
 
 msgid "subclasses of ParserBase must override error()"
 msgstr "Podklasa musi zastąpić przetwarzanie błąd()"
+
+msgid "class"
+msgstr "klasa"
 
 msgid "unexpected %s char in declaration"
 msgstr "Nieoczekiwany %s znak w deklaracji"
