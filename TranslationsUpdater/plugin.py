@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-# UserSkin, based on AtileHD concept by schomi & plnick
 #
 # maintainer: j00zek
 #
@@ -17,21 +15,41 @@ from __init__ import *
 from Components.ActionMap import ActionMap
 
 from Components.config import *
-from Components.Label import Label
-from Components.Pixmap import Pixmap
-from Components.Sources.List import List
+#from Components.Label import Label
+#from Components.Pixmap import Pixmap
+#from Components.Sources.List import List
+from enigma import eTimer
 from Plugins.Plugin import PluginDescriptor
-from Screens.MessageBox import MessageBox
+#from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
-from Tools.Directories import resolveFilename, pathExists
-from Tools.LoadPixmap import LoadPixmap
+#from Tools.Directories import resolveFilename, pathExists
+#from Tools.LoadPixmap import LoadPixmap
 #from Tools import Notifications
 #import shutil
 #import re
         
 def Plugins(**kwargs):
-    return [PluginDescriptor(name="Aktualizator tłumaczeń", description="Bo Polacy nie gęsi i swój język mają ;)", where = PluginDescriptor.WHERE_PLUGINMENU, fnc=main,icon="logo.png")]
+    return [PluginDescriptor(name="Aktualizator tłumaczeń", description="Bo Polacy nie gęsi i swój język mają ;)", where = PluginDescriptor.WHERE_PLUGINMENU, fnc=main,icon="logo.png"),
+            PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc = sessionstart)]
 
 def main(session, **kwargs):
     from myComponents import j00zekTUMenu
     session.open(j00zekTUMenu, MenuFolder = '%sscripts' % PluginPath, MenuFile = '_GetTranslations', MenuTitle = "Aktualizacja tłumaczeń")
+
+def sessionstart(reason, **kwargs):
+    if "session" in kwargs:
+        session = kwargs["session"]
+        AutoUpdate(session)
+
+class AutoUpdate(Screen):
+    def __init__(self, session):
+        self.session = session
+        Screen.__init__(self, session)
+        print ">>>>>>>>>>>>>>>>>>>>>>>>>>>> AutoUpdate <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+        self.AutoUpdateTimer = eTimer()
+        self.AutoUpdateTimer.callback.append(self.checkANDrefresh)
+        self.AutoUpdateTimer.start(1000*30,True)
+
+    def checkANDrefresh(self):
+        print ">>>>>>>>>>>>>>>>>>>>>>>>>>>> checkANDrefresh <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+        return
