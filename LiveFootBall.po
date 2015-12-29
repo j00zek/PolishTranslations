@@ -1,0 +1,931 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LiveFootBall\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 22:04+0200\n"
+"PO-Revision-Date: 2015-12-26 20:22+0100\n"
+"Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
+"Language-Team: Mariusz1970 <Mariusz1970@onet.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "AwayTeam"
+msgstr "Goście"
+
+msgid "Displays soccer live scores"
+msgstr "Wyświetla a.u wyniki w meczach"
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "Hidden by default"
+msgstr "Domyślnie ukryte"
+
+msgid "League"
+msgstr "Liga"
+
+msgid "Leagues"
+msgstr "Ligi"
+
+msgid "Scores"
+msgstr "Wyniki na żywo"
+
+msgid "Setup"
+msgstr "Ustawienia"
+
+msgid "Show %s"
+msgstr "Pokaż %s"
+
+msgid "Skip empty leagues"
+msgstr "Pomiń puste ligi"
+
+msgid "Yes / No"
+msgstr "Tak/Nie"
+
+msgid ""
+"\n"
+"\n"
+" No updates available"
+msgstr ""
+"\n"
+"\n"
+" Brak dostępnej aktualizacji"
+
+msgid ""
+"\n"
+"\n"
+" press yellow button to start updating"
+msgstr ""
+"\n"
+"\n"
+" Naciśnij żółty przycisk,aby rozpocząć aktualizację"
+
+msgid ""
+"\n"
+"\n"
+"New update "
+msgstr ""
+"\n"
+"\n"
+"Nowa aktualizacja "
+
+msgid "unable to check for updates-No internet connection or server down-please check later"
+msgstr "Nie można sprawdzić aktualizacje.Brak połączenia z Internetem lub serwera nieczynny,proszę sprawdzić później"
+
+msgid "New update "
+msgstr "Nowa aktualizacja "
+
+msgid ""
+"\n"
+"New version is available"
+msgstr ""
+"\n"
+"Nowa wersja jest dostępna"
+
+msgid " Schedules,Results,Stats"
+msgstr " Harmonogramy,Wyniki,Statystyki"
+
+msgid " added"
+msgstr " Dodaj"
+
+msgid "updates download error"
+msgstr "Błąd pobierania aktualizacji"
+
+msgid "Installing LiveFootBall fullhd skin"
+msgstr "Instalacja skóry LiveFootBall pełnej HD"
+
+msgid "Installing LiveFootBall hd skin"
+msgstr "Instalacja skóry LiveFootBall HD"
+
+msgid "install hd skin"
+msgstr "Instalacja skóry HD"
+
+msgid "install fullhd skin"
+msgstr "Instalacja pełnej skóry HD"
+
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+msgid "error in autolaunching TSmedia,press ok or exit to launch"
+msgstr "Błąd w auto.uruchamianiu TSmedia,naciśnij przycisk OK lub wyjdź do uruchomienia"
+
+msgid "Download error"
+msgstr "Błąd pobierania"
+
+msgid "corrupt file!"
+msgstr "Uszkodzony plik!"
+
+msgid "server returned error"
+msgstr "Serwer zwrócił błąd"
+
+msgid "Segmentation fault"
+msgstr "Usterka segmentacji"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Corrupted Download File:\n"
+"%s"
+msgstr ""
+"Pobieranie widea nie powiodło się!\n"
+"\n"
+"Uszkodzony pobrany plik:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Could not read RTMP-Packet:\n"
+"%s"
+msgstr ""
+"Pobieranie widea nie powiodło się!\n"
+"\n"
+"Nie można odczytać pakietu RTMP:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Segmentation fault:\n"
+"%s"
+msgstr ""
+"Pobieranie widea nie powiodło się!\n"
+"\n"
+"Usterka segmentacji:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Server returned error:\n"
+"%s"
+msgstr ""
+"Pobieranie widea nie powiodło się!\n"
+"\n"
+"Serwer zwrócił błąd:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Unknown Error:\n"
+"%s"
+msgstr ""
+"Pobieranie widea nie powiodło się!\n"
+"\n"
+"Nieznany błąd:\n"
+"%s"
+
+msgid "Video successfully transfered to your HDD!"
+msgstr "Wideo z powodzeniem przeniesione na dysk twardy!"
+
+msgid "Download: %s"
+msgstr "Pobieranie: %s"
+
+msgid "Downloading ..."
+msgstr "Pobieranie..."
+
+msgid "Parse error"
+msgstr "Błąd przetwarzania"
+
+msgid "Error:download error"
+msgstr "Błąd:pobieranie błędu"
+
+msgid "download task"
+msgstr "Zadanie pobierania"
+
+msgid ""
+" is available  \n"
+" updates:"
+msgstr ""
+" Jest dostępna  \n"
+" Aktualizacja:"
+
+msgid " please wait.."
+msgstr " Proszę czekać..."
+
+msgid "Please wait.."
+msgstr "Proszę czekać..."
+
+msgid "'%s' object has no attribute '%s'"
+msgstr "'%s' objekt nie ma atrybutu '%s'"
+
+msgid "-new update available"
+msgstr " Dostępna nowa aktualizacja"
+
+msgid "Aborting"
+msgstr "Przerywanie"
+
+msgid "About&Update"
+msgstr "Info.&Aktualizacja"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "All matches in CET"
+msgstr "Wszystkie mecze w CET"
+
+msgid "All matches in local time"
+msgstr "Mecze w czasie lokalnym"
+
+msgid "All matches in local time "
+msgstr "Mecze w czasie lokalnym "
+
+msgid "All matches in UTC"
+msgstr "Wszystkie mecze w UTC"
+
+msgid "Checking software updates,please wait..."
+msgstr "Sprawdzanie aktualizacji wtyczki,proszę czekać..."
+
+msgid "Connecting"
+msgstr "Łączenie"
+
+msgid "Connecting to the server..."
+msgstr "Łączenie z serwerem..."
+
+msgid "CornflowerBlue"
+msgstr "niebieski chaber"
+
+msgid "Countries"
+msgstr "Kraje"
+
+msgid "Countries&International soccer"
+msgstr "Kraje&Międzynarodowa piłka"
+
+msgid "Country leagues"
+msgstr "Ligi Krajowe"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Direct Feeds"
+msgstr "Bezpośrednie źródła"
+
+msgid "Downnload or parsing error"
+msgstr "Pobieranie lub analizowanie błędów"
+
+msgid "Dowanloading data..please wait"
+msgstr "Pobieranie dat...proszę czekać"
+
+msgid "Downloading"
+msgstr "Pobieranie"
+
+msgid "Downloading "
+msgstr "Pobieranie "
+
+msgid "Downloading data,please wait..."
+msgstr "Pobieranie dat,proszę czekać..."
+
+msgid "Downloading feeds,please wailt"
+msgstr "Pobieranie źródła,proszę czekać..."
+
+msgid "Downloading matches list...please wait"
+msgstr "Pobieranie listy meczów...proszę czekać"
+
+msgid "Download error,source is down or internet problem or box date is wrong"
+msgstr "Błąd pobierania,źródło jest nieczynne,problemem z internetem lub dane odbiornika są nie takie"
+
+msgid "Download error,source is down "
+msgstr "Błąd pobierania,źródło jest nieczynne "
+
+msgid "Downloading news list...please wait"
+msgstr "Pobieranie nowych list...proszę czekać"
+
+msgid " section in config not found"
+msgstr "  Nie znaleziono sekcji w konfig."
+
+msgid "Error downloading data,livescore is down or internet problem"
+msgstr "Błąd pobierania danych,wyniki na żywo są wyłączone lub problemem z serwerem."
+
+msgid "Error in downloading data,internet problem or server is down"
+msgstr "Błąd pobierania danych,problem z internetem lub serwerem"
+
+msgid "Error in server feed xml,please try later"
+msgstr "Błąd źródła serwera,proszę spróbuj później"
+
+msgid "Error processing feeds"
+msgstr "Błąd przetwarzania serwera"
+
+msgid "feeds"
+msgstr "źródła"
+
+msgid "feed"
+msgstr "źródło"
+
+msgid "no channelname"
+msgstr "Nie ma nazwy kanału"
+
+msgid "Error reaching website! Check livescore.com from another device."
+msgstr "Błąd sieci!Sprawdz livescore.com z innego urządzenia."
+
+msgid "Execution Finished"
+msgstr "Realizacja zakończona"
+
+msgid "Execution finished!!"
+msgstr "Realizacja zakończona!!!"
+
+msgid "We failed with error code - %s."
+msgstr "Nie powiodło się,kod błędu- %s."
+
+msgid "We failed to reach a server."
+msgstr "Nie udało połączyć się z serwerem."
+
+msgid "reason"
+msgstr "Powód"
+
+msgid "Reason: %s"
+msgstr "Powód: %s"
+
+msgid "Reason: "
+msgstr "Powód: "
+
+msgid "Exit"
+msgstr "Wyjdź"
+
+msgid "Feed added"
+msgstr "Dodaj źródło"
+
+msgid "Feed already exists!"
+msgstr "źródło już istnieje!"
+
+msgid "Feed not found in config"
+msgstr "źródła nie znaleziono w konfig."
+
+msgid "Feed updated"
+msgstr "Aktualizacja źródła"
+
+msgid "I don't know how to match against a %s"
+msgstr "Korespondencja niezweryfikowana przez %s"
+
+msgid "IOError by loading the feed! feed adress correct"
+msgstr "Błąd pobierania źródła!Adres źródła prawidłowy?"
+
+msgid "Install"
+msgstr "Instalacja"
+
+msgid "Installing"
+msgstr "Instalacja"
+
+msgid "Installing to root..."
+msgstr "Instalacja z root..."
+
+msgid "LANGUAGE"
+msgstr "JĘZYK"
+
+msgid " set language to "
+msgstr " Zestaw języków do "
+
+msgid " fallback to default translation for "
+msgstr " Awaryjne domyślne tłumaczenie "
+
+msgid "TSmedia active video downloads"
+msgstr "TSmedia do pobrania aktywny pliki wideo"
+
+msgid "International"
+msgstr "Międzynarodowe"
+
+msgid "favoritemenu"
+msgstr "Ulubiona menu"
+
+msgid "final-stages"
+msgstr "Etapy końcowy"
+
+msgid "League Stats"
+msgstr "Statystyki Ligi"
+
+msgid "League stats"
+msgstr "Statystyki Ligi"
+
+msgid "Live Soccer Today"
+msgstr "Dzisiaj na żywo"
+
+msgid "live"
+msgstr "Na żywo"
+
+msgid "Livefootball version: "
+msgstr "Livefootball wersja:"
+
+msgid "Livescore url:"
+msgstr "Wyniki na żywo:"
+
+msgid "Loading feed titles"
+msgstr "Pobierane tytuły źródła"
+
+msgid "title"
+msgstr "Tytuł"
+
+msgid "Network problem"
+msgstr "Problem z internetem"
+
+msgid "Network problem: "
+msgstr "Problem z internetem: "
+
+msgid "No"
+msgstr "Nie"
+
+msgid "No updates available"
+msgstr "Brak dostępnej aktualizacji"
+
+msgid "Parsing problem: "
+msgstr "Podczas analizowania problemu: "
+
+msgid "Please enter a description for the new feed"
+msgstr "Proszę wprowadzić opis dla nowego źródła"
+
+msgid "description"
+msgstr "Opis"
+
+msgid "Console"
+msgstr "Konsola"
+
+msgid "Console: executing in run"
+msgstr "Konsola:wykonywanie w ciągu"
+
+msgid " the command:"
+msgstr " Polecenie:"
+
+msgid "Please enter a name for the new feed"
+msgstr "Podaj nazwę dla nowego źródła"
+
+msgid "Please enter a url for the new feed"
+msgstr "Wpisz adres url do nowego źródła"
+
+msgid "Please wait as tables were being downloaded"
+msgstr "Proszę czekać,pobieranie tabel w toku..."
+
+msgid "table"
+msgstr "tabele"
+
+msgid "Please wait while downloading feeds"
+msgstr "Proszę czekać,podczas pobierania źródła"
+
+msgid ""
+"Please wait while ipkg is being downloaded...\n"
+" restart enigma is required after successful installation"
+msgstr ""
+"Proszę czekać,podczas gdy ipkg jest pobierane...\n"
+" wymagane jest ponowne uruchomienie E2 po udanej instalacji"
+
+msgid "Please wait..."
+msgstr "Proszę czekać..."
+
+msgid "Press ok to exit"
+msgstr "Naciśnij przycisk OK,aby zamknąć"
+
+msgid "Processing data,please wait"
+msgstr "Przetwarzanie danych,proszę czekać"
+
+msgid "Sorry,unable to get table from the source-check season from settings,check internet or server is down,try soccerway.com for correct season and data,update software or livefootball data from about&update menu"
+msgstr "Przepraszamy,nie mogę otrzymać tabeli z wyboru sezonu źródłowego z ustawieniami,sprawdź internet lub serwer, SoccerWay.com dla prawidłowego sezonu i aktualizuj dane,oprogramowania lub dane livefootball z o&menu aktualizacji"
+
+msgid "Processing data,please wait.."
+msgstr "Przetwarzanie danych,proszę czekać..."
+
+msgid "Read RSS feeds"
+msgstr "Czytaj źródła RSS"
+
+msgid "Refresh"
+msgstr "Odśwież"
+
+msgid "Refreshing matches lists..wait"
+msgstr "Odświeżanie list meczów...czekaj"
+
+msgid "Matches"
+msgstr "Mecze"
+
+msgid "Satellites"
+msgstr "Satelity"
+
+msgid "Season:"
+msgstr "Sezon:"
+
+msgid "Season"
+msgstr "Sezon"
+
+msgid "Winner"
+msgstr "Zwycięzca"
+
+msgid "Select favorite league from countries or international"
+msgstr "Wybierz ulubioną ligę z krajów lub międzynarodową"
+
+msgid "international"
+msgstr "Międzynarodowe"
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Soccer direct feeds"
+msgstr "Bezpośrednie źródło"
+
+msgid "Soccer matches-stats-tables"
+msgstr "Mecze/tabele/statystyki"
+
+msgid ""
+"LiveFootBall\n"
+"Soccer matches-stats-tables"
+msgstr ""
+"LiveFootBall\n"
+"Mecze/tabele/statystyki"
+
+msgid "LiveFootBall-soccer news feeds"
+msgstr "Nowe źródła wiadomości"
+
+msgid "Soccer on Satellites"
+msgstr "Na satelitach"
+
+msgid "Soccer on satellites"
+msgstr "Na satelitach"
+
+msgid "Soccer rss news"
+msgstr "Nowości RSS"
+
+msgid "Soccerstand url:"
+msgstr "Soccerstand URL:"
+
+msgid "Soccerway url:"
+msgstr "Soccerway URL:"
+
+msgid ""
+"Software updated ,\n"
+"restart enigma2 to load new version ?"
+msgstr ""
+"Aktualizacja wtyczki,\n"
+"Uruchomić ponownie E2 by załadować nową wersję?"
+
+msgid "Software updates successfully installed, press ok to exit."
+msgstr "Aktualizacje pomyślnie zainstalowana,naciśnij ok aby wyjść."
+
+msgid "Sorry no archive table available"
+msgstr "Niestety nie ma archiwum tabel"
+
+msgid "World cup fixtures"
+msgstr "Pucharu Świata"
+
+msgid "Archive"
+msgstr "Archiwum"
+
+msgid "Parsing or download error"
+msgstr "Błąd analizowania lub pobierania"
+
+msgid "Score/time"
+msgstr "Wynik/czas"
+
+msgid "HomeTeam"
+msgstr "Gospodarz"
+
+msgid "Parsing or download error "
+msgstr "Błąd analizowania lub pobierania "
+
+msgid "european-championships"
+msgstr "Mistrzostwa Europy"
+
+msgid "/regular-season/"
+msgstr "Regularny Sezon"
+
+msgid "Sorry no players table available"
+msgstr "Niestety nie ma dostępnych tabel"
+
+msgid "Sorry,No league tables available"
+msgstr "Przepraszamy,tabel ligi nie dostępne"
+
+msgid "Sorry,No satellites data available"
+msgstr "Przepraszam,dane satelit nie dostępne"
+
+msgid "Sorry,Table is not available in the source or selected season is wrong"
+msgstr "Przepraszamy tabela nie jest dostępna w źródle lub wybrany sezon jest źły"
+
+msgid "Sorry-,unable to get archive table"
+msgstr "Przepraszamy,archiwum tabele nie dostępne"
+
+msgid "Sorry-,unable to get data,could be not available yet,try later"
+msgstr "Przepraszamy,nie można pobrać danych,mogą nie być jeszcze dostępne,spróbuj później"
+
+msgid "Sport News"
+msgstr "Sport Nowości"
+
+msgid ""
+" Programmer-Mahmoud Faraj\n"
+"Graphics by ramiMAHER\n"
+"for support Tunisiasat.com,dreamoem.com"
+msgstr ""
+" Programista-Mahmoud Faraj\n"
+"Grafika ramiMAHER\n"
+"wsparcie Tunisiasat.com,dreamoem.com"
+
+msgid "The server couldn't fulfill the request."
+msgstr "Serwer nie może spełnić żądania."
+
+msgid "Error code: "
+msgstr "Kod błędu: "
+
+msgid "Tag.index: element not in tag"
+msgstr "Tag.index:element nie jest w znaczniku"
+
+msgid "Terminate"
+msgstr "Zakończone"
+
+msgid "package"
+msgstr "Pakiet"
+
+msgid "Today Fixtures&Results"
+msgstr "Dzisiaj terminarz/wyniki"
+
+msgid "Fixtures"
+msgstr "Terminarz"
+
+msgid "Today live Soccer"
+msgstr "Dzisiaj na żywo"
+
+msgid "Fixtures and results"
+msgstr "Terminarz/wyniki"
+
+msgid "Today matches stats"
+msgstr "Mecze/Statystyki"
+
+msgid "Top Leagues Tables"
+msgstr "Najlepsze ligi/tabele"
+
+msgid "Press OK for stats "
+msgstr "Naciśnij OK na statystyki "
+
+msgid " Tables"
+msgstr " Tabele"
+
+msgid "Tables"
+msgstr "Tabele"
+
+msgid "Sorry no data available"
+msgstr "Przepraszamy,brak dostępnych danych"
+
+msgid "schedules"
+msgstr "harmonogramy"
+
+msgid "leaguetable sortable table detailed-table"
+msgstr "Szczegóły tabel ligowych"
+
+msgid "Top leagues tables"
+msgstr "Najlepsze ligi/tabele"
+
+msgid "National leagues"
+msgstr "Ligi krajowe"
+
+msgid "Unkown league"
+msgstr "Nieznana liga"
+
+msgid "Update software"
+msgstr "Aktualizacja wtyczki"
+
+msgid ""
+"coder  Mahmoud Faraj(mfaraj57)\n"
+"graphics ramiMAHER\n"
+"for support tunisia-sat.com,dreamoem.com"
+msgstr ""
+"programista Mahmoud Faraj(mfaraj57)\n"
+"grafika ramiMAHER\n"
+"wsparcie tunisia-sat.com,dreamoem.com"
+
+msgid ""
+"Updates downloaded,\n"
+"restart enigma2 for loading new version ?"
+msgstr ""
+"Pobieranie aktualizacji.\n"
+"ponowne uruchomić E2 aby pobrać nowa wersje?"
+
+msgid "Updating plugin to "
+msgstr "Aktualizacja wtyczki do "
+
+msgid "Use local time:"
+msgstr "Użyć lokalnego czasu:"
+
+msgid "local"
+msgstr "lokalny"
+
+msgid "Show on main menu(need e2 restart):"
+msgstr "Pokazać w menu głównym(potrzebne ponowne uruchomienie e2):"
+
+msgid "Website server failed to handle your request! Check livescore.com from another device."
+msgstr "Serwer nie rozpatrzył prośby!Sprawdzić livescore.com z innego  urządzenia."
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "add new feed"
+msgstr "Dodaj nowe źródło"
+
+msgid ""
+"adding feed failed!\n"
+"\n"
+"%s"
+msgstr ""
+"Dodanie źródła nie powiodło się!\n"
+"\n"
+"%s"
+
+msgid ""
+"are you sure to delete this feed?\n"
+"\n"
+"%s"
+msgstr ""
+"Czy na pewno chcesz usunąć to źródło?\n"
+"\n"
+"%s"
+
+msgid "better"
+msgstr "Lepiej"
+
+msgid "black"
+msgstr "czarny"
+
+msgid "blue"
+msgstr "niebieski"
+
+msgid "change feed"
+msgstr "Zmiana źródła"
+
+msgid ""
+"changing feed failed!\n"
+"\n"
+"%s"
+msgstr ""
+"Zmiana źródła nie powiodła się!\n"
+"\n"
+"%s"
+
+msgid "checking for updates,please wait..."
+msgstr "Sprawdzanie aktualizacji,proszę czekać..."
+
+msgid "delete feed"
+msgstr "Usuń źródło"
+
+msgid "downloading-installing: %s"
+msgstr "Pobieranie/instalacja: %s"
+
+msgid "downnload or parsing error"
+msgstr "Błąd podczas przetwarzania analiz"
+
+msgid "Title"
+msgstr "Tytuł"
+
+msgid "Mode: "
+msgstr "Tryb: "
+
+msgid "Name: "
+msgstr "Nazwa: "
+
+msgid "match details"
+msgstr "Szczegóły meczu"
+
+msgid "next page"
+msgstr "Następna strona"
+
+msgid "page: "
+msgstr "Strona: "
+
+msgid "Error:no results"
+msgstr "Błąd: Brak wyników"
+
+msgid "Error:parsing or download error"
+msgstr "Błąd:Błąd przetwarzania lub pobierania"
+
+msgid "Parsing error"
+msgstr "Błąd analizowania"
+
+msgid "error getting data,check internet or server down"
+msgstr "Błąd pobierania danych,sprawdź internet lub serwer"
+
+msgid "error in parsing feed xml"
+msgstr "Błąd analizowania źródła xml"
+
+msgid "Illegal xml file"
+msgstr "Nielegalny plik xml"
+
+msgid "expected name token"
+msgstr "Oczekuje nazwy tokena"
+
+msgid "green"
+msgstr "zielony"
+
+msgid "leagues"
+msgstr "Ligi"
+
+msgid "loading feeddata failed!"
+msgstr "Pobieranie danych nie powiodło się!"
+
+msgid "no feed data"
+msgstr "Źródło danych niedostępne"
+
+msgid "markupbase.ParserBase must be subclassed"
+msgstr "Podstawy przetwarzania.Analizator składni bazy musi mieć podklasy"
+
+msgid "parsing please wait"
+msgstr "Podczas analizowania proszę czekać"
+
+msgid "red"
+msgstr "czerwony"
+
+msgid "simple"
+msgstr "prosty"
+
+msgid "soccer on satellite url:"
+msgstr "Na satelitach:"
+
+msgid "sorry ,unable to get data,wrong season,internet problem or server down"
+msgstr "Przepraszamy,nie można uzyskać danych,źły sezon,problem z internetem lub serwerem"
+
+msgid "sorry feeds not available"
+msgstr "Przepraszamy źródła nie dostępne"
+
+msgid "sorry no feeds available"
+msgstr "Przepraszamy źródła nie dostępne"
+
+msgid " reading feedurl '%s' ..."
+msgstr " Odczyt źródła url '%s'..."
+
+msgid " have got %i items in newsfeed "
+msgstr " Dostał %i pozycje nowego źródła "
+
+msgid " IOError by loading the feed! feed adress correct?"
+msgstr " Błąd pobierania źródła! Adres RSS prawidłowy?"
+
+msgid "sorry, no feeds available,try later"
+msgstr "Przepraszamy źródła nie dostępne,spróbuj później"
+
+msgid "subclasses of ParserBase must override error()"
+msgstr "Podklasa musi zastąpić przetwarzanie błąd()"
+
+msgid "class"
+msgstr "klasa"
+
+msgid "unexpected %s char in declaration"
+msgstr "Nieoczekiwany %s znak w deklaracji"
+
+msgid "unexpected '[' char in declaration"
+msgstr "Nieoczekiwany '[' znak w deklaracji"
+
+msgid "unexpected char %s in internal subset"
+msgstr "Nieoczekiwany znak %s w wewnętrznym podzbiorze"
+
+msgid "unexpected char after internal subset"
+msgstr "Nieoczekiwany znak po wewnętrznym podzbiorze"
+
+msgid "unexpected char in internal subset (in %s)"
+msgstr "Nieoczekiwany znak w wewnętrznym podzbiorze (w %s)"
+
+msgid "unknown declaration %s in internal subset"
+msgstr "Deklaracja nieznana %s w wewnętrznym podzbiorze"
+
+msgid "update failed"
+msgstr "Aktualizacja nie powiodła się"
+
+msgid "update is finished,please restart enigma to run new version"
+msgstr "Aktualizacja jest zakończona,należy ponownie uruchomić E2 do nowej wersji"
+
+msgid "yellow"
+msgstr "żółty"
+
+msgid "LiveFootBall-Direct Feeds"
+msgstr "LiveFootBall-Bezpośrednie źródła"
+
+msgid "LiveFootBall update"
+msgstr "LiveFootBall Aktualizacja"
+
+msgid "LiveFootBall-Favorite Countries-International leagues"
+msgstr "Ulubione ligi/kraje/lig międzynarodowe"
+
+msgid "LiveFootBall-Fixtures-results"
+msgstr "LiveFootBall-Wyniki"
+
+msgid "LiveFootBall-leagues"
+msgstr "LiveFootBall-ligi"
+
+msgid "LiveFootBall-Top league tables"
+msgstr "Tabele najpopularniejszych lig"
+
+msgid "LiveFootBall-Soccer on Satellites"
+msgstr "Piłka nożna na satelitach"
+
+msgid "LiveFootBall-settings"
+msgstr "LiveFootBall-Ustawienia"
+
+msgid "Updates"
+msgstr "Aktualizacja"
+
+msgid " Countries "
+msgstr " Kraje "
+
+msgid " International "
+msgstr " Międzynarodowe "
+
+msgid "Press OK for stats"
+msgstr "Naciśnij OK na statystyki"
