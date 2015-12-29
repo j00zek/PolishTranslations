@@ -1,0 +1,2070 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MediaPortal\n"
+"POT-Creation-Date: 2015-03-15 16:11+0100\n"
+"PO-Revision-Date: 2015-12-29 21:02+0100\n"
+"Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
+"Language-Team: MediaPortal Team <Mariusz1970@onet.eu>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../../src\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "%s was added to the watchlist."
+msgstr "%s został dodany do listy obserwowanych."
+
+msgid "instantRecord"
+msgstr "natychmiastowe nagrywanie"
+
+msgid "----- General -----"
+msgstr "----- Ogólne  -----"
+
+msgid "----- Other -----"
+msgstr "----- Inne  -----"
+
+msgid "----- Youth protection -----"
+msgstr "----- Nieletni -----"
+
+msgid "15 minutes"
+msgstr "15 Minut"
+
+msgid "30 minutes"
+msgstr "30 Minut"
+
+msgid "3D Search"
+msgstr "Wyszukiwanie 3D"
+
+msgid "5 minutes"
+msgstr "5 Minut"
+
+msgid "60 minutes"
+msgstr "60 Minut"
+
+msgid "A-Z search"
+msgstr "Wyszukiwanie A-Z"
+
+msgid "A/V Settings"
+msgstr "Ustawienia A/V"
+
+msgid "ALL"
+msgstr "Wszystko"
+
+msgid "Action"
+msgstr "Działanie"
+
+msgid "Actions"
+msgstr "Działania"
+
+msgid "Activate Filtermenu:"
+msgstr "Aktywować filter menu:"
+
+msgid "Activate Grauzone:"
+msgstr "Aktywować szarą strefe:"
+
+msgid "Activate Real-Debrid.com:"
+msgstr "Aktywować Real-Debrid.com:"
+
+msgid "Activate premiumize.me:"
+msgstr "Aktywować premiumize.me:"
+
+msgid "Add"
+msgstr "Dodać"
+
+msgid "Add Song selection: %s to Playlist?"
+msgstr "Dodać wybór utworu: %s do listy odtwarzania?"
+
+msgid "Add service to global playlist-%02d"
+msgstr "Dodać serwis do globalnej listy odtwarzania-%02d "
+
+msgid "Add to Playlist"
+msgstr "Dodać do listy odtwarzania"
+
+msgid "Add to Watchlist"
+msgstr "Dodać do listy obserwanych"
+
+msgid "Added entry"
+msgstr "Dodano wpis"
+
+msgid "Albums - Enter search query"
+msgstr "Albumy-wpisz wyszukiwanie"
+
+msgid "All"
+msgstr "Wszystko"
+
+msgid "Always"
+msgstr "Zawsze"
+
+msgid "Amazon Prime Instant Video: Login failed!"
+msgstr "Amazon Prime Instant Wideo:Logowanie nie powiodło się!"
+
+msgid "Amazon Prime Instant Video: Unknown error!"
+msgstr "Amazon Prime Instant Wideo:Nieznany błąd!"
+
+msgid ""
+"An update is available for the MediaPortal Plugin!\n"
+"Do you want to download and install it now?"
+msgstr ""
+"Aktualizacja jest dostępna dla Portalu Medialnego\n"
+"Czy chcesz pobrać i zainstalować teraz?"
+
+msgid "Aqua"
+msgstr "Turkusowy(a)"
+
+msgid "Artists - Enter search query"
+msgstr "Artyści-wpisz wyszukiwanie"
+
+msgid "Ask user"
+msgstr "Pytaj użytkownika"
+
+msgid "Automatic"
+msgstr "Automatycznie"
+
+msgid "Automatic Update Check:"
+msgstr "Sprawdzić aktualizacje automatycznie:"
+
+msgid "Autoplay Threshold [%]:"
+msgstr "Funkcja automatycznego odtwarzania [%]:"
+
+msgid "Back"
+msgstr "Powrót"
+
+msgid "Backward"
+msgstr "Wstecz"
+
+msgid "Behavior on movie end"
+msgstr "Zachowanie na końcu filmu"
+
+msgid "Behavior on movie start"
+msgstr "Zachowanie na początku filmu"
+
+msgid "Behavior on movie stop"
+msgstr "Zachowanie gdy film osiągnie koniec"
+
+msgid "Black&White"
+msgstr "Czarno&Biała"
+
+msgid "Black&White (Zoom)"
+msgstr "Czarno&Biała(powiększona)"
+
+msgid "Blue"
+msgstr "Niebieski"
+
+msgid "Buffering canceled"
+msgstr "Anulowane buforowanie"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Captcha input:"
+msgstr "Captcha wejście:"
+
+msgid "Change filter"
+msgstr "Zmiana filtra"
+
+msgid "Change sort order"
+msgstr "Zmiana kolejności sortowania"
+
+msgid "Color"
+msgstr "Kolor"
+
+msgid "Color (Zoom)"
+msgstr "Kolorowa(powiększona)"
+
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+msgid "Current Playlist selection: %s"
+msgstr "Aktualny wybór listy odtwarzania: %s"
+
+msgid "Current Song selection: %s"
+msgstr "Aktualny wybór utworu: %s"
+
+msgid "Currently no streams available"
+msgstr "Aktualnie nie ma żadnych dostępnych strumieni"
+
+msgid "Customer ID:"
+msgstr "ID klienta:"
+
+msgid "Deactivate Mini-TV:"
+msgstr "Wyłączyć Mini TV:"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Delete (left of the cursor)"
+msgstr "Usuń(na lewo od kursora)"
+
+msgid "Delete (right of the cursor)"
+msgstr "Usuń(na prawo od kursora)"
+
+msgid "Do you want to resume this playback?"
+msgstr "Czy chcesz wznowić te odtwarzanie?"
+
+msgid "Down"
+msgstr "W dół"
+
+msgid "ERROR Playing Song: %s"
+msgstr "BŁĄD odtwarzanego utworu: %s"
+
+msgid "ERROR, add Song to remote Playlist FAILED"
+msgstr "BŁĄD,dodanie piosenki do zdalnej listy odtwarzania nie powiodło się"
+
+msgid "ERROR, deleting remote Playlist FAILED"
+msgstr "BŁĄD,usuwanie zdalnej listy odtwarzania nie powiodło się"
+
+msgid "ERROR, no new remote Playlist FAILED"
+msgstr "BŁĄD,nie ma nowej listy zdalnego odtwarzania"
+
+msgid "ERROR, removing subscribed remote Playlist FAILED"
+msgstr "BŁĄD,usuwania subskrybowanego zdalnego odtwarzania nieudane"
+
+msgid "ERROR,removing Song from remote Playlist FAILED"
+msgstr "BŁĄD,usuwanie utworu z listy zdalnego odtwarzania nieudane"
+
+msgid "Edit"
+msgstr "Edycja"
+
+msgid "Edit:"
+msgstr "Edycja:"
+
+msgid "England"
+msgstr "Anglia"
+
+msgid "English"
+msgstr "Angielski"
+
+msgid "Enter Search"
+msgstr "Szukaj wpisu"
+
+msgid "Enter Security Code:"
+msgstr "Wpisz kod zabezpieczający:"
+
+msgid "Enter code"
+msgstr "Wprowadź kod"
+
+msgid "Enter page number"
+msgstr "Wpisz numer strony"
+
+msgid "Enter pin code"
+msgstr "Wpisz kod pin"
+
+msgid "Enter search criteria"
+msgstr "Wprowadź kryteria wyszukiwania"
+
+msgid "Entry already exists"
+msgstr "Wpis już istnieje"
+
+msgid "Episode Selection"
+msgstr "Wybór odcinka"
+
+msgid ""
+"Error downloading file:\n"
+"%s"
+msgstr ""
+"Błąd pobierania pliku:\n"
+"%s"
+
+msgid "Error!"
+msgstr "Błąd!"
+
+msgid "Error!\n"
+msgstr "Błąd !\n"
+
+msgid "Error: Can not create cache-folders inside flash memory. Check your Cache-Folder Settings!"
+msgstr "Błąd:katalog buforowania nie może być tworzony w pamięci flesha.Sprawdź ustawienia katalogu!"
+
+msgid "Error: No write permission to create cache-folders. Check your Cache-Folder Settings!"
+msgstr "Błąd:Brak praw zapisu do tworzenia folderów pamięci podręcznej.Sprawdź ustawienia folderu pamięci podręcznej!"
+
+msgid "Error: Service may be added only from the local playlist"
+msgstr "Błąd:Serwis może być dodany tylko z lokalnej listy odtwarzania"
+
+msgid "Error: URL is not persistent!"
+msgstr "Błąd:Adres URL nie jest trwały!"
+
+msgid "Event has not yet started."
+msgstr "Wydarzenie jeszcze się nie rozpoczeło."
+
+msgid "Exit"
+msgstr "Wyjście"
+
+msgid "Exit MediaPortal"
+msgstr "Wyjście z Portalu Medialnego"
+
+msgid "MediaPortal"
+msgstr "Portal Medialny"
+
+msgid "Favorite"
+msgstr "Ulubione"
+
+msgid "Favorite added"
+msgstr "Dodano ulubione"
+
+msgid "Favorite already exists"
+msgstr "Ulubione już istnieją"
+
+msgid ""
+"File with the same name exists in the directory path:\n"
+"%s"
+msgstr ""
+"Istnieje plik o tej samej nazwie w ścieżce katalogu:\n"
+"%s"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "For legal reasons this video may be viewed only within Switzerland."
+msgstr "Ze względów prawnych ten film może być oglądany tylko w Szwajcarii."
+
+msgid "Forward"
+msgstr "Naprzód"
+
+msgid "France"
+msgstr "Francja"
+
+msgid "French"
+msgstr "Francuski"
+
+msgid "Full length episodes"
+msgstr "Pełna długość odcinków"
+
+msgid "Fun"
+msgstr "Zabawa"
+
+msgid "Fun/Music/Sports"
+msgstr "Zabawa/muzyka/sport"
+
+msgid "Genre Selection"
+msgstr "Wybór gatunku"
+
+msgid "German"
+msgstr "Niemiecki"
+
+msgid "Germany"
+msgstr "Niemcy"
+
+msgid "Global playlist number"
+msgstr "Globalny numer listy odtwarzania"
+
+msgid "Google coversupport"
+msgstr "Google wspieranie okładek"
+
+msgid "Grayzone"
+msgstr "Szara strefa"
+
+msgid "Green"
+msgstr "Zielony(a)"
+
+msgid "showMovies"
+msgstr "pokazać filmy"
+
+msgid "HELP"
+msgstr "POMOC"
+
+msgid "Help"
+msgstr "Pomoc"
+
+msgid "High"
+msgstr "Najlepsza"
+
+msgid "Infobar cover always off"
+msgstr "Okładka w pasku info.zawsze wył."
+
+msgid "additions"
+msgstr "dodatki"
+
+msgid "from additions"
+msgstr "z dodatkami"
+
+msgid "config.mediaportal."
+msgstr "Konfig.Portalu multimedialnego."
+
+msgid " config.mediaportal."
+msgstr " Konfig.Portalu multimedialnego."
+
+msgid "default"
+msgstr "domyślnie"
+
+msgid "always"
+msgstr "zawsze"
+
+msgid "Use it always"
+msgstr "Zawsze użyć"
+
+msgid "enteryourpasskey!"
+msgstr "wpisz hasło!"
+
+msgid "Set in the playlist"
+msgstr "Ustawić w liście odtwarzania"
+
+msgid "Invalid Stream link, try another Stream Hoster!"
+msgstr "Nieprawidłowy link do strumienia,spróbuj inny strumień!"
+
+msgid "Italian"
+msgstr "Włoski"
+
+msgid "Italy"
+msgstr "Włochy"
+
+msgid "Jizz.to only works with enabled MP premiumize.me option (MP Setup)!"
+msgstr "Jizz.to działa tylko z włączoną opcją MP premiumize.me(Ustawienia MP)!"
+
+msgid "Kids-Pincode Query:"
+msgstr "Zapytać o kod pin dla dzieci:"
+
+msgid "Left"
+msgstr "W lewo"
+
+msgid "Libraries"
+msgstr "Biblioteki"
+
+msgid "Funsport"
+msgstr "Zabawy sportowe"
+
+msgid "Light Blue"
+msgstr "Jasny(o) Niebieski(a)"
+
+msgid "Light Green"
+msgstr "Jasno Zielony(a)"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List Selection"
+msgstr "Wybór listy"
+
+msgid "List overview"
+msgstr "Przegląd listy"
+
+msgid "Livestreamer IP:"
+msgstr "IP strumienia na żywo:"
+
+msgid "Livestreamer Port:"
+msgstr "Port strumienia na żywo:"
+
+msgid "Loaded:"
+msgstr "Załadowane:"
+
+msgid "Login ERROR."
+msgstr "Błąd logowania."
+
+msgid "Low"
+msgstr "Niska"
+
+msgid "MPUser have no remote Playlists, please add some remote Playlists first..."
+msgstr "Użytkownik MP nie ma Listy odtwarzania,należy dodać liste odtwarzania..."
+
+msgid "Mainmenu"
+msgstr "Menu główne"
+
+msgid "Mainview Style:"
+msgstr "Styl głównego widoku:"
+
+msgid "Manual sorting"
+msgstr "Ręczne sortowanie"
+
+msgid "Max. count results/page (Youtube):"
+msgstr "Maks.wynik stron/ilość(Youtube):"
+
+msgid "MediaInfo on key"
+msgstr "MediaInfo z przyciskiem"
+
+msgid "MediaPortal Setup"
+msgstr "Konfiguracja Portalu Medialnego"
+
+msgid ""
+"MediaPortal successfully updated!\n"
+"Do you want to restart the Enigma2 GUI now?"
+msgstr ""
+"Portal Medialny pomyślnie zaktualizowany!\n"
+"Czy chcesz ponownie uruchomić teraz GUI"
+
+msgid "MediaPortal update failed! Check the update log carefully!"
+msgstr "Portal Medialny,aktualizacja nie powiodła się!Dokładnie sprawdź dziennik aktualizacji!"
+
+msgid ""
+"MediaPortal update failed! Please check free space on your root filesystem, at least 8MB are required for installation.\n"
+"Check the update log carefully!\n"
+"The Enigma2 GUI will restart now!"
+msgstr ""
+"Portal Medialny aktualizacja nie powiodła się!Proszę sprawdzić ilość wolnego miejsca w swoim głównym systemie plików,co najmniej 8MB są wymagane do instalacji.\n"
+"Dokładnie sprawdź dziennik aktualizacji!\n"
+"Uruchomić teraz GUI!"
+
+msgid "Medium"
+msgstr "Średna"
+
+msgid "Meta language"
+msgstr "Meta języka"
+
+msgid "More"
+msgstr "Więcej"
+
+msgid "Move cursor left"
+msgstr "Przesusunąć kursor w lewo"
+
+msgid "Move cursor right"
+msgstr "Przesunąć kursor w prawo"
+
+msgid "Move to begin"
+msgstr "Przesunąć w górę"
+
+msgid "Move to end"
+msgstr "Przesunąć na koniec"
+
+msgid "Movie Selection"
+msgstr "Wybór filmu"
+
+msgid "Music"
+msgstr "Muzyka"
+
+msgid "NAKED-SLUTS only works with enabled MP premiumize.me option (MP Setup)!"
+msgstr "NAKED-SLUTS działa tylko z włączonym ustawieniem premiumize.me(Ustawienia MP)!"
+
+msgid "Next page"
+msgstr "Następna strona"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "No ArtistID found in the song list, may be create new local playlist."
+msgstr "Nie znaleziono ID artysty w liście utworów,może stworzyć nową lokalną listę odtwarzania."
+
+msgid "No Files found!"
+msgstr "Nie znaleziono plików!"
+
+msgid "No Series found!"
+msgstr "Nie znaleziono seriali!"
+
+msgid "No Video URL found!"
+msgstr "Nie znaleziono URL wideo adresu!"
+
+msgid "No Videodata found!"
+msgstr "Nie znaleziono danych wideo!"
+
+msgid "Sort changed:"
+msgstr "Sortuj zmienione:"
+
+msgid "Set new filter to:"
+msgstr "Ustaw nowy filtr do:"
+
+msgid "Filter changed:"
+msgstr "Filtr zmienionych:"
+
+msgid "Mediaportal restart."
+msgstr "Ponowne uruchomienie Portalu Medialnego"
+
+msgid "Filter ist deaktviert.. recheck..: %s"
+msgstr "Filtr jest wyłączony...sprawdź ponownie...: %s"
+
+msgid "Keine Plugins der Kategorie %s aktiviert!"
+msgstr "Bez aktywacji kategorii wtyczki %s !"
+
+msgid "covercollection"
+msgstr "kolekcja okładek"
+
+msgid "Fatal skin.xml error"
+msgstr "Błąd krytyczny skin.xml"
+
+msgid "Last seen Movies/Series"
+msgstr "Ostatnio oglądane filmy/seriale"
+
+msgid "Sort: %s"
+msgstr "Sortować: %s"
+
+msgid "No connection to the Internet available."
+msgstr "Brak połączenia z internetem"
+
+msgid "No contents / results found!"
+msgstr "Brak treści/znalezione wyniki!"
+
+msgid "No dokus / streams found!"
+msgstr "Nie znaleziono dokumentalnych/znaleziono strumienie!"
+
+msgid "No dokus found!"
+msgstr "Nie znaleziono dokumentalnych!"
+
+msgid "No entries in the playlist available!"
+msgstr "Brak dostępu do wpisów w liście odtwarzania!"
+
+msgid "No entrys found."
+msgstr "Nie znaleziono wpisów."
+
+msgid "No episodes found!"
+msgstr "Nie znaleziono odcinka!"
+
+msgid "No further information available!"
+msgstr "Brak dostępnu do dalszych informacji!"
+
+msgid "No information found."
+msgstr "Nie znaleziono informacji."
+
+msgid "No link found."
+msgstr "Nie znaleziono linka"
+
+msgid "No livestreams found!"
+msgstr "Nie znaleziono strumieni!"
+
+msgid "No menudata found!"
+msgstr "Brak danych w menu!"
+
+msgid "No movies / series found!"
+msgstr "Brak znaleziony filmów/seriali!"
+
+msgid "No movies found!"
+msgstr "Nie znaleziono filmów!"
+
+msgid "No results found!"
+msgstr "Nic nie znaleziono!"
+
+msgid "No search results!"
+msgstr "Brak wyników wyszukiwania!"
+
+msgid "No seasons found!"
+msgstr "Nie znaleziono sezonów!"
+
+msgid "No songs found!"
+msgstr "Nie znaleziono piosenki!"
+
+msgid "No supported Stream Hoster, try another one!"
+msgstr "Nie obsługiwany strumień hosta,spróbuj innego!"
+
+msgid "No supported streams found!"
+msgstr "Nie znaleziono obsługiwanego strumienia!"
+
+msgid "No video found."
+msgstr "Nie znaleziono wideo."
+
+msgid "No videos found!"
+msgstr "Nie znaleziono filmów!"
+
+msgid "No, but start over from the beginning"
+msgstr "Nie,ale zacznij od początku"
+
+msgid "OFF"
+msgstr "WYŁĄCZYĆ"
+
+msgid "ON"
+msgstr "WŁĄCZYĆ"
+
+msgid "Off"
+msgstr "Wyłączyć"
+
+msgid "On"
+msgstr "Włączyć"
+
+msgid "Only Clips"
+msgstr "Tylko klipy"
+
+msgid "Open MediaPortal Plugin Status"
+msgstr "Otworzyć stan wtyczki Portalu Medialnego"
+
+msgid "liste"
+msgstr "lista"
+
+msgid "Open SimpleList"
+msgstr "Otworzyć prostą liste"
+
+msgid "Open global playlist-%02d"
+msgstr "Otworzyć globalną liste odtwarzania-%02d"
+
+msgid "Open local playlist"
+msgstr "Otworzyć lokalną liste odtwarzania"
+
+msgid "Open selected Plugin"
+msgstr "Otworzyć wybraną wtyczke"
+
+msgid "Ordering is only possible with filter \"ALL\"."
+msgstr "Kolejność jest możliwa tylko z filtrem \"WSZYSTKIE\"."
+
+msgid "user!"
+msgstr "użytkownik!"
+
+msgid "pass!"
+msgstr "hasło!"
+
+msgid "PVR/VIDEO"
+msgstr "PVR/WIDEO"
+
+msgid "Page"
+msgstr "Strona"
+
+msgid "Page Display Style:"
+msgstr "Styl wyświetlania strony:"
+
+msgid "Page:"
+msgstr "Strona:"
+
+msgid "Page: %(page)s of %(pages)s  |  Section: %(section)s of %(sections)s"
+msgstr "Strona: %(strona)y z %(strona)y|Sekcja: %(sekcja)e z %(sekcja)e"
+
+msgid "Parameter"
+msgstr "Parametr"
+
+msgid "Parsing error!"
+msgstr "Błąd analizy składniowej!"
+
+msgid "Parts Selection"
+msgstr "Wybór części"
+
+msgid "Password:"
+msgstr "Hasło:"
+
+msgid "Pause movie at end"
+msgstr "Wstrzymać film na koniec"
+
+msgid "with Premiumize"
+msgstr "z Premiumize"
+
+msgid "with Real-Debrid"
+msgstr "z Real-Debrid"
+
+msgid "with a HTTP Proxy"
+msgstr "z HTTP Proxy"
+
+msgid "Pincode:"
+msgstr "Kod pin:"
+
+msgid "Play"
+msgstr "Odtwarzaj"
+
+msgid "Playlists - Enter search query"
+msgstr "Listy odtwarzania/wprowadź wyszukiwane"
+
+msgid "Playmode"
+msgstr "Trybu odtwarzania"
+
+msgid "Please enter the correct code"
+msgstr "Proszę wprowadzić kod"
+
+msgid "Select:"
+msgstr "Wybierz:"
+
+msgid "Filter:"
+msgstr "Filtr:"
+
+msgid "Wall-Pluginliste wurde erstellt."
+msgstr "Ściana/Lista wtyczek została stworzona."
+
+msgid "Ein Plugin wurde aktiviert oder deaktiviert.. erstelle neue pluginliste."
+msgstr "Wtyczka została włączona lub wyłączona...Stwórz nową listę wtyczek."
+
+msgid "Erstelle Wall-Pluginliste."
+msgstr "Ściana tworzona listy wtyczek."
+
+msgid "1st time - Schreibe Wall-Pluginliste."
+msgstr "1-Ściana listy pisania wtyczek."
+
+msgid "Please enter the correct pin code"
+msgstr "Proszę wprowadzić poprawny kod pin"
+
+msgid "Please wait..."
+msgstr "Proszę czekać..."
+
+msgid "Please wait... new page %s is loading"
+msgstr "Proszę czekać...nowa strona %s jest pobierana"
+
+msgid "Plugin Selection"
+msgstr "Wybór wtyczki"
+
+msgid "Porn"
+msgstr "Pornograficzne"
+
+msgid "PornoRips only works with enabled MP premiumize.me option (MP Setup)!"
+msgstr "Porno RIP działa tylko z włączoną opcją premiumize.me(Ustawienia MP)!"
+
+msgid "Premium status"
+msgstr "Stan premium"
+
+msgid "Previous page"
+msgstr "Poprzednia strona"
+
+msgid "RECORD"
+msgstr "NAGRYWANIE"
+
+msgid "RTMPDump Cachepath:"
+msgstr "RTMPDump ścieżka pamięci podręcznej:"
+
+msgid "RTMPDump is required for playback of this stream, please install it first."
+msgstr "RTMPDump jest wymagany do odtwarzania tego strumienia,należy go najpierw zainstalować."
+
+msgid "Random"
+msgstr "Losowo"
+
+msgid "MediaPortal - Setup - (Version %s)"
+msgstr "Portal Medialny/Ustawienia/(wersja %s)"
+
+msgid "Read error!"
+msgstr "Błąd odczytu!"
+
+msgid "%s - Limit: %s %s - Avail.: %s %s\n"
+msgstr "%s -Limit: %s %s-Wykorzystany: %s %s\n"
+
+msgid "Real-Debrid.com: Your login informations are incorrect!"
+msgstr "Real-Debrid.com:Twoje informacje logowania są nieprawidłowe!"
+
+msgid "Real-Debrid.com: Suspended / not activated account!"
+msgstr "Real-Debrid.com:Zawieszone/nie aktywowane konto!"
+
+msgid "Real-Debrid.com: Incorrect captcha answer!"
+msgstr "Real-Debrid.com:Nieprawidłowa odpowiedź kodu weryfikacyjnego!"
+
+msgid "Real-Debrid.com: Too many failed logins!"
+msgstr "Real-Debrid.com:Zbyt wiele nieudanych logowań!"
+
+msgid "Real-Debrid.com is not activated."
+msgstr "Real-Debrid.com nie jest aktywny."
+
+msgid "Red"
+msgstr "Czerwony(a)"
+
+msgid "Remember XXX-Pincode:"
+msgstr "Pamiętać kod pin XXX:"
+
+msgid "Restore last service:"
+msgstr "Przywracanie ostatniego serwisu:"
+
+msgid "Resume from last position"
+msgstr "Wznowić od ostatniej pozycji"
+
+msgid "Resume position at %s"
+msgstr "Wznowienie pozycji od %s"
+
+msgid "Resuming playback"
+msgstr "Wznowienie odtwarzania"
+
+msgid "Return to previous service"
+msgstr "Powrót do poprzedniego serwisu"
+
+msgid "Right"
+msgstr "W prawo"
+
+msgid "Rls.to only works with enabled MP premiumize.me option (MP Setup)!"
+msgstr "Rls.to działa tylko z włączoną opcją MP premiumize.me(Ustawienia MP)!"
+
+msgid "Runtime"
+msgstr "Czas pracy"
+
+msgid "resume"
+msgstr "wznowić"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Save resume cache in flash memory"
+msgstr "Zapisać wznowienie pamięci podręcznej w pamięci flesza"
+
+msgid "Screensaver"
+msgstr "Wygaszacz ekranu"
+
+msgid "Search char."
+msgstr "Szukaj postaci"
+
+msgid "Search limit:"
+msgstr "Szukaj limitu:"
+
+msgid "Search region"
+msgstr "Szukaj regionu"
+
+msgid "Search request"
+msgstr "Zlecenie wyszukiwania"
+
+msgid "Search:"
+msgstr "Szukaj:"
+
+msgid "Searchkey"
+msgstr "Szukaj przycisku"
+
+msgid "Season Selection"
+msgstr "Wybór sezonu"
+
+msgid "Security Code:"
+msgstr "Kod zabezpieczający:"
+
+msgid "Seekbar sensibility"
+msgstr "Czułość wyszukiwania"
+
+msgid "Select Hoster"
+msgstr "Wybierz host"
+
+msgid "Select Language"
+msgstr "Wybierz język"
+
+msgid "Select Size"
+msgstr "Wybierz rozmiar"
+
+msgid "Select Sort order"
+msgstr "Wybierz porządek sortowania"
+
+msgid "Select key"
+msgstr "Wybierz przycisk"
+
+msgid "Selection"
+msgstr "Wybór"
+
+msgid "Selection was added to the local Playlist."
+msgstr "Wybór został dodany do lokalnej listy odtwarzania."
+
+msgid "Selection was added to the watchlist."
+msgstr "Wybór został dodany do listy obserwowanych."
+
+msgid "Selection:"
+msgstr "Wybór:"
+
+msgid "Setup"
+msgstr "Ustawienie"
+
+msgid "Setup-Pincode Query:"
+msgstr "Zapytać o kod pin w konfiguracji:"
+
+msgid "Show "
+msgstr "Pokazać "
+
+msgid "Show Tips:"
+msgstr "Pokazać wskazówki:"
+
+msgid "Show USER-Channels Help:"
+msgstr "Pokazać użytkownikowi kanały pomocy:"
+
+msgid "Show XXX-Extensions:"
+msgstr "Pokazać rozszerzenia XXX:"
+
+msgid "Show errors"
+msgstr "Pokazać błędy"
+
+msgid "Show/Hide"
+msgstr "Pokazać/ukryć"
+
+msgid "ShowAsThumb as Default:"
+msgstr "Pokazać AsThumb jako domyślny:"
+
+msgid "SimpleList Configuration"
+msgstr "Prosta konfiguracja listy"
+
+msgid "SimplePlayer Configuration"
+msgstr "Prosta konfiguracja odtwarzacza"
+
+msgid "SimplePlayer Menu"
+msgstr "Proste menu odtwarzacza"
+
+msgid "Site-Rip only works with enabled MP premiumize.me option (MP Setup)!"
+msgstr "Witryna-Rip działa tylko z włączoną opcją premiumize.me(Ustawienia MP)!"
+
+msgid "Skin-Font:"
+msgstr "Czcionka skóry:"
+
+msgid "Skin:"
+msgstr "Skóra:"
+
+msgid "plugin"
+msgstr "wtyczka"
+
+msgid "modfile"
+msgstr "modyfikacja pliku"
+
+msgid "Smart"
+msgstr "Inteligentnie"
+
+msgid ""
+"Some of the plugins may not be legally used in your country!\n"
+"\n"
+"If you accept this then enter the following code now:\n"
+"\n"
+"%s"
+msgstr ""
+"Niektóre z wtyczek nie mogą być legalnie używane w danym kraju!\n"
+"\n"
+"Jeśli akceptujesz to następnie wprowadź następujący kod teraz:\n"
+"\n"
+"%s"
+
+msgid "Song added to remote Playlist"
+msgstr "Piosenka dodane do listy odtwarzania"
+
+msgid "Song already exists."
+msgstr "Piosenka już istnieje."
+
+msgid "Song is moved to other remote Playlist"
+msgstr "Piosenka zostanie przeniesiona do innej listy odtwarzania"
+
+msgid "Song is removed from remote Playlist"
+msgstr "Piosenka zostanie usunięta z listy odtwarzania"
+
+msgid "Songstitle - Enter search query"
+msgstr "Tytuł utworu/Wpisz wyszukiwanie"
+
+msgid "Sorry, this video is not found or no longer available due to date or rights restrictions."
+msgstr "Niestety,ten film nie zostanie znaleziony lub nie jest już dostępny z powodu ograniczeń daty lub praw."
+
+msgid "Sort"
+msgstr "Rodzaj"
+
+msgid "Sort order"
+msgstr "Sortowanie po"
+
+msgid "Sorting"
+msgstr "Sortowanie"
+
+msgid "Sports"
+msgstr "Sport"
+
+msgid "Start from the beginning"
+msgstr "Zacznij od początku"
+
+msgid "Starting update, please wait..."
+msgstr "Uruchamianie aktualizacji,proszę czekać ..."
+
+msgid "Stop playing this movie?"
+msgstr "Przestać odtwarzać ten materiał?"
+
+msgid "Stream Selection"
+msgstr "Wybór strumienia"
+
+msgid "Global Watchlist is empty!"
+msgstr "Globalna lista jest pusta!"
+
+msgid "called with reason=1 to during shutdown, with reason=0 at startup?"
+msgstr "powod=1 podczas zamykania systemu,powodu=0 na starcie?"
+
+msgid "Stream not found"
+msgstr "Strumień nie został znaleziony"
+
+msgid "returns timestamp of next time when autostart should be called"
+msgstr "zwraca sygnatury czasowe następnym razem kiedy powinien zostać wywołany auto.start"
+
+msgid "Stream not found, try another Stream Hoster."
+msgstr "Nie znaleziono strumienia,spróbuj innego strumienia."
+
+msgid "Stream starts in 10 sec."
+msgstr "Strumień rozpoczyna się za 10 sek."
+
+msgid "Stream starts in 16 sec."
+msgstr "Strumień rozpoczyna się za 16 sek."
+
+msgid "Stream starts in 2 sec."
+msgstr "Strumień rozpoczyna się za 2 sek."
+
+msgid "Stream starts in 3 sec."
+msgstr "Strumień rozpoczyna się za 3 sek."
+
+msgid "Stream starts in 5 sec."
+msgstr "Strumień rozpoczyna się za 5 sek."
+
+msgid "Stream starts in 6 sec."
+msgstr "Strumień rozpoczyna się za 6 sek."
+
+msgid "Streaming error: %s"
+msgstr "Błąd transmisji strumienia: %s"
+
+msgid "Streammarkercolor:"
+msgstr "Kolor znacznika strumienia:"
+
+msgid "Switch keyboard layout"
+msgstr "Przełączanie układu klawiatury"
+
+msgid ""
+"Symbolic link with the same name in the directory path:\n"
+"%s available!"
+msgstr ""
+"Dowiązanie symboliczne o tej samej nazwie w ścieżce:\n"
+"%s dostępne!"
+
+msgid "TMDb/IMDb on key"
+msgstr "TMDb/IMDb z przyciskiem"
+
+msgid "Text+"
+msgstr "Tekst+"
+
+msgid "Text-"
+msgstr "Tekst-"
+
+msgid "The Adult Bay only works with enabled MP premiumize.me option (MP Setup)!"
+msgstr "Kanały dla dorosłych działają tylko z włączoną opcją premiumize.me(Ustawienia MP)!"
+
+msgid ""
+"The directory path and file name is OK:\n"
+"%s"
+msgstr ""
+"Ścieżka i nazwa katalogu jest OK:\n"
+"%s"
+
+msgid ""
+"The directory path does not end with '/':\n"
+"%s"
+msgstr ""
+"Ścieżka do katalogu nie kończy się '/':\n"
+"%s"
+
+msgid "The directory path is not specified!"
+msgstr "Ścieżka do katalogu nie jest określona!"
+
+msgid ""
+"The directory path:\n"
+"%s does not exist!"
+msgstr ""
+"Ścieżka katalogu:\n"
+"%s nie istnieje!"
+
+msgid ""
+"The missing directory:\n"
+"%s could not be created!"
+msgstr ""
+"Brak katalogu:\n"
+"%s nie można utworzyć!"
+
+msgid ""
+"The path is OK, the file name was not specified:\n"
+"%s"
+msgstr ""
+"Ścieżka jest OK,nazwa pliku nie została określona:\n"
+"%s"
+
+msgid ""
+"There exists already a directory with this name:\n"
+"%s"
+msgstr ""
+"Istnieje już katalog o tej nazwie:\n"
+"%s"
+
+msgid "This STB can't decode %s streams!"
+msgstr "Ten odbiornik nie może zdekodować %s strumienia!"
+
+msgid "This hoster is only working with enabled Premium support."
+msgstr "Ten host pracuje tylko przy aktywnym wsparciu premium."
+
+msgid "This month"
+msgstr "W tym miesiącu"
+
+msgid ""
+"This stream can not get saved on HDD\n"
+"Protocol %s not supported :("
+msgstr ""
+"Ten strumień nie może zostać zapisany na HDD\n"
+"Protokół %s nie obsługiwany :("
+
+msgid "This video is DRM-protected and cannot be played."
+msgstr "Ten film jest chroniony DRM i nie może być odtwarzany."
+
+msgid "This video is currently blocked for Child Protection Laws and is only available from approximately 22 o'clock."
+msgstr "Ten film jest aktualnie zablokowany dla ochrony praw dziecka i jest dostępny tylko około 22 godz."
+
+msgid "This video is currently blocked for Child Protection Laws and is only available from approximately 23 o'clock."
+msgstr "Ten film jest aktualnie zablokowany dla ochrony praw dziecka i jest dostępny tylko około 23 godz."
+
+msgid "This video is encoding now. Please check back later."
+msgstr "Film jest zakodowany.Proszę spróbuj ponownie później."
+
+msgid "This video is not available."
+msgstr "Ten film nie jest dostępny."
+
+msgid "This week"
+msgstr "W tym tygodniu"
+
+msgid "Time range"
+msgstr "Zakres czasu"
+
+msgid "Today"
+msgstr "Dzisiaj"
+
+msgid "Trailer"
+msgstr "Zwiastun"
+
+msgid "Unfortunately, this video can not be played!\n"
+msgstr "Niestety,ten film nie może być odtwarzany!\n"
+
+msgid "Unfortunately, your Login was not successful, please verify your input:-("
+msgstr "Niestety Twoje logowanie nie powiodło się,należy sprawdzić swój wkład :-("
+
+msgid "Up"
+msgstr "W górę"
+
+msgid "Uploader"
+msgstr "Przesyłanie"
+
+msgid "Use Livestreamer:"
+msgstr "Użyć strumienia na żywo:"
+
+msgid "Use RTMPDump:"
+msgstr "Użyć RTMPDump:"
+
+msgid "Use SP number seek"
+msgstr "Użyć wyszukiwania numeru SP"
+
+msgid "Use YT with premiumize (beta)"
+msgstr "Użyć YT z premium(beta)"
+
+msgid "Use m3u8-Player:"
+msgstr "Użyć odtwarzacza m3u8:"
+
+msgid "User - Enter search query"
+msgstr "Użytkownik/wprowadź wyszukiwane"
+
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgid "name"
+msgstr "Nazwa"
+
+msgid "Username/Password is not set or wrong - please use Setup (yellowKey) or verify your Password"
+msgstr "Nazwa użytkownika/hasło nie jest ustawione,lub jest złe-skorzystaj z ustawień(żółty przycisk)lub sprawdź swoje hasło"
+
+msgid "Username:"
+msgstr "Nazwa użytkownika:"
+
+msgid "VIDEOSEARCH"
+msgstr "SZUKAJ WIDEO"
+
+msgid "Video List"
+msgstr "Lista wideo"
+
+msgid "Videoquality (Youtube)"
+msgstr "Jakość wideo(Youtube)"
+
+msgid "Videoquality (Youtube):"
+msgstr "Jakość wideo(Youtube):"
+
+msgid "Videoquality (others)"
+msgstr "Jakość wideo(inne)"
+
+msgid "Videoquality (others):"
+msgstr "Jakość wideo(inne):"
+
+msgid "Videoresolution"
+msgstr "Rozdzielczość wideo"
+
+msgid "Wall"
+msgstr "Ściana"
+
+msgid "Wall 2.0"
+msgstr "Ściana 2.0"
+
+msgid "Wall 2.0 Mode:"
+msgstr "Tryb ściany 2.0:"
+
+msgid "Wall Mode:"
+msgstr "Tryb ściany:"
+
+msgid "Wall-Selector-Color:"
+msgstr "Kolor selektora ściany:"
+
+msgid "Watchlist is currently empty"
+msgstr "Lista jest pusta"
+
+msgid "Watchlist/Playlist/Userchan path:"
+msgstr "Oglądana lista/lista odtwarzana/ścieżka użytkownika:"
+
+msgid "White"
+msgstr "Biały(a)"
+
+msgid "Whole file size"
+msgstr "Rozmiar całego pliku"
+
+msgid "Whole world"
+msgstr "Cały świat"
+
+msgid "XXX-Pincode Query:"
+msgstr "Zapytać o kod pin w XXX:"
+
+msgid "YT-Autoplay Threshold:"
+msgstr "YT-Próg  autoodtwarzania:"
+
+msgid "YT-Buffering option:"
+msgstr "YT-Opcja buforowania:"
+
+msgid "Yellow"
+msgstr "Żółty(a)"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "Yes & Add Service to global Playlist-%02d"
+msgstr "Tak&dodać serwis do globalnej listy odtwarzania-%02d"
+
+msgid "Yes, but back to caching..."
+msgstr "Tak,ale wróć do buforowania..."
+
+msgid "You have successfully logged in:-)"
+msgstr "Pomyślnie zalogowany :-)"
+
+msgid "You must be logged in to use this function!"
+msgstr "Musisz się zalogować,aby użyć tej funkcji!"
+
+msgid "add Playlist to MPUser subscribed Playlists"
+msgstr "dodać listę odtwarzania do subskrypcji list odtwarzania użytkownika MP"
+
+msgid "add Song"
+msgstr "dodać utwór"
+
+msgid "add current Selection to local Playlist"
+msgstr "dodaj aktualny wybór lokalnej listy odtwarzania"
+
+msgid "add current Selection to remote MPUser Playlist"
+msgstr "dodać bieżący wybór do zdalnego odtwarzania użytkownika MP"
+
+msgid "add new Playlist in remote MPUser profile"
+msgstr "Nowa lista w zdalnym profilu użytkownika MP"
+
+msgid "added"
+msgstr "dodane"
+
+msgid "after MediaPortal quits"
+msgstr "po zamknięciu Portalu Medialnego"
+
+msgid "after SimplePlayer quits"
+msgstr "po prostu odtwarzacz zostanie zamknięty"
+
+msgid "change sort sequence ( Name vs Rating )"
+msgstr "zmienić kolejność sortowania(nazwa/ocena)"
+
+msgid "delete selected Playlist in remote MPUser profile"
+msgstr "Usuń wybrane listy odtwarzania w profilu zdalnym użytkownika MP"
+
+msgid "delete selected subscribed Playlist in remote MPUser profile"
+msgstr "Usuń wybraną listę subskrybowanych w profilu zdalnym użytkownika MP"
+
+msgid "more options if your are logged in..."
+msgstr "Więcej opcji,jeśli jesteś zalogowany...."
+
+msgid "move current Selection to other remote MPUser Playlist"
+msgstr "przenieść bieżące znaczenia do innego zdalnego odtwarzania użytkownika MP"
+
+msgid "never"
+msgstr "nigdy"
+
+msgid "new Playlist - type in new name"
+msgstr "Nowa lista odtwarzania/wpisz nową nazwę"
+
+msgid "new remote Playlist is generated"
+msgstr "Nowa zdalna lista odtwarzania jest generowana"
+
+msgid "new search for Albums current Artist"
+msgstr "Nowe wyszukiwanie bieżących albumów artysty"
+
+msgid "new search for Songs current Artist"
+msgstr "Nowe wyszukiwanie dla bieżącego artysty"
+
+msgid "play Radio based on current Playlist"
+msgstr "odtwarzać radio na podstawie bieżącej listy odtwarzania"
+
+msgid ""
+"premiumize.me\n"
+"\n"
+"User: %s\n"
+"Type: %s\n"
+"Expires: %s\n"
+"Traffic: %s GB"
+msgstr ""
+"premiumize.me\n"
+"\n"
+"Użytkownik: %s\n"
+"Rodzaj: %s\n"
+"Wygasa: %s\n"
+"Ruch: %s GB"
+
+msgid "premiumize.me failed."
+msgstr "premiumize.me nie powiodło się."
+
+msgid "premiumize.me is not activated."
+msgstr "premiumize.me nie jest aktywowany"
+
+msgid "premiumize: Fair use limit exhausted."
+msgstr "premiumize:dozwolony limit użytkowania wyczerpany"
+
+msgid "premiumize: File not found."
+msgstr "premiumize:Nie znaleziono pliku."
+
+msgid "premiumize: Hoster currently not available."
+msgstr "premiumize:Host nie jest obecnie dostępny."
+
+msgid "(not available)"
+msgstr "(niedostępny)"
+
+msgid "premiumize: Login failed."
+msgstr "premiumize:Logowanie nie powiodło się."
+
+msgid "premiumize: No Access."
+msgstr "premiumize:Brak dostępu."
+
+msgid "premiumize: No valid link."
+msgstr "premiumize:Nieprawidłowy link."
+
+msgid "premiumize: Temporary technical error."
+msgstr "premiumize:Tymczasowy błąd techniczny."
+
+msgid "premiumize: Unknown technical error."
+msgstr "premiumize:Nieznany błąd techniczny."
+
+msgid "premiumize: YT ProxyHost found."
+msgstr "premiumize:znaleziono host YT Proxy!"
+
+msgid "premiumize: YT ProxyHost not found!"
+msgstr "premiumize:nie znaleziono hostu YT Proxy!"
+
+msgid "premiumize: You are no Premium-User."
+msgstr "premiumize:Nie jesteś użytkownikiem premium."
+
+msgid "remote Playlist deleted"
+msgstr "usunięta zdalna lista odtwarzania"
+
+msgid "remove current Selection from current MPUser Playlist"
+msgstr "Usunąć bieżące zaznaczenie z bieżącej listy odtwarzania użytkownika MP"
+
+msgid "remove current Selection from list"
+msgstr "Usunąć bieżący wybór z listy"
+
+msgid "remove duplicates from current list"
+msgstr "usuwanie duplikatów z bieżącej listy"
+
+msgid "search user"
+msgstr "Szukać użytkownika"
+
+msgid "show users playlists"
+msgstr "Pokazać użytkowników list odtwarzania"
+
+msgid "subscribed remote Playlist removed"
+msgstr "usunąć subskrybowane zdalne listy odtwarzania"
+
+msgid "to Player"
+msgstr "do odtwarzacza"
+
+msgid "ALBUM:"
+msgstr "ALBUM:"
+
+msgid "ALBUM: "
+msgstr "ALBUM: "
+
+msgid "ALBUMS"
+msgstr "ALBUMY"
+
+msgid "ALL TRACKS"
+msgstr "WSZYSTKIE TYTUŁY"
+
+msgid "ARTIST: "
+msgstr "WYKONAWCA: "
+
+msgid "ARTISTS"
+msgstr "ARTYŚCI"
+
+msgid "ARTISTS: %s"
+msgstr "ARTYŚCI: %s"
+
+msgid "Adult-Pincode Query:"
+msgstr "Zapytać o kod pin dla dorosłych:"
+
+msgid "Any"
+msgstr "Dowolny"
+
+msgid "Artist search"
+msgstr "Szukaj artysty"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Author:"
+msgstr "Autor:"
+
+msgid "CHARTS"
+msgstr "WYKRESY"
+
+msgid "Captcha login required!"
+msgstr "Zaloguj się tutaj!"
+
+msgid "Check mp3 duplicates"
+msgstr "Sprawdźić duplikaty mp3"
+
+msgid "Completed"
+msgstr "Zakończone"
+
+msgid "Countries:"
+msgstr "Kraje:"
+
+msgid "Currently no free episodes available!"
+msgstr "Obecnie nie ma darmowych odcinków!"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Director:"
+msgstr "Reżyser:"
+
+msgid "Disable Background-TV:"
+msgstr "Wyłączyć tło TV:"
+
+msgid "Disable Mini-TV:"
+msgstr "Wyłączyć mini TV:"
+
+msgid "Discard MP3 Duplicate's: "
+msgstr "Odrzucić duplikaty MP3: "
+
+msgid "Edit Parameter"
+msgstr "Edycja parametrów"
+
+msgid "Episodes:"
+msgstr "Odcinki:"
+
+msgid "Event type"
+msgstr "Rodzaj wydarzenia"
+
+msgid "Full"
+msgstr "Pełna"
+
+msgid "GENRE-SEARCH"
+msgstr "SZUKAJ GATUNKU"
+
+msgid "GENRE: "
+msgstr "GATUNEK: "
+
+msgid "GENRES"
+msgstr "GATUNKI"
+
+msgid "Genre search"
+msgstr "Szukaj gatunku"
+
+msgid "Genre:"
+msgstr "Gatunek:"
+
+msgid "Genres"
+msgstr "Gatunki"
+
+msgid "Get Song ID's..."
+msgstr "Pobierz id piosenki..."
+
+msgid "HLS-Player IP:"
+msgstr "HLS ip odtwarzacza:"
+
+msgid "HLS-Player Port:"
+msgstr "HLS port odtwarzacza:"
+
+msgid "Use HLS-Player Proxy:"
+msgstr "HLS użyć odtwarzacza proxy:"
+
+msgid "HLSP-HTTP-Proxy Host or IP:"
+msgstr "HLSP/HTTP hosta lub ip proxy:"
+
+msgid "HLSP-Proxy Port:"
+msgstr "HLSP port proxy:"
+
+msgid "HLSP-Proxy username:"
+msgstr "HLSP proxy nazwa użytkownika:"
+
+msgid "HLSP-Proxy password:"
+msgstr "HLSP proxy hasło:"
+
+msgid "HLS-Player buffersize [MB]:"
+msgstr "HLS rozmiar bufora odtwarzacza [MB]:"
+
+msgid "Hide"
+msgstr "Ukryć"
+
+msgid "If you want to play this stream, you have to activate the HLS-Player in the MP-Setup"
+msgstr "Jeśli chcesz odtwarzać ten strumień,musisz aktywować HLS odtwarzacz w ustawienia MP"
+
+msgid "Input"
+msgstr "Wejście"
+
+msgid "Language"
+msgstr "Język"
+
+msgid "List Mode:"
+msgstr "Tryb listy:"
+
+msgid "Live"
+msgstr "Na żywo"
+
+msgid "Loading information for \"%s\""
+msgstr "Ładowanie informacji dla \"%s\""
+
+msgid "Login failed!"
+msgstr "Logowanie nie powiodło się!"
+
+msgid "MP3-SEARCH"
+msgstr "SZUKAJ MP3"
+
+msgid "MP3-SEARCH..."
+msgstr "SZUKAJ MP3..."
+
+msgid "MyVideoClient Error:\n"
+msgstr "MyVideo błąd klienta:\n"
+
+msgid ""
+"MyVideoClient Error:\n"
+"Cannot connect to server!"
+msgstr ""
+"MyVideo błąd klienta:\n"
+"Nie można połączyć się z serwerem!"
+
+msgid "No Category"
+msgstr "Nie ma kategorii"
+
+msgid "No MP3-Id found:\n"
+msgstr "Nie znaleziono id MP3:\n"
+
+msgid "No MP3-Id found: Skip:\n"
+msgstr "Nie znaleziono id MP3: Pominięto:\n"
+
+msgid "No MP3-Stream found:\n"
+msgstr "Nie znaleziono MP3-znaleziono strumień:\n"
+
+msgid "No program data found!"
+msgstr "Nie znaleziono danych programu!"
+
+msgid "No results found for \"%s\""
+msgstr "Brak znalezionych wyników dla \"%s\""
+
+msgid "No shows found!"
+msgstr "Nie pokazuj znaleziononych!"
+
+msgid "None"
+msgstr "Żaden"
+
+msgid "Precheck MP3-ID's"
+msgstr "Wstępne id MP3"
+
+msgid "Precheck MP3-ID's: "
+msgstr "Wstępne id MP3:"
+
+msgid "RTMPDump/HLS-PLayer Cachepath:"
+msgstr "RTMPDump/HLS-Ścieżka pamięci podręcznej odtwarzacza:"
+
+msgid "Rated:"
+msgstr "Ocenione:"
+
+msgid "Rating"
+msgstr "Ocena"
+
+msgid "Rating:"
+msgstr "Ocena:"
+
+msgid "Really close without saving settings?"
+msgstr "Naprawdę zamknąć bez zapisywania ustawień?"
+
+msgid "Relevance"
+msgstr "Odniesienie"
+
+msgid "Remember Adult-Pincode:"
+msgstr "Pamiętać kod pin dla dorosłych:"
+
+msgid "Results for \"%s\""
+msgstr "Wyniki dla \"%s\""
+
+msgid "Return"
+msgstr "Powrót"
+
+msgid "Runtime:"
+msgstr "Czas pracy:"
+
+msgid "SEARCH HISTORY"
+msgstr "HISTORIA WYSZUKIWANIA"
+
+msgid "SIMILAR ARTISTS"
+msgstr "PODOBNI WYKONAWCY"
+
+msgid "SIMILAR GENRES"
+msgstr "PODOBNE GATUNKI"
+
+msgid "Search Order Selection"
+msgstr "Wybór kolejności wyszukiwania"
+
+msgid "Search order"
+msgstr "Kolejność wyszukiwania"
+
+msgid "Seasons:"
+msgstr "Sezony:"
+
+msgid "Select Action"
+msgstr "Wybierz działanie"
+
+msgid "Select Order"
+msgstr "Wybierz kolejność"
+
+msgid "Select Sorting"
+msgstr "Wybierz sortowanie"
+
+msgid "Show All"
+msgstr "Pokazać wszystko"
+
+msgid "Show only ALBUMS"
+msgstr "Pokazać tylko albumy"
+
+msgid "Show only ALL TRACKS"
+msgstr "Pokazać wszystkie utwory"
+
+msgid "Show only ARTISTS"
+msgstr "Pokazać tylko artystów"
+
+msgid "Show only MP3-SEARCH"
+msgstr "Pokazać tylko wyszukane mp3"
+
+msgid "Show only TOP TRACKS"
+msgstr "Pokazać tylko najczęściej słuchane"
+
+msgid "Similar artists"
+msgstr "Podobni wykonawcy"
+
+msgid "Similar genres"
+msgstr "Podobne gatunki"
+
+msgid "SimpleList on key"
+msgstr "Prosta lista z przyciskiem"
+
+msgid "Single"
+msgstr "Pojedyncza"
+
+msgid "Sort A-Z"
+msgstr "Sortuj A-Z"
+
+msgid "Sort Normal"
+msgstr "Normalne sortowanie"
+
+msgid "Sort Selection"
+msgstr "Wybór sortowania"
+
+msgid "Sort by"
+msgstr "Sortuj według"
+
+msgid "Sort by..."
+msgstr "Sortuj według..."
+
+msgid "Stations:"
+msgstr "Stacje:"
+
+msgid "Studio:"
+msgstr "Studio:"
+
+msgid "TOP TRACKS"
+msgstr "NAJLEPSZE UTWORY"
+
+msgid "TV Show"
+msgstr "widowisko telewizyjne"
+
+msgid "Title"
+msgstr "Tytuł"
+
+msgid "Trying to find results for \"%s\" in TMDb..."
+msgstr "Próbuje znaleźć wyniki dla \"%s\" w TMDb..."
+
+msgid "Unknown error!"
+msgstr "Nieznany błąd!"
+
+msgid "Unknown error! (%s)"
+msgstr "Nieznany błąd! (%s)"
+
+msgid "Upcoming"
+msgstr "Nadchodzące"
+
+msgid "Use HLS-Player (beta):"
+msgstr "HLS użyć odtwarzacza(beta):"
+
+msgid "User name"
+msgstr "Nazwa użytkownika"
+
+msgid "Video count"
+msgstr "Ilość wideo"
+
+msgid "Video definition"
+msgstr "Rozdzielczość wideo"
+
+msgid "Video deleted or there has been an error!"
+msgstr "Wideo usunięte lub wystąpił błąd!"
+
+msgid "View count"
+msgstr "Ilość wyświetleń"
+
+msgid "Votes:"
+msgstr "Głosów:"
+
+msgid "Wrong login data, check your eMail and password and try again!"
+msgstr "Nieprawidłowe dane logowania,sprawdź e-mail oraz hasło i spróbuj ponownie!"
+
+msgid "You are not a Premium User!"
+msgstr "Nie jesteś użytkownikiem premium!"
+
+msgid "You've to check Your RTMPDump/HLS-PLayer Cachepath-Setting in MP-Setup:\n"
+msgstr "Proszę sprawdzić RTMPDump/HLS odtwarzacz,ścieżkę ustawień w konfiguracji MP:\n"
+
+msgid "no"
+msgstr "nie"
+
+msgid "yes"
+msgstr "tak"
+
+msgid "Graphic"
+msgstr "Graficzny"
+
+msgid "COUNTING PAGES:"
+msgstr "NUMERACJA STRON:"
+
+msgid "Original"
+msgstr "Oryginalna"
+
+msgid "original"
+msgstr "oryginalna"
+
+msgid "Automatic start time:"
+msgstr "Automatyczny czas rozpoczęcia:"
+
+msgid "Behavior on movie end:"
+msgstr "Zachowanie na końcu filmu:"
+
+msgid "Behavior on movie start:"
+msgstr "Zachowanie na początku filmu:"
+
+msgid "Behavior on movie stop:"
+msgstr "Zachowanie po zatrzymaniu filmu:"
+
+msgid "Can't copy \"{0}\" playlist"
+msgstr "Nie można skopiować \"{0}\" listy odtwarzania"
+
+msgid "Can't delete \"{0}\" playlist"
+msgstr "Nie można usunąć \"{0}\" listy odtwarzania"
+
+msgid "Can't download playlist"
+msgstr "Nie można pobrać listy odtwarzania"
+
+msgid "Can't update \"{0}\" playlist"
+msgstr "Nie można zaktualizować \"{0}\" listy odtwarzania"
+
+msgid "Daily automatic import:"
+msgstr "Codzienny automatyczny import:"
+
+msgid "Delete PL"
+msgstr "Usunąć PL"
+
+msgid "Did you revoke the access?"
+msgstr "Jeżeli dostęp odwołany?"
+
+msgid "Episode"
+msgstr "Odcinek"
+
+msgid "Error: No valid option in playlist"
+msgstr "Błąd:Nie ważna opcja w liście odtwarzania"
+
+msgid "Error: No valid playlist"
+msgstr "Błąd:Nie ważna lista odtwarzania"
+
+msgid "Error: Unable to get tokens!"
+msgstr "Błąd:Nie można uzyskać generatora kodów!"
+
+msgid "Error: Unable to refresh token!"
+msgstr "Błąd:Nie można odświeżyć generatora kodów!"
+
+msgid "Error: Unable to request the Device code"
+msgstr "Błąd:Nie można poprosić o kod urządzenia"
+
+msgid "FUN"
+msgstr "ZABAWA"
+
+msgid "Finish"
+msgstr "Koniec"
+
+msgid "GENERAL"
+msgstr "OGÓLNE"
+
+msgid "GRAYZONE"
+msgstr "SZARA STREFA"
+
+msgid "Debug-Mode:"
+msgstr "Tryb Debug:"
+
+msgid "WATCHLIST"
+msgstr "LISTA OBSERWOWANYCH"
+
+msgid "Global Watchlist"
+msgstr "Globalna lista obserwowanych"
+
+msgid "Global playlist number:"
+msgstr "Globalny numer listy odtwarzania:"
+
+msgid "IPTV Genre"
+msgstr "IPTV Gatunek"
+
+msgid "IPTV Genre Selection"
+msgstr "IPTV Wybór gatunku"
+
+msgid "If you want to play this stream, you have to set your EDEM passkey in the MP-Setup"
+msgstr "Jeśli chcesz odtwarzać ten strumień,musisz ustawić swoje hasło w ustawieniach MP"
+
+msgid "Import EPG"
+msgstr "Import EPG"
+
+msgid "Infobar cover always off:"
+msgstr "Okładka paska informacyjnego zawsze wyłączona:"
+
+msgid "ask"
+msgstr "pytać"
+
+msgid "LIBRARIES"
+msgstr "BIBLIOTEKI"
+
+msgid "MUSIC"
+msgstr "MUZYKA"
+
+msgid "MediaInfo on key:"
+msgstr "MediaInfo z przycisku:"
+
+msgid "MP-EPG-IMPORTER"
+msgstr "MP-EPG-IMPORTER"
+
+msgid "Move"
+msgstr "Przestawić"
+
+msgid "Movie"
+msgstr "Film"
+
+msgid "No MP playlist \"{0}\" found"
+msgstr "Nie znaleziono listy odtwarzania dla MP \"{0}\""
+
+msgid "No Streams found!"
+msgstr "Nie znaleziono strumieni!"
+
+msgid "No entrys found!"
+msgstr "Nie znaleziono żadnych wpisów!"
+
+msgid "No link found!"
+msgstr "Nie znaleziono linka!"
+
+msgid "No playlist found"
+msgstr "Nie znaleziono listy odtwarzania"
+
+msgid "OK to delete \"{0}\" playlist?"
+msgstr "OK,aby usunąć \"{0}\" liste odtwarzania?"
+
+msgid "OK to overwrite \"{0}\" playlist?"
+msgstr "OK,aby zastąpić \"{0}\" listę odtwarzania?"
+
+msgid "OTHER"
+msgstr "INNE"
+
+msgid "Overwrite \"{0}\" with the MP playlist?"
+msgstr "Przepisać\"{0}\" z listy odtwarzania MP?"
+
+msgid "PORN"
+msgstr "PORNOGRAFICZNE"
+
+msgid "Passkey:"
+msgstr "Przycisk uniwersalny:"
+
+msgid "Playlist \"{0}\" copied."
+msgstr "Lista odtwarzania \"{0}\" skopiowanych."
+
+msgid "Playlist \"{0}\" successfully updated"
+msgstr "Lista odtwarzania \"{0}\" pomyślnie zaktualizowana"
+
+msgid "Playmode:"
+msgstr "Tryb odtwarzania:"
+
+msgid "Request YT-Token"
+msgstr "Zapytanie YT o generator kodów"
+
+msgid "SPORTS"
+msgstr "SPORT"
+
+msgid "Save resume cache in flash memory:"
+msgstr "Zapisac wznowienie w pamięci flesha:"
+
+msgid "Screensaver:"
+msgstr "Wygaszacz ekranu:"
+
+msgid "Season"
+msgstr "Sezon"
+
+msgid "Seekbar sensibility:"
+msgstr "Szukaj czułość:"
+
+msgid "Select Portal"
+msgstr "Wybierz portal"
+
+msgid "Show \"{0}\" channels"
+msgstr "Pokazać \"{0}\" kanałów"
+
+msgid "Show all channels"
+msgstr "Pokazać wszystkie kanały"
+
+msgid "Show errors:"
+msgstr "Pokazać błędy:"
+
+msgid "SimpleList on key:"
+msgstr "Proste lista z przycisku:"
+
+msgid "Skip the import"
+msgstr "Przejdź na import"
+
+msgid "Standby at startup:"
+msgstr "Gotowości na starcie:"
+
+msgid "Start import after booting up:"
+msgstr "Rozpocząć import po uruchomieniu systemu:"
+
+msgid "EDEM IPTV SERVICE"
+msgstr "SERWIS EDEM IPTV"
+
+msgid "TMDb/IMDb on key:"
+msgstr "TMDb/IMDb z przycisku:"
+
+msgid "Update PL"
+msgstr "Aktualizacja PL"
+
+msgid "Use HLS-Player:"
+msgstr "HLS użyć odtwarzacza:"
+
+msgid "Use SP number seek:"
+msgstr "Użyć wyszukiwania numeru SP:"
+
+msgid "Use YT Proxy:"
+msgstr "Użyć YT Proxy:"
+
+msgid "Video type"
+msgstr "Typ wideo"
+
+msgid ""
+"Waiting for response from the server.\n"
+"Cancel action?"
+msgstr ""
+"Oczekiwanie na odpowiedź serwera.\n"
+"Anulować działanie?"
+
+msgid "Wake up and import"
+msgstr "Obudzić i importować"
+
+msgid "When in deep standby:"
+msgstr "Gdy w głębokim stanie gotowości:"
+
+msgid "YOUTH PROTECTION"
+msgstr "NIELETNI"
+
+msgid "YT-HTTP-Proxy Host or IP:"
+msgstr "YT-HTTP-ip hosta lub serwera proxy:"
+
+msgid "YT-Proxy Port:"
+msgstr "YT-port proxy:"
+
+msgid "YT-Proxy password:"
+msgstr "YT-hasło proxy:"
+
+msgid "YT-Proxy username:"
+msgstr "YT-nazwa użytkownika proxy:"
+
+msgid "Year:"
+msgstr "Rok:"
+
+msgid "MediaPortal KeyBoard"
+msgstr "Klawiatura Portal Medialny"
+
+msgid "You need to request a token to allow access to your YouTube account."
+msgstr "Musisz poprosić o generator kodów,aby umożliwić dostęp do swojego konta YouTube."
+
+msgid ""
+"You've to visit:\n"
+"{url}\n"
+"and enter the code: {code}\n"
+"Cancel action?"
+msgstr ""
+"Masz do odwiedzenia:\n"
+"{url}\n"
+"i wpisz kod: {kod}\n"
+"Anulować działanie?"
