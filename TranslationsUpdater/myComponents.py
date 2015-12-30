@@ -20,6 +20,7 @@ from os import system as os_system, popen as os_popen, path as os_path
 config.plugins.TranslationsUpdater = ConfigSubsection()
 config.plugins.TranslationsUpdater.SortowaniePoDacie = ConfigYesNo(default = False)
 config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych = ConfigYesNo(default = False)
+config.plugins.TranslationsUpdater.AutoUpdate = ConfigYesNo(default = False)
 
 
 def substring_2_translate(text):
@@ -158,9 +159,11 @@ class j00zekTUMenu(Screen,):
         <eLabel text="Wtyczka: (c)2015 j00zek" position="0,380" size="460,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />
         <eLabel position="  5,415" size="228, 40" zPosition="-10" backgroundColor="#20b81c46" />
         <eLabel position="237,415" size="228, 40" zPosition="-10" backgroundColor="#20009f3c" />
+        <eLabel position="469,415" size="228, 40" zPosition="-10" backgroundColor="#209ca81b" />
         
         <widget source="key_red"   render="Label" position="  5,415" size="228,40" zPosition="1" font="Regular;20" valign="center" halign="center" transparent="1" />
         <widget source="key_green" render="Label" position="237,415" size="228,40" zPosition="1" font="Regular;20" valign="center" halign="center" transparent="1" />
+        <widget source="key_yellow" render="Label" position="469,415" size="228,40" zPosition="1" font="Regular;20" valign="center" halign="center" transparent="1" />
         
         <widget source="Header1" render="Label" position=" 10,0" size="150,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />
         <widget source="Header2" render="Label" position="145,0" size="460,30" font="Regular;18" foregroundColor="#6DABBF" valign="center" halign="center" />
@@ -178,6 +181,7 @@ class j00zekTUMenu(Screen,):
             "cancel": self.close,
             "red": self.ZmienSortowanie,
             "green": self.ZmienUkrywanieNiezainstalowanych,
+            "yellow": self.ZmienAutoUpdate,
             }, -1)
 
         self.onLayoutFinish.append(self.onStart)
@@ -185,6 +189,7 @@ class j00zekTUMenu(Screen,):
         self.setTitle("Pobieranie danych...")
         self["key_red"] = StaticText("")
         self["key_green"] = StaticText("")
+        self["key_yellow"] = StaticText("")
         self["Header1"] = StaticText("")
         self["Header2"] = StaticText("")
       
@@ -202,6 +207,12 @@ class j00zekTUMenu(Screen,):
         self.reloadLIST()
         self.setButtons()
     
+    def ZmienAutoUpdate(self):
+        config.plugins.TranslationsUpdater.AutoUpdate.value = not config.plugins.TranslationsUpdater.AutoUpdate.value
+        config.plugins.TranslationsUpdater.AutoUpdate.save()
+        configfile.save()
+        self.setButtons()
+      
     def ZmienSortowanie(self):
         config.plugins.TranslationsUpdater.SortowaniePoDacie.value = not config.plugins.TranslationsUpdater.SortowaniePoDacie.value
         config.plugins.TranslationsUpdater.SortowaniePoDacie.save()
@@ -238,6 +249,11 @@ class j00zekTUMenu(Screen,):
             self["key_green"].setText("Pokaż wszystkie")
         else:
             self["key_green"].setText("Ukryj niezainstalowane")
+            
+        if config.plugins.TranslationsUpdater.AutoUpdate.value == True:
+            self["key_yellow"].setText("Wył. AutoAktualizację")
+        else:
+            self["key_yellow"].setText("Wł. AutoAktualizację")
             
     def YESNO(self, decyzja):
         if decyzja is False:

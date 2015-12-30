@@ -15,18 +15,9 @@ from __init__ import *
 from Components.ActionMap import ActionMap
 
 from Components.config import *
-#from Components.Label import Label
-#from Components.Pixmap import Pixmap
-#from Components.Sources.List import List
 from enigma import eTimer
 from Plugins.Plugin import PluginDescriptor
-#from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
-#from Tools.Directories import resolveFilename, pathExists
-#from Tools.LoadPixmap import LoadPixmap
-#from Tools import Notifications
-#import shutil
-#import re
         
 def Plugins(**kwargs):
     return [PluginDescriptor(name="Aktualizator tłumaczeń", description="Bo Polacy nie gęsi i swój język mają ;)", where = PluginDescriptor.WHERE_PLUGINMENU, fnc=main,icon="logo.png"),
@@ -37,7 +28,6 @@ def main(session, **kwargs):
     session.open(j00zekTUMenu, MenuFolder = '%sscripts' % PluginPath, MenuFile = '_GetTranslations', MenuTitle = "Aktualizacja tłumaczeń")
 
 def sessionstart(reason, **kwargs):
-    if "session" in kwargs:
         session = kwargs["session"]
         AutoUpdate(session)
 
@@ -45,11 +35,16 @@ class AutoUpdate(Screen):
     def __init__(self, session):
         self.session = session
         Screen.__init__(self, session)
-        print ">>>>>>>>>>>>>>>>>>>>>>>>>>>> AutoUpdate <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
-        self.AutoUpdateTimer = eTimer()
-        self.AutoUpdateTimer.callback.append(self.checkANDrefresh)
-        self.AutoUpdateTimer.start(1000*30,True)
+        AutoUpdate.AutoUpdateTimer = eTimer()
+        AutoUpdate.AutoUpdateTimer.callback.append(self.checkANDrefresh)
+        AutoUpdate.AutoUpdateTimer.start(1000*60*24)
 
     def checkANDrefresh(self):
-        print ">>>>>>>>>>>>>>>>>>>>>>>>>>>> checkANDrefresh <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+        from Tools.Directories import SCOPE_PLUGINS, resolveFilename
+        from os import path as os_path
+        from Components.Console import Console
+        AutoUpdateScript = resolveFilename(SCOPE_PLUGINS, 'Extensions/TranslationsUpdater/scripts/AutoUpdate.sh')
+        if os_path.exists(AutoUpdateScript):
+          with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
+          Console().ePopen(AutoUpdateScript)
         return
