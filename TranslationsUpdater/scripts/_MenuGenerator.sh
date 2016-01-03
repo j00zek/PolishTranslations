@@ -30,10 +30,12 @@ myPath=$1
 
 if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
   ByDate=1
-  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\2\t\1;'|sort -bfir`
+  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| \
+    sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;\(</time>\).*;\1;'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\2\t\1;'|sort -bfir`
 else
   ByDate=0
-  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\1\t\2;'|sort -bfi`
+  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| \
+    sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;\(</time>\).*;\1;'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\1\t\2;'|sort -bfi`
 fi
 
 if `grep -q 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile`;then
