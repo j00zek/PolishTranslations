@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2015-12-15 14:09+0100\n"
+"PO-Revision-Date: 2016-01-02 09:03+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -824,7 +824,7 @@ msgid "Aborting updateprogress"
 msgstr "Przerywanie postępu aktualizacji"
 
 msgid "About"
-msgstr "Informacje o odbiorniku/obrazie"
+msgstr "Parametry techniczne"
 
 msgid "About..."
 msgstr "Informacje..."
@@ -887,7 +887,7 @@ msgid "Add"
 msgstr "Dodaj"
 
 msgid "Add AutoTimer"
-msgstr "Dodaj auto.programowanie(auto.timer)"
+msgstr "Dodaj au.programowanie(auto.timer)"
 
 msgid "Add Bookmark"
 msgstr "Dodaj do zakładek"
@@ -2243,7 +2243,7 @@ msgid ""
 "DiSEqC port %s for %s"
 msgstr ""
 "Sprawdzanie głowicy %d\n"
-"DiSEK port %s dla %s"
+"port DiSEqCa %s dla %s"
 
 msgid "Children/Youth"
 msgstr "Dzieci/młodzież"
@@ -2288,7 +2288,7 @@ msgid "Choose the amount of time that will be presented."
 msgstr "Wybierz ilość czasu,który zostanie przedstawiony."
 
 msgid "Choose the correct DiSEqC mode for this LNB."
-msgstr "Wybierz odpowiedni tryb DiSEKA dla tego konwertera."
+msgstr "Wybierz odpowiedni tryb DiSEqCa dla tego konwertera."
 
 msgid "Choose the files backup"
 msgstr "Wybierz pliki kopii zapasowej"
@@ -2459,7 +2459,7 @@ msgid "Command type"
 msgstr "Wybierz polecenie"
 
 msgid "Committed DiSEqC command"
-msgstr "Wysłana komenda DiSEK"
+msgstr "Wysłana komenda DiSEqC"
 
 msgid "Common Interface"
 msgstr "Moduł dostępu CI"
@@ -2561,7 +2561,7 @@ msgid "Configure remote control type"
 msgstr "Skonfiguruj typ pilota zdalnego sterowania"
 
 msgid "Configure the DiSEqC mode for this LNB."
-msgstr "Skonfiguruj tryb DiSEK dla tego LNB."
+msgstr "Skonfiguruj tryb DiSEqCa dla tego LNB."
 
 msgid "Configure the IP address."
 msgstr "Skonfiguruj adres IP."
@@ -3465,19 +3465,19 @@ msgid "Devices"
 msgstr "Urządzenia"
 
 msgid "DiSEqC mode"
-msgstr "Tryb DiSEK"
+msgstr "Tryb DiSEqCa"
 
 msgid "DiSEqC port %s: %s"
-msgstr "Port DiSEK %s: %s"
+msgstr "Port DiSEqCa %s: %s"
 
 msgid "DiSEqC repeats"
-msgstr "Powtórzenia DiSEK"
+msgstr "Powtórzenia DiSEqCa"
 
 msgid "DiSEqC-Tester settings"
-msgstr "Testowe ustawienia DiSEK"
+msgstr "Testowanie ustawień DiSEqCa"
 
 msgid "DiSEqC-tester settings"
-msgstr "Test ustawień DiSEK"
+msgstr "Testowanie ustawień DiSEqCa"
 
 msgid "Dialing:"
 msgstr "Wybieranie:"
@@ -3572,7 +3572,7 @@ msgid "Disconnect"
 msgstr "Rozłącz"
 
 msgid "Diseqc(%s, %X)"
-msgstr "Disek(%s, %X)"
+msgstr "DiSEqC(%s, %X)"
 
 msgid "Dish"
 msgstr "Antena"
@@ -4123,7 +4123,7 @@ msgid "Enable Netmed EPG"
 msgstr "Włączyć Netmed EPG"
 
 msgid "Enable Network IP address check"
-msgstr "Włączyć sprawdzanie IP adresu internetowego"
+msgstr "Włączyć sprawdzanie internetowego adresu IP"
 
 msgid "Enable Network Traffic check"
 msgstr "Włączyć sprawdzanie ruchu w internecie"
@@ -4609,7 +4609,7 @@ msgid "Fast"
 msgstr "Szybko"
 
 msgid "Fast DiSEqC"
-msgstr "Szybki DiSEK"
+msgstr "Szybki DiSEqC"
 
 msgid "Fast Forward speeds"
 msgstr "Szybkie przewijanie do przodu"
@@ -5497,7 +5497,7 @@ msgid "Image Backup"
 msgstr "Kopia zapasowa obrazu"
 
 msgid "Image Information"
-msgstr "Informacje o odbiorniku/obrazie"
+msgstr "Parametry techniczne"
 
 msgid "Image Manager"
 msgstr "Menadżer obrazu"
@@ -6942,7 +6942,7 @@ msgid "Netmask:"
 msgstr "Maska sieci:"
 
 msgid "Network"
-msgstr "Internet"
+msgstr "Sieć"
 
 msgid "Network Adapter Selection"
 msgstr "Wybór karty internetowej"
@@ -7023,7 +7023,7 @@ msgid "Network wizard"
 msgstr "Kreator konfiguracji internetu"
 
 msgid "Network:"
-msgstr "Internet:"
+msgstr "Sieć:"
 
 msgid "NetworkWizard"
 msgstr "Kreator internetowy"
@@ -7306,7 +7306,7 @@ msgid ""
 "Please verify that you have attached a network cable and your network is configured correctly."
 msgstr ""
 "Nie znaleziono działającego adaptera internetowego.\n"
-"Sprawdź czy podłączyłeś kabel Internetowy i czy Twój internet jest poprawnie skonfigurowany."
+"Sprawdź czy podłączyłeś kabel internetowy i czy Twój internet jest poprawnie skonfigurowany."
 
 msgid ""
 "No working wireless network adapter found.\n"
@@ -8293,6 +8293,9 @@ msgstr "Czekaj(pobieranie listy kanałów)"
 msgid "Please wait (updating packages)"
 msgstr "Czekaj(aktualizacja pakietów)"
 
+msgid "Incorrect type service for PiP!"
+msgstr "Niepoprawny typ usługi dla pip!"
+
 msgid "Please wait during download."
 msgstr "Proszę czekać podczas pobierania."
 
@@ -8558,8 +8561,12 @@ msgstr "Wciśnij 'OK'aby wybrać dostawcę."
 msgid "Press OK to select satellites"
 msgstr "Wciśnij przycisk 'OK'aby wybrać satelity"
 
-msgid "Press OK to select, Press Cancel to exit. Press BLUE to download the firmware."
-msgstr "Wciśnij przycisk 'OK'aby wybrać.Naciśnij przycisk anuluj aby wyjść.Naciśnij przycisk 'NIEBIESKI',aby pobrać oprogramowanie."
+msgid ""
+"Press OK to select, Press Cancel to exit.\n"
+"Press BLUE to download the latest firmware."
+msgstr ""
+"Naciśnij przycisk OK,aby wybrać opcję,naciśnij przycisk anuluj,aby wyjść.\n"
+"Naciśnij przycisk NIEBIESKI,aby pobrać najnowsze oprogramowanie."
 
 msgid "Press OK to select/deselect a CAId."
 msgstr "Wciśnij 'OK'aby wybrać/odznaczyć Caid"
@@ -10044,10 +10051,10 @@ msgid "Send Confirmation"
 msgstr "Wyślij potwierdzenie"
 
 msgid "Send DiSEqC"
-msgstr "Wyślij DiSEK"
+msgstr "Wyślij DiSEqC"
 
 msgid "Send DiSEqC only on satellite change"
-msgstr "Wysłać DiSEK tylko podczas zmiany satelity"
+msgstr "Wysłać DiSEqC tylko podczas zmiany satelity"
 
 msgid "Send yourself a copy ?"
 msgstr "Wysłać kopię?"
@@ -11285,10 +11292,10 @@ msgid "Skin Setting"
 msgstr "Ustawiania skóry"
 
 msgid "Skin Setup"
-msgstr "Konfiguracja skóry"
+msgstr "Wybór skóry"
 
 msgid "Skin setup"
-msgstr "Konfiguracja skóry"
+msgstr "Wybór skóry"
 
 msgid "Skins"
 msgstr "Skóry"
@@ -12050,7 +12057,7 @@ msgid "Terrestrial provider"
 msgstr "operator DVB-T"
 
 msgid "Test DiSEqC settings"
-msgstr "Test ustawień DiSEKA"
+msgstr "Testowanie ustawień DiSEqCa"
 
 msgid "Test Type"
 msgstr "Typ testu"
@@ -13360,7 +13367,7 @@ msgid "Unattended upgrade without GUI and reboot system"
 msgstr "Nienadzorowane aktualizacji bez ponownego uruchamiania systemu GUI"
 
 msgid "Uncommitted DiSEqC command"
-msgstr "Komenda DiSEK niewykorzystana"
+msgstr "Komenda DiSEqCa niewykorzystana"
 
 msgid "Undetermined"
 msgstr "Nieokreślony"
@@ -14128,13 +14135,13 @@ msgid ""
 "Your receiver restarts in 10 seconds!\n"
 "Component: enigma2"
 msgstr ""
-"Przepraszamy. odbiornik ma problem z oprogramowaniem i musi zostać ponownie uruchomiony.\n"
-"Proszę wysłać dziennik pliku %s enigma2_crash_xxxxxx.log do www.opena.tv.\n"
+"Przepraszamy.Odbiornik ma problem z oprogramowaniem i musi zostać ponownie uruchomiony.\n"
+"Proszę wysłać plik dziennika %s enigma2_crash_xxxxxx.log do www.opena.tv.\n"
 "Odbiornik uruchomi się ponownie za 10 sekund!\n"
-"Komponent: enigma2"
+"Składnik:enigma2"
 
 msgid "Web Interface"
-msgstr "Funkcje Web"
+msgstr "Funkcje Web."
 
 msgid "Web browser base visibility"
 msgstr "Podstawa widoczności przeglądarki internetowej"
@@ -14193,7 +14200,7 @@ msgstr ""
 "Witam. \n"
 "\n"
 "Jeśli chcesz połączyć Twój %s %s z internetem,ten kreator przeprowadzi Cię przez uproszczoną konfigurację %s %s. \n"
-"Wciśnij 'OK' aby rozpocząć konfigurację internetu."
+"Wciśnij 'OK' aby rozpocząć konfigurację."
 
 msgid ""
 "Welcome.\n"
@@ -14757,7 +14764,7 @@ msgid "Your %s %s does not support PiP HD"
 msgstr "Twój %s %s nie obsługuje PiP HD"
 
 msgid "Your %s %s is not connected to the internet"
-msgstr "Twój %s %s nie jest podłączony do Internetu"
+msgstr "Twój %s %s nie jest podłączony do internetu"
 
 msgid "Your %s %s is not connected to the internet, please check your network settings and try again."
 msgstr "Twój %s %s nie jest podłączony do internetu,należy sprawdzić ustawienia internetowe i spróbować ponownie."
@@ -14966,7 +14973,7 @@ msgstr ""
 "Proszę wybrać co chcesz zrobić dalej"
 
 msgid "Your internet connection is working (ip: %s)"
-msgstr "Twoje połączenie z Internetem działa (ip: %s)"
+msgstr "Twoje połączenie z internetem działa (ip: %s)"
 
 msgid "Your name (optional):"
 msgstr "Twoja nazwa(opcjonalnie):"
@@ -17356,3 +17363,36 @@ msgstr "Migać symbolem REC"
 
 msgid "REC Symbol"
 msgstr "Symbol REC"
+
+msgid "Use the extended List"
+msgstr "Użyć rozszerzonej listy"
+
+msgid "Update delay for Events in List. Scrolling in List is faster with higher delay, specialy on big Lists !"
+msgstr "Opóźnienie aktualizacji dla wydarzeń na liście.Zachowanie przewijania jest szybsze z większym opóźnieniem,szczególnie dla większych list!"
+
+msgid "ServicePicon"
+msgstr "Logo stacji kanału"
+
+msgid "ServiceName"
+msgstr "Nazwa kanału"
+
+msgid "Context long"
+msgstr "Kontekst długo"
+
+msgid "Simple zoom"
+msgstr "Proste powiększenie"
+
+msgid "Extrude from left"
+msgstr "Deformując w lewo"
+
+msgid "Slide from left"
+msgstr "Przesuń od lewej"
+
+msgid "Slide right to left"
+msgstr "Przesuń od prawej do lewej"
+
+msgid "Zoom from left"
+msgstr "Powiększenie od lewej"
+
+msgid "Zoom from right"
+msgstr "Powiększenie od prawej"
