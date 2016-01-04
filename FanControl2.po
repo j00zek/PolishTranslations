@@ -16,16 +16,16 @@ msgid "Action in case of Fan failure"
 msgstr "Działanie w przypadku awarii F.C.2"
 
 msgid "Auto-Delete Data older than (Days)"
-msgstr "Usuwanie plików starszych niż(Dni)"
+msgstr "Usunąć pliki starsze niż X(dni)"
 
 msgid "Auto-Delete older %s Days"
-msgstr "Automatycznie-usuń starsze % s Dni"
+msgstr "Automatycznie usuwać starsze niż %s dni"
 
 msgid "Box Shutdown"
-msgstr "Wyłącz odbiornik"
+msgstr "Wyłączyć odbiornik"
 
 msgid "Box has no fancontrol hardware -> FC2 deactivated"
-msgstr "w odbiorniku nie ma wentylatora->F.C.2 wyłączony"
+msgstr "W odbiorniku nie ma wentylatora->F.C.2 wyłączony"
 
 msgid "Box shutdown at Temperature (C)"
 msgstr "Wyłączyć odbiornik przy temperaturze (C)"
@@ -40,10 +40,10 @@ msgid "Choose path"
 msgstr "Wybierz ścieżkę"
 
 msgid "Control disabled"
-msgstr "Wyłączyć kontrolę ? "
+msgstr "Wyłączyć kontrolę ?"
 
 msgid "Current rpm  %4d"
-msgstr "Aktualny rpm  % 4d"
+msgstr "Aktualne rpm  % 4d"
 
 msgid "Current value: %s"
 msgstr "Aktualna wartość: % s"
@@ -52,25 +52,25 @@ msgid "Delete"
 msgstr "Usuń"
 
 msgid "Delete older 48h"
-msgstr "Usuń starsze 48h"
+msgstr "Usuń starsze niż 48h"
 
 msgid "Disk free : %d MByte"
-msgstr "Dysk wolny : % d MByte"
+msgstr "Wolne na dysku: %d MBajtów"
 
 msgid "Download"
 msgstr "Pobierz"
 
 msgid "Enable Console Logging"
-msgstr "Włączyć rejestrowanie konsoli"
+msgstr "Uaktywnić rejestrowanie konsoli"
 
 msgid "Enable Data Logging"
-msgstr "Włączyć rejestrowanie danych"
+msgstr "Uaktywnić rejestrowanie danych"
 
 msgid "Enable Event Logging"
-msgstr "Włączyć rejestrowanie zdarzeń"
+msgstr "Uaktywnić rejestrowanie zdarzeń"
 
 msgid "Enable Thread use"
-msgstr "Umożliwiaj wykorzystanie wątku"
+msgstr "Uaktywnić zastosowanie wątku"
 
 msgid "End temperature C"
 msgstr "Temp.końcowa C"
@@ -85,7 +85,7 @@ msgid "Fan off in Idle Mode"
 msgstr "Wył.wentyl.w trybie czuwania?"
 
 msgid "Fan type"
-msgstr "Typ wentylatora"
+msgstr "Rodzaj wentylatora"
 
 msgid "FanControl2 emergency, Box Shutdown now?"
 msgstr "Awaria F.C.2 wyłączyć odbiornik teraz?"
@@ -94,14 +94,14 @@ msgid "File %s does not exists"
 msgstr "Plik %s nie istnieje"
 
 msgid "Filesize : %d %sByte"
-msgstr "Rozmiar pliku : %d %sBajtów"
+msgstr "Rozmiar pliku: %d %s Bajtów"
 
 msgid ""
 "GUI needs a restart to apply the changes.\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
 "Trzeba zrestartować odbiornik,aby zastosować zmiany.\n"
-"Czy chcesz uruchomić GUI teraz ?"
+"Czy chcesz uruchomić GUI teraz?"
 
 msgid "Help"
 msgstr "Pomoc"
@@ -110,16 +110,16 @@ msgid "Information"
 msgstr "Informacja"
 
 msgid "Initial PWM"
-msgstr "Pocz.PWM"
+msgstr "Pocz.pwm"
 
 msgid "Initial Voltage"
-msgstr "Pocz.Napięcie"
+msgstr "Pocz.napięcie"
 
 msgid "Logging path"
 msgstr "Ścieżka logów"
 
 msgid "Logging-Path: %s"
-msgstr "Ścieżka-logów: %s"
+msgstr "Ścieżka logów: %s"
 
 msgid "Max Fan %d rpm at PWM=255 (%s)"
 msgstr "Maks.Fan %d rpm w PWM=255 (%s)"
@@ -149,7 +149,7 @@ msgid "Min Fan Stop %d rpm at VLT=%d and PWM=0 (%s)"
 msgstr "Min.Fan Stop %d rpm w VLT=%d i PWM=0 (%s)"
 
 msgid "Number of WebIF-Log-Entries"
-msgstr "Numer Wpisu loga"
+msgstr "Liczba wpisów w logu"
 
 msgid "Restart GUI now?"
 msgstr "Zrestartować GUI teraz?"
@@ -164,19 +164,19 @@ msgid "Show Fan Speed as"
 msgstr "Pokazać prędkość obrotów wentyl.jako"
 
 msgid "Show Monitor in Extension-Menu"
-msgstr "Pokazać Monitor w Rozszerzonym Menu"
+msgstr "Pokazać monitor w rozszerzonym menu"
 
 msgid "Show Plugin in Extension-Menu"
-msgstr "Pokazać Wtyczkę w Rozszerzonym Menu"
+msgstr "Pokazać wtyczkę w rozszerzonym menu"
 
 msgid "Speed"
 msgstr "Szybkość"
 
 msgid "Static temp C"
-msgstr "Średnia Temp.C"
+msgstr "Średnia temp.C"
 
 msgid "Target rpm  %4d"
-msgstr "Docelowo rpm.  %4d"
+msgstr "Docelowe rpm  %4d"
 
 msgid "Temperature"
 msgstr "Temperatura"
@@ -185,97 +185,97 @@ msgid "Temperature C  %4.1f"
 msgstr "Temperatura C  %4.1f"
 
 msgid "Voltage"
-msgstr "Napięcie "
+msgstr "Napięcie"
 
 msgid "Voltage  %03d"
-msgstr "Napięcie   %03d"
+msgstr "Napięcie  %03d"
 
 msgid "active"
-msgstr "aktywny "
+msgstr "Aktywny"
 
 msgid "auto"
-msgstr "auto"
+msgstr "Auto."
 
 msgid "below Tunerslot 4"
-msgstr "poniżej głowicy 4"
+msgstr "Poniżej głowicy 4"
 
 msgid "currentRPM:%d targetRPM:%d Temp:%4.1f"
-msgstr "wartkośćRPM:%d docelowoRPM:%d Temp:%4.1f"
+msgstr "WartkośćRPM:%d docelowoRPM:%d temp:%4.1f"
 
 msgid "disable DMM-FanControl"
-msgstr "wyłączyć systemowy-F.C?"
+msgstr "Wyłączyć systemowy T.F.C.?"
 
 msgid "disabled"
-msgstr "wyłączony"
+msgstr "Wyłączony"
 
 msgid "display Info"
-msgstr "wyświetl info."
+msgstr "Wyświetlić info."
 
 msgid "do nothing"
-msgstr "nic nie robić"
+msgstr "Nic nie robić"
 
 msgid "increases overheating protection to (C)"
-msgstr "ochrona przed wzrostem przegrzania w (C)"
+msgstr "Ochrona przed wzrostem przegrzania w (C)"
 
 msgid "left near Card-Slot"
-msgstr "lewa strona niedaleko czytnika karty"
+msgstr "Lewa strona niedaleko czytnika karty"
 
 msgid "left near Front-CI"
-msgstr "lewa strona blisko-przodu CI"
+msgstr "Lewa strona blisko przodu CI"
 
 msgid "left of the Battery"
-msgstr "lewa strona koło baterii"
+msgstr "Lewa strona koło baterii"
 
 msgid "max Speed rpm"
-msgstr "Maks.Szybkość rpm"
+msgstr "Maks.szybkość rpm"
 
 msgid "min Speed rpm"
-msgstr "Min.Szybkość rpm"
+msgstr "Min.szybkość rpm"
 
 msgid "near XILINX Spartan"
-msgstr "blisko XILINX Spartan"
+msgstr "Blisko xilinx spartan"
 
 msgid "never"
-msgstr "nigdy"
+msgstr "Nigdy"
 
 msgid "no"
-msgstr "nie"
+msgstr "Nie"
 
 msgid "not active"
-msgstr "nie aktywny"
+msgstr "Nie aktywny"
 
 msgid "over Security Card"
-msgstr "powyżej czytnika karty"
+msgstr "Nad czytnikiem karty"
 
 msgid "please set fan type (3Pin or 4Pin)"
-msgstr "Proszę ustawić typ wentylatora(3Pin lub 4Pin)"
+msgstr "Proszę ustawić typ wentyl.(3pin lub 4pin)"
 
 msgid "please wait (until 3min)..."
-msgstr "Proszę czekać(do 3min)..."
+msgstr "Proszę czekać(do 3min.)..."
 
 msgid "press Info for HDD-Temp"
-msgstr "Info o temp.HDD"
+msgstr "Info.o temp.dysku"
 
 msgid "read HDD-Temperature in HDD-Standby-Mode"
-msgstr "czytaj temperaturę HDD w trybie czuwania"
+msgstr "Czytać temperaturę dysku w trybie czuwania"
 
 msgid "readme.txt"
-msgstr "przeczytaj.txt"
+msgstr "Przeczytaj.txt"
 
 msgid "turn off"
-msgstr "wyłączyć"
+msgstr "Wyłączyć"
 
 msgid "turn on"
-msgstr "włączyć"
+msgstr "Włączyć"
 
 msgid "under the Fan"
-msgstr "pod wentylatorem"
+msgstr "Pod wentylatorem"
 
 msgid "under the WLAN"
-msgstr "pod kartą WLAN "
+msgstr "Pod kartą wlan"
 
 msgid "yes"
-msgstr "tak"
+msgstr "Tak"
 
 msgid "yes, Except for Recording or HDD"
-msgstr "wyjątek,nagrywanie na HDD"
+msgstr "Wyjątek,nagrywanie na dysk"
