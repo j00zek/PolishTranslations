@@ -1,5 +1,5 @@
 #!/bin/sh 
-# @j00zek 2015 dla Graterlia
+# @j00zek 2015/2016 dla Graterlia
 #
 #Plik do generowania menu
 #musi znajdować się w katalogu menu i jest zawsze uruchamiany przy wyborzez ikonki
@@ -27,11 +27,13 @@ myPath=$1
 [ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
 #[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
-
+    
 if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
   ByDate=1
   DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| \
-    sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;\(</time>\).*;\1;'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\2\t\1;'|sort -bfir`
+  sed 's;/blob/master/;\n;g'|grep '.po'|sed -e 's;\(</time>\).*;\1;' -e 's/>Jan/>01,/' -e 's/>Feb/>02,/' -e 's/>Mar/>03,/' -e 's/>Apr/>04,/' -e 's/>May/>05,/' \
+  -e 's/>Jun/>06,/' -e 's/>Jul/>07,/' -e 's/>Aug/>08,/' -e 's/>Sep/>09,/' -e 's/>Oct/>10,/' -e 's/>Nov/>11,/' -e 's/>Dec/>12,/' \
+  -e 's;^\(.*\.po\)is=.*">\(.*\),[ ]*\([0-9]*\),[ ]*\([0-9]*\).*</.*;\4-\2-0\3\t\1;' -e 's/-0\([0-9][0-9]\)/-\1/'|sort -bfir`
 else
   ByDate=0
   DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| \
@@ -95,7 +97,7 @@ do
       addonDate=`echo $ArchiveName|cut -d$'\t' -f2|cut -d$'.' -f1`
     
       DateABBR=`echo $addonName|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
-      if [ $DateABBR == ' ' ];then
+      if [ $DateABBR == ' 1' ];then
         #echo "Month abbreviation found probably, let's try translate it"
         addonName=`echo $addonName|sed 's/^\(...\)/_(\1)/'`
       fi

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# maintainer: j00zek
+# maintainer: j00zek 2016
 #
 
 #This plugin is free software, you are allowed to
@@ -38,6 +38,7 @@ class AutoUpdate(Screen):
         AutoUpdate.AutoUpdateTimer = eTimer()
         AutoUpdate.AutoUpdateTimer.callback.append(self.checkANDrefresh)
         AutoUpdate.AutoUpdateTimer.start(1000*60*24)
+        #AutoUpdate.AutoUpdateTimer.start(1000*15) #tylko dla testow dev.
 
     def checkANDrefresh(self):
         from Tools.Directories import SCOPE_PLUGINS, resolveFilename
@@ -46,5 +47,19 @@ class AutoUpdate(Screen):
         AutoUpdateScript = resolveFilename(SCOPE_PLUGINS, 'Extensions/TranslationsUpdater/scripts/AutoUpdate.sh')
         if os_path.exists(AutoUpdateScript):
           with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
-          Console().ePopen(AutoUpdateScript)
+          Console().ePopen(AutoUpdateScript,self.checkANDrefreshCB)
         return
+
+    def checkANDrefreshCB(self, ConsoleOutput=None, ExitCode=None, retUnknown=None):
+        if ExitCode is not None and ExitCode == 99 and ConsoleOutput is not None:
+            #print "Files updated, reboot needed"
+            from Screens.Standby import inStandby
+            if inStandby is None:
+                def ExitRet(ret):
+                    if ret:
+                        from enigma import quitMainloop
+                        quitMainloop(3)
+                    return
+                
+                from Screens.MessageBox import MessageBox
+                self.session.openWithCallback(ExitRet, MessageBox, ConsoleOutput + "\nZrestartować system?", timeout=10, default=False)

@@ -5,22 +5,24 @@
 addon=$1
 myPath=`dirname $0`
 myConfig=`echo $addon|cut -d '.' -f1`
-addonConfig=''
+addonConfig=$2
 url="https://raw.githubusercontent.com/j00zek/PolishTranslations/master/$addon"
 
 [ -e /tmp/$addon ] && rm -rf /tmp/$addon
 [ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
 [ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 
-echo "Pobieram plik konfiguracyjny..."
-curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslations/master/paths.conf -o /tmp/paths.conf
-if [ $? -gt 0 ]; then
-  echo "Błąd pobierania pliku konfiguracyjnego, koniec :("
-  exit 0
-fi
+if [ -z $addonConfig ]; then
+  echo "Pobieram plik konfiguracyjny..."
+  curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslations/master/paths.conf -o /tmp/paths.conf
+  if [ $? -gt 0 ]; then
+    echo "Błąd pobierania pliku konfiguracyjnego, koniec :("
+    exit 0
+  fi
 
-if [ -f /tmp/paths.conf ];then
-  addonConfig=`grep "$myConfig=" < /tmp/paths.conf| cut -d '=' -f2`
+  if [ -f /tmp/paths.conf ];then
+    addonConfig=`grep "$myConfig=" < /tmp/paths.conf| cut -d '=' -f2`
+  fi
 fi
 if [ -z $addonConfig ];then
   findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`

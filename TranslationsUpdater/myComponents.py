@@ -31,7 +31,8 @@ def substring_2_translate(text):
     return text
 
 def lastChance(text):
-    NonStandardTranslations=[(('Dec','Grud'))]
+    NonStandardTranslations=[('Jan','Styczeń '),('Feb','Luty'),('Mar','Marzec'),('Apr','Kwiecień'),('May','Maj'), \
+      ('Jun','Czerwiec'),('Jul','Lipiec'),('Aug','Sierpień'),('Sep','Wrzesień'),('Oct','Październik'),('Nov','Listopad'),('Dec','Grudzień')]
     for tr in NonStandardTranslations:
         text=text.replace(tr[0],tr[1])
     return text
