@@ -37,7 +37,7 @@ class AutoUpdate(Screen):
         Screen.__init__(self, session)
         AutoUpdate.AutoUpdateTimer = eTimer()
         AutoUpdate.AutoUpdateTimer.callback.append(self.checkANDrefresh)
-        AutoUpdate.AutoUpdateTimer.start(1000*60*24)
+        AutoUpdate.AutoUpdateTimer.start(1000*60*60*24)
         #AutoUpdate.AutoUpdateTimer.start(1000*15) #tylko dla testow dev.
 
     def checkANDrefresh(self):
@@ -62,4 +62,4 @@ class AutoUpdate(Screen):
                     return
                 
                 from Screens.MessageBox import MessageBox
-                self.session.openWithCallback(ExitRet, MessageBox, ConsoleOutput + "\nZrestartować system?", timeout=10, default=False)
+                self.session.openWithCallback(ExitRet, MessageBox, "Zaktualizowano tłumaczenia\nZrestartować system?", timeout=10, default=False)
