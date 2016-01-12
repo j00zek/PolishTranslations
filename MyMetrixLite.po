@@ -1,0 +1,1140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MyMetrixLite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-15 18:33+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
+"Language-Team: openATV <Mariusz1970>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Backup & Restore my settings"
+msgstr "Kopia/Przywracanie ustawień"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Backup"
+msgstr "Kopia"
+
+msgid "Restore"
+msgstr "Przywracanie"
+
+msgid "Delete"
+msgstr "Usuwanie"
+
+msgid "My Backup No. %d"
+msgstr "Kopia nr. %d"
+
+msgid "My Backup Number"
+msgstr "Numer kopii"
+
+msgid ""
+"You can create up to 99 Backup-Sets.\n"
+"Stored in:\n"
+"%s"
+msgstr ""
+"Można utworzyć maksymalnie 99 zestawów kopii zapasowych.\n"
+"Przechowywane w:\n"
+"%s"
+
+msgid "My Backup Description"
+msgstr "Opis kopii"
+
+msgid "You can here assign an individual name."
+msgstr "Tutaj można przypisać indywidualne nazwy."
+
+msgid "My Backup Saved:   %s"
+msgstr "Zapisana kopia:   %s"
+
+msgid "My Last Backup Entry:   %s"
+msgstr "Ostatni opis kopii:   %s"
+
+msgid "My Last Restored Entry:   %s"
+msgstr "Ostatni przywrócony opis:   %s"
+
+msgid ""
+"Can't create Backup-File!\n"
+"( %s )"
+msgstr ""
+"Nie można utworzyć pliku kopii zapasowej!\n"
+"( %s )"
+
+msgid ""
+"No Backup-File found!\n"
+"( %s )"
+msgstr ""
+"Nie odnaleziono pliku kopii zapasowej!\n"
+"( %s )"
+
+msgid "Backup-Set is not complete!"
+msgstr "Kopia zapasowa-nie jest zakończona!"
+
+msgid "complete"
+msgstr "zakończone"
+
+msgid "No Backup-Set found!"
+msgstr "Nie znaleziono kopii zapasowej!"
+
+msgid "Settings successfully restored."
+msgstr "Ustawienia przywrócone pomyślnie"
+
+msgid "Restoring Backup-Set %d ..."
+msgstr "Przywracanie kopii zapasowej %d ..."
+
+msgid "Delete current Backup-Set?"
+msgstr "Usunąć bieżącą kopie zapasową?"
+
+msgid "Overwrite current Backup-Set?"
+msgstr "Zastąpić bieżącą kopie zapasową?"
+
+msgid "Overwrite current Settings?"
+msgstr "Zastąpić bieżące ustawienia?"
+
+msgid "     "
+msgstr "     "
+
+msgid "--- empty ---"
+msgstr "--- puste ---"
+
+msgid "-"
+msgstr "-"
+
+msgid "Color settings"
+msgstr "Ustawienia kolorów"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Defaults"
+msgstr "Domyślne"
+
+msgid "Check ID"
+msgstr "Sprawdź identyfikator"
+
+msgid "Color Examples"
+msgstr "Przykłady kolorów"
+
+msgid "helptext"
+msgstr "Tekst pomocy"
+
+msgid "Text Windowtitle"
+msgstr "Tekst okna"
+
+msgid "Foreground"
+msgstr "Pierwszy plan"
+
+msgid "Transparency"
+msgstr "Przezroczystość"
+
+msgid "Background"
+msgstr "Tło"
+
+msgid "Text in background"
+msgstr "Tekst w tle"
+
+msgid "Menu"
+msgstr ""
+
+msgid "Font color"
+msgstr "Kolor czcionki"
+
+msgid "Font color selected"
+msgstr "Wybrany kolor czcionki"
+
+msgid "Menu Symbol"
+msgstr "Symbol menu"
+
+msgid "Infobar, Moviebar"
+msgstr "Pasek informacyjny/pasek filmowy"
+
+msgid "Progress bar"
+msgstr "Pasek postępu"
+
+msgid "Color 1"
+msgstr "Kolor 1"
+
+msgid "Color 2"
+msgstr "Kolor 2"
+
+msgid "Accent colors"
+msgstr "Akcent kolorów"
+
+msgid "Clock, Weather and Buttons"
+msgstr "Zegar/Pogoda i przyciski"
+
+msgid "Clock in Layer A"
+msgstr "Zegar w warstwie A"
+
+msgid "Clock in Layer B"
+msgstr "Zegar w warstwie B"
+
+msgid "Buttons"
+msgstr "Przyciski"
+
+msgid "Layer A (main layer)"
+msgstr "Warstwa A(główna warstwa)"
+
+msgid "Selection bar"
+msgstr "Pasek wyboru"
+
+msgid "Extended Info colors"
+msgstr "Rozszerzone kolory info."
+
+msgid "Layer B (secondary layer)"
+msgstr "Warstwa B(druga warstwa)"
+
+msgid "Graphical EPG"
+msgstr "Graficzne EPG"
+
+msgid "Event Description"
+msgstr "Opis wydarzenia"
+
+msgid "Event List"
+msgstr "Lista wydarzenia"
+
+msgid "Time Line"
+msgstr "Linia czasu"
+
+msgid "Channelselection"
+msgstr "Wybór kanału"
+
+msgid "Service"
+msgstr "Kanał"
+
+msgid "Font color recording"
+msgstr "Kolor czcionki nagrywania"
+
+msgid "Font color pseudo recording"
+msgstr "Kolor czcionki pseudo nagrywania"
+
+msgid "Font color streaming"
+msgstr "Kolor czcionki strumieniowania"
+
+msgid "Service Description"
+msgstr "Opis kanału"
+
+msgid "EMC Movie List"
+msgstr "EMC lista filmów"
+
+msgid "Watched color"
+msgstr "Kolor oglądanego filmu"
+
+msgid "Finished color"
+msgstr "Kolor zakończonego filmu"
+
+msgid "Recording color"
+msgstr "Kolor nagrywanego filmu"
+
+msgid "Show event colors if entry selected"
+msgstr "Pokazać kolory wydarzenia jeśli jest wybrany opis"
+
+msgid "Skin Design"
+msgstr "Projekt skóry"
+
+msgid "Border lines"
+msgstr "Linie graniczne"
+
+msgid "Screens"
+msgstr "Zrzut ekranu"
+
+msgid "Top"
+msgstr "Najlepsze"
+
+msgid "Bottom"
+msgstr "W dół"
+
+msgid "Left"
+msgstr "W lewo"
+
+msgid "Right"
+msgstr "W prawo"
+
+msgid "Additional Layer"
+msgstr "Dodatkowe warstwy"
+
+msgid "Skin Design Examples"
+msgstr "Przykładowe projektowanie skóry"
+
+msgid "Show upper left Corner Layer"
+msgstr "Pokazać górny lewy róg warstwy"
+
+msgid "width"
+msgstr "szerokość"
+
+msgid "height"
+msgstr "wysokość"
+
+msgid "pos z"
+msgstr "pozycja z"
+
+msgid "Show lower left Corner Layer"
+msgstr "Pokazać dolną warstwe lewego rogu"
+
+msgid "Show upper right Corner Layer"
+msgstr "Pokazać górną warstwę prawego rogu"
+
+msgid "Show lower right Corner Layer"
+msgstr "Pokazać dolną warstwe prawego rogu"
+
+msgid "Show optional horizontal Layer"
+msgstr "Pokazać opcjonalne poziomy warstwy"
+
+msgid "pos x"
+msgstr "pozycja x"
+
+msgid "pos y"
+msgstr "pozycja y"
+
+msgid "Show optional vertical Layer"
+msgstr "Pokazać opcjonalne pionowe warstwy"
+
+msgid "Information"
+msgstr "Informacje"
+
+msgid "Font settings"
+msgstr "Ustawienia czcionki"
+
+msgid "Font Examples"
+msgstr "Przykłady czcionki"
+
+msgid "in Image included Fonts"
+msgstr "Obraz zawiera czcionki"
+
+msgid "LCD"
+msgstr "Wyświetlacz LCD"
+
+msgid "Font type"
+msgstr "Typ czcionki"
+
+msgid "Font scale [%]"
+msgstr "Skala czcionki [%]"
+
+msgid "Replacement"
+msgstr "Zastąpienie"
+
+msgid "Console"
+msgstr "Konsola"
+
+msgid "Fixed"
+msgstr "Stałe"
+
+msgid "Color"
+msgstr "Kolor"
+
+msgid "in Skin included Fonts"
+msgstr "Czcionki zawarte w skórze"
+
+msgid "Regular"
+msgstr "Regularne"
+
+msgid "RegularLight"
+msgstr "Regularne światło"
+
+msgid "SetrixHD"
+msgstr ""
+
+msgid "Meteo"
+msgstr "Pogoda"
+
+msgid "Individual Settings (only for some individual skinned screens)"
+msgstr "Indywidualne ustawienia(tylko dla niektórych skórek)"
+
+msgid "Generally"
+msgstr "Ogólne"
+
+msgid "Screen title text"
+msgstr "Tekst tytułu na ekranie"
+
+msgid "Button text"
+msgstr "Tekst przycisku"
+
+msgid "Clock text"
+msgstr "Tekst zegara"
+
+msgid "Large text"
+msgstr "Tekst duży"
+
+msgid "Small text"
+msgstr "Tekst mały"
+
+msgid "Menu entry text"
+msgstr "Tekst wprowadzonego menu"
+
+msgid "Screens, Plugins"
+msgstr "Zrzut ekranu,wtyczki"
+
+msgid "Label text"
+msgstr "Tekst etykiety"
+
+msgid "Output text"
+msgstr "Tekst wyjściowy"
+
+msgid "Description text"
+msgstr "Tekst opisu"
+
+msgid "EPG, Channellist, Movielist"
+msgstr "EPG,lista kanałów,lista filmów"
+
+msgid "Event name text"
+msgstr "Tekst nazwy wydarzenia"
+
+msgid "Other text"
+msgstr "Tekst inny"
+
+msgid "Error creating Preset! One or more Fonts are not available!"
+msgstr "Błąd podczas tworzenia!Jedna lub więcej czcionek są nie dostępne!"
+
+msgid "MyMetrixLite"
+msgstr "Mój lekki Metrix"
+
+msgid "Apply changes"
+msgstr "Zatwierdź zmiany"
+
+msgid "Weather settings"
+msgstr "Ustawienia pogody"
+
+msgid "Other settings"
+msgstr "Ustawienia inne"
+
+msgid "You have the'HbbTV Plugin' installed.\n"
+msgstr "Masz zainstalowaną wtyczkę HbbTV\n"
+
+msgid ""
+"\n"
+"Maybe is a compatibility issue with full-hd resolution.\n"
+"Attention: The osd-error occurs first after gui or system restart!\n"
+"\n"
+"Do you want really change from HD to FHD - skin?"
+msgstr ""
+"\n"
+"Być może jest to kwestia kompatybilności z rozdzielczością Full-HD.\n"
+"Uwaga:Błąd OSD-występuje pierwszy po restarcie systemu GUI!\n"
+"\n"
+"Czy chcesz naprawdę zmienić skórę z HD do FHD ?"
+
+msgid "Your full-hd settings are inconsistent. Please check this."
+msgstr "Ustawienia rozdzielczości full-hd są niezgodne.Proszę to sprawdzić."
+
+msgid "Do you really want to reboot now?"
+msgstr "Czy na pewno chcesz uruchomić ponownie teraz?"
+
+msgid "Restart GUI"
+msgstr "Restart GUI"
+
+msgid "MyMetrixLite apply Changes"
+msgstr "Mój lekki Metrix zatwierdź zmiany"
+
+msgid "<!-- original file -->"
+msgstr "<!-- Oryginalny plik -->"
+
+msgid "<!-- !!!copied and changed file!!! -->"
+msgstr "<!-- !!!kopiowanie i zmiana pliku!!! -->"
+
+msgid "recovery"
+msgstr "poprawa"
+
+msgid "backup"
+msgstr "kopia"
+
+msgid "--------   optionFHD   --------"
+msgstr "--------   Opcja FHD   --------"
+
+msgid "no backup exist and no changed xml file"
+msgstr "kopia zapasowa nie istnieje i nie ma zmiany pliku xml"
+
+msgid "Error: find emc config - it's not installed ?"
+msgstr "Błąd:Nie można znaleść config.emc-to nie jest zainstalowane?"
+
+msgid ""
+"Your flash space is to small.\n"
+"%d kb is not enough for creating new skin files. ( %d kb is required )"
+msgstr ""
+"Twoja przestrzeń w fleshu jest zbyt mała.\n"
+"%d kb nie jest wystarczająca do tworzenia nowych plików skóry.(jest wymagane %d kb)"
+
+msgid ""
+"The installed 'HbbTV Plugin' is not compatible with the FHD-Skin.\n"
+"\n"
+msgstr ""
+"Zainstalowana wtyczka \"HbbTV\" nie jest kompatybilna ze skórą FHD.\n"
+"\n"
+
+msgid "--- additional files start ---\n"
+msgstr "--- dodatkowe pliki przy starcie ---\n"
+
+msgid "Backup "
+msgstr "Kopia zapasowa "
+
+msgid ""
+"\n"
+"New calculated file is "
+msgstr ""
+"\n"
+"Jest nowy plik obliczeniowy "
+
+msgid "No files found or files already exist."
+msgstr "Nie znaleziono plików lub pliki już istnieją."
+
+msgid ""
+"\n"
+"--- additional files end ---\n"
+"\n"
+msgstr ""
+"\n"
+"--- dodatkowe pliki końcowe ---\n"
+"\n"
+
+msgid ""
+"Error creating FHD-Skin. HD-Skin is used!\n"
+"\n"
+msgstr ""
+"Błąd podczas tworzenia skóry FHD.Skóra HD jest używana!\n"
+"\n"
+
+msgid ""
+"One or more FHD-Pixmaps are missing. Using HD-Pixmaps for this.\n"
+"\n"
+msgstr ""
+"Brakuje jednego lub więcej obrazków FHD.Dla tego użyj skóry HD\n"
+"\n"
+
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
+"Odbiornik musi zostać zrestartowany,aby zastosować nowe ustawienia\n"
+"Czy chcesz wykonać restart GUI?"
+
+msgid "Error creating Skin!"
+msgstr "Błąd podczas tworzenia skóry!"
+
+msgid "error in line: "
+msgstr "Błąd w linii: "
+
+msgid ""
+"If you chose 'yes', then starts the resolution test.\n"
+"\n"
+"Can't you see the next message,\n"
+"the old resolution will automatically after 10 seconds restored."
+msgstr ""
+"Jeśli wybierzesz \"tak\",to rozpoczynie się test rozdzielczości.\n"
+"\n"
+"Jeżeli nie widzisz następnej wiadomości\n"
+"stara rozdzielczość będzie przywrócona automatycznie po 10 sekundach."
+
+msgid ""
+"Can you see this, then is the receiver ready for FHD - skin.\n"
+"\n"
+"Do you want to change from HD to FHD - skin?"
+msgstr ""
+"Jeżeli widzisz to,odbiornik jest gotowy do skóry FHD.\n"
+"\n"
+"Czy chcesz zmienić skórę z HD do FHD ?"
+
+msgid ""
+"Your free flash space is to small.\n"
+"%d MB is not enough to install the full-hd icons. ( %d MB is required )"
+msgstr ""
+"Twoja wolna przestrzeń flesha jest zbyt mała.\n"
+"%d MB nie wystarczy aby zainstalować ikony Full-HD.(jest wymagane %d MB)"
+
+msgid "A background update check is in progress, please wait a few minutes and try again."
+msgstr "Sprawdzenie aktualizacja jest w toku,proszę czekać kilka minut i spróbować jeszcze raz."
+
+msgid "Please wait whilst feeds state is checked."
+msgstr "Czekaj,podczas gdy jest sprawdzany stan źródła."
+
+msgid "Checking Feeds"
+msgstr "Sprawdzanie źródła"
+
+msgid "bad address"
+msgstr "zły adres"
+
+msgid "Your %s %s is not connected to the internet, please check your network settings and try again."
+msgstr "%s %s nie jest podłączony do internetu,proszę sprawdzić ustawienia sieci i spróbować ponownie."
+
+msgid "Sorry feeds are down for maintenance, please try again later."
+msgstr "Niestety źródła są w trakcie prac konserwacyjnych,prosimy spróbować ponownie później."
+
+msgid "Ready to install %s ?"
+msgstr "Gotowy do instalacji %s ?"
+
+msgid "please wait..."
+msgstr "proszę czekać..."
+
+msgid "Installing ..."
+msgstr "Instalacja..."
+
+msgid "Install Package not found!"
+msgstr "Zainstalowany pakiet nie został znaleziony!"
+
+msgid "Unknown package"
+msgstr "Nieznany pakiet"
+
+msgid "Collected errors"
+msgstr "Zebrane błędy"
+
+msgid ""
+"Installation error!\n"
+"\n"
+"%s"
+msgstr ""
+"Błąd instalacji!\n"
+"\n"
+"%s"
+
+msgid "Ready to remove %s ?"
+msgstr "Gotowy do usunięcia %s ?"
+
+msgid "Removing ..."
+msgstr "Usuwanie..."
+
+msgid "FHD-Option"
+msgstr "Opcja FHD"
+
+msgid "Enable FHD"
+msgstr "Włączyć FHD"
+
+msgid "All calculated values round down"
+msgstr "Wszystkie wartości obliczeniowe zaokrąglić w dół"
+
+msgid "Additional offset for font scaling"
+msgstr "Dodatkowe przesunięcie do skalowania czcionki"
+
+msgid "Calculating additional files"
+msgstr "Obliczanie dodatkowych plików"
+
+msgid ""
+"File list:\n"
+"\n"
+"%s"
+msgstr ""
+"Lista plików:\n"
+"\n"
+"%s"
+
+msgid "STB-Info"
+msgstr "Info.o odbiorniku"
+
+msgid "Distance between the STB-Infos"
+msgstr "Odległość między info."
+
+msgid "Show CPU-Load"
+msgstr "Pokazać cpu"
+
+msgid "Show free RAM"
+msgstr "Pokazać ram"
+
+msgid "Show PROV"
+msgstr "Pokazać dostawce"
+
+msgid ""
+"Show only if available.\n"
+"\n"
+"Positions:\n"
+msgstr ""
+"Pokaż tylko wtedy,gdy dostępne.\n"
+"\n"
+"Pozycje:\n"
+
+msgid "After enabling, 'Apply changes' and restart needs never press 'Apply changes' (and restart) when you change subordinate options."
+msgstr "Po włączeniu \"Zastosuj zmiany\" wymagane ponowne uruchomienie,naciśnij 'Zatwierdź zmiany' po zmianie opcji podrzędnych."
+
+msgid "Show CPU-Temp"
+msgstr "Pokazać temp.cpu"
+
+msgid "Show SYS-Temp"
+msgstr "Pokazać temp.odb."
+
+msgid "Show CAID"
+msgstr "Pokazać caid"
+
+msgid "Show PID"
+msgstr "Pokazać pid"
+
+msgid "Show SOURCE"
+msgstr "Pokazać źródło"
+
+msgid "Show READER"
+msgstr "Pokazać czytnik"
+
+msgid "Show PROTOCOL"
+msgstr "Pokazać protokół"
+
+msgid "Show HOPS"
+msgstr "Pokazać hops"
+
+msgid "Show ECM TIME"
+msgstr "Pokazać czasy ecm"
+
+msgid "InfoBar"
+msgstr "Pasek info."
+
+msgid "Show Extended-Info"
+msgstr "Pokazać rozszerzone info."
+
+msgid "Enable Color Gradient"
+msgstr "Włączyć kolor gradientu"
+
+msgid "Choose Picon Type"
+msgstr "Wybierz typ loga kanału"
+
+msgid "Show picons zoomed ?"
+msgstr "Pokazać powiększone loga kanału?"
+
+msgid "Offset picon position x"
+msgstr "Przesunięcie loga kanału pozycja X"
+
+msgid "Offset picon position y"
+msgstr "Przesunięcie loga kanału pozycja Y"
+
+msgid "Offset picon size"
+msgstr "Rozmiar przesunięcia loga kanału"
+
+msgid "InfoBar/SecondInfobar"
+msgstr "Pasek info./drugi pasek info."
+
+msgid "Show Clock"
+msgstr "Pokazać zegar"
+
+msgid "Show ChannelName"
+msgstr "Pokazać nazwę kanału"
+
+msgid "Show ChannelNumber"
+msgstr "Pokazać numer kanału"
+
+msgid "Show ServiceIcons"
+msgstr "Pokazać ikony serwisów"
+
+msgid "Show Record-State"
+msgstr "Pokazać stan nagrywania"
+
+msgid "Show Screen-Resolution"
+msgstr "Pokazać rozdzielczość ekranu"
+
+msgid "Show extended Screen-Resolution"
+msgstr "Pokazać rozszerzoną rozdzielczość ekranu"
+
+msgid "Show Orbital-Position"
+msgstr "Pokazać pozycję orbitalną"
+
+msgid "Show SNR-Info"
+msgstr "Pokazać info.snr"
+
+msgid "Show Tuner-Info"
+msgstr "Pokazać info.głowicy"
+
+msgid "Set number of tuner automatically"
+msgstr "Ustawić liczbę głowic automatycznie"
+
+msgid "After enabling, 'Apply changes' and restart needs never press 'Apply changes' (and restart) when you change subordinate entrys in 'STB-Info'."
+msgstr "Po włączeniu \"Zastosuj zmiany\" i ponownym uruchomieniu naciśnij \"Zastosuj zmiany\" po zmianie podległych wpisów w \"info.o odbiorniku\"."
+
+msgid "Set number of tuner manually"
+msgstr "Ustawić liczbę głowic ręcznie"
+
+msgid "Show STB-Info"
+msgstr "Pokazać info.o odbiorniku"
+
+msgid "InfoBar/SecondInfobar/Moviebar"
+msgstr "Pasek info./drugi pasek info./pasek filmów"
+
+msgid "ChannelName/Number FontSize"
+msgstr "Nazwa kanału/numer rozmiaru czcionki"
+
+msgid "EMC"
+msgstr ""
+
+msgid "Show Cover in Media Center"
+msgstr "Pokazać okładkę w programie Media Center"
+
+msgid "Show Cover in Infobar"
+msgstr "Pokazać okładkę w pasku info."
+
+msgid "Show Cover in Movie Selection"
+msgstr "Pokazać okładkę w wyborze filmów"
+
+msgid "Show Movie Description"
+msgstr "Pokazać opis filmu"
+
+msgid "Change Number of Lines in Movie Selection"
+msgstr "Zmienić liczbę linii w wyborze filmu"
+
+msgid "graphical EPG"
+msgstr "graficzne EPG"
+
+msgid "EMC/MoviePlayer"
+msgstr "EMC/Odtwarzacz filmów"
+
+msgid "Style"
+msgstr "Styl"
+
+msgid "Show MovieName"
+msgstr "Pokazać nazwę filmu"
+
+msgid "Show Movie Playback Time"
+msgstr "Pokazać czas odtwarzania filmu"
+
+msgid "Show PVR State"
+msgstr "Pokazać stan pvr"
+
+msgid "ChannelSelection"
+msgstr "Wybór kanału"
+
+msgid "Channel selection style"
+msgstr "Styl wyboru kanału"
+
+msgid "Show Primetime Event"
+msgstr "Pokazać wydarzenie timera"
+
+msgid "Chose Skin Design"
+msgstr "Wybierz projekt skóry"
+
+msgid "Graphical EPG style"
+msgstr "Graficzny styl epg"
+
+msgid "Show Space between Layer A and B"
+msgstr "Pokazać przestrzeń między warstwą A/B"
+
+msgid "Show large Text on bottom of the screen"
+msgstr "Pokazać duży tekst na dole ekranu"
+
+msgid "Chose Extended-Info Style"
+msgstr "Wybierz styl rozszerzonego info."
+
+msgid "Use part"
+msgstr "Użyć części"
+
+msgid ""
+"\n"
+"\n"
+"File will used to create the full-hd-skin\n"
+"(use unchanged 'skin_10_user.xml' as template)"
+msgstr ""
+"\n"
+"\n"
+"Plik będzie używany do tworzenia skóry Full-HD\n"
+"(użyć bez zmian 'skin_10_user.xml' jako matrycy)"
+
+msgid "Skinparts"
+msgstr "Części skóry"
+
+msgid "openATV configuration tool for MetrixHD"
+msgstr "OpenATV konfiguracja dla MetrixHD"
+
+msgid "Enabled"
+msgstr "Włączyć"
+
+msgid "Check is Weather date local date"
+msgstr "Sprawdzić pogodę dla lokalnych danych"
+
+msgid ""
+"Get weather data failure:\n"
+"%s"
+msgstr ""
+"Pobrać awaryjne dane pogodowe:\n"
+"%s"
+
+msgid "Current weather data:   %s\n"
+msgstr "Aktualne dane pogodowe:   %s\n"
+
+msgid "City:   %s,   "
+msgstr "Miasto:   %s,   "
+
+msgid "Temperature:   %s"
+msgstr "Temperatura:   %s"
+
+msgid ",   Date is valid:   %s"
+msgstr ",   Obowiązuje data:   %s"
+
+msgid ""
+"Cant get weather data:\n"
+"%s"
+msgstr ""
+"Nie można pobrać pogodowych danych:\n"
+"%s"
+
+msgid "Please wait, get weather data ..."
+msgstr "Proszę czekać,otrzymywanie danych o pogodzie..."
+
+msgid "Show in MoviePlayer"
+msgstr "Pokazać w odtwarzacz filmów"
+
+msgid "MetrixWeather ID"
+msgstr "Id pogody dla Metrixa"
+
+msgid "Get your local MetrixWeather ID from www.mymetrix.de"
+msgstr "Tutaj znajdziesz identyfikator pogody dla Twojej lokalizacji: www.mymetrix.de"
+
+msgid "Unit"
+msgstr "Jednostka"
+
+msgid "Refresh Interval (min)"
+msgstr "Interwał odświeżania(min.)"
+
+msgid "Amber"
+msgstr "Żółtopomarańczowy "
+
+msgid "Brown"
+msgstr "Brązowy"
+
+msgid "Cobalt"
+msgstr "Kobalt"
+
+msgid "Crimson"
+msgstr "Szkarłatny"
+
+msgid "Cyan"
+msgstr "Szarobłękitny"
+
+msgid "Darkblue"
+msgstr "Ciemnoniebieski"
+
+msgid "Darkgrey"
+msgstr "Ciemnoszary"
+
+msgid "Magenta"
+msgstr "Czerwononiebieski"
+
+msgid "Lime"
+msgstr "Jasnozielono żółty  "
+
+msgid "Indigo"
+msgstr "Niebieskofioletowy"
+
+msgid "Brightgreen"
+msgstr "Jasna zieleń"
+
+msgid "Green"
+msgstr "Zielony"
+
+msgid "Emerald"
+msgstr "Szmaragd"
+
+msgid "Mauve"
+msgstr "Fiołkoworóżowy"
+
+msgid "Mediumblue"
+msgstr "Średnio niebieski"
+
+msgid "Navy"
+msgstr "Granatowy"
+
+msgid "Olive"
+msgstr "Oliwkowy"
+
+msgid "Orange"
+msgstr "Pomarańczowy"
+
+msgid "Pink"
+msgstr "Różowy"
+
+msgid "Red"
+msgstr "Czerwony"
+
+msgid "Royal Blue"
+msgstr "Królewski niebieski"
+
+msgid "Sienna"
+msgstr "Ciepły brąz"
+
+msgid "Steel"
+msgstr "Stalowy"
+
+msgid "Teal"
+msgstr "Niebieskozielony"
+
+msgid "Violet"
+msgstr "Fioletowy"
+
+msgid "Brightyellow"
+msgstr "Jasno żółty"
+
+msgid "Yellow"
+msgstr "Żółty"
+
+msgid "Black"
+msgstr "Czarny"
+
+msgid "Greyscale 1"
+msgstr "Skala szarości 1"
+
+msgid "Greyscale 2"
+msgstr "Skala szarości 2"
+
+msgid "Greyscale 3"
+msgstr "Skala szarości 3"
+
+msgid "Greyscale 4"
+msgstr "Skala szarości 4"
+
+msgid "Greyscale 5"
+msgstr "Skala szarości 5"
+
+msgid "Greyscale 6"
+msgstr "Skala szarości 6"
+
+msgid "Greyscale 7"
+msgstr "Skala szarości 7"
+
+msgid "Greyscale 8"
+msgstr "Skala szarości 8"
+
+msgid "Greyscale 9"
+msgstr "Skala szarości 9"
+
+msgid "Greyscale 10"
+msgstr "Skala szarości 10"
+
+msgid "Greyscale 11"
+msgstr "Skala szarości 11"
+
+msgid "Greyscale 12"
+msgstr "Skala szarości 12"
+
+msgid "Greyscale 13"
+msgstr "Skala szarości 13"
+
+msgid "White"
+msgstr "Biały"
+
+msgid "Transparent"
+msgstr "Przezroczysty"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "Standard Colors"
+msgstr "Standardowy kolor"
+
+msgid "Bright Colors"
+msgstr "Żywy kolor"
+
+msgid "Dark Colors"
+msgstr "Ciemny kolor"
+
+msgid "Red Colors"
+msgstr "Czerwony kolor"
+
+msgid "Yellow Colors"
+msgstr "Żółty kolor"
+
+msgid "Green Colors"
+msgstr "Zielony kolor"
+
+msgid "Standard Fonts"
+msgstr "Standardowe czcionki"
+
+msgid "Standard Fonts greater"
+msgstr "Standardowe większe czcionki"
+
+msgid "Bold and greater Fonts"
+msgstr "Pogrubione i większe czcionki"
+
+msgid "Raleway Fonts"
+msgstr "Ruchoma czcionka"
+
+msgid "Digital Fonts"
+msgstr "Cyfrowa czcionka"
+
+msgid "Analog Fonts"
+msgstr "Analogowa czcionka"
+
+msgid "Celsius"
+msgstr "Celsjusz"
+
+msgid "Fahrenheit"
+msgstr ""
+
+msgid "Focus left, no picon, 5 next Events"
+msgstr "Przesuń w lewo,bez loga kanału,5 następnych wydarzeń"
+
+msgid "Focus left, big picon, 1 next Events"
+msgstr "Przesuń w lewo,duże loga kanału,1 następne wydarzenie"
+
+msgid "Focus right, big picon, 1 next Events"
+msgstr "Przesuń w prawo,duże loga kanału,1 następne wydarzenie"
+
+msgid "Focus right, no picon, 5 next Events"
+msgstr "Przesuń w prawo,bez loga kanału,5 następnych wydarzeń"
+
+msgid "in Screens"
+msgstr "w ekranach"
+
+msgid "in Menus"
+msgstr "w menu"
+
+msgid "in Menus and Screens"
+msgstr "w menu i ekranach"
+
+msgid "No Design"
+msgstr "Bez projektu"
+
+msgid "One Layer Design"
+msgstr "Jedna projektowana warstwa"
+
+msgid "Contrast Layer Design"
+msgstr "Kontrast projektowanej warstwy"
+
+msgid "Stripe Layer Design"
+msgstr "Ujednoznacznienie projektowanej warstwy"
+
+msgid "Blocks Layer Design"
+msgstr "Bloki projektowania warstwy"
+
+msgid "Frame Layer Design"
+msgstr "Projekt warstwy ramy"
+
+msgid "scale"
+msgstr "skala"
+
+msgid "size"
+msgstr "rozmiar"
+
+msgid "Top of the screen"
+msgstr "W górnej części ekranu"
+
+msgid "Between Clock and Weather enclosed"
+msgstr "Zamknięty między zegarem a pogodą"
+
+msgid "more Events or 'mini TV' greater"
+msgstr "więcej wydarzeń lub większy \"mini TV\""
+
+msgid "Between Clock and Weather centered"
+msgstr "Centralnie między zegarem a pogodą"
+
+msgid "Bottom of the screen"
+msgstr "Na dole ekranu"
+
+msgid "Standard"
+msgstr "Standardowo"
+
+msgid "Infobar"
+msgstr "pasek informacyjny"
+
+msgid "Small"
+msgstr "Małe"
+
+msgid "In Moviebar"
+msgstr "W pasku filmów"
+
+msgid "Side by PVR-Symbol"
+msgstr "Symbol obok PVR"
+
+msgid "Top of the screen with current time"
+msgstr "Górna część ekranu z aktualnym czasem"
+
+msgid "Large"
+msgstr "Duże"
+
+msgid "Layer A and B same height, Clock in Layer A"
+msgstr "Warstwy A/B w tej samej wysokości/Zegar w warstwie A"
+
+msgid "Layer A and B same height, Clock in Layer B"
+msgstr "Warstwy A/B w tej samej wysokości/Zegar w warstwie B"
