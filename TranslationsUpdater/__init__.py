@@ -1,5 +1,5 @@
-#@j00zek 06-01-2016
-wersja=7
+#@j00zek 12-01-2016
+wersja=8
 
 PluginName = 'TranslationsUpdater'
 PluginGroup = 'Extensions'
