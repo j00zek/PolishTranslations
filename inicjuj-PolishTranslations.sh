@@ -38,7 +38,7 @@ else
 fi
 echo "$installingPackages"
 
-curl --help 1>/dev/null 2>%1
+curl --help 1>/dev/null 2>&1
 if [ $? -gt 0 ]; then
   echo
   echo "$curlError"
@@ -46,7 +46,7 @@ if [ $? -gt 0 ]; then
 fi
 
 echo "$inetCheck"
-ping -c 1 github.com 1>/dev/null 2>%1
+ping -c 1 github.com 1>/dev/null 2>&1
 if [ $? -gt 0 ]; then
   echo "$githubError"
   exit 0

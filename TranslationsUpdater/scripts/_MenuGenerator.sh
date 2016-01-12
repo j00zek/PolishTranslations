@@ -20,7 +20,7 @@
 #YESNO pyta sie czy uruchomic skrypt
 #
 ###########################################################################################################
-#curl -s --ftp-pasv $addons 1>/dev/null 2>%1
+#curl -s --ftp-pasv $addons 1>/dev/null 2>&1
 #[ $? -gt 0 ] && addons="$addons/"
 myPath=$1
 
