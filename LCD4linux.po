@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV - LCD4linux\n"
 "POT-Creation-Date: 2014-07-12 12:03+zteleuropÃ¤ische Sommerzeit\n"
-"PO-Revision-Date: 2015-11-25 18:18+0100\n"
+"PO-Revision-Date: 2016-01-28 22:00+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: openATV <Mariusz1970@onet.eu>\n"
 "Language: pl\n"
@@ -55,10 +55,10 @@ msgid "- Backlight Weekend On"
 msgstr "Podświetlenie w soboty/niedziele włączone"
 
 msgid "- Bar Range Max"
-msgstr "Maksymalny zakres paska"
+msgstr "Maksymalny zakres belki"
 
 msgid "- Bar Range Min"
-msgstr "Minimalny zakres paska"
+msgstr "Minimalny zakres belki"
 
 msgid "- Base"
 msgstr "Podstawa/baza"
@@ -67,7 +67,7 @@ msgid "- CPU"
 msgstr "Procesor"
 
 msgid "- Caption Color"
-msgstr "Kolor podpisu"
+msgstr "Kolor nagłówka"
 
 msgid "- Color"
 msgstr "Kolor"
@@ -88,10 +88,10 @@ msgid "- Cut from Y"
 msgstr "Wycięte z Y"
 
 msgid "- Default Cover [ok]>"
-msgstr "Domyślna okładka [ok]>"
+msgstr "Domyślna okładka[ok]>"
 
 msgid "- Device Name"
-msgstr "Nazwa Urządzenia"
+msgstr "Nazwa urządzenia"
 
 msgid "- Download Cover from Google"
 msgstr "Pobierz okładkę z google"
@@ -100,7 +100,7 @@ msgid "- Extra Color Chill"
 msgstr "Dodatkowy kolor odczuwalnej temperatury"
 
 msgid "- Extra Color City"
-msgstr "Dodatkowe kolor miasta"
+msgstr "Dodatkowy kolor miasta"
 
 msgid "- Extra Zoom"
 msgstr "Dodatkowe powiększenie"
@@ -109,10 +109,10 @@ msgid "- Fast Grab lower quality"
 msgstr "Szybkie uchwycenie niskiej jakość"
 
 msgid "- File [ok]>"
-msgstr "Plik [ok]>"
+msgstr "Plik[ok]>"
 
 msgid "- File or Path [ok]>"
-msgstr "Plik lub ścieżka [ok]>"
+msgstr "Plik lub ścieżka[ok]>"
 
 msgid "- Font"
 msgstr "Czcionka"
@@ -193,7 +193,7 @@ msgid "- Length"
 msgstr "Długość"
 
 msgid "- Length [Bar]"
-msgstr "Długość[paska]"
+msgstr "Długość[belka]"
 
 msgid "- Lines"
 msgstr "Linie"
@@ -214,19 +214,19 @@ msgid "- Online Name:Address"
 msgstr "Nazwa online:Adres"
 
 msgid "- Picon Cache Path [ok]>"
-msgstr "Ścieżka pikon do katalogu pamięci podręcznej [ok]>"
+msgstr "Ścieżka loga kanału do katalogu pamięci podręcznej[ok]>"
 
 msgid "- Picon First"
-msgstr "Pierwsza pikona"
+msgstr "Pierwsze logo kanału"
 
 msgid "- Picon Path 2 [ok]>"
-msgstr "Ścieżka pikon2[ok]>"
+msgstr "Ścieżka loga kanału2[ok]>"
 
 msgid "- Picon Path [ok]>"
-msgstr "Ścieżka pikon[ok]>"
+msgstr "Ścieżka loga kanału[ok]>"
 
 msgid "- Picon Size"
-msgstr "Rozmiar pikon"
+msgstr "Rozmiar loga kanału"
 
 msgid "- Picture Alignment"
 msgstr "Wyrównanie zdjęcia"
@@ -379,13 +379,13 @@ msgid "- which LCD"
 msgstr "Który LCD"
 
 msgid "1 - normal"
-msgstr "1-normalny"
+msgstr "1 normalny"
 
 msgid "1 / min"
 msgstr "1/min."
 
 msgid "2 - side by side"
-msgstr "2-obok siebie"
+msgstr "2 obok siebie"
 
 msgid "2 Days 1 Line"
 msgstr "2 Dni w 1 lini"
@@ -442,10 +442,10 @@ msgid "All"
 msgstr "Wszystkie"
 
 msgid "Always All"
-msgstr "Zawsze wszystkie"
+msgstr "Zawsze/wszystkie"
 
 msgid "Always New"
-msgstr "Zawsze nowe"
+msgstr "Zawsze/nowe"
 
 msgid "Analog"
 msgstr "Analogowy"
@@ -582,7 +582,13 @@ msgstr "Aktualna temperatura"
 msgid "Current Temperature (+C)"
 msgstr "Aktualna temperatura(+C)"
 
-msgid "Current temperature(-C)"
+msgid "Current Temperature (-C)"
+msgstr "Aktualna temperatura(-C)"
+
+msgid "Current temperature (+C)"
+msgstr "Aktualna temperatura(+C)"
+
+msgid "Current temperature (-C)"
 msgstr "Aktualna temperatura(-C)"
 
 msgid "DVB-T Signal-Quality Correction"
@@ -727,7 +733,7 @@ msgid "FritzCall Picture Orientation"
 msgstr "Orientacja zdjęcia w FritzCall"
 
 msgid "FritzCall Picture Path [ok]>"
-msgstr "Ścieżka zdjęcia w FritzCall [ok]>"
+msgstr "Ścieżka zdjęcia w FritzCall[ok]>"
 
 msgid "FritzCall Picture Transparency"
 msgstr "Przezroczystość zdjęcia w FritzCall"
@@ -751,13 +757,13 @@ msgid "Full Moon"
 msgstr "Pełnia"
 
 msgid "GUI Restart is required"
-msgstr "Jest wymagany Restart GUI"
+msgstr "Wymagane jest ponowne uruchomienie GUI"
 
 msgid ""
 "GUI needs a restart to apply the changes.\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
-"Tuner wymaga ponownego uruchomienia aby zastosować zmiany.\n"
+"Odbiornik wymaga ponownego uruchomienia aby zastosować zmiany.\n"
 "Czy chcesz ponownie uruchomić GUI teraz?"
 
 msgid "Global"
@@ -767,13 +773,13 @@ msgid "LCD4linux Display-Mode On"
 msgstr "Wyświetlacz-Tryb Wł."
 
 msgid "Set Media >>"
-msgstr "Ust.Media>>"
+msgstr "Media>>"
 
 msgid "LCD4linux Display-Mode MediaPlayer"
 msgstr "Wyświetlacz-Tryb Odtwarzacza"
 
 msgid "Set Idle >>"
-msgstr "Ust.Bezczynności>>"
+msgstr "Bezczynność>>"
 
 msgid "Idle"
 msgstr "Bezczynność"
@@ -782,13 +788,13 @@ msgid "LCD4linux Display-Mode Idle"
 msgstr "Wyświetlacz-Tryb Bezczynności"
 
 msgid "Set Global >>"
-msgstr "Ust.Ogólne>>"
+msgstr "Ogólne>>"
 
 msgid "LCD4linux Settings"
 msgstr "Ustawienia LCD4linux"
 
 msgid "Set On >>"
-msgstr "Ust.Wł.>>"
+msgstr "Włączone>>"
 
 msgid "Gradient"
 msgstr "Nachylenie"
@@ -830,7 +836,7 @@ msgid "Key for Screen Change"
 msgstr "Przycisk do zmiany ekranu"
 
 msgid "Key for Screen On/Off"
-msgstr "Przycisk do Wł./Wył. ekranu"
+msgstr "Przycisk do Wł./Wył.ekranu"
 
 msgid "Knob"
 msgstr "Przycisk"
@@ -872,7 +878,7 @@ msgid "Load Defaults"
 msgstr "Wczytaj domyślny"
 
 msgid "Load File : %s"
-msgstr "Załaduj plik : %s"
+msgstr "Załaduj plik: %s"
 
 msgid "Load@1min"
 msgstr "Wczytaj co 1min."
@@ -1175,25 +1181,25 @@ msgid "Pearl (or compatible LCD) 320x240"
 msgstr "Pearl(lub kompatybilny LCD)320x240"
 
 msgid "Picon"
-msgstr "Pikona"
+msgstr "Logo kanału"
 
 msgid "Picon 2"
-msgstr "Pikona2"
+msgstr "Nazwa kanału"
 
 msgid "Picon+Channel"
-msgstr "Pikona/kanał"
+msgstr "Logo kanału/kanał"
 
 msgid "Picon+Channel+Title"
-msgstr "Pikona/kanał/tytuł"
+msgstr "Logo kanału/kanał/tytuł"
 
 msgid "Picon+Position below"
-msgstr "Pikona/pozycja dolna"
+msgstr "Logo kanału/pozycja dolna"
 
 msgid "Picon+Position left"
-msgstr "Pikona/pozycja po lewej"
+msgstr "Logo kanału/pozycja po lewej"
 
 msgid "Picon+Position right"
-msgstr "Pikona/pozycja po prawej"
+msgstr "Logo kanału/pozycja po prawej"
 
 msgid "Picture"
 msgstr "Zdjęcie"
@@ -1247,7 +1253,7 @@ msgid "Recording"
 msgstr "Nagrywanie"
 
 msgid "Recording Picture [ok]>"
-msgstr "Nagrywanie zdjęć[ok]>"
+msgstr "Nagrywanie obrazu[ok]>"
 
 msgid "Rectangle 1"
 msgstr "Prostokąt1"
@@ -1445,7 +1451,7 @@ msgid "Show Cover"
 msgstr "Pokazać okładkę"
 
 msgid "Show Crash Corner"
-msgstr "Pokazać crasha w rogu ?"
+msgstr "Pokazać crasha w rogu?"
 
 msgid "Show Externals"
 msgstr "Pokazać zewnętrzny"
@@ -1487,13 +1493,13 @@ msgid "Standby"
 msgstr "Gotowość"
 
 msgid "Storage-Devices"
-msgstr "Urządzeń pamięci masowej"
+msgstr "Urządzenia pamięci masowej"
 
 msgid "Storage-Devices: Force Read"
 msgstr "Urządzenia magazynujące:odczyt działania"
 
 msgid "Stutter TV"
-msgstr "TV Na żywo"
+msgstr "Obraz TV na wyświetlaczu"
 
 msgid "Sun"
 msgstr "Nie."
@@ -1502,7 +1508,7 @@ msgid "Sunday"
 msgstr "NIEDZIELA"
 
 msgid "Sunrise"
-msgstr "Wschód słońca"
+msgstr "Wschód/zachód słońca"
 
 msgid "Temperature"
 msgstr "Temperatura"
@@ -1925,7 +1931,7 @@ msgid "sandybrown"
 msgstr "piaszczysto brązowy"
 
 msgid "set Settings"
-msgstr "zestaw ustawień"
+msgstr "Tryb ustawień"
 
 msgid "show run"
 msgstr "Pokazać aktywnych"
@@ -2093,7 +2099,7 @@ msgid "yes, short"
 msgstr "tak,krótko"
 
 msgid "Save Filename"
-msgstr "Zapisać nazwę pliku"
+msgstr "Zapisz nazwę pliku"
 
 msgid "- Border"
 msgstr "Obramowanie"
@@ -2121,3 +2127,156 @@ msgstr "API Pogody-Wpisz klucz"
 
 msgid "Save Filename "
 msgstr "Zapisz nazwę pliku"
+
+msgid "- Color 1"
+msgstr "Kolor 1"
+
+msgid "- Color 2"
+msgstr "Kolor 2"
+
+msgid "- Color 3"
+msgstr "Kolor 3"
+
+msgid "- Color 4"
+msgstr "Kolor 4"
+
+msgid "- Color 5"
+msgstr "Kolor 5"
+
+msgid "- Color 6"
+msgstr "Kolor 6"
+
+msgid "- Download Cover"
+msgstr "Pobieranie okładki"
+
+msgid "- Download Type"
+msgstr "Typ pobierania"
+
+msgid "- LCD Auto-OFF"
+msgstr "LCD Auto.Wył."
+
+msgid "- Text"
+msgstr "Tekst"
+
+msgid "- use Info when empty"
+msgstr "użyć info.gdy pusty"
+
+msgid "Corner+Timeshift"
+msgstr "Narożnik/Timeshift"
+
+msgid "Flaps Design Date"
+msgstr "Data projektu"
+
+msgid "Flaps Design Weekday"
+msgstr "Projekt dzień tygodnia"
+
+msgid "Indoor"
+msgstr "wewnętrzny"
+
+msgid "Key"
+msgstr "Przycisk"
+
+msgid "MJPEG Cycle"
+msgstr "MJPEG Cykl"
+
+msgid "MJPEG Stream LCD 1 Virtual Brightness"
+msgstr "MJPEG Strumień LCD 1 Wirtualna Jasność"
+
+msgid "MJPEG Stream LCD 2 Virtual Brightness"
+msgstr "MJPEG Strumień LCD 2 Wirtualna Jasność"
+
+msgid "MJPEG Stream LCD 3 Virtual Brightness"
+msgstr "MJPEG Strumień LCD 3 Wirtualna Jasność"
+
+msgid "Module 1-6"
+msgstr "Moduł 1-6"
+
+msgid "Module 2-6"
+msgstr "Moduł 2-6"
+
+msgid "Module 3-6"
+msgstr "Moduł 3-6"
+
+msgid "Module 4-6"
+msgstr "Moduł 4-6"
+
+msgid "Module 5-6"
+msgstr "Moduł 5-6"
+
+msgid "Module 6"
+msgstr "Moduł 6"
+
+msgid "Network Check active"
+msgstr "Włączone testowanie sieci"
+
+msgid "Outdoor"
+msgstr "Powietrze"
+
+msgid "Picon+Timeshift"
+msgstr "Logo kanału/Timeshift"
+
+msgid "Picture not available"
+msgstr "Obraz nie jest dostępny"
+
+msgid "Rain"
+msgstr "Deszcz"
+
+msgid "Remote Box Timer"
+msgstr "Timer zdalnego odb."
+
+msgid "Remote Box Timer Poll every Minutes"
+msgstr "Timer zdalnego odb.przypomnieć co min."
+
+msgid "Remote Box Timer [Displayname:]IP/Name"
+msgstr "Timer zdalnego odb.[Nazwa wyświetlana:]IP/Nazwa"
+
+msgid "Show Text 1"
+msgstr "Pokaż tekst1"
+
+msgid "Show Text 2"
+msgstr "Pokaż tekst2"
+
+msgid "Sonos"
+msgstr "Sieć domowa"
+
+msgid "Sonos IP"
+msgstr "IP sieci domowej"
+
+msgid "Sonos Ping Timeout [ms]"
+msgstr "Ping sieci domowej/limit czasu[ms]"
+
+msgid "Sonos Play Check"
+msgstr "Sprawdź sieć domową"
+
+msgid "Sonos Refresh [s]"
+msgstr "Odświeżanie sieci domowej[s]"
+
+msgid "Tuner"
+msgstr "Głowica"
+
+msgid "no Bar"
+msgstr "bez belki"
+
+msgid "no Frame"
+msgstr "bez ramki"
+
+msgid "same color"
+msgstr "sam kolor"
+
+msgid "with Minutes Total / Endtime (above)"
+msgstr "W sumie minut/czas zakończenia(powyżej)"
+
+msgid "with Minutes Total / Endtime (above/Size 1.5)"
+msgstr "W sumie minut/czas zakończenia(powyżej/rozmiar 1.5)"
+
+msgid "with Minutes Total / Endtime (above/Size 2)"
+msgstr "W sumie minut/czas zakończenia(powyżej/rozmiar 2)"
+
+msgid "with absolute Endtime"
+msgstr "z absolutnym czasem zakończenia"
+
+msgid "with absolute Endtime (Size 1.5)"
+msgstr "z absolutnym czasem zakończenia(rozmiar 1.5)"
+
+msgid "with absolute Endtime (Size 2)"
+msgstr "z absolutnym czasem zakończenia(rozmiar 2)"
