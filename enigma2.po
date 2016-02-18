@@ -17480,13 +17480,13 @@ msgid "Enter persistent PIN code"
 msgstr "Wprowadzić kod PIN na stałe"
 
 msgid "Reset persistent PIN code"
-msgstr "Zresetować trwałych kod PIN"
+msgstr "Zresetować trwały kod PIN"
 
 msgid "Show CI messages"
 msgstr "Pokazać wiadomości CI"
 
 msgid "CIHelper Setup"
-msgstr "Konfiguracja pomoc CI"
+msgstr "Konfiguracja pomocy CI"
 
 msgid "CIHelper for SLOT CI0"
 msgstr "Pomoc CI dla gniazda CI0"
