@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2016-01-12 21:47+0100\n"
+"PO-Revision-Date: 2016-02-18 21:37+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 msgid ""
 "\n"
@@ -285,7 +285,7 @@ msgid " selected CI Slot : %d"
 msgstr " wybrane gniazdo CI: %d"
 
 msgid " there is no CI Slot in your %s %s"
-msgstr " nie istnieje gniazdo CI w Twoim %s %s"
+msgstr " nie istnieje gniazdo CI w %s %s"
 
 msgid " update"
 msgstr " aktualizacja"
@@ -953,7 +953,7 @@ msgid "Add recording (indefinitely)"
 msgstr "Dodaj nagrywanie(na czas nieokreślony)"
 
 msgid "Add recording (stop after current event)"
-msgstr "Dodaj nagrywanie(koniec po au.wydarzeniu)"
+msgstr "Dodaj nagrywanie(koniec po wydarzeniu)"
 
 msgid "Add service"
 msgstr "Dodaj kanał"
@@ -1091,31 +1091,31 @@ msgid "Allow unstable (untested) updates"
 msgstr "Pozwolić na (nietestowane) aktualizacje"
 
 msgid "Allows more detailed to be in the crash log"
-msgstr "Umożliwiaj na bardziej szczegółowe crash logi"
+msgstr "Pozwala na bardziej szczegółowe dzienniki błędów"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
-msgstr "Umożliwia %s %s regularnie czytać przechowywane dane epg."
+msgstr "Pozwala %s %s regularnie czytać przechowywane dane epg."
 
 msgid "Allows the %s %s to store the EPG data regularly."
-msgstr "Umożliwia %s %s na regularne przechowywanie danych epg."
+msgstr "Pozwala %s %s na regularne przechowywanie danych epg."
 
 msgid "Allows you hide the extensions of known file types."
 msgstr "Pozwala ukryć rozszerzenia znanych typów plików"
 
 msgid "Allows you setup the button to do what you choose."
-msgstr "Umożliwia skonfigurować przyciski."
+msgstr "Pozwala skonfigurować przyciski."
 
 msgid "Allows you to adjust the amount of time the resolution infomation display on screen."
 msgstr "Pozwala określić,czy i jak długo ekran jest wyświetlany,gdy zmienia się rozdzielczość."
 
 msgid "Allows you to choose the Picons to be displayed on the frontpanel."
-msgstr "Umożliwia wybrać czy loga stacji mają być wyświetlane na panelu przednim."
+msgstr "Pozwala wybrać czy loga stacji mają być wyświetlane na panelu przednim."
 
 msgid "Allows you to choose the VFD SKIN to be displayed on the frontpanel."
 msgstr "Użyj tej opcji aby wybrać skóry VFD na przednim wyświetlaczu."
 
 msgid "Allows you to enable the debug log. They contain very detailed information of everything the system does."
-msgstr "Umożliwia włączenie dziennika zdarzeń.Zawiera on szczegółowe informacje o wszystkim co robi system."
+msgstr "Umożliwia włączenie dziennika błędów.Zawiera on szczegółowe informacje o wszystkim co robi system."
 
 msgid "Allows you to enable/disable displaying icons on the frontpanel."
 msgstr "Umożliwia na włączenie/wyłączenie wyświetlania ikon na panelu przednim."
@@ -1127,7 +1127,7 @@ msgid "Allows you to send a copy of the log to yourself."
 msgstr "Umożliwia wysłanie kopii dziennika do siebie."
 
 msgid "Allows you to set the maximum size of the Debug log size (MB). When that size is reached, a new file will be created."
-msgstr "Umożliwia ustawienie maksymalnej wielkości rozmiaru dziennika zdarzeń (MB). Kiedy ten rozmiar zostanie osiągnięty, zostanie utworzony nowy plik."
+msgstr "Umożliwia ustawienie maksymalnej wielkości rozmiaru dziennika błędów (MB). Kiedy ten rozmiar zostanie osiągnięty, zostanie utworzony nowy plik."
 
 msgid "Allows you to setup the button to do what you choose."
 msgstr "Tutaj można ustawić przypisania przycisków."
@@ -1136,7 +1136,7 @@ msgid "Allows you to show/hide CCcam in extensions (blue button)."
 msgstr "Umożliwia pokazanie/ukrycie CCcam w rozszerzeniach (niebieski przycisk)."
 
 msgid "Allows you to show/hide Log Manager in extensions (blue button)."
-msgstr "Umożliwia pokazanie/ukrycie menadżera crash logów w rozszerzeniach (niebieski przycisk)."
+msgstr "Umożliwia pokazanie/ukrycie menadżera dziennika błędów w rozszerzeniach (niebieski przycisk)."
 
 msgid "Allows you to show/hide OScam in extensions (blue button)."
 msgstr "Umożliwia pokazanie/ukrycie OScama w rozszerzeniach (niebieski przycisk)."
@@ -1211,7 +1211,7 @@ msgid "Animations"
 msgstr "Animacje"
 
 msgid "Anonymize crashlog?"
-msgstr "Anonimowy crash log?"
+msgstr "Anonimowy dzienniki błędów?"
 
 msgid "Any activity"
 msgstr "Każde działanie"
@@ -1252,10 +1252,10 @@ msgstr ""
 "następującą kopie zapasową:\n"
 
 msgid "Are you sure you want to delete all selected logs:\n"
-msgstr "Czy  chcesz usunąć wszystkie crash logi:\n"
+msgstr "Czy  chcesz usunąć wszystkie dzienniki błędów:\n"
 
 msgid "Are you sure you want to delete this log:\n"
-msgstr "Czy chcesz usunąć ten crash log:\n"
+msgstr "Czy chcesz usunąć ten dziennik błędów:\n"
 
 msgid ""
 "Are you sure you want to delete this:\n"
@@ -1327,7 +1327,7 @@ msgid "Are you sure you want to save the EPG Cache to:\n"
 msgstr "Czy na pewno chcesz zapisać dane epg do:\n"
 
 msgid "Are you sure you want to send this log:\n"
-msgstr "Czy na pewno chcesz wysłać ten crash log:\n"
+msgstr "Czy na pewno chcesz wysłać ten dziennik błędów:\n"
 
 msgid "Are you sure you want to update your %s %s ?"
 msgstr "Czy na pewno chcesz zaktualizować %s %s ?"
@@ -2212,7 +2212,7 @@ msgid "Checking Log Size..."
 msgstr "Sprawdzanie rozmiaru dziennika..."
 
 msgid "Checking Logs..."
-msgstr "Sprawdzanie logów..."
+msgstr "Sprawdzanie dzienników..."
 
 msgid "Checking Network..."
 msgstr "Sprawdzanie internetu..."
@@ -2297,7 +2297,7 @@ msgid "Choose the files to backup"
 msgstr "Wybierz pliki do tworzenia kopii zapasowej"
 
 msgid "Choose the location for crash and debuglogs."
-msgstr "Wybierz lokalizacje crash loga."
+msgstr "Wybierz lokalizacje dziennika błędów."
 
 msgid "Choose the location where the EPG data will be stored when %s %s is shut down. The location must be available at boot time."
 msgstr "Wybierz lokalizację w której będą przechowywane dane epg %s %s jest wyłączony.Lokalizacja musi być dostępna w czasie startu systemu."
@@ -2998,16 +2998,16 @@ msgid "Cpu"
 msgstr "Typ procesora:"
 
 msgid "Crash Logs"
-msgstr "Ustawienia crash loga"
+msgstr "Ustawienia dziennika błędów"
 
 msgid "CrashlogAutoSubmit"
-msgstr "Auto.przesyłanie crash loga"
+msgstr "Auto.przesyłanie dziennika błędów"
 
 msgid "CrashlogAutoSubmit settings"
-msgstr "Auto.crash loga-zatwierdzenie ustawień"
+msgstr "Auto.dziennik błędów-zatwierdzenie ustawień"
 
 msgid "CrashlogAutoSubmit settings..."
-msgstr "Auto.crash log-zatwierdzenie ustawień..."
+msgstr "Auto.dziennik błędów-zatwierdzenie ustawień..."
 
 msgid ""
 "Crashlogs found!\n"
@@ -3035,7 +3035,7 @@ msgid "Create directory"
 msgstr "Tworzenie katalogu"
 
 msgid "Create more detailed crash log"
-msgstr "Twórz szczegółowe crash logi"
+msgstr "Tworzyć szczegółowe dzienniki błędów"
 
 msgid "Create movie directory"
 msgstr "Tworzenie katalogu z filmem"
@@ -3236,13 +3236,13 @@ msgid "Deactivate"
 msgstr "Dezaktywować"
 
 msgid "Debug Log location"
-msgstr "Lokalizacja dziennika logów"
+msgstr "Lokalizacja dziennika błędów"
 
 msgid "Debug Logs"
-msgstr "Logi diagnostyczne"
+msgstr "Dziennik błędów"
 
 msgid "DebugLogCheck"
-msgstr "Sprawdź dziennik logów"
+msgstr "Sprawdź dziennik błędów"
 
 msgid "December"
 msgstr "Grudzień"
@@ -3251,10 +3251,10 @@ msgid "Decide if you want to enable or disable the Cleanup Wizard."
 msgstr "Zdecyduj,czy chcesz włączyć lub wyłączyć Kreatora Oczyszczania."
 
 msgid "Decide what should be done when crashlogs are found."
-msgstr "Zdecyduj,co należy zrobić w przypadku znalezienia crash loga."
+msgstr "Zdecyduj,co należy zrobić w przypadku znalezienia dziennika błędów."
 
 msgid "Decide what should happen to the crashlogs after submission."
-msgstr "Zdecyduj,co powinno się stać z crash logiem po przedłożeniu?"
+msgstr "Zdecyduj,co powinno się stać z dziennikiem błędów po przedłożeniu?"
 
 msgid "Deep Standby"
 msgstr "Głębokie czuwanie"
@@ -3365,7 +3365,7 @@ msgid "Delete and unstall Plugins. This will remove the Plugin from your box"
 msgstr "Usuwanie i odinstalowanie wtyczek.Spowoduje to usunięcie wtyczki z odbiornika"
 
 msgid "Delete crashlogs"
-msgstr "Usuń crash loga"
+msgstr "Usuń dziennik błędów"
 
 msgid "Delete entry"
 msgstr "Usuń wpis"
@@ -3551,7 +3551,7 @@ msgid "Disable background scanning"
 msgstr "Wyłączyć wyszukiwanie w tle"
 
 msgid "Disable crashlog reporting"
-msgstr "Wyłączyć raportowanie crash logów"
+msgstr "Wyłączyć raportowanie dziennika błędów"
 
 msgid "Disable the HDD Process on VFD"
 msgstr "Wyłączyć proces hdd na VFD"
@@ -3973,10 +3973,10 @@ msgid "ECM Statistics"
 msgstr "Statystyki ECM"
 
 msgid "ECM Time"
-msgstr "Czas ECM"
+msgstr "Czasy ECM"
 
 msgid "ECM avg"
-msgstr "ECM-średnio"
+msgstr "Średnia ECM"
 
 msgid "ECM data will be included in the stream. This enables a client receiver to decode it."
 msgstr "Dane ECM będą zawarte w strumieniu. Umożliwia to odkodowanie sygnału klientowi."
@@ -3985,7 +3985,7 @@ msgid "ECM last"
 msgstr "Ostatnie ECM"
 
 msgid "ECM-Time"
-msgstr "Czasy-ECM"
+msgstr "Czasy ECM"
 
 msgid "EPG Cache Check"
 msgstr "Sprawdź buforowanie epg"
@@ -4165,7 +4165,7 @@ msgid "Enable blinking rec symbol on the LCD Display"
 msgstr "Tutaj można aktywować ikonę migającą nagrywania na wyświetlaczu."
 
 msgid "Enable debug log"
-msgstr "Włączyć crash log"
+msgstr "Włączyć dziennik błędów"
 
 msgid "Enable fallback remote receiver"
 msgstr "Włączyć zdalny rezerwowy odbiornik"
@@ -5332,7 +5332,7 @@ msgid "How many minutes do you want to record?"
 msgstr "Ile minut chcesz nagrywać?"
 
 msgid "How to handle found crashlogs?"
-msgstr "Jak obsługiwać znalezione crash logi?"
+msgstr "Jak obsługiwać znalezione dzienniki błędów?"
 
 msgid "Hue"
 msgstr "Barwa"
@@ -5365,7 +5365,10 @@ msgid "IP address"
 msgstr "IP adresy"
 
 msgid "IP-Address"
-msgstr "IP-Adresy"
+msgstr "IP Adres"
+
+msgid "IP-Adress"
+msgstr "IP Adres"
 
 msgid "IP:"
 msgstr "IP odbiornika:"
@@ -6134,7 +6137,7 @@ msgid "LanguageWizard"
 msgstr "Język kreatora"
 
 msgid "Last Req."
-msgstr "Ostatnie wymagany."
+msgstr "Ostatni wymagany."
 
 msgid "Last Scanned"
 msgstr "Ostatnie wyszukiwanie"
@@ -6215,7 +6218,7 @@ msgid "Limit character set for recording filenames"
 msgstr "Limit znaków w nazwie nagrania"
 
 msgid "Limit debug log size (MB)"
-msgstr "Limit rozmiaru crash loga(MB)"
+msgstr "Limit rozmiaru dziennika błędów(MB)"
 
 msgid "Limit east"
 msgstr "Limit wschodni"
@@ -6341,13 +6344,13 @@ msgid "Lock:"
 msgstr "Zablokuj:"
 
 msgid "Log Manager"
-msgstr "Menadżer logowania"
+msgstr "Menadżer dziennika błędów"
 
 msgid "Log results to harddisk"
-msgstr "Zapisuj log na hdd"
+msgstr "Zapisuj dziennik na hdd"
 
 msgid "LogManager"
-msgstr "Menadżer logów"
+msgstr "Menadżer dziennika błędów"
 
 msgid "Login to: Share-Online.biz - OK"
 msgstr "Logowanie do:Share-Online.biz-OK"
@@ -6356,22 +6359,22 @@ msgid "Loglevel"
 msgstr "Poziom logowania"
 
 msgid "Logs"
-msgstr "Logi"
+msgstr "Dzienniki"
 
 msgid "Logs Manager"
 msgstr "Menadżer dziennika"
 
 msgid "Logs location"
-msgstr "Lokalizacja crash logów"
+msgstr "Lokalizacja dziennika błędów"
 
 msgid "Logs manager"
-msgstr "Menadżer crash logów"
+msgstr "Menadżer dziennika błędów"
 
 msgid "Logs older then the set no of days will be deleted."
-msgstr "Logi starsze niż dzień zostaną usunięte."
+msgstr "Dzienniki starsze niż dzień zostaną usunięte."
 
 msgid "Logs settings"
-msgstr "Ustawienia crash loga"
+msgstr "Ustawienia dziennika błędów"
 
 msgid "Long << / >>"
 msgstr "Długie<</>>"
@@ -9174,7 +9177,7 @@ msgid "Rename"
 msgstr "Zmień nazwę"
 
 msgid "Rename crashlogs"
-msgstr "Zmień nazwę crash logs"
+msgstr "Zmień nazwę dziennika błędów"
 
 msgid "Rename directory..."
 msgstr "Zmiana nazwy katalogu..."
@@ -10459,7 +10462,7 @@ msgid "Setup Language"
 msgstr "Wybór języka"
 
 msgid "Setup Logs"
-msgstr "Konfiguracja crash loga"
+msgstr "Konfiguracja dziennika błędów"
 
 msgid "Setup MiniDLNA"
 msgstr "Konfiguracja MiniDLNA"
@@ -10684,7 +10687,7 @@ msgid "Show 'Download Complete' Message:"
 msgstr "Pokazać wiadomość \"Pobranie Kompletne\":"
 
 msgid "Show /tmp/ecm.info"
-msgstr "Pokazać /tmp/ecm.info"
+msgstr "Pokazać /tmp/ecm.info."
 
 msgid "Show 1080p 24fps as"
 msgstr "Pokazać 1080p 24fps jako"
@@ -10744,7 +10747,7 @@ msgid "Show Display Icons"
 msgstr "Pokazać ikony na wyświetlaczu"
 
 msgid "Show E2 Log"
-msgstr "Pokazać logi E2"
+msgstr "Pokazać dziennik błędów E2"
 
 msgid "Show EIT now/next in infobar"
 msgstr "Pokazać EIT teraz/następny na pasku info."
@@ -10789,7 +10792,7 @@ msgid "Show Log"
 msgstr "Pokazać zalogowanych"
 
 msgid "Show Log Manager in extensions list ?"
-msgstr "Pokazać menadżera crash loga w liście rozszerzeń?"
+msgstr "Pokazać menadżera dziennika błędów w liście rozszerzeń?"
 
 msgid "Show Media playback Remaining/Elapsed as"
 msgstr "Pokazać w odtwarzaczu multimediów pozostały/upływający jako"
@@ -10807,7 +10810,7 @@ msgid "Show Multi EPG"
 msgstr "Pokazać multi epg"
 
 msgid "Show OE Log"
-msgstr "Pokazać logi OE"
+msgstr "Pokazać dziennik błędów OE"
 
 msgid "Show ONLY Second-InfoBar"
 msgstr "Pokazać tylko drugi pasek informacyjny"
@@ -10838,6 +10841,12 @@ msgstr "Pokazać konfiguracje RFmod..."
 
 msgid "Show Readers/Proxies"
 msgstr "Pokazać czytniki/proxy"
+
+msgid "Show readme.txt"
+msgstr "Pokazać tekst.readme"
+
+msgid "Shows information about Oscam Servers"
+msgstr "Pokazać informacje o serwerach oscama"
 
 msgid "Show Record Movies"
 msgstr "Pokazać nagrane filmy"
@@ -11976,7 +11985,7 @@ msgid "Sync failure moving back to origin !"
 msgstr "Synchronizacja zakończyła się niepowodzeniem,powrót do oryginału!"
 
 msgid "Sync time using"
-msgstr "Czas synchronizacji za pomocą"
+msgstr "Czas synchronizuj za pomocą"
 
 msgid "Synchronize systemtime using transponder or internet."
 msgstr "Synchronizacja czasu systemowego za pomocą internet lub transpondera."
@@ -12000,7 +12009,7 @@ msgid "System_Info"
 msgstr "Informacje o systemie"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Dodałem,poprawiłem tłumaczenie dla enigmy2,proszę o sugestie zmian,błędów:adres j/w"
+msgstr "Poprawiłem tłumaczenie,proszę o sugestie zmian,błędów:adres j/w"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Plik TS jest za duży dla ISO9660 level 1!"
@@ -12460,7 +12469,7 @@ msgstr ""
 "Chcesz wgrać teraz online?"
 
 msgid "There is no [webif] section in oscam.conf"
-msgstr "Nie ma [webif]sekcji w oscam.conf"
+msgstr "Nie ma sekcji [webif] w oscam.conf"
 
 msgid "There is no signal to lock on !"
 msgstr "Nie ma sygnału aby zablokować na..."
@@ -13126,7 +13135,7 @@ msgid "Translation:"
 msgstr "Tłumaczenie:"
 
 msgid "Translations"
-msgstr "Tłumaczenia"
+msgstr "Tłumaczenie"
 
 msgid "Transmission Mode"
 msgstr "Tryb transmisji"
@@ -14232,7 +14241,7 @@ msgid "What do you want to scan?"
 msgstr "Co chcesz wyszukać?"
 
 msgid "What to do with submitted crashlogs?"
-msgstr "Co zrobić z przedstawionym crash logiem?"
+msgstr "Co zrobić z przedstawionym dziennikiem błędów?"
 
 msgid "When a neighbouring satellite is very strong this avoids searching transponders known to be coming from the neighbouring satellite"
 msgstr "Jeśli sąsiedni satelita jest bardzo silny,to zapobiega przeszukiwaniu transpondera od tego satelity."
@@ -15618,7 +15627,10 @@ msgid "file"
 msgstr "Plik"
 
 msgid "file oscam.conf could not be found"
-msgstr "plik conf.oscama nie został znaleziony"
+msgstr "plik oscam.conf nie został znaleziony"
+
+msgid "readme.txt could not be found"
+msgstr "nie można znaleść tekst.readme"
 
 msgid "fileformats (BMP, PNG, JPG, GIF)"
 msgstr "formaty plików(BMP,PNG,JPG,GIF)"
@@ -16813,7 +16825,7 @@ msgid ""
 "\n"
 "A copy has been sent to yourself."
 msgstr ""
-"kiedy proszą o ten dziennik loga\n"
+"kiedy proszą o ten dziennik błędów\n"
 "\n"
 "Kopie wysłać do siebie."
 
@@ -17165,7 +17177,7 @@ msgid "OSCam WebIf Refresh Time (sec):"
 msgstr "OSCam WebIf czas odświeżania(sek.):"
 
 msgid "Decode OSCam Log:"
-msgstr "Dekodowane OSCam logi:"
+msgstr "Dekodowane dzienniki OSCama:"
 
 msgid "OSCam Reader:"
 msgstr "OSCam czytnik:"
@@ -17442,3 +17454,60 @@ msgid ""
 msgstr ""
 "Ustawienie domyślne kopii zapasowej nie może być zmienione.\n"
 "Proszę użyć \"dodatkowe\" i \"wykluczyć\" wybór kopii zapasowej."
+
+msgid "Disable intro screen"
+msgstr "Wyłączyć ekran powitalny"
+
+msgid "Add bouquet services"
+msgstr "Dodać kanały do bukietu"
+
+msgid "The PIN code has been saved successfully."
+msgstr "Kod PIN został pomyślnie zapisany."
+
+msgid "Reenter PIN"
+msgstr "Ponownie wprowadź kod PIN"
+
+msgid "Enter PIN"
+msgstr "Wprowadź PIN"
+
+msgid "The saved PIN was cleared."
+msgstr "Kod PIN został wyczyszczony."
+
+msgid "Set pin code persistent"
+msgstr "Ustawić trwały kodu PIN"
+
+msgid "Enter persistent PIN code"
+msgstr "Wprowadzić kod PIN na stałe"
+
+msgid "Reset persistent PIN code"
+msgstr "Zresetować trwałych kod PIN"
+
+msgid "Show CI messages"
+msgstr "Pokazać wiadomości CI"
+
+msgid "CIHelper Setup"
+msgstr "Konfiguracja pomoc CI"
+
+msgid "CIHelper for SLOT CI0"
+msgstr "Pomoc CI dla gniazda CI0"
+
+msgid "CIHelper for SLOT CI1"
+msgstr "Pomoc CI dla gniazda CI1"
+
+msgid "Enable CIHelper for SLOT CI0"
+msgstr "Włączyć pomoc CI dla gniazda CI0"
+
+msgid "Enable CIHelper for SLOT CI1"
+msgstr "Włączyć pomoc CI dla gniazda CI1"
+
+msgid "Sorry CIHelper Config is Missing"
+msgstr "Przepraszamy,pomoc w konfig.CI nie istnieje."
+
+msgid "Would you save the entered PIN %s persistent?"
+msgstr "Chcesz zapisać wprowadzony PIN %s na stałe?"
+
+msgid "Set CI assignment for detection of available services."
+msgstr "Ustaw zadanie CI do wykrywania dostępnych kanałów."
+
+msgid "Include CI assignment"
+msgstr "Dołącz zadanie CI"
