@@ -4518,6 +4518,9 @@ msgstr "Ustawienia rozszerzone"
 msgid "Extended setup..."
 msgstr "Rozszerzona konfiguracja..."
 
+msgid "Extended"
+msgstr "Rozszerzony"
+
 msgid "Extensions"
 msgstr "Rozszerzenia"
 
@@ -17507,7 +17510,10 @@ msgid "Would you save the entered PIN %s persistent?"
 msgstr "Chcesz zapisać wprowadzony PIN %s na stałe?"
 
 msgid "Set CI assignment for detection of available services."
-msgstr "Ustaw zadanie CI do wykrywania dostępnych kanałów."
+msgstr "Ustawić zadania CI do wykrywania dostępnych kanałów."
 
 msgid "Include CI assignment"
-msgstr "Dołącz zadanie CI"
+msgstr "Dołączyć zadania CI"
+
+msgid "Reception lists"
+msgstr "Wybór list"
