@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: XMLTVImport\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-14 17:06+0200\n"
-"PO-Revision-Date: 2016-02-11 21:46+0100\n"
+"PO-Revision-Date: 2016-02-28 08:45+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: none <Mariusz1970@onet.eu>\n"
 "Language: pl\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "Automated XMLTV Importer"
@@ -36,7 +36,7 @@ msgid "Last: %s %s, %d events"
 msgstr "Ostatnie: %s %s, %d wydarzenia"
 
 msgid "Load long descriptions up to X days"
-msgstr "Załadować długie opisy do /\"X\"/ dni"
+msgstr "Załadować długie opisy do \"X\" dni"
 
 msgid "Manual"
 msgstr "Manualnie"
@@ -109,11 +109,147 @@ msgstr ""
 "Wtyczka importu XMLTV\n"
 "Import danych EPG rozpoczęty\n"
 "Może to potrwać kilka minut\n"
-"czy się zgadzasz?"
+"Czy się zgadzasz?"
 
 msgid ""
 "You must restart Enigma2 to load the EPG data,\n"
 "is this OK?"
 msgstr ""
-"Należy ponownie uruchomić enigmę aby załadować dane EPG,\n"
+"Należy ponownie uruchomić enigmę2 aby załadować dane EPG,\n"
 "czy się zgadzasz?"
+
+msgid ""
+"\n"
+"Import of epg data will start.\n"
+"This may take a few minutes.\n"
+"Is this ok?"
+msgstr ""
+"\n"
+"Import danych EPG rozpoczęty.\n"
+"To może zająć parę minut\n"
+"Czy się zgadzasz?"
+
+msgid " events\n"
+msgstr " wydarzenia\n"
+
+msgid "Automatic import EPG"
+msgstr "Automatyczny import EPG"
+
+msgid "Choice days for start import"
+msgstr "Wybór dni do importowania"
+
+msgid "Clearing current EPG before import"
+msgstr "Usuwać bieżące EPG przed importem"
+
+msgid "Consider setting \"Days Profile\""
+msgstr "Rozważyć ustawienie \"Profile dni\""
+
+msgid "Days Profile"
+msgstr "Profile dni"
+
+msgid "Friday"
+msgstr "Piątek"
+
+msgid "Import current source"
+msgstr "Bieżący import"
+
+msgid ""
+"Importing: %s\n"
+"%s events"
+msgstr ""
+"Importowanie: %s\n"
+"%s wydarzenia"
+
+msgid "Last import: "
+msgstr "Ostatni import: "
+
+msgid "Last import: %s events"
+msgstr "Ostatni import: %s wydarzenia"
+
+msgid "Load EPG only services in bouquets"
+msgstr "Pobrać EPG tylko dla kanałów w bukietach"
+
+msgid "Monday"
+msgstr "Poniedziałek"
+
+msgid "Press OK"
+msgstr "Naciśnij OK"
+
+msgid "Return to deep standby after import"
+msgstr "Powrócić do głębokiego czuwania po imporcie"
+
+msgid "Run AutoTimer after import"
+msgstr "Uruchomić AutoTimer po imporcie"
+
+msgid "Saturday"
+msgstr "Sobota"
+
+msgid "Show \"XMLTV Importer\" in main menu"
+msgstr "Pokazać \"Import XMLTV\" w menu głównym"
+
+msgid "Show \"XMLTVImport\" in extensions"
+msgstr "Pokazać \"Import XMLTV\" w rozszerzeniach"
+
+msgid "Skip import on restart GUI"
+msgstr "Przejść na import po ponownym uruchomieniu GUI"
+
+msgid "Sunday"
+msgstr "Niedziela"
+
+msgid "Thursday"
+msgstr "Czwartek"
+
+msgid "Tuesday"
+msgstr "Wtorek"
+
+msgid "Wednesday"
+msgstr "Środa"
+
+msgid "Write to /tmp/xmltvimport.log"
+msgstr "Sprawdź w /tmp/xmltvimport.log"
+
+msgid "XMLTV Importer"
+msgstr "Importer XMLTV"
+
+msgid ""
+"XMLTVImport\n"
+"Import of epg data is still in progress. Please wait."
+msgstr ""
+"Import XMLTV\n"
+"Import danych epg jest nadal w toku. Proszę czekać."
+
+msgid ""
+"XMLTVImport\n"
+"Import of epg data will start.\n"
+"This may take a few minutes.\n"
+"Is this ok?"
+msgstr ""
+"Import XMLTV\n"
+"Import danych epg rozpoczęty\n"
+"Może to potrwać kilka minut.\n"
+"Czy się zgadzasz?"
+
+msgid ""
+"You may not use this settings!\n"
+"At least one day a week should be included!"
+msgstr ""
+"Nie możesz używać tego ustawienia!\n"
+"Należy włączyć co najmniej jeden dzień tygodnia!"
+
+msgid "always"
+msgstr "Zawsze"
+
+msgid "never"
+msgstr "Nigdy"
+
+msgid "only automatic boot"
+msgstr "Tylko automatyczny rozruch"
+
+msgid "only manual boot"
+msgstr "Tylko ręczny rozruch"
+
+msgid "skip the import"
+msgstr "Pominąć importowanie"
+
+msgid "wake up and import"
+msgstr "Obudzić i importować"
