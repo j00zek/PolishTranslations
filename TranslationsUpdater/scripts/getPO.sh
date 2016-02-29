@@ -59,4 +59,8 @@ rm -rf /tmp/$addon
 rm -rf /tmp/paths.conf
 echo
 echo "$addon zainstalowany poprawnie, zrestartuj teraz system."
+echo
+#echo "LICENCJA: Wszystkie tłumaczenia są autorstwem kolegi Mariusz1970P. Możesz z nich korzystać jedynie za pośrednictwem wtyczki Aktualizator tłumaczeń."
+#echo "Uszanuj jego pracę i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach."
+#echo
 touch /tmp/.rebootGUI

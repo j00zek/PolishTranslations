@@ -117,6 +117,8 @@ class translatedConsole(Screen):
                 self.cancel()
 
     def cancel(self):
+        from Screens.MessageBox import MessageBox
+          
         def rebootQuestionAnswered(ret):
             if ret:
                 from enigma import quitMainloop
@@ -124,12 +126,14 @@ class translatedConsole(Screen):
             try: self.close()
             except: pass
             return
+        def doReboot(ret):
+            self.session.openWithCallback(rebootQuestionAnswered, MessageBox,"Restart GUI now?",  type = MessageBox.TYPE_YESNO, timeout = 10, default = False)
+            
         if self.run == len(self.cmdlist):
             self.container.appClosed.remove(self.runFinished)
             self.container.dataAvail.remove(self.dataAvail)
             if os_path.exists("/tmp/.rebootGUI"):
-                from Screens.MessageBox import MessageBox
-                self.session.openWithCallback(rebootQuestionAnswered, MessageBox,"Restart GUI now?",  type = MessageBox.TYPE_YESNO, timeout = 10, default = False)
+                self.session.openWithCallback(doReboot,MessageBox, 'LICENCJA: Wszystkie tłumaczenia są autorstwem kolegi Mariusz1970P.\n\nMożesz z nich korzystać jedynie za pośrednictwem wtyczki "Aktualizator tłumaczeń".\nUszanuj jego pracę i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach.', MessageBox.TYPE_INFO, timeout=15)
             else:
                 self.close()
 
@@ -288,6 +292,8 @@ class j00zekTUMenu(Screen,):
                             msgline += readline
                         self.session.openWithCallback(self.endrun,MessageBox, "%s" %( msgline ), MessageBox.TYPE_INFO, timeout=15)
                             
+    def endConsole(self, ret =0, wymusUpdate=False):
+        self.session.openWithCallback(self.endrun,MessageBox, 'LICENCJA: Wszystkie tłumaczenia są autorstwem kolegi Mariusz1970P.\nMożesz z nich korzystać jedynie za pośrednictwem wtyczki "Aktualizator tłumaczeń".\nUszanuj jego pracę i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach.', MessageBox.TYPE_INFO, timeout=15)
 
     def endrun(self, ret =0, wymusUpdate=False):
         #odświerzamy menu
