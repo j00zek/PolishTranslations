@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2016-03-21 18:38+0100\n"
+"PO-Revision-Date: 2016-04-19 19:17+0200\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -17620,3 +17620,45 @@ msgstr ""
 "Wybrane listy programów: %s\n"
 "\n"
 "Czy chcesz usunąć listę programów?"
+
+msgid "Short filenames with time"
+msgstr "Krótkie nazwy plików z czasem"
+
+msgid "Your %s %s is shutting down. Please wait..."
+msgstr "Twój %s %s jest zamykany.Proszę czekać..."
+
+msgid "Screenshot of LCD in /tmp"
+msgstr "Zrzut ekranu LCD w /tmp"
+
+msgid "Enable screenshot of LCD in /tmp"
+msgstr "Włącz zrzut ekranu LCD w /tmp"
+
+msgid "Setting Restored "
+msgstr "Przywrócono ustawienie "
+
+msgid "Maximum number of days in EPG"
+msgstr "Maksymalna liczba dni w EPG"
+
+msgid "Use for load only x days in EPG"
+msgstr "Ustaw x dni w których ma być pobrany EPG"
+
+msgid "Tuning algorithm"
+msgstr "Algorytm strojenia"
+
+msgid "reliable"
+msgstr "Niezawodny"
+
+msgid "traditional (fast)"
+msgstr "Tradycyjnie (szybko)"
+
+msgid "Volume adjust slow"
+msgstr "Powolna regulacja głośności"
+
+msgid "Volume adjust fast"
+msgstr "Szybka regulacja głośności"
+
+msgid "Step value for single press the volume button. Depending on the setting (if greater) and the current volume (if less) will adjusted the step. (30 to 4, 18 to 3, 9 to 2 and 3 to 1)"
+msgstr "Krok wartości dla pojednyczego naciśnięcia przycisku głośności.W zależności od ustawienia (większy) i aktualna wartość (mała) krok zostanie skorygowany.(30 do 4, 18 do 3, 9 do 2 i 3 do 1)"
+
+msgid "Step value for fast switching or long press the volume button. Depending on the setting (if greater) and the current volume (if less) will adjusted the step. (30 to 4, 18 to 3, 9 to 2 and 3 to 1)"
+msgstr "Krok wartości dla szybkiego przełączania lub długie naciśnięcie przycisku głośności.W zależności od ustawienia (większy) i aktualna wartość (mała) krok zostanie skorygowany.(30 do 4, 18 do 3, 9 do 2 i 3 do 1)"
