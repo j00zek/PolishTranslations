@@ -27,17 +27,15 @@ myPath=$1
 [ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
 #[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
-    
+
 if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
   ByDate=1
-  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| \
-  sed 's;/blob/master/;\n;g'|grep '.po'|sed -e 's;\(</time>\).*;\1;' -e 's/>Jan/>01,/' -e 's/>Feb/>02,/' -e 's/>Mar/>03,/' -e 's/>Apr/>04,/' -e 's/>May/>05,/' \
-  -e 's/>Jun/>06,/' -e 's/>Jul/>07,/' -e 's/>Aug/>08,/' -e 's/>Sep/>09,/' -e 's/>Oct/>10,/' -e 's/>Nov/>11,/' -e 's/>Dec/>12,/' \
-  -e 's;^\(.*\.po\)is=.*">\(.*\),[ ]*\([0-9]*\),[ ]*\([0-9]*\).*</.*;\4-\2-0\3\t\1;' -e 's/-0\([0-9][0-9]\)/-\1/'|sort -bfir`
+  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|<time-ago.*<\/time-ago>'|tr -d '\n'| \
+  sed 's;/blob/master/;\n;g'|grep '.po'|sed -e 's;^\(.*\.po\)<time-ago.*datetime="\(.*\)T.*/.*;\2\t\1;'|sort -bfir`
 else
   ByDate=0
-  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|is="time-ago">.*<\/time>'|tr -d '\n'| \
-    sed 's;/blob/master/;\n;g'|grep '.po'|sed 's;\(</time>\).*;\1;'|sed 's;^\(.*\.po\)is=.*">\(.*\)</.*;\1\t\2;'|sort -bfi`
+  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations| egrep -o '\/blob\/master\/[^ ]*\.po|<time-ago.*<\/time-ago>'|tr -d '\n'| \
+  sed 's;/blob/master/;\n;g'|grep '.po'|sed -e 's;^\(.*\.po\)<time-ago.*datetime="\(.*\)T.*/.*;\1\t\2;'|sort -bfi`
 fi
 
 if `grep -q 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile`;then
@@ -50,6 +48,7 @@ if [ $? -gt 0 ]; then
   echo "ITEM|Błąd pobierania tłumaczeń|DONOTHING|">>/tmp/_GetTranslations
   exit 0
 fi
+##echo $DownloadableArchives>/tmp/getTranslations.log
 
 echo "MENU|Aktualizuj tłumaczenia:">/tmp/_GetTranslations
 if [ -z "$DownloadableArchives" ];then
@@ -60,9 +59,10 @@ fi
 #coby ładnie się kolumienki zgadzały ;)
 maxLenght=0
 IFS=$'\n'
+[ -e /tmp/getTranslations.log ] && rm -f /tmp/getTranslations.log
 for item in $DownloadableArchives
 do
-  #echo "'$item'"
+  echo "'$item'">>/tmp/getTranslations.log
   addonName=`echo $item|cut -d$'\t' -f1|cut -d$'.' -f1`
   NameLen=${#addonName}
   #echo $addonName $NameLen
@@ -114,7 +114,7 @@ do
     fi
     NameLen=${#addonName}
     LenDiff=$(( maxLenght - NameLen ))
-    [ $LenDiff -gt 3 ] && extraTAB='\t' || extraTAB=''
+    [ $LenDiff -gt 4 ] && extraTAB='\t' || extraTAB=''
     #echo "$ArchiveName > $addonLink"
     echo -e "ITEM|$addonName\t$extraTAB $addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
   fi
