@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2016-04-19 19:17+0200\n"
+"PO-Revision-Date: 2016-04-27 19:17+0200\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -130,7 +130,7 @@ msgid ""
 "Restore your backups by date."
 msgstr ""
 "\n"
-"Przywracanie kopii zapasowych według daty"
+"Przywracanie kopii zapasowej według daty"
 
 msgid ""
 "\n"
@@ -1625,7 +1625,7 @@ msgstr ""
 "Czy chcesz teraz zainstalować?"
 
 msgid "Backup system settings"
-msgstr "Kopia ustawień systemowych"
+msgstr "Kopia systemowych ustawień"
 
 msgid "Backup your current image"
 msgstr "Kopia zapasowa aktualnego obrazu"
@@ -4591,7 +4591,7 @@ msgid "FTP setup"
 msgstr "konfiguracja FTP"
 
 msgid "Factory reset"
-msgstr "Przywracanie ustawień fabrycznych"
+msgstr "Przywracanie fabrycznych ustawień"
 
 msgid "Fade the Infobar on hide"
 msgstr "Wygaszanie paska info.w skórze"
@@ -9324,7 +9324,7 @@ msgid "Restore settings from a backup"
 msgstr "Przywracanie ustawień z kopii zapasowej"
 
 msgid "Restore system settings"
-msgstr "Przywracanie ustawień systemowych"
+msgstr "Przywracanie systemowych ustawień"
 
 msgid "Restore your settings back from a backup. After restore the box will restart to activated the new settings"
 msgstr "Przywrócić ustawienia z kopii zapasowej?Po przywróceniu odbiornik zostanie ponownie uruchomiony,aby nowe ustawienia były aktywne"
@@ -10708,7 +10708,7 @@ msgid "Show 720p 24fps as"
 msgstr "Pokazać 720p 24fps jako"
 
 msgid "Show Audioselection"
-msgstr "Pokażać wybór audio"
+msgstr "Pokazać wybór audio"
 
 msgid "Show AutoTimer List"
 msgstr "Pokazać liste auto.timera"
@@ -11181,13 +11181,13 @@ msgid "Shows Plugins Browser. Here you can setup installed Plugin"
 msgstr "Pokazać przeglądarkę rozszerzeń.Tutaj można skonfigurować zainstalowane wtyczki"
 
 msgid "Shows available plugins. Here you can download and install them"
-msgstr "Pokazać dostępne wtyczki. Tutaj możesz je pobrać i zainstalować"
+msgstr "Pokazać dostępne wtyczki.Tutaj możesz je pobrać i zainstalować"
 
 msgid "Shows available pluigns. Here you can download and install them"
 msgstr "Pokazać dostępne wtyczki.Tutaj możesz je pobrać i zainstalować"
 
 msgid "Shows available softcam. Here you can download and install them"
-msgstr "Pokazać dostępne soft camy.Tutaj możesz je pobrać i zainstalować"
+msgstr "Pokazać dostępny soft cam.Tutaj możesz je pobrać i zainstalować"
 
 msgid "Shows available softcams. Here you can download and install them"
 msgstr "Pokazać dostępne soft camy.Tutaj możesz je pobrać i zainstalować"
@@ -17416,31 +17416,31 @@ msgid "Subtitle long"
 msgstr "Napisy długo"
 
 msgid "Show default backup files"
-msgstr "Pokazać domyślne pliki kopii zapasowej"
+msgstr "Pokazać domyślne pliki kopii"
 
 msgid "Select additional backup files"
-msgstr "Wybierz dodatkowe pliki kopii zapasowej"
+msgstr "Wybierz dodatkowe pliki kopii"
 
 msgid "Select excluded backup files"
-msgstr "Wybierz wykluczone pliki kopii zapasowej"
+msgstr "Wybierz wykluczone pliki kopii"
 
 msgid "Default files/folders to backup"
-msgstr "Domyślne pliki/foldery do kopii zapasowej"
+msgstr "Domyślne pliki/foldery do kopii"
 
 msgid "Additional files/folders to backup"
-msgstr "Dodatkowe pliki/foldery do kopii zapasowej"
+msgstr "Dodatkowe pliki/foldery do kopii"
 
 msgid "Files/folders to exclude from backup"
-msgstr "Pliki/foldery do wykluczenia z kopii zapasowej"
+msgstr "Pliki/foldery do wykluczenia z kopii"
 
 msgid "Show files backed up by default"
-msgstr "Pokazać domyślne pliki kopii zapasowej"
+msgstr "Pokazać domyślne pliki kopii"
 
 msgid "Select additional files to backup"
-msgstr "Wybierz dodatkowe pliki kopii zapasowej"
+msgstr "Wybierz dodatkowe pliki kopii"
 
 msgid "Select files to exclude from backup"
-msgstr "Wybierz pliki do wykluczenia z kopii zapasowej"
+msgstr "Wybierz pliki do wykluczenia z kopii"
 
 msgid "Here you can browse (but not modify) the files that are added to the backupfile by default (E2-setup, channels, network)."
 msgstr "Tutaj możesz przeglądać (ale nie modyfikować) pliki,które są dodawane do kopii zapasowej,domyślnie (Ustawienia E2,kanałów,sieci)."
