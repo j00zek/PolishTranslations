@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Atile v0.1\n"
+"POT-Creation-Date: 2015-03-22 16:33+0100\n"
+"PO-Revision-Date: 2015-12-06 12:01+0100\n"
+"Last-Translator: \n"
+"Language-Team: schomi <schomi@vuplus-support.org>\n"
+"Language: PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "%s - Setup"
+msgstr "%s - Konfiguracja"
+
+msgid "%s Setup"
+msgstr "%s Konfiguracja"
+
+msgid "%s additional screens"
+msgstr "%s dodatkowe ekrany"
+
+msgid "---Weather---"
+msgstr "---Pogoda---"
+
+msgid "About"
+msgstr "O"
+
+msgid "Cancel"
+msgstr "Zrezygnuj"
+
+msgid "Celsius"
+msgstr "Celsius"
+
+msgid "Change skin"
+msgstr "Zmiana skóry"
+
+msgid "Default"
+msgstr "Domyślnie"
+
+msgid "Don't save settings?"
+msgstr "Nie zapisać ustawienień?"
+
+msgid "Enable %s pro:"
+msgstr "Włączyć %s pro:"
+
+msgid "Exit"
+msgstr "Wyjście"
+
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+msgid "Font:"
+msgstr "Czcionka:"
+
+msgid "Location # (http://weather.yahoo.com/):"
+msgstr "Lokalizacja (http://de.wetter.yahoo.com/):"
+
+msgid "Location list"
+msgstr "Lista lokalizacji"
+
+msgid "Message"
+msgstr "Wiadomość"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Personalize your Skin"
+msgstr "Personalizuj twoją skórę"
+
+msgid "Please enter search string for your location"
+msgstr "Proszę wprowadzić miejsce wyszukiwania dla swojej lokalizacji"
+
+msgid "Refresh interval in minutes:"
+msgstr "Przedział czasowy odświeżania w minutach:"
+
+msgid "Restart necessary, restart GUI now?"
+msgstr "Restart jest niezbędny, uruchomić ponownie GUI teraz? "
+
+msgid "Search weather location ID"
+msgstr "Szukaj lokalizacji ID"
+
+msgid "Setup - %s"
+msgstr "Konfiguracja - %s"
+
+msgid "Sorry, there was a problem:"
+msgstr "Przepraszamy, wystąpił problem"
+
+msgid "Style:"
+msgstr "Styl:"
+
+msgid "Temperature unit:"
+msgstr "Jednostka temperatury:"
+
+msgid "off"
+msgstr "Wyłączony"
+
+msgid "on"
+msgstr "Włączony"

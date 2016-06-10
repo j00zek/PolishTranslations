@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SecondInfoBarMod\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-12-06 14:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: Polska <AC FullHD>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pl_PL\n"
+
+msgid "GUI needs a restart to apply the new settings !!!"
+msgstr "GUI musi zostać uruchomione ponownie aby zastosować nowe zmiany"
+
+msgid "Hide Infobar if Second-InfoBar shown"
+msgstr "Ukryj Infobar jeśli pokazywany jest Second-Infobar"
+
+msgid "Not enabled"
+msgstr "Nie włączony"
+
+msgid "Second InfoBar ..."
+msgstr "Second InfoBar ..."
+
+msgid "Second-InfoBar Timeout (in Sec. , 0 = wait for OK)"
+msgstr "Czas trwania Second-InfoBar (w sek., 0 = czeka do naciśnięcia OK)"
+
+msgid "Second-InfoBar working mode"
+msgstr "Tryb pracy Second-InfoBar"
+
+msgid "Show ONLY Second-InfoBar"
+msgstr "Pokazuj TYLKO Second-InfoBar"
+
+msgid "Show Second-InfoBar"
+msgstr "Pokazuj Second-InfoBar"
+
+msgid "Show Subservices"
+msgstr "Pokazuj z pozostałymi serwisami"

@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OscamButlerMod\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-11-22 11:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: Polska <AC FullHD>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pl_PL\n"
+
+msgid "Add user for client connection"
+msgstr "Dodaj użytkownika do podłączenia klienta"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Connect to Oscam server:"
+msgstr "Podłącz do serwera Oscam:"
+
+msgid "Create configuration"
+msgstr "Utwórz konfigurację"
+
+msgid "Create configuration and open Cam Center"
+msgstr "Utwórz konfigurację i przejdź do Cam Center"
+
+msgid "Enable Oscam WebInterface (Port 83):"
+msgstr "Włącz Oscam WebInterface (Port 83):"
+
+msgid "Enable Oscam server (Cccam protocol) (Port 22209):"
+msgstr "Włącz Oscam serwer (protokół Cccam) (Port 22209):"
+
+msgid "Enable Oscam server (cs378x protocol) (Port 37800):"
+msgstr "Włącz Oscam serwer (protokół cs378x) (Port 37800):"
+
+msgid "IP address of Oscam-server:"
+msgstr "Adres IP Oscam-serwer:"
+
+msgid "Oscam Butler"
+msgstr "Oscam Butler"
+
+msgid "OscamButler"
+msgstr "OscamButler"
+
+msgid "Password for Oscam-client user:"
+msgstr "Hasło dla użytkownika Oscam-klienta:"
+
+msgid "Please enter password for user %s:"
+msgstr "Podaj hasło dla użytkownika %s:"
+
+msgid "Please enter username:"
+msgstr "Podaj nazwę użytkownika:"
+
+msgid "Please note: The generated configuration files do not contain any keys"
+msgstr "Uwaga: Wygenerowane pliki konfiguracyjne nie zawierają żadnych kluczy"
+
+msgid "Port of Oscam-server:"
+msgstr "Port dla Oscam-serwer:"
+
+msgid "Smartcard type in external reader 0:"
+msgstr "Smartcard w czytniku zewnętrznym 0:"
+
+msgid "Smartcard type in external reader 1:"
+msgstr "Smartcard w czytniku zewnętrznym 1:"
+
+msgid "Smartcard type in internal reader 0:"
+msgstr "Smartcard w czytniku wewnętrznym 0:"
+
+msgid "Smartcard type in internal reader 1:"
+msgstr "Smartcard w czytniku wewnętrznym 1:"
+
+msgid "Use external reader 0:"
+msgstr "Użyj czytnika zewnętrznego 0:"
+
+msgid "Use external reader 1:"
+msgstr "Użyj czytnika zewnętrznego 1:"
+
+msgid "Use internal reader 0%s:"
+msgstr "Użyj czytnika wewnętrznego 0%s:"
+
+msgid "Use internal reader 1%s:"
+msgstr "Użyj czytnika wewnętrznego 1%s:"
+
+msgid "Username for Oscam-client user:"
+msgstr "Login dla użytkownika Oscam-klienta:"
+
+msgid "bottom"
+msgstr "dolny"
+
+msgid "create basic configuraton files for Oscam"
+msgstr "Tworzy podstawowe pliki konfiguracyjne dla Oscam"
+
+msgid "top"
+msgstr "górny"

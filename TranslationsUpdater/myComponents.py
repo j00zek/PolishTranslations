@@ -133,7 +133,7 @@ class translatedConsole(Screen):
             self.container.appClosed.remove(self.runFinished)
             self.container.dataAvail.remove(self.dataAvail)
             if os_path.exists("/tmp/.rebootGUI"):
-                self.session.openWithCallback(doReboot,MessageBox, 'LICENCJA: Wszystkie tłumaczenia są autorstwem kolegi Mariusz1970P.\n\nMożesz z nich korzystać jedynie za pośrednictwem wtyczki "Aktualizator tłumaczeń".\nUszanuj jego pracę i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach.', MessageBox.TYPE_INFO, timeout=15)
+                self.session.openWithCallback(doReboot,MessageBox, 'LICENCJA: Wszystkie tłumaczenia są autorstwem kolegów Mariusz1970P i Century.\n\nMożesz z nich korzystać jedynie za pośrednictwem wtyczki "Aktualizator tłumaczeń".\nUszanuj jego pracę i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach.', MessageBox.TYPE_INFO, timeout=15)
             else:
                 self.close()
 

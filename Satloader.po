@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2-plugin-extensions-satloader\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-01 23:02+0100\n"
+"PO-Revision-Date: 2015-12-18 19:32+0100\n"
+"Last-Translator: Century (AC_fullHD)\n"
+"Language-Team: Ismail Demir <ismail.demir@gmx.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: /home/ismail/enigma2-plugins/satloader/src/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: pl\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "About"
+msgstr "O"
+
+msgid "Bouquet"
+msgstr "Pakiety"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Do you want to restart the GUI now?"
+msgstr "Czy chcesz zrestartować teraz GUI?"
+
+msgid "Download:"
+msgstr "Wczytywanie:"
+
+msgid "Downloading bouquets failed!"
+msgstr "Wczytanie pakietów nie powidło się!"
+
+msgid "Downloading satellites failed!"
+msgstr "Pobieranie danych o satelitach nie powiodło się!"
+
+msgid "Downloading succesfull! Parsing ..."
+msgstr "Udane pobranie danych! Przetwarzanie informacji..."
+
+msgid "Frequency:"
+msgstr "Częstotliwość"
+
+msgid "GUI needs a restart to apply changes."
+msgstr "Wymagany jest restart GUI do zastosowania zmian."
+
+msgid "GUI needs a restart."
+msgstr "GUI wymaga ponownego uruchomienia."
+
+msgid "Install"
+msgstr "Instal"
+
+msgid "Multi Sat"
+msgstr "Satelity"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Parsing failed!"
+msgstr "Przetwarzanie danych zakończone niepowodzeniem!"
+
+msgid "Please select at least one bouquet"
+msgstr "Proszę wybrać przynajmniej jeden pakiet"
+
+msgid "Please select at least one satellite"
+msgstr "Wybierz przynajmniej jednego satelitę"
+
+msgid "Please select at least one transponder"
+msgstr "Wybierz przynajmniej jeden transponder"
+
+msgid "Please wait..."
+msgstr "Proszę czekać..."
+
+msgid "Press ok button to select bouquet"
+msgstr "Naciśnij przycisk OK, aby wybrać bukiet"
+
+msgid "Press ok button to select satellite"
+msgstr "Naciśnij przycisk OK, aby wybrać satelitę"
+
+msgid "Press ok or green button to install satellites.xml"
+msgstr "Naciśnij OK lub zielony przycisk, aby zainstalować satellites.xml"
+
+msgid "Restart GUI now?"
+msgstr "Restart GUI?"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Source:"
+msgstr "Źródło"
+
+msgid "Symbol Rate:"
+msgstr "Symbol Rate:"
+
+msgid "Transponder"
+msgstr "Transponder"
+
+msgid "Transponder selection"
+msgstr "Wybór transponderów"
+
+msgid "has been saved."
+msgstr "zapis udany."
+
+msgid "satellites.xml has been built."
+msgstr "plik satellites.xml został utworzony."
+
+msgid "satellites.xml is updated"
+msgstr "satellites.xml został zaktualizowany"
+
+msgid "selected bouquets are installed"
+msgstr "wybór z zainstalowanych pakietów"
+
+msgid "updates satellites.xml"
+msgstr "Aktualizacja pliku satellites.xml"
