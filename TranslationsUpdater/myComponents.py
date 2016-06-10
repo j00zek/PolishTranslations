@@ -133,7 +133,7 @@ class translatedConsole(Screen):
             self.container.appClosed.remove(self.runFinished)
             self.container.dataAvail.remove(self.dataAvail)
             if os_path.exists("/tmp/.rebootGUI"):
-                self.session.openWithCallback(doReboot,MessageBox, 'LICENCJA: Wszystkie tłumaczenia są autorstwem kolegów Mariusz1970P i Century.\n\nMożesz z nich korzystać jedynie za pośrednictwem wtyczki "Aktualizator tłumaczeń".\nUszanuj jego pracę i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach.', MessageBox.TYPE_INFO, timeout=15)
+                self.session.openWithCallback(doReboot,MessageBox, 'LICENCJA: Wszystkie tłumaczenia są autorstwem kolegów Mariusz1970P i Century.\n\nMożesz z nich korzystać jedynie za pośrednictwem wtyczki "Aktualizator tłumaczeń".\nUszanuj pracę autorów i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach.', MessageBox.TYPE_INFO, timeout=15)
             else:
                 self.close()
 
@@ -160,8 +160,8 @@ class j00zekTUMenu(Screen,):
         skin  = """
         <screen name="j00zekTUMenu" position="center,center" size="520,520" title="j00zekTUMenu" >
         <widget name="list" position="5,30" font="Regular;20" size="510,350" scrollbarMode="showOnDemand" />
-        <eLabel text="Tłumaczenia: Mariusz1970" position="0,390" size="520,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />
-        <eLabel text="Wtyczka: (c)2015 j00zek" position="0,420" size="520,30" font="Regular;24" foregroundColor="yellow" valign="center" halign="center" />
+        <eLabel text="Tłumaczenia: Mariusz1970, Century" position="0,390" size="520,30" font="Regular;22" foregroundColor="yellow" valign="center" halign="center" />
+        <eLabel text="Wtyczka: (c)2015,2016 j00zek" position="0,420" size="520,30" font="Regular;22" foregroundColor="yellow" valign="center" halign="center" />
         <eLabel position="  5,455" size="253, 30" zPosition="-10" backgroundColor="#20b81c46" />
         <eLabel position="262,455" size="253, 30" zPosition="-10" backgroundColor="#20009f3c" />
         <eLabel position="  5,490" size="253, 30" zPosition="-10" backgroundColor="#209ca81b" />
