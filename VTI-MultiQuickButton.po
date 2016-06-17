@@ -1,0 +1,585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-21 17:46+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Century (AC_fullHD) <Century>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Autostart"
+msgstr "Autostart"
+
+msgid "Main menu"
+msgstr "Menu główne"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "OK/EXIT"
+msgstr "OK/EXIT"
+
+msgid "Restore"
+msgstr "Przywróć"
+
+msgid "Backup"
+msgstr "Kopia zapasowa"
+
+msgid "red"
+msgstr "Czerwony"
+
+msgid " long"
+msgstr "Długi"
+
+msgid "green"
+msgstr "Zielony"
+
+msgid "yellow"
+msgstr "Żółty"
+
+msgid "blue"
+msgstr "Niebieski"
+
+msgid "TEXT"
+msgstr "Text"
+
+msgid "HELP"
+msgstr "Pomoc"
+
+msgid "VU+ EPG / INFO"
+msgstr "VU+ EPG / INFO"
+
+msgid "HOME"
+msgstr "Home"
+
+msgid "END"
+msgstr "End"
+
+msgid "Subtitle"
+msgstr "Napisy"
+
+msgid "VU+ R-Button"
+msgstr "VU+ przycisk R"
+
+msgid "RADIO"
+msgstr "Radio"
+
+msgid "TV"
+msgstr "TV"
+
+msgid "Cross Up"
+msgstr "W górę"
+
+msgid "Cross Down"
+msgstr "W dół"
+
+msgid "Cross Left"
+msgstr "W lewo"
+
+msgid "Cross Right"
+msgstr "W prawo"
+
+msgid "Channel +"
+msgstr "Kanał +"
+
+msgid "Channel -"
+msgstr "Kanał -"
+
+msgid "Forward >"
+msgstr "Przród >"
+
+msgid "Backward <"
+msgstr "Tył <"
+
+msgid "Volume +"
+msgstr "Głośność +"
+
+msgid "Volume -"
+msgstr "Głośność -"
+
+msgid "Mute"
+msgstr "Mute"
+
+msgid "Power"
+msgstr "Zasilanie"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "EXIT"
+msgstr "Exit"
+
+msgid "Play"
+msgstr "Odtwórz"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Rewind <<"
+msgstr "Przewijanie <<"
+
+msgid "FastForward >>"
+msgstr "Przewijanie >>"
+
+msgid "on"
+msgstr "W"
+
+msgid "off"
+msgstr "z"
+
+#, python-format
+msgid "Quickbutton Key : %s"
+msgstr "Przycisk skrótu : %s"
+
+msgid "Please select the backup path..."
+msgstr "Wybierz ścieżkę przywracania..."
+
+msgid "Overwrite existing Backup?."
+msgstr "Zastąpić istniejącą kopię zapasową?"
+
+msgid "Backup Settings..."
+msgstr "Ustawienia kopii zapasowej..."
+
+#, python-format
+msgid "Directory %s nonexistent."
+msgstr "Katalog %s nie istnieje"
+
+msgid "Please select the restore path..."
+msgstr "Wybierz ścieżkę przywracania ..."
+
+msgid "Overwrite existing Settings?."
+msgstr "Zastąpić istniejące ustawienia?"
+
+#, python-format
+msgid "File %s nonexistent."
+msgstr "Plik %s nie istnieje."
+
+msgid "Restore Settings..."
+msgstr "Przywracam sutawienia..."
+
+msgid ""
+"Restarting Enigma2 to set\n"
+"Multi QuickButton Autostart"
+msgstr ""
+"Uruchamiam ponownie Enigma2 aby ustawić\n"
+"autostart przycisku skrótu."
+
+msgid "Restarting Enigma2 to load:\n"
+msgstr "Restartuję Enigma2 aby załadować:\n"
+
+msgid "Multi QuickButton settings"
+msgstr "Ustawienia przycisku skrótu"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "delete"
+msgstr "Skasuj"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "MQB Functions and Plugins"
+msgstr "MQB funkcje i wtyczki"
+
+msgid "No valid selection"
+msgstr "Brak ważnego wybouru"
+
+msgid "Add Functions to MQB Key"
+msgstr "Dodaj funkcje do przycisku MQB"
+
+msgid "Add Plugins to MQB Key"
+msgstr "Dodaj wtyczki do przycisku MQB"
+
+msgid "Add Macro to MQB Key"
+msgstr "Dodaj makro do przycisku MQB"
+
+msgid "Add Script/Binary to MQB Key"
+msgstr "Dodaj plik/skrypt wykonywalny do przycisku MQB"
+
+msgid "Functions"
+msgstr "Funkcje"
+
+msgid "No valid function file found"
+msgstr "Nie znaleziono funkcji pliku"
+
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#, python-format
+msgid "Entry %s already exists."
+msgstr "Wprowadzenie %s już istnieje."
+
+msgid "Save Settings"
+msgstr "Zachowaj ustawienia"
+
+msgid "MultiQuickButton macro configuration"
+msgstr "Konfiguracja macro przycisku skrótu"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Modify"
+msgstr "Zmień"
+
+msgid "Delete"
+msgstr "Skasuj"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "VU+ EPG / Info"
+msgstr "VU+ EPG / Info"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Record"
+msgstr "Nagraj"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Button : "
+msgstr "Przycisk : "
+
+msgid "Input name for MQB macro"
+msgstr "Namen für das MQB Macro eingeben"
+
+msgid "Input name for MQB macro : "
+msgstr "Wpisz nazwę makro MQB :"
+
+msgid "Select a file to execute"
+msgstr "Wybierz plik do wykonania"
+
+msgid "Invalid Choice"
+msgstr "Nieprawidłowy wybór"
+
+msgid "File is not executable"
+msgstr "Plik nie jest wykonywalny"
+
+msgid "Script"
+msgstr "Skrypt"
+
+msgid "Add command line options ?"
+msgstr "Określić dodatkowe argumenty wiersza poleceń?"
+
+msgid " "
+msgstr ""
+
+msgid "Please enter the command line options"
+msgstr "Podaj argumenty wiersza polecenia"
+
+msgid "chmod 755"
+msgstr "chmod 755"
+
+msgid "VTI Panel"
+msgstr "VTI Panel"
+
+msgid "Restart SoftCam"
+msgstr "Uruchom ponownie softcam"
+
+msgid "Plugin Browser"
+msgstr "Przeglądarka wtyczek"
+
+msgid "Extension Selection"
+msgstr "Wybór rozszerzenia"
+
+msgid "Sleeptimer"
+msgstr "Sleeptimer"
+
+msgid "Timer"
+msgstr "Geplante Aufnahmen"
+
+msgid "Channel zap +"
+msgstr "Kanał +"
+
+msgid "Channel zap -"
+msgstr "Kanał -"
+
+msgid "Channel zap (list) +"
+msgstr "Kanał + (Lista)"
+
+msgid "Channel zap (list) -"
+msgstr "Kanał - (Lista)"
+
+msgid "Dolby Digital downmix on/off"
+msgstr "Dolby Digital downmix włącz/wyłącz"
+
+msgid "List of Bouquets"
+msgstr "Lista pakietów"
+
+msgid "Channel list"
+msgstr "List kanałów"
+
+msgid "Zap history back"
+msgstr "Przełącz z powrotem historię"
+
+msgid "Zap history next"
+msgstr "Przełącz w przód historię"
+
+msgid "InfoBar"
+msgstr "InfoBar"
+
+msgid "InfoBar EventInfoPlugins"
+msgstr "Rozszerzony EPG"
+
+msgid "InfoBar EventView"
+msgstr "Pasek informacyjny wydarzenia"
+
+msgid "InfoBar EPG"
+msgstr "Skrócone EPG"
+
+msgid "InfoBar Multi EPG"
+msgstr "Pasek informacyjny multi EPG"
+
+msgid "InfoBar Audio Selection"
+msgstr "Ustawienia audio"
+
+msgid "InfoBar Show Radio"
+msgstr "Radio"
+
+msgid "InfoBar Show Tv"
+msgstr "Tv"
+
+msgid "Movie Archive"
+msgstr "Odtwarzanie nagrań"
+
+msgid "InfoBar Record"
+msgstr "Pasek informacyjny nagrywania"
+
+msgid "InfoBar Instant Record"
+msgstr "Bezpośrednie nagrywanie"
+
+msgid "Start Timeshift"
+msgstr "Uruchom Timeshift"
+
+msgid "Start Teletext"
+msgstr "Teletext"
+
+msgid "Favourite channel 1"
+msgstr "Ulubione stacje 1"
+
+msgid "Favourite channel 2"
+msgstr "Ulubione stacje 2"
+
+msgid "Favourite channel 3"
+msgstr "Ulubione stacje 3"
+
+msgid "Favourite channel 4"
+msgstr "Ulubione stacje 4"
+
+msgid "Favourite channel 5"
+msgstr "Ulubione stacje 5"
+
+msgid "Toggle AtmoLight"
+msgstr "AtmoLight włącz/wyłącz"
+
+msgid "Subservice Selection"
+msgstr "Opcja wyboru kanałów"
+
+msgid "Subtitles"
+msgstr "Napisy"
+
+msgid "MediaPlayer"
+msgstr "Odtwarzacz mediów"
+
+msgid "DVDPlayer"
+msgstr "Odtwarzacz DVD"
+
+msgid "Picture Player"
+msgstr "Przeglądarka obrazów"
+
+msgid "Cool TV Guide"
+msgstr "Przewodnik Cool TV"
+
+msgid "A/V Settings"
+msgstr "Ustawienia A/V"
+
+msgid "Switch 4:3 (Pillarbox) (Pan&Scan)"
+msgstr "Przełącznik 4:3 (Pillarbox <=> Pan&Scan)"
+
+msgid "Mount info"
+msgstr "Informacja podmontowań"
+
+msgid "Show PIP"
+msgstr "Pokaż PIP"
+
+msgid "Swap PIP"
+msgstr "Przełącz PIP"
+
+msgid "Move PIP"
+msgstr "Przesuń PIP"
+
+msgid "VTI EPG Settings"
+msgstr "Ustawienia VTI EPG"
+
+msgid "VTI DeviceManager"
+msgstr "Menadżer urządzeń VTI"
+
+msgid "VTI CamCenter"
+msgstr "Cam center VTI"
+
+msgid "VTI Backup Tools"
+msgstr "Narzędzia do tworzenia kopii zapasowych VTI"
+
+msgid "VTI Image Tools"
+msgstr "Narzędzia obrazów VTI"
+
+msgid "VTI System Tools"
+msgstr "Narzędzia systemu VTI"
+
+msgid "VTI Info Tools"
+msgstr "Informacje o systemie VTI"
+
+msgid "VTI Manual Package Installation"
+msgstr "Manualna instalacja pakietów (USB lub / tmp) VTI"
+
+msgid "VTI BitrateViewer"
+msgstr "Podgląd bitrate VTI"
+
+msgid "VTI System InfoPanel"
+msgstr "Panel informacyjny systemu VTI"
+
+msgid "VTI USB DVB-T/C/S2 Panel"
+msgstr "Panel VTI USB DVB-T/C/S2"
+
+msgid "VTI CronManager"
+msgstr "Menadżer Cron VTI"
+
+msgid "VTI ExeManager"
+msgstr "Menadżer wykonywania poleceń VTI"
+
+msgid "VTI News"
+msgstr "Aktualności VTI"
+
+msgid "Reboot"
+msgstr "Uruchom ponownie VU+"
+
+msgid "GUI Restart"
+msgstr "Uruchom ponownie GUI"
+
+msgid "DeepStandby"
+msgstr "Głębokie czuwanie"
+
+msgid "Remount Network Shares"
+msgstr "Zamontuj udziały sieciowe"
+
+msgid "Remote control macro I"
+msgstr "Makro pilota I"
+
+msgid "Remote control macro II"
+msgstr "Makro pilota  II"
+
+msgid "Remote control macro III"
+msgstr "Makro pilota  III"
+
+msgid "Remote control macro IV"
+msgstr "Makro pilota  IV"
+
+msgid "Remote control macro V"
+msgstr "Makro pilota V"
+
+msgid "AutoResolution on/off"
+msgstr "Włącz/Wyłącz AutoResolution"
+
+msgid "AutoResolution is disabled"
+msgstr "AutoResolution jest wyłączone"
+
+msgid "AutoResolution is enabled"
+msgstr "AutoResolution jest włączone"
+
+msgid "HDMI-CEC TV on"
+msgstr "HDMI-CEC TV włączone"
+
+msgid "HDMI-CEC TV off"
+msgstr "HDMI-CEC TV wyłączone"
+
+msgid "HDMI-CEC A/V on"
+msgstr "HDMI-CEC A/V włączone"
+
+msgid "HDMI-CEC A/V off"
+msgstr "HDMI-CEC A/V wyłączone"
+
+msgid "HDMI-CEC A/V Volume +"
+msgstr "HDMI-CEC A/V Głośność +"
+
+msgid "HDMI-CEC A/V Volume -"
+msgstr "HDMI-CEC A/V Głośność -"
+
+msgid "HDMI-CEC A/V Volume mute"
+msgstr "HDMI-CEC A/V mute"
+
+msgid "HDMI-CEC message was sent"
+msgstr "Wiadomość HDMI-CEC została wysłana"
+
+msgid "Power long"
+msgstr "Długie przyciśnięcie zasilania"
+
+msgid "VTI BackupSuite (Restore)"
+msgstr "Menadżer kopii zapasowych VTI (Przywróć)"
+
+msgid "VTI BackupSuite (Backup)"
+msgstr "Menadżer kopii zapasowych VTI (Utwórz)"
+
+msgid "show EPGBar"
+msgstr "Pokaż pasek EPG"
+
+msgid "(De)/Activate SplitScreen"
+msgstr "(Dez) Aktywuj ekran podziału"
+
+msgid "(De)/Activate AudioZap"
+msgstr "(Dez) Aktywuj przełączanie audio"
+
+msgid "Toggle zap focus (PiP, Split Screen, Audio Zap)"
+msgstr "Przełącz zbliżenie (PiP, Podział ekranu, Przełączanie audio)"
+
+msgid "Quickbutton: Key "
+msgstr "Przycisk skrótu: Przycisk"
+
+#, python-format
+msgid "file %s not found!"
+msgstr "Plik %s nie został znaleziony!"
+
+msgid "Multi Quickbutton"
+msgstr "Przycisk skrótu"
+
+msgid "Stop Timeshift"
+msgstr "Zatrzymaj Timeshift"
+
+msgid "Timeshift switch to Live TV"
+msgstr "Timeshift przełącz do Live TV"
+
+msgid "Stop running recordings"
+msgstr "Zatrzymaj nagrywania"
+
+msgid "Previous timeshift event"
+msgstr "Poprzednie zdarzenia Timeshift"
+
+msgid "Next timeshift event"
+msgstr "Następne zdarzenie Timeshift"
+
+msgid "Select timeshift event"
+msgstr "Wybierz zdarzenie Timeshift"
+
+msgid "Select Buttons"
+msgstr "Wybierz przyciski"
+
+msgid "MultiQuickButton button selection"
+msgstr "Wybór przycisku MultiQuickButton"
