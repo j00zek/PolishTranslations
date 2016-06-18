@@ -305,7 +305,7 @@ msgid "Sleeptimer"
 msgstr "Sleeptimer"
 
 msgid "Timer"
-msgstr "Geplante Aufnahmen"
+msgstr "Edytor Timer-a"
 
 msgid "Channel zap +"
 msgstr "Kanał +"
