@@ -9479,9 +9479,3 @@ msgstr "Nie zapisuj wydarzenia timeshift krótszego niż X minut"
 
 msgid "10 minutes"
 msgstr "10 minut"
-
-#~ msgid "E"
-#~ msgstr "E"
-
-#~ msgid "W"
-#~ msgstr "W"
