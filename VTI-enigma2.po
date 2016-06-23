@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-23 13:42+0200\n"
+"PO-Revision-Date: 2016-06-23 13:58+0200\n"
 "Last-Translator: Century (AC_fullHD) <Century>\n"
 "Language-Team: none\n"
 "Language: pl_PL\n"
@@ -34,7 +34,6 @@ msgstr ""
 "\n"
 "Kopia ustawień VU+"
 
-#, python-format
 msgid ""
 "\n"
 "Device : %s"
@@ -42,7 +41,6 @@ msgstr ""
 "\n"
 "Urządzenie : %s"
 
-#, python-format
 msgid ""
 "\n"
 "Device : /dev/%s"
@@ -64,7 +62,6 @@ msgstr ""
 "\n"
 "Edytuj adres aktualizacji."
 
-#, python-format
 msgid ""
 "\n"
 "Filesystem : %s"
@@ -86,7 +83,6 @@ msgstr ""
 "\n"
 "Aktualizacja Online oprogramowania VU+."
 
-#, python-format
 msgid ""
 "\n"
 "Partition : %s"
@@ -138,7 +134,6 @@ msgstr ""
 "Wybierz urządzenie do kopii.\n"
 "Aktualne urządzenie: "
 
-#, python-format
 msgid ""
 "\n"
 "Size : %d MB\n"
@@ -146,7 +141,6 @@ msgstr ""
 "\n"
 "Rozmiar : %d MB\n"
 
-#, python-format
 msgid ""
 "\n"
 "Size : %s"
@@ -154,7 +148,6 @@ msgstr ""
 "\n"
 "Rozmiar : %s"
 
-#, python-format
 msgid ""
 "\n"
 "Size : %s MB\n"
@@ -190,7 +183,6 @@ msgstr ""
 "\n"
 "Podczas transkodowania, PIP i wyjścia analogowe wideo są wyłączone."
 
-#, python-format
 msgid ""
 "\n"
 "partition %d : %s MB"
@@ -219,7 +211,6 @@ msgstr "2"
 msgid " 3"
 msgstr "3"
 
-#, python-format
 msgid " at /dev/%s"
 msgstr "o /dev/%s"
 
@@ -281,27 +272,21 @@ msgstr "%H:%M"
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
-#, python-format
 msgid "%d / 100"
 msgstr "%d / 100"
 
-#, python-format
 msgid "%d jobs are running in the background!"
 msgstr "To %d zadanie jest wykonywane w tle!"
 
-#, python-format
 msgid "%d min"
 msgstr "%d min"
 
-#, python-format
 msgid "%d services found!"
 msgstr "%d znalezionych kanałów!"
 
-#, python-format
 msgid "%s"
 msgstr "%s"
 
-#, python-format
 msgid ""
 "%s\n"
 "(%s, %d MB free)"
@@ -309,7 +294,6 @@ msgstr ""
 "%s\n"
 "(%s, %d MB wolne)"
 
-#, python-format
 msgid ""
 "%s\n"
 "Start Device Inititlization?"
@@ -317,11 +301,9 @@ msgstr ""
 "%s\n"
 "Rozpocząć inicjalizację urządzenia?"
 
-#, python-format
 msgid "%s (%s)\n"
 msgstr "%s (%s)\n"
 
-#, python-format
 msgid "%s ok?"
 msgstr "%s ok?"
 
@@ -523,7 +505,6 @@ msgstr "??"
 msgid "A"
 msgstr "A"
 
-#, python-format
 msgid ""
 "A configuration file (%s) was modified since Installation.\n"
 "Do you want to keep your version?"
@@ -548,7 +529,6 @@ msgstr ""
 msgid "A graphical EPG for all services of an specific bouquet"
 msgstr "Graficzny EPG dla wszystkich usług określonego pakietu"
 
-#, python-format
 msgid ""
 "A record has been started:\n"
 "%s"
@@ -567,7 +547,6 @@ msgid ""
 msgstr ""
 "Nagrywanie w toku. Zatrzymaj nagrywanie przed uruchomieniem miernika sygnału."
 
-#, python-format
 msgid "A required tool (%s) was not found."
 msgstr "Narzędzie (%s) nie zostało znalezione."
 
@@ -997,7 +976,6 @@ msgstr "Szybkość przepływu"
 msgid "Bitrate:"
 msgstr "Szybkość przepływu:"
 
-#, fuzzy
 msgid "Blindscan"
 msgstr "Blindscan"
 
@@ -1019,7 +997,6 @@ msgstr "Tytuł zakładki"
 msgid "Bookmark URL"
 msgstr "Zakładka URL"
 
-#, python-format
 msgid "Bookmarks"
 msgstr "Zakładki"
 
@@ -1090,14 +1067,12 @@ msgstr "Przechowuj miniatury"
 msgid "Can NOT generate passphrase"
 msgstr "Nie można utworzyć hasła"
 
-#, python-format
 msgid "Can not change the partition ID for %s"
 msgstr "Nie można zmienić identyfikatora partycji% s"
 
 msgid "Can not find any WirelessLan Module\n"
 msgstr "Nie można znaleźć modułu sieci bezprzewodowej\n"
 
-#, python-format
 msgid ""
 "Can not format device /dev/%s.\n"
 "refresh partition information failed!"
@@ -1111,7 +1086,6 @@ msgstr "Nie mogę otworzyć 'fan_pwm'"
 msgid "Can not setup WirelessLan Module in 'AP Mode'\n"
 msgstr "Nie można skonfigurować modułu sieci bezprzewodowej w trybie AP.\n"
 
-#, python-format
 msgid ""
 "Can not umount device /dev/%s.\n"
 "Maybe some files of the filesystem are open"
@@ -1119,7 +1093,6 @@ msgstr ""
 "Nie można odmontować urządzenia /dev/%s.\n"
 "Być może niektóre pliki w systemie plików są otwarte."
 
-#, python-format
 msgid ""
 "Can not use this mount point.(%s) \n"
 "Please select another mount point."
@@ -1165,7 +1138,6 @@ msgstr ""
 "Nie mogę otworzyć wybranej zakładki.\n"
 "   - adres URL jest pusty!!"
 
-#, python-format
 msgid ""
 "Can't umount %s. \n"
 "Maybe device or resource busy."
@@ -1419,11 +1391,9 @@ msgstr "Nie mogę odczytać nośnika. Czy nośnik znajduje się w czytniku?"
 msgid "Could not open Picture in Picture"
 msgstr "Nie można otworzyć PiP"
 
-#, python-format
 msgid "Couldn't record due to conflicting timer %s"
 msgstr "Nie można nagrać z powodu konfliktu timera %s"
 
-#, python-format
 msgid "Couldn't record due to invalid service %s"
 msgstr "Nie można nagrywać z powodu nieprawidłowych kanałów % s"
 
@@ -1442,7 +1412,6 @@ msgstr "Stwórz DVD-ISO"
 msgid "Create directory"
 msgstr "Utwórz katalog"
 
-#, python-format
 msgid ""
 "Create directory failed!\n"
 "%s"
@@ -1462,7 +1431,6 @@ msgstr "Utwórz: kerneldump"
 msgid "Create: root.ubifs"
 msgstr "Utwórz: root.ubifs"
 
-#, python-format
 msgid "Creating directory %s failed."
 msgstr "Utworzenie katalogu %s nie powiodło się."
 
@@ -1595,7 +1563,6 @@ msgstr "Opóźnienie"
 msgid "Delete"
 msgstr "Usuń"
 
-#, python-format
 msgid ""
 "Delete directory failed!\n"
 "%s"
@@ -1616,7 +1583,6 @@ msgstr "Skasuj wpis"
 msgid "Delete failed!"
 msgstr "Kasowanie nie powiodło się!"
 
-#, python-format
 msgid ""
 "Delete no more configured satellite\n"
 "%s?"
@@ -1696,7 +1662,6 @@ msgstr "Bezpośrednie wejście (Kategoria)"
 msgid "Direct playback of linked titles without menu"
 msgstr "Bezpośrednie odtwarzanie połączonych tytułów bez menu"
 
-#, python-format
 msgid "Directory %s nonexistent."
 msgstr "Katalog %s nie istnieje."
 
@@ -1742,7 +1707,6 @@ msgstr "Wyświetlanie i Interfejs użytkownika"
 msgid "Do not zap to not available services"
 msgstr "Nie przełączaj na niedostępne kanały"
 
-#, python-format
 msgid ""
 "Do you really want to REMOVE\n"
 "the plugin \"%s\"?"
@@ -1757,11 +1721,9 @@ msgstr ""
 "Czy na pewno chcesz sprawdzić system plików?\n"
 "Czynność może zająć dużo czasu!"
 
-#, python-format
 msgid "Do you really want to delete %s?"
 msgstr "Jesteś pewien, że chcesz usunąć %s?"
 
-#, python-format
 msgid ""
 "Do you really want to download\n"
 "the plugin \"%s\"?"
@@ -1786,11 +1748,9 @@ msgstr ""
 "Czy chcesz zainicjować HDD?\n"
 "Wszystkie dane na dysku zostaną skasowane!"
 
-#, python-format
 msgid "Do you really want to remove directory %s from the disk?"
 msgstr "Czy na pewno chcesz usunąć katalog %s z dysku?"
 
-#, python-format
 msgid "Do you really want to remove your bookmark of %s?"
 msgstr "Czy na pewno chcesz usunąć zakładke %s?"
 
@@ -1914,11 +1874,9 @@ msgstr "Domyślnie Dolby Downmix"
 msgid "Don't stop current event but disable coming events"
 msgstr "Nie zatrzymuj aktualnego wydarzenia ale wyłącz nadchodzące"
 
-#, python-format
 msgid "Done - Installed or upgraded %d packages"
 msgstr "Zrobione - Instalowanie lub aktualizowanie %d pakietów"
 
-#, python-format
 msgid "Done - Installed, upgraded or removed %d packages with %d errors"
 msgstr "Zrobione - Instalowanie lub aktualizowanie %d pakietów z %d błędami"
 
@@ -1940,7 +1898,6 @@ msgstr "Wtyczki do pobrania"
 msgid "Downloaded "
 msgstr "Pobrane "
 
-#, python-format
 msgid ""
 "Downloaded : %s\n"
 "Press OK to select, Press Cancel to exit."
@@ -1969,7 +1926,6 @@ msgstr "Dynamiczny kontrast"
 msgid "EPG Selection"
 msgstr "Wybór EPG"
 
-#, python-format
 msgid "ERROR - failed to scan (%s)!"
 msgstr "BŁĄD - skanowanie (%s) nie powiodło się!"
 
@@ -2124,7 +2080,6 @@ msgid "Error checking disk. The disk or filesystem may be damaged"
 msgstr ""
 "Błąd podczas sprawdzania dysku. Dysk lub system plików może być uszkodzony"
 
-#, python-format
 msgid ""
 "Error: %s\n"
 "Retry?"
@@ -2132,7 +2087,6 @@ msgstr ""
 "Błąd: %s\n"
 "Ponowić?"
 
-#, python-format
 msgid ""
 "Error[%d] : %s.\n"
 "Press OK to exit."
@@ -2264,7 +2218,6 @@ msgstr ""
 "Powód: brak urządzenia.\n"
 "Chcesz zrezygnować?"
 
-#, python-format
 msgid ""
 "Fail to verify data file. \n"
 "file[%s]\n"
@@ -2280,7 +2233,6 @@ msgstr "Błąd"
 msgid "Fallback to default skin at skin errors"
 msgstr "Powróć do domyślnej skóry w przypadku wystąpienia błędów"
 
-#, python-format
 msgid "Fan %d"
 msgstr "Wentylator %d"
 
@@ -2391,7 +2343,6 @@ msgstr "Rozmiar ramki w pełnym widoku"
 msgid "Framerate"
 msgstr "Częstotliwość wyświetlania klatek"
 
-#, python-format
 msgid "Free : %s"
 msgstr "Wolne : %s"
 
@@ -2439,7 +2390,6 @@ msgstr "Front Procesor"
 msgid "Front USB Slot"
 msgstr "Przednie gniazdo USB"
 
-#, python-format
 msgid "Frontprocessor version: %d"
 msgstr "Wersja Frontprocesora: %d"
 
@@ -2732,7 +2682,6 @@ msgstr "Konfiguracja urządzenia wejściowego"
 msgid "Input mount point path."
 msgstr "Podaj ścieżkę punktu montowania"
 
-#, python-format
 msgid "Input size of partition %s.(Max = %d MB)"
 msgstr "Wprowadź wielkość partycji %s.(Max =% d MB)"
 
@@ -2841,7 +2790,6 @@ msgstr "Nieprawidłowy beacon\n"
 msgid "Invalid channel\n"
 msgstr "Nieprawidłowy kanał\n"
 
-#, python-format
 msgid "Invalid directory selected: %s"
 msgstr "Wybrano niewłaściwy katalog: %s"
 
@@ -2875,7 +2823,6 @@ msgstr "Włoski"
 msgid "Job View"
 msgstr "Podgląd zajęć"
 
-#. TRANSLATORS: (aspect ratio policy: display as fullscreen, even if this breaks the aspect)
 msgid "Just Scale"
 msgstr "Po prostu skaluj"
 
@@ -2960,7 +2907,6 @@ msgstr "Lewy klawisz"
 msgid "Left Mouse Button"
 msgstr "Lewy przycisk myszki"
 
-#. TRANSLATORS: (aspect ratio policy: black bars on top/bottom) in doubt, keep english term.
 msgid "Letterbox"
 msgstr "Letterbox"
 
@@ -3054,7 +3000,6 @@ msgstr "Menu Główne"
 msgid "Mainmenu"
 msgstr "Menu Główne"
 
-#, python-format
 msgid ""
 "Make filesystem Error /dev/%s.\n"
 "Please check your device."
@@ -3173,7 +3118,6 @@ msgstr "Punktowa redukcja szumów"
 msgid "Mount"
 msgstr "Zamontuj"
 
-#, python-format
 msgid ""
 "Mount Failed!\n"
 "(%s -> %s)"
@@ -3181,7 +3125,6 @@ msgstr ""
 "Montowanie nie powiodło się!\n"
 "(%s -> %s)"
 
-#, python-format
 msgid ""
 "Mount Failed!\n"
 "Current path is already mounted by \"%s\""
@@ -3192,18 +3135,15 @@ msgstr ""
 msgid "Mount Point"
 msgstr "Punkt montowania"
 
-#, python-format
 msgid "Mount Point : %s -> %s"
 msgstr "Punkt montowania : %s -> %s"
 
-#, python-format
 msgid "Mount Point : %s ->%s"
 msgstr "Punkt montowania : %s -> %s"
 
 msgid "Mount Point : click ok button on here."
 msgstr "Punkt montowania : naciśnij OK tutaj button on here."
 
-#, python-format
 msgid ""
 "Mount Point is not writeable.\n"
 "Path : %s"
@@ -3217,7 +3157,6 @@ msgstr "Montowanie nieudane"
 msgid "Mount known devices automatically : "
 msgstr "Zamontuj znane urządzenia automatycznie :"
 
-#, python-format
 msgid "Mounted on : %s"
 msgstr "Zamontuj na : %s"
 
@@ -3306,7 +3245,6 @@ msgstr "Nazwa :"
 msgid "Nameserver"
 msgstr "DNS"
 
-#, python-format
 msgid "Nameserver %d"
 msgstr "DNS %d"
 
@@ -3425,7 +3363,6 @@ msgstr "Brak wolnego tunera!"
 msgid "No information..."
 msgstr "Brak informacji..."
 
-#, python-format
 msgid ""
 "No mountable devices found.! (%s)\n"
 "Do you want to open DeviceManager and do initialize or format this device?\n"
@@ -3562,7 +3499,6 @@ msgstr "Nie, skanuj ręcznie później"
 msgid "None"
 msgstr "Brak"
 
-#. TRANSLATORS: (aspect ratio policy: display as fullscreen, with stretching the left/right)
 msgid "Nonlinear"
 msgstr "Nielinearny"
 
@@ -3575,7 +3511,6 @@ msgstr "Północ"
 msgid "Norwegian"
 msgstr "Norweski"
 
-#, python-format
 msgid ""
 "Not enough diskspace. Please free up some diskspace and try again. (%d MB "
 "required, %d MB available)"
@@ -3583,7 +3518,6 @@ msgstr ""
 "Nie wystarczająca ilość przestrzeni dyskowej. Proszę zwolnić przestrzeń dyskową "
 "i spróbować ponownie. (%d MB wymagane, %d MB dostępne)"
 
-#, fuzzy
 msgid "Not-Associated"
 msgstr "Not-Associated"
 
@@ -3642,7 +3576,6 @@ msgstr "Otwórz stronę startową"
 msgid "Open URL"
 msgstr "Otwórz stronę"
 
-#, fuzzy
 msgid "Opera Browser"
 msgstr "Opera Browser"
 
@@ -3656,7 +3589,6 @@ msgstr ""
 msgid "Opera Web Browser"
 msgstr "Przeglądarka Opera"
 
-#, fuzzy
 msgid "Opera Web Browser Plugin v1.0"
 msgstr "Opera Web Browser Plugin v1.0"
 
@@ -3708,7 +3640,6 @@ msgstr "Strzałka w dół"
 msgid "PageUp Key"
 msgstr "Strzałka w górę"
 
-#. TRANSLATORS: (aspect ratio policy: cropped content on left/right) in doubt, keep english term
 msgid "Pan&Scan"
 msgstr "Pan&Scan"
 
@@ -3727,7 +3658,6 @@ msgstr "Ustawienia kontroli rodzicielskiej"
 msgid "Parental control type"
 msgstr "Typ kontroli rodzicielskiej"
 
-#, python-format
 msgid "Partition : /dev/%s"
 msgstr "Partycja : /dev/%s"
 
@@ -3737,7 +3667,6 @@ msgstr "Informacja o partycji nie została znaleziona."
 msgid "Partitions"
 msgstr "Partycje"
 
-#, python-format
 msgid "Partitions : %s"
 msgstr "Partycje : %s"
 
@@ -3765,7 +3694,6 @@ msgstr "Folder zdjęć"
 msgid "PicturePlayer"
 msgstr "Odtwarzacz Zdjęć"
 
-#. TRANSLATORS: (aspect ratio policy: black bars on left/right) in doubt, keep english term.
 msgid "Pillarbox"
 msgstr "Pillarbox"
 
@@ -3973,27 +3901,21 @@ msgstr "Ustaw Tuner C"
 msgid "Please set up tuner D"
 msgstr "Ustaw Tuner D"
 
-#
 msgid "Please set up tuner E"
 msgstr "Ustaw Tuner E"
 
-#
 msgid "Please set up tuner F"
 msgstr "Ustaw Tuner F"
 
-#
 msgid "Please set up tuner G"
 msgstr "Ustaw Tuner G"
 
-#
 msgid "Please set up tuner H"
 msgstr "Ustaw Tuner H"
 
-#
 msgid "Please set up tuner I"
 msgstr "Ustaw Tuner I"
 
-#
 msgid "Please set up tuner J"
 msgstr "Ustaw Tuner J"
 
@@ -4174,7 +4096,6 @@ msgstr "Naciśnij OK, aby aktywować ustawienia."
 msgid "Press OK to edit the settings."
 msgstr "W celu edytowania ustawień naciśnij OK."
 
-#, python-format
 msgid "Press OK to get further details for %s"
 msgstr "Naciśnij OK, aby dostać więcej informacji o %s"
 
@@ -4303,7 +4224,6 @@ msgstr "Czy naprawdę chcesz zamknąć teraz?"
 msgid "Realtek"
 msgstr "Realtek"
 
-#, python-format
 msgid ""
 "Reboot after %d seconds.\n"
 "Press the OK to reboot now."
@@ -4311,7 +4231,6 @@ msgstr ""
 "Uruchom ponownie po %d sek.\n"
 "Naciśnij przycisk OK, aby ponownie uruchomić teraz."
 
-#, python-format
 msgid "Reboot in %d seconds. Press OK to reboot now."
 msgstr ""
 "Uruchom ponownie za %d sekund. Naciśnij przycisk OK, aby ponownie uruchomić "
@@ -4323,7 +4242,6 @@ msgstr "Ustawienia odbioru"
 msgid "Record"
 msgstr "Nagraj"
 
-#, python-format
 msgid "Record time limited due to conflicting timer %s"
 msgstr "Ograniczenie nagrywania z powodu konfliktu timera %s"
 
@@ -4378,7 +4296,6 @@ msgstr "Kod pilota"
 msgid "RemoteControlCode"
 msgstr "Kod pilota"
 
-#, python-format
 msgid "Removable : %s"
 msgstr "Usuwalne : %s"
 
@@ -4415,7 +4332,6 @@ msgstr "Usuń tytuł."
 msgid "Removing"
 msgstr "Kasowanie."
 
-#, python-format
 msgid "Removing directory %s failed. (Maybe not empty.)"
 msgstr "Usunięcie katalogu %s nie powiodło się. (Być może nie jest pusty)."
 
@@ -4494,17 +4410,9 @@ msgstr "Przywróć ustawienia systemowe"
 msgid "Resume from last position"
 msgstr "Wznów od ostatniej pozycji"
 
-#, python-format
 msgid "Resume position at %s"
 msgstr "Wznów pozycję na %s"
 
-#. TRANSLATORS: The string "Resuming playback" flashes for a moment
-#. TRANSLATORS: at the start of a movie, when the user has selected
-#. TRANSLATORS: "Resume from last position" as start behavior.
-#. TRANSLATORS: The purpose is to notify the user that the movie starts
-#. TRANSLATORS: in the middle somewhere and not from the beginning.
-#. TRANSLATORS: (Some translators seem to have interpreted it as a
-#. TRANSLATORS: question or a choice, but it is a statement.)
 msgid "Resuming playback"
 msgstr "Wznawianie odtwarzania"
 
@@ -4770,7 +4678,6 @@ msgstr "Wyszukiwanie"
 msgid "Select"
 msgstr "Wybierz"
 
-#, python-format
 msgid "Select %s button function:"
 msgstr "Wybierz %s przycisk funkcji:"
 
@@ -4945,7 +4852,6 @@ msgstr "Filmy"
 msgid "Setup - Timer"
 msgstr "Nagrania"
 
-#
 msgid "Setup - Timeshift"
 msgstr "Ustawienia - Timeshift"
 
@@ -4985,7 +4891,6 @@ msgstr "Ostrość"
 msgid "Short filenames"
 msgstr "Krótkie nazwy plików"
 
-#, python-format
 msgid "Short name for bookmark %s:"
 msgstr "Skrócona nazwa dla ulubionych %s:"
 
@@ -5154,7 +5059,6 @@ msgstr "Jeden transponder"
 msgid "Singlestep (GOP)"
 msgstr "Pojedyńczy krok (GOP)"
 
-#, python-format
 msgid "Size : %s"
 msgstr "Rozmiar : %s"
 
@@ -5176,7 +5080,6 @@ msgstr "Odstępy w pokazie slajdów"
 msgid "Slideshow Interval (sec.)"
 msgstr "Odstępy w pokazie slajdów (w sek.)"
 
-#, python-format
 msgid "Slot %d"
 msgstr "Slot %d"
 
@@ -5192,7 +5095,6 @@ msgstr "Wolno"
 msgid "Slow Motion speeds"
 msgstr "Odtwarzanie w zwolnionym tempie"
 
-#, python-format
 msgid ""
 "Smart Card 1 Error!\n"
 "errorcode=%d"
@@ -5200,7 +5102,6 @@ msgstr ""
 "Błąd karty kodowej 1!\n"
 "Kod błędu=%d"
 
-#, python-format
 msgid ""
 "Smart Card 2 Error!\n"
 "errorcode=%d"
@@ -5266,11 +5167,9 @@ msgstr ""
 msgid "Sort"
 msgstr "Sortuj"
 
-#. TRANSLATORS: This must fit into the header button in the EPG-List
 msgid "Sort A-Z"
 msgstr "Sortuj A-Z"
 
-#. TRANSLATORS: This must fit into the header button in the EPG-List
 msgid "Sort Time"
 msgstr "Sortuj (Czas)"
 
@@ -5578,7 +5477,6 @@ msgstr "Nieudane tworzenie kopii zapasowej. Wybierz inną lokalizację kopii."
 msgid "The content of the folder is:"
 msgstr "Zawartość folderu jest:"
 
-#, python-format
 msgid ""
 "The directory %s is not writable.\n"
 "Make sure you select a writable directory instead."
@@ -5617,7 +5515,6 @@ msgstr "Wprowadzony numer jest zły!"
 msgid "The package doesn't contain anything."
 msgstr "Pakiet nie zawiera informacji."
 
-#, python-format
 msgid "The path %s already exists."
 msgstr "Ścieżka %s już istnieje."
 
@@ -5627,7 +5524,6 @@ msgstr "Kod PIN, który wpisałeś jest zły."
 msgid "The program will exit now."
 msgstr "Program zakończy pracę."
 
-#, python-format
 msgid "The results have been written to %s."
 msgstr "Wyniki będą zapisane w %s."
 
@@ -5704,7 +5600,6 @@ msgstr "Ta wtyczka nie wspiera Solo/Duo"
 msgid "This Plugin only support for ULTIMO"
 msgstr "Ta wtyczka nie wspiera Ultimo"
 
-#, python-format
 msgid "This STB can't decode %s streams!"
 msgstr "VU+ nie może zdekodować %s streamu!"
 
@@ -6011,7 +5906,6 @@ msgstr "Ustaw"
 msgid "Tune failed!"
 msgstr "Strojenie nieudane!"
 
-#, python-format
 msgid "Tune%d %s Locking Fail..."
 msgstr "Dostrajanie%d %s zakończone niepowodzeniem..."
 
@@ -6042,7 +5936,6 @@ msgstr "Dwa"
 msgid "Type"
 msgstr "Typ"
 
-#, python-format
 msgid "Type : %s"
 msgstr "Typ : %s"
 
@@ -6064,11 +5957,9 @@ msgstr "USALS"
 msgid "USB Stick"
 msgstr "Pamięć USB "
 
-#, python-format
 msgid "USB test error : Success-%d"
 msgstr "Błąd testu USB: Sukces-%d"
 
-#, python-format
 msgid ""
 "USB test pass %d devices\n"
 "Press 'OK' button!"
@@ -6076,7 +5967,6 @@ msgstr ""
 "Przebieg testu USB na %d urządzeniach\n"
 "Naciśnij przycisk 'OK'!"
 
-#, python-format
 msgid "UUID : %s"
 msgstr "UUID : %s"
 
@@ -6727,7 +6617,6 @@ msgstr ""
 "Wybrałeś przywrócenie swoich ustawień. Enigma2 zostanie uruchomiona ponownie po "
 "przywróceniu. Naciśnij OK aby rozpocząć teraz."
 
-#, python-format
 msgid "You have to wait %s!"
 msgstr "Musisz poczekać na %s!"
 
@@ -6955,11 +6844,9 @@ msgstr "Na początku"
 msgid "at end"
 msgstr "Na końcu"
 
-#, python-format
 msgid "audio track (%s) format"
 msgstr "Format ścieżki audio (%s)"
 
-#, python-format
 msgid "audio track (%s) language"
 msgstr "Język ścieżki audio (%s)"
 
@@ -7008,7 +6895,6 @@ msgstr "Niebieski"
 msgid "bookmark"
 msgstr "Zakładka"
 
-#, python-format
 msgid "burn audio track (%s)"
 msgstr "Nagraj ścieżkę audio (%s)"
 
@@ -7060,7 +6946,6 @@ msgstr "Kontynuuj/Pauza"
 msgid "copy"
 msgstr "Kopiuj"
 
-#, python-format
 msgid "copy : %s"
 msgstr "Kopiuj : %s"
 
@@ -7097,7 +6982,6 @@ msgstr "Domyślny"
 msgid "delete"
 msgstr "Usuń"
 
-#, python-format
 msgid "delete : %s"
 msgstr "Skasuj : %s"
 
@@ -7113,7 +6997,6 @@ msgstr "Usuń wpis playlisty"
 msgid "delete saved playlist"
 msgstr "Usuń zachowaną playlistę"
 
-#, python-format
 msgid "device : %s"
 msgstr "Urządzenie : %s"
 
@@ -7381,7 +7264,6 @@ msgstr "Miesiąc"
 msgid "move"
 msgstr "Przenieś"
 
-#, python-format
 msgid "move : %s"
 msgstr "Przenieś : %s"
 
@@ -7544,7 +7426,6 @@ msgstr "Poprzedni kanał w historii"
 msgid "progress bar"
 msgstr "Pasek postępu"
 
-#, python-format
 msgid "python %s %s %s %s"
 msgstr "python %s %s %s %s"
 
@@ -7629,7 +7510,6 @@ msgstr "Zapisz playlistę przy wyjściu"
 msgid "scan done!"
 msgstr "Skanowanie zakończone!"
 
-#, python-format
 msgid "scan in progress - %d%% done!"
 msgstr "Skanowanie w toku - %d%% skończone!"
 
@@ -8347,7 +8227,6 @@ msgstr "Włącz ostatni kanał po powrocie do listy nagrań (PiG)"
 msgid "Toggle zap focus (PiP, Split Screen, Audio Zap)"
 msgstr "Przełącz regulację zbliżenia (PiP, podział ekranu, przełączenia audio)"
 
-#, fuzzy
 msgid "Video"
 msgstr "Video"
 
@@ -8360,11 +8239,9 @@ msgstr "Okno główne"
 msgid "Second window"
 msgstr "Drugie okno"
 
-#, fuzzy
 msgid "Mini TV"
 msgstr "Mini TV"
 
-#, fuzzy
 msgid "Live TV"
 msgstr "Live TV"
 
@@ -9146,11 +9023,9 @@ msgstr "Pokaż stare wydarzenia timeshift"
 msgid "FCC enabled"
 msgstr "Włączone FCC"
 
-#, fuzzy
 msgid "Disable FastChannelChange"
 msgstr "Wyłącz szybkie przełączanie"
 
-#, fuzzy
 msgid "Enable FastChannelChange"
 msgstr "Włącz szybkie przełączanie"
 
@@ -9248,7 +9123,6 @@ msgstr "Automatyczne włączanie napisów zewnętrznych"
 msgid "Subtitle Quickmenu"
 msgstr "Menu podręczne napisów"
 
-#, fuzzy
 msgid "Original"
 msgstr "Oryginalny"
 
@@ -9258,7 +9132,6 @@ msgstr "Bez opóźnienia"
 msgid "No transparency"
 msgstr "Bez przezroczystości"
 
-#, fuzzy
 msgid "Full transparency"
 msgstr "Przeźroczysty"
 
@@ -9273,9 +9146,3 @@ msgstr "Nie zapisuj wydarzenia timeshift krótszego niż X minut"
 
 msgid "10 minutes"
 msgstr "10 minut"
-
-#~ msgid "E"
-#~ msgstr "E"
-
-#~ msgid "W"
-#~ msgstr "W"
