@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2016-04-27 19:17+0200\n"
+"PO-Revision-Date: 2016-06-21 14:02+0200\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 
 msgid ""
 "\n"
@@ -1588,7 +1588,7 @@ msgid "Backup"
 msgstr "Kopia zapasowa"
 
 msgid "Backup Date: %s\n"
-msgstr "Data kopia zapasowej: %s\n"
+msgstr "Data kopii zapasowej: %s\n"
 
 msgid "Backup Image"
 msgstr "Kopia zapasowa obrazu"
@@ -1625,7 +1625,7 @@ msgstr ""
 "Czy chcesz teraz zainstalować?"
 
 msgid "Backup system settings"
-msgstr "Kopia systemowych ustawień"
+msgstr "Kopia ustawień systemowych"
 
 msgid "Backup your current image"
 msgstr "Kopia zapasowa aktualnego obrazu"
@@ -4591,7 +4591,7 @@ msgid "FTP setup"
 msgstr "konfiguracja FTP"
 
 msgid "Factory reset"
-msgstr "Przywracanie fabrycznych ustawień"
+msgstr "Przywracanie ustawień fabrycznych"
 
 msgid "Fade the Infobar on hide"
 msgstr "Wygaszanie paska info.w skórze"
@@ -4808,7 +4808,7 @@ msgid "Free Memory:"
 msgstr "Wolnej pamięci:\t"
 
 msgid "Free Swap:"
-msgstr "Wolna wymiana:"
+msgstr "Wolna wymiana:\t"
 
 msgid "Free To Air"
 msgstr "Kanały FTA/niekodowane"
@@ -4826,7 +4826,7 @@ msgid "Free:"
 msgstr "Wolnej pamięci:\t"
 
 msgid "Free: "
-msgstr "Wolnej pamięci: "
+msgstr "Wolnej pamięci:\t"
 
 msgid "FreeSpace"
 msgstr "Wolne miejsce"
@@ -7131,10 +7131,10 @@ msgid "No age block"
 msgstr "Brak ograniczeń wiekowych"
 
 msgid "No backup needed"
-msgstr "Kopia zapasowa nie potrzebna"
+msgstr "Nie potrzebna kopia zapasowa"
 
 msgid "No cable tuner found!"
-msgstr "Nie znaleziono kablowej głowicy!"
+msgstr "Nie znaleziono głowicy do kablówki!"
 
 msgid "No card inserted!"
 msgstr "Nie włożono karty!"
@@ -9324,7 +9324,7 @@ msgid "Restore settings from a backup"
 msgstr "Przywracanie ustawień z kopii zapasowej"
 
 msgid "Restore system settings"
-msgstr "Przywracanie systemowych ustawień"
+msgstr "Przywracanie ustawień systemowych"
 
 msgid "Restore your settings back from a backup. After restore the box will restart to activated the new settings"
 msgstr "Przywrócić ustawienia z kopii zapasowej?Po przywróceniu odbiornik zostanie ponownie uruchomiony,aby nowe ustawienia były aktywne"
@@ -11484,14 +11484,11 @@ msgstr ""
 msgid "Sorry, %s has not been installed!"
 msgstr "Niestety, %s nie został zainstalowany!"
 
-msgid "Sorry, no Details available!"
+msgid "Sorry, no details available!"
 msgstr "Przepraszamy,informacje nie dostępne"
 
 msgid "Sorry, no backups found!"
 msgstr "Nie znaleziono kopii zapasowych!"
-
-msgid "Sorry, no details available!"
-msgstr "Szczegółowy opis niedostępny!"
 
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile on network or fat32 filesystems"
 msgstr "Przepraszamy nie ma fizycznego urządzenia który by obsługiwał załączoną wymianę.Nie można utworzyć pliku wymiany w sieci lub systemie plików fat32"
@@ -12012,7 +12009,7 @@ msgid "System_Info"
 msgstr "Informacje o systemie"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Poprawiłem tłumaczenie,proszę o sugestie zmian,błędów:adres j/w"
+msgstr "Sugestie poprawek,błędów:"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Plik TS jest za duży dla ISO9660 level 1!"
@@ -13108,10 +13105,10 @@ msgid "Total"
 msgstr "Całkowity"
 
 msgid "Total Memory:"
-msgstr "Ogólnej pamięci:"
+msgstr "Ogólnej pamięci:\t"
 
 msgid "Total Swap:"
-msgstr "Ogólna wymiana:"
+msgstr "Ogólna wymiana:\t"
 
 msgid "Total cards:"
 msgstr "Razem kart:"
@@ -13123,7 +13120,7 @@ msgid "Total handled client emm's"
 msgstr "Razem obsługiwanych klientów emm's"
 
 msgid "Total:"
-msgstr "Ogólnej pamięci:"
+msgstr "Ogólnej pamięci:\t"
 
 msgid "Track"
 msgstr "Ścieżka"
@@ -17662,3 +17659,51 @@ msgstr "Krok wartości dla pojednyczego naciśnięcia przycisku głośności.W z
 
 msgid "Step value for fast switching or long press the volume button. Depending on the setting (if greater) and the current volume (if less) will adjusted the step. (30 to 4, 18 to 3, 9 to 2 and 3 to 1)"
 msgstr "Krok wartości dla szybkiego przełączania lub długie naciśnięcie przycisku głośności.W zależności od ustawienia (większy) i aktualna wartość (mała) krok zostanie skorygowany.(30 do 4, 18 do 3, 9 do 2 i 3 do 1)"
+
+msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check www.opena.tv"
+msgstr "Niestety źródło jest w trakcie prac konserwacyjnych,spróbuj ponownie później.Jeśli ten problem będzie się powtarzał należy sprawdzić www.opena.tv"
+
+msgid "This allows you to show drivers modules in downloads"
+msgstr "To pozwala na pokazanie modułów sterownika w obszarze pobierania"
+
+msgid "This allows you to show extensions modules in downloads"
+msgstr "To pozwala na pokazanie modułów rozszerzeń w obszarze pobierania"
+
+msgid "This allows you to show systemplugins modules in downloads"
+msgstr "To pozwala na pokazanie modułów wtyczek systemowych w obszarze pobierania"
+
+msgid "This allows you to show softcams modules in downloads"
+msgstr "To pozwala pokazać moduły softcams w obszarze pobierania"
+
+msgid "This allows you to show skins modules in downloads"
+msgstr "To pozwala pokazać moduły skórek w obszarze pobierania"
+
+msgid "This allows you to show lcd skins in downloads"
+msgstr "To pozwala pokazać skórki LCD w obszarze pobierania"
+
+msgid "This allows you to show picons modules in downloads"
+msgstr "To pozwala pokazać picony w obszarze pobierania"
+
+msgid "This allows you to show settings modules in downloads"
+msgstr "To pozwala pokazać ustawienia modułów w obszarze pobierania"
+
+msgid "This allows you to show m2k modules in downloads"
+msgstr "To pozwala pokazać moduły M2K w obszarze pobierania"
+
+msgid "This allows you to show weblinks modules in downloads"
+msgstr "To pozwala pokazać internetowe łącze modułów w obszarze pobierania"
+
+msgid "This allows you to show pli modules in downloads"
+msgstr "To pozwala,aby pokazać wszystkie moduły pli w obszarze pobierania"
+
+msgid "This allows you to show vix modules in downloads"
+msgstr "To pozwala na wyświetlanie modułów VIX w obszarze pobierania"
+
+msgid "This allows you to show security modules in downloads"
+msgstr "To pozwala na wyświetlanie modułów bezpieczeństwa w obszarze pobierania"
+
+msgid "This allows you to show kernel modules in downloads"
+msgstr "To pozwala na wyświetlanie rozszerzeń jądra w obszarze pobierania"
+
+msgid "Please enter the your personal feed URL"
+msgstr "Tutaj można wpisać swój osobisty adres źródła URL"
