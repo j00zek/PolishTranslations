@@ -19,11 +19,15 @@ if [ -z $addonConfig ]; then
     echo "Błąd pobierania pliku konfiguracyjnego, koniec :("
     exit 0
   fi
-
-  if [ -f /tmp/paths.conf ];then
-    addonConfig=`grep "$myConfig=" < /tmp/paths.conf| cut -d '=' -f2`
+  if [ ! -f /tmp/paths.conf ]; then
+    echo "Błąd pobierania pliku konfiguracyjnego, koniec :("
+    exit 0
+  else
+    addonConfig=`grep "^$myConfig=" < /tmp/paths.conf| cut -d '=' -f2|tr -d '\n'`
+    echo "Konfiguracja dla $myConfig : $addonConfig"
   fi
 fi
+
 if [ -z $addonConfig ];then
   findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`
   echo "Brak konfiguracji dla $myConfig, wyszukiwanie po nazwie..."
@@ -53,8 +57,13 @@ if [ $? -gt 0 ]; then
   echo "Błąd podczas kompilacji, koniec :("
   exit 0
 fi
+echo `dirname $addonConfig`
 mkdir -p `dirname $addonConfig`
-mv -f /tmp/$myConfig.mo $addonConfig
+sync
+echo "mv -f /tmp/$myConfig.mo $addonConfig" >/tmp/aqq
+mv -f "/tmp/$myConfig.mo" "$addonConfig"
+touch $addonConfig.aqq
+#cp -f "/tmp/$myConfig.mo" "$addonConfig"
 rm -rf /tmp/$addon
 rm -rf /tmp/paths.conf
 echo
