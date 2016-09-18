@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2016-06-21 14:02+0200\n"
+"PO-Revision-Date: 2016-09-16 19:30+0200\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 
 msgid ""
 "\n"
@@ -17707,3 +17707,220 @@ msgstr "To pozwala na wyświetlanie rozszerzeń jądra w obszarze pobierania"
 
 msgid "Please enter the your personal feed URL"
 msgstr "Tutaj można wpisać swój osobisty adres źródła URL"
+
+msgid "Toggle Digital downmix..."
+msgstr "Przełącznik cyfrowy downmix"
+
+msgid "Sleep long"
+msgstr "Długi sen"
+
+msgid "Enable digital downmix"
+msgstr "Włącz cyfrowy downmiks"
+
+msgid "Disable digital downmix"
+msgstr "Wyłącz cyfrowy downmiks"
+
+msgid "Dolby Digital downmix is now"
+msgstr "Teraz jest cyfrowy downmiks"
+
+msgid "Default timer type"
+msgstr "Domyślny typ timera"
+
+msgid "Configure default type for new timers."
+msgstr "Konfigurowanie domyślnego typu dla nowych timerów."
+
+msgid "Long press emulation with button"
+msgstr "Emulacja długiego naciśnięcia przycisku"
+
+msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
+msgstr "Naciśnij ten przycisk,aby symulować długie naciśnięcie na przycisk wciśnięty później (Funkcja ta ma pierwszeństwo w stosunku do innych kluczowych zadań)."
+
+msgid "Position of recording icons"
+msgstr "Pozycja ikon nagrywania"
+
+msgid "Set the position of the recording icons"
+msgstr "Ustaw pozycje ikon nagrywania."
+
+msgid "bottom"
+msgstr "Na dole"
+
+msgid "middle"
+msgstr "Centralnie"
+
+msgid "hide"
+msgstr "Ukryj"
+
+msgid "Alignment of service names"
+msgstr "Ujednolicenie nazw stacji"
+
+msgid "Alignment of events"
+msgstr "Wyrównanie nazwy programu"
+
+msgid "Configure the alignment of events."
+msgstr "Skonfiguruj wyrównanie nazwy programu."
+
+msgid "Configure the alignment of service names."
+msgstr "Konfigurieren Sie die Ausrichtung der Sendernamen."
+
+msgid "centered"
+msgstr "Wyśrodkowany"
+
+msgid "centered, wrapped"
+msgstr "Wyśrodkowany.owinięty"
+
+msgid "left, wrapped"
+msgstr "Lewo, owinięte"
+
+msgid "right, wrapped"
+msgstr "Prawo, owinięte"
+
+msgid "Wakeup time before a timer begins [mins]"
+msgstr "Godzina wznowienia przed timerem [min]"
+
+msgid "Time window for detection of the wakeup by a timer [mins]"
+msgstr "Czas wyświetlania okna przed timerem [min]"
+
+msgid "Use workaround for wakeup from deep-standby?"
+msgstr "Użyć obejście budzenia z głębokiego stanu wstrzymania?"
+
+msgid "The default settings are 5 minutes earlier to wakeup from deep standby. It possibly may be necessary to change this. (e.g.: the actual wake-up time is inaccurate or to late, waiting to a network-drive, etc.)"
+msgstr "Ustawienia domyślne to 5 minut wcześniej od deep-standby, by obudzić. Może być konieczne to zmienić. (na przykład: rzeczywisty czas wznawiania jest niedokładny lub późny, czekając na dysk sieciowy itp. )"
+
+msgid "The default settings are wakeup time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wakeup time. So can be detected a wakeup by a timer even at very early starting receivers."
+msgstr "Ustawienia domyślne to 5 min. aby uruchomić timer . To ustawia okna timera przed czasem budzenia."
+
+msgid "If enabled, will checks for the time after the start of the receiver is within the time window and optionally switched to standby. If disabled, must additional be available a signal for the successful wakeup detection. (some receiver send a false or none signal)"
+msgstr "Jeśli włączone, sprawdza czas po rozpoczęciu timera który znajduje się w oknie czasowym i,ewentualnie w trybie czuwania. Jeśli wyłączone, musi być dostępny dodatkowy sygnał do pomyślnego wykrycia budzenia. (Niektóre odbiornik wysyłają fałszywe sygnaly lub jest ich brak)"
+
+msgid "PageUp"
+msgstr "Strona w górę"
+
+msgid "PageUp long"
+msgstr "Strona w górę,długo"
+
+msgid "PageDown"
+msgstr "Strona w dół"
+
+msgid "PageDown long"
+msgstr "Strona w dół,długo"
+
+msgid "Rec long"
+msgstr "Nagrywanie,długo"
+
+msgid "SleepTimer"
+msgstr "Wyłącznik czasowy"
+
+msgid "Selected Image:\t%s"
+msgstr "Wybrany obraz:     \t%s"
+
+msgid "SkinSelector"
+msgstr "Wybór skóry"
+
+msgid "LCD SkinSelector"
+msgstr "Wybór skóry LCD"
+
+msgid "Show subtitle quick menu"
+msgstr "Pokazać napisy szybkiego menu"
+
+msgid "QuickMenu"
+msgstr "Szybkie menu"
+
+msgid "Are you sure to cancel all changes"
+msgstr "Czy na pewno chcesz anulować wszystkie zmiany?"
+
+msgid "MultiBoot Selector"
+msgstr "MultiBoot-wybór"
+
+msgid "Select Image: STARTUP_1"
+msgstr "Wybierz obraz: URUCHOMIENIE_1"
+
+msgid "Select Image: %s"
+msgstr "Wybierz obraz: %s"
+
+msgid "STARTUP"
+msgstr "URUCHAMIANIE"
+
+msgid ""
+"Please set up tuner A\n"
+"For Hybrid Tuner Models switch Tuner Type with left and right keys"
+msgstr ""
+"Proszę ustawić głowice A\n"
+"Dla modeli odbiorników hybrydowych , typ głowicy przełącznika z lewego i prawego klawisza"
+
+msgid "Lowest Mode"
+msgstr "Najniższy tryb"
+
+msgid "Refresh rate for 'Lowest Mode'"
+msgstr "Częstotliwość odświeżania \"najniższy tryb '"
+
+msgid "Show 24p up to 720p / higher than 720p as"
+msgstr "Pokazać 24p do 720p / 720p jako wyższa niż"
+
+msgid "Show 24p up to resolution 720p or higher than 720p as a different Framerate."
+msgstr "Pokazać 24p do rozdzielczości 720p lub wyższa niż 720p jako inną częstotliwość wyświetlania klatek.."
+
+msgid "Show unknown video format as"
+msgstr "Pokazać nieznany format wideo jako"
+
+msgid "Show unknown Videoresolution as next higher or as highest screen resolution."
+msgstr "Pokazać nieznaną rozdzielczość wideo jako wyższą lub jako najwyższą rozdzielczość ekranu."
+
+msgid "Enable preview"
+msgstr "Włączyć podgląd"
+
+msgid "Show preview of current mode (*)."
+msgstr "Pokazać podgląd bieżącego trybu (*)."
+
+msgid "%sMode for SD (up to 576p)"
+msgstr "%sTryb dla SD (do 576p)"
+
+msgid "%sRefresh rate for SD"
+msgstr "%sOdświeżanie dla SD"
+
+msgid "%sMode for HD (up to 720p)"
+msgstr "%sTryb dla HD (do 720p)"
+
+msgid "%sRefresh rate for HD"
+msgstr "%sCzęstotliwość odświeżania HD"
+
+msgid "%sMode for FHD (up to 1080p)"
+msgstr "%sTryb dla UHD (do 1080p)"
+
+msgid "%sRefresh rate for FHD"
+msgstr "%sCzęstotliwość odświeżania FHD"
+
+msgid "%sMode for UHD (up to 2160p)"
+msgstr "%sTryb dla UHD (do 2160p)"
+
+msgid "%sRefresh rate for UHD"
+msgstr "%sOdświeżanie dla UHD"
+
+msgid "%sShow 1080i as 1080p"
+msgstr "%sPokazać 1080i jako 1080p"
+
+msgid "Use Deinterlacing for 1080i Videosignal?"
+msgstr "Użyć usuwania przeplotu dla sygnał wideo 1080i ?"
+
+msgid "next higher Resolution"
+msgstr "Następna wyższa rozdzielczość"
+
+msgid "highest Resolution"
+msgstr "Najwyższa rozdzielczość"
+
+msgid "Are you sure you want to delete the EPG data from:\n"
+msgstr "Czy jesteś pewien że chcesz usunąć dane z EPG\n"
+
+msgid "Delete EPG"
+msgstr "Usuń EPG"
+
+msgid "Load/Save/Delete"
+msgstr "Pobierz/Zapisz/Usuń"
+
+msgid "ofgwrite flashing ready.\n"
+msgstr "Proces zakończony ofgwrite błysku.\n"
+
+msgid "please press exit to go back to the menu.\n"
+msgstr "Proszę nacisnąć przycisk Exit,aby wrócić do menu.\n"
+
+msgid "Do you want to reboot now with selected image?"
+msgstr "Czy chcesz ponownie uruchomić teraz z wybranym obrazem?"
