@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2016-09-16 19:30+0200\n"
+"PO-Revision-Date: 2016-11-25 20:52+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.11\n"
 
 msgid ""
 "\n"
@@ -17924,3 +17924,217 @@ msgstr "Proszę nacisnąć przycisk Exit,aby wrócić do menu.\n"
 
 msgid "Do you want to reboot now with selected image?"
 msgstr "Czy chcesz ponownie uruchomić teraz z wybranym obrazem?"
+
+msgid "Configure how recording filenames are constructed. Standard: Date Time - Channel - Title Very very short: Title Very short: Title - Date Time Short with time: Date Time - Title Short: Date - Title Long: Date Time - Channel - Title - Info"
+msgstr "Skonfiguruj w jaki sposób mają być nazwy plików z nagrań.Standardowo:Data/Godzina-Kanał-Tytuł  Bardzo,bardzo krótki:Bardzo krótki Tytuł:Tytuł-Data,Godzina  Krótki z czasem:Data,Godzina-Tytuł  Krótki:Data-Tytuł  Długi:Data,Godzina-Kanał-Tytuł-Info"
+
+msgid "Color"
+msgstr "Kolor"
+
+msgid "Show 25p up to 720p / higher than 720p as"
+msgstr "Pokazuje 25p do 720p/wyższe niż 720p"
+
+msgid "Show 30p up to 720p / higher than 720p as"
+msgstr "Pokazuj 30p do 720p/wyższe niż 720p"
+
+msgid "Show 25p up to resolution 720p or higher than 720p as a different Framerate."
+msgstr "Pokazuj 25p do rozdzielczości 720p lub wyższej niż 720p z różną szybkością klatek."
+
+msgid "Show 30p up to resolution 720p or higher than 720p as a different Framerate."
+msgstr "Pokazuj 30p do rozdzielczości 720p lub wyższej niż 720p z różną szybkością klatek."
+
+msgid "Edit mode off"
+msgstr "Wyłączony tryb edycji"
+
+msgid "Edit mode on"
+msgstr "Włączony tryb edycji"
+
+msgid "Move mode off"
+msgstr "Wyłączony tryb ruchu"
+
+msgid "Move mode on"
+msgstr "Włączony tryb ruchu"
+
+msgid "show"
+msgstr "pokazać"
+
+msgid ""
+"You can select with yellow the OnlineFlash Image\n"
+" or select Recovery to create a USB Disk Image for clean Install."
+msgstr ""
+"Można wybrać żółty przycisk aby flashować obraz online\n"
+" lub wybierz odzyskiwanie,aby utworzyć obraz z USB dla czystej instalacji."
+
+msgid "will take about 30 minutes for this system\n"
+msgstr "zajmie około 30 minut dla tego systemu\n"
+
+msgid "no delay"
+msgstr "Bez opóźnień"
+
+msgid "Red button"
+msgstr "Czerwony przycisk"
+
+msgid "Green button"
+msgstr "Zielony przycisk"
+
+msgid "Yellow button"
+msgstr "Żółty przycisk"
+
+msgid "Blue button"
+msgstr "Niebieski przycisk"
+
+msgid "start recording"
+msgstr "Rozpoczęte nagrywanie"
+
+msgid "record time changed, start prepare is now: %s"
+msgstr "Zmieniony czas nagrywania: %s"
+
+msgid "Not enough free space to record"
+msgstr "Za mało wolnej pamięci"
+
+msgid "zapping"
+msgstr "Wyłącznik"
+
+msgid "end zapping"
+msgstr "Wyłącznik krańcowy"
+
+msgid "You can switch with left and right this tuner types %s"
+msgstr ""
+"Tutaj można używać przycisków strzałek w lewo/w prawo\n"
+"aby zmienić typ tunera. %s"
+
+msgid "After Recording"
+msgstr "Po nagraniu"
+
+msgid "Add/Remove Timer"
+msgstr "Dodaj/Usuń timer"
+
+msgid "24+ Hours"
+msgstr "+24 godzin"
+
+msgid "24- Hours"
+msgstr "-24 godzin"
+
+msgid "IMDB search"
+msgstr "Wyszukiwanie w IMDB"
+
+msgid "Show Movies List"
+msgstr "Pokazać listę filmów"
+
+msgid "Record - same as record button"
+msgstr "Nagrywanie=przycisk nagrywania"
+
+msgid "Goto Date/Timer"
+msgstr "Idź na datę/czas"
+
+msgid "Goto Date/Time"
+msgstr "Idź na datę/czas"
+
+msgid "EPG search"
+msgstr "Wyszukiwarka z EPG"
+
+msgid "Programmlisten from DXAndy"
+msgstr "Listy programu z DXAndy"
+
+msgid "Programmlisten History"
+msgstr "Listy programu z historii"
+
+msgid "Programmlisten Restore"
+msgstr "Przywracanie listy programu"
+
+msgid "no image found"
+msgstr "Nie znaleziono obrazu"
+
+msgid ""
+"Your box needs Bootloaderversion(s)\n"
+"\n"
+"%s\n"
+"\n"
+"to make compatible with Bootoptions!"
+msgstr ""
+"W odbiorniku musi być wersja bootloadera\n"
+"\n"
+"%s\n"
+"\n"
+"aby wykorzystać opcje startowe!"
+
+msgid "File not found - rename failed!"
+msgstr "Nie znaleziono pliku-zmiana nazwy nie powiodła się!"
+
+msgid "Name already exists - rename failed!"
+msgstr "Nazwa już istnieje-zmiana nazwy nie powiodła się!"
+
+msgid "2160p60 without PiP (Standard)"
+msgstr "2160p60 bez PiP (Standard)"
+
+msgid "2160p50 with PiP (Experimental)"
+msgstr "2160p50 z PiP (Experimentell)"
+
+msgid " (unknown mode)"
+msgstr " (tryb nieznany)"
+
+msgid "Unable to read image number"
+msgstr "Nie można odczytać numer obrazu"
+
+msgid "Current Bootsettings: %s (%s)%s"
+msgstr "Bieżące ustawienia startowe: %s (%s)%s"
+
+msgid "Select Bootoption: %s"
+msgstr "Wybierz opcję ustawień startowych: %s"
+
+msgid "Select Bootoption: not supported - see info"
+msgstr "Wybrałęś opcję ustawień startowych: nieobsługiwanych-patrz informacje"
+
+msgid "File '/boot/%s' copy to '/boot/STARTUP' failed!"
+msgstr "Plik '/boot/%s' błędnie skopiowany '/boot/STARTUP' !"
+
+msgid "Next boot will start from Image 1."
+msgstr "Następny rozruchu rozpocznie się od obrazu 1."
+
+msgid "Can not repair file %s"
+msgstr "Nie można naprawić pliku %s"
+
+msgid "Caution, next boot is starts with these settings!"
+msgstr "Uwaga,kolejne rozpoczęcia rozruchu zostanie uruchomione przy tych ustawieniach!"
+
+msgid "Alternative Image 1 partition for boot repair not found."
+msgstr "Alternatywny Obraz 1 partycja przeznaczona na naprawę rozruchu nie została znaleziona."
+
+msgid "Wrong Bootsettings detected!"
+msgstr "Wykryto błędne ustawienia rozruchu!"
+
+msgid "Do you want to reboot now?"
+msgstr "Czy chcesz teraz ponownie uruchomić?"
+
+msgid "Can not write file %s"
+msgstr "Nie można zapisać pliku %s"
+
+msgid "Write error!"
+msgstr "Błąd zapisu!"
+
+msgid "Error in file %s"
+msgstr "Błąd w pliku %s"
+
+msgid "Command line error!"
+msgstr "Błąd linii poleceń!"
+
+msgid "16_9_always"
+msgstr "Zawsze 16:9"
+
+msgid "HDMI Colorimetry"
+msgstr "HDMI Profil kolorów"
+
+msgid "This option allows you can config the Colorimetry for HDR"
+msgstr "Ta opcja pozwala na sterowanie profilami kolorów w trybie HDR"
+
+msgid "Choose the CI protocol operation mode for standard ci or ciplus."
+msgstr "Wybierz tryb pracy dla standardowego protokołu CI lub CI+."
+
+msgid "Your Hardware can detect ci mode self or work only in legacy mode."
+msgstr "Sprzęt wykrywa protokół CI sam lub działa tylko w trybie zapisu."
+
+msgid "HDMI Colordepth"
+msgstr "HDMI Głębia koloru"
+
+msgid "This option allows you can config the Colordepth for UHD"
+msgstr "Ta opcja pozwala na konfigurację głębi kolorów dla UHD"
