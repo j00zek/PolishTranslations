@@ -17559,7 +17559,7 @@ msgid "Wake on WLan Setup"
 msgstr ""
 
 msgid "Energy schedule"
-msgstr ""
+msgstr "Plan zamykania"
 
 msgid "Power on"
 msgstr ""
