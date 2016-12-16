@@ -18045,6 +18045,9 @@ msgstr "Włącz animacje okien"
 msgid "Timeout for 0 key double-click (ms)"
 msgstr "Limit czasu dla dwukrotnego naciśnięcia przycisku 0 (ms)"
 
+msgid "10 minutes"
+msgstr "10 minut"
+
 msgid "SD 25/50HZ Interlace Mode"
 msgstr "SD 25/50Hz tryb z przeplotem"
 
