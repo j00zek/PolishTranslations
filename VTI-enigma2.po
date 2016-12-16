@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-12-02 11:54+0100\n"
+"PO-Revision-Date: 2016-12-16 19:03+0100\n"
 "Last-Translator: Century (AC_fullHD) <Century>\n"
 "Language-Team: none\n"
 "Language: pl_PL\n"
@@ -5128,7 +5128,7 @@ msgid "Skins"
 msgstr "Skóry"
 
 msgid "Sleep Timer"
-msgstr "Wyłącznik Czasowy"
+msgstr "Wyłącznik czasowy"
 
 msgid "Sleep timer action:"
 msgstr "Po zakończeniu:"
@@ -13221,10 +13221,10 @@ msgid "Cleanup timerlist-entries"
 msgstr ""
 
 msgid "UHD Interlace Mode"
-msgstr ""
+msgstr "Tryb UHD z przeplotem"
 
 msgid "UHD Progressive Mode"
-msgstr ""
+msgstr "Tryb UHD progresywny"
 
 msgid "Webinterface"
 msgstr "Webinterfejs"
@@ -18036,8 +18036,71 @@ msgstr ""
 msgid "Bluetooth Discovery"
 msgstr ""
 
+msgid "Same behavior as current animation"
+msgstr "Zachowanie takie jak aktualnej animacji"
+
+msgid "Enable Focus Animation"
+msgstr "Włącz animacje okien"
+
 msgid "Timeout for 0 key double-click (ms)"
 msgstr "Limit czasu dla dwukrotnego naciśnięcia przycisku 0 (ms)"
 
-msgid "10 minutes"
-msgstr "10 minut"
+msgid "SD 25/50HZ Interlace Mode"
+msgstr "SD 25/50Hz tryb z przeplotem"
+
+msgid "SD 30/60HZ Interlace Mode"
+msgstr "SD 30/60Hz tryb z przeplotem"
+
+msgid "SD 25/50HZ Progressive Mode"
+msgstr "SD 25/50Hz tryb progresywny"
+
+msgid "SD 30/60HZ Progressive Mode"
+msgstr "SD 30/60Hz tryb progresywny"
+
+msgid "HD Interlace Mode"
+msgstr "Tryb HD z przeplotem"
+
+msgid "HD Progressive Mode"
+msgstr "Tryb HD progresywny"
+
+msgid "Enable 720p24 Mode"
+msgstr "Włącz tryb 720p 24 klatek"
+
+msgid "Enable 1080p24 Mode"
+msgstr "Włącz tryb 1080p 24 klatek"
+
+msgid "Enable 1080p25 Mode"
+msgstr "Włącz tryb 1080p 25 klatek"
+
+msgid "Enable 1080p30 Mode"
+msgstr "Włącz tryb 1080p 30 klatek"
+
+msgid "Autoresolution settings"
+msgstr "Konfiguracja auto rozdzielczości"
+
+msgid "Enable Autoresolution"
+msgstr "Włącz auto rozdzielczość"
+
+msgid "Show info screen"
+msgstr "Pokaż informacje o rozdzielczości"
+
+msgid "Delay x seconds after service started"
+msgstr "Opóźnienie startu usługi (w sekundach)"
+
+msgid "Running in testmode"
+msgstr "Uruchom w trybie testowym"
+
+msgid "Deinterlacer mode for interlaced content"
+msgstr "Tryb \"Deinterlacer\" dla ustawień z przeplotem"
+
+msgid "Deinterlacer mode for progressive content"
+msgstr "Tryb \"Deinterlacer\" z ustawieniem progresywnym"
+
+msgid "Autoresolution"
+msgstr "Auto rozdzielczość"
+
+msgid "Scan"
+msgstr "Skanuj"
+
+msgid "Scan All"
+msgstr "Skanuj wszystko"
