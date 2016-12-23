@@ -2354,10 +2354,10 @@ msgid "Chose backup files"
 msgstr "Wybrał pliki kopii zapasowej"
 
 msgid "Circular left"
-msgstr "Okrągła lewa"
+msgstr "Kołowa lewoskrętna"
 
 msgid "Circular right"
-msgstr "Okrągła prawa"
+msgstr "Kołowa prawoskrętna"
 
 msgid "Clean network trash can's"
 msgstr "Czyścić internet ze śmieci"
@@ -15369,10 +15369,10 @@ msgid "childrens's/youth program (general)"
 msgstr "Dla dzieci i młodzieży"
 
 msgid "circular left"
-msgstr "Okrągła lewa"
+msgstr "Kołowa lewoskrętna"
 
 msgid "circular right"
-msgstr "Okrągła prawa"
+msgstr "Kołowa prawoskrętna"
 
 msgid "circular right and circular left"
 msgstr "Okrągły prawy i okrągły lewy"
