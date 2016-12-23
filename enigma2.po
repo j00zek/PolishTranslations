@@ -18138,3 +18138,51 @@ msgstr "HDMI Głębia koloru"
 
 msgid "This option allows you can config the Colordepth for UHD"
 msgstr "Ta opcja pozwala na konfigurację głębi kolorów dla UHD"
+
+msgid "Choose whether AC3 sound tracks should be downmixed to stereo."
+msgstr "Wybierz,czy ścieżka dźwiękowa AC3 powinna być zamieniona na stereo."
+
+msgid "Choose whether DTS channel sound tracks should be downmixed to stereo."
+msgstr "Wybierz,czy ścieżka dźwiękowa DTS powinna być zamieniona na stereo."
+
+msgid "Recovery Mode"
+msgstr "Tryb odzyskiwania"
+
+msgid "Your %s %s is rebooting into Recovery Mode"
+msgstr " %s %s jest ponownie uruchomiony w trybie odzyskiwania"
+
+msgid "Really reboot into Recovery Mode?"
+msgstr "Uruchomić ponownie do trybu odzyskiwania?"
+
+msgid "Automatic Service Searching"
+msgstr "Automatyczne wyszukiwanie kanałów"
+
+msgid "Manual Service Searching"
+msgstr "Ręczne wyszukiwanie kanałów"
+
+msgid "List/Fav long"
+msgstr "Lista/Fav długo"
+
+msgid "Show blinking Clock in Standby on Display during recording"
+msgstr "Pokażać migający zegar w trybie gotowości na ekranie podczas nagrywania"
+
+msgid "In the Standby blinking Clock on the LCD Display"
+msgstr "W trybie gotowości miga zegar na wyświetlaczu LCD"
+
+msgid "Setup Video/Audio"
+msgstr "Konfiguracja Wideo/Audio"
+
+msgid "Setup Plugins"
+msgstr "Konfiguracja Wtyczek"
+
+msgid "OSD Setup"
+msgstr "Konfiguracja OSD"
+
+sgid "Select LCD Skin"
+msgstr "Wybór skóry LCD"
+
+msgid "Select Enigma2 Skin"
+msgstr "Wybór skóry dla Enigmy2"
+
+msgid "Audio Channel"
+msgstr "Kanał audio"
