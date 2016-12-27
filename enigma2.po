@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2016-11-25 20:52+0100\n"
+"PO-Revision-Date: 2016-12-23 20:13+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -10609,7 +10609,7 @@ msgid "Setup your LCD"
 msgstr "Konfiguracja lcd"
 
 msgid "Setup your OSD"
-msgstr "Konfiguracja osd"
+msgstr "Konfiguracja OSD"
 
 msgid "Setup your Skin"
 msgstr "Skonfiguruj swoją skórę"
@@ -15375,7 +15375,7 @@ msgid "circular right"
 msgstr "Kołowa prawoskrętna"
 
 msgid "circular right and circular left"
-msgstr "Okrągły prawy i okrągły lewy"
+msgstr "Kołowa prawoskrętna/lewoskrętna"
 
 msgid "clear playlist"
 msgstr "Czyścić listę odtwarzania"
@@ -18177,9 +18177,6 @@ msgstr "Konfiguracja Wtyczek"
 
 msgid "OSD Setup"
 msgstr "Konfiguracja OSD"
-
-sgid "Select LCD Skin"
-msgstr "Wybór skóry LCD"
 
 msgid "Select Enigma2 Skin"
 msgstr "Wybór skóry dla Enigmy2"
