@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "Backup & Restore my settings"
@@ -29,7 +29,10 @@ msgid "Delete"
 msgstr "Usuwanie"
 
 msgid "My Backup No. %d"
-msgstr "Kopia nr. %d"
+msgstr "Moja kopia nr. %d"
+
+msgid "My Backup No %d"
+msgstr "Moja kopia nr. %d"
 
 msgid "My Backup Number"
 msgstr "Numer kopii"
@@ -73,7 +76,7 @@ msgstr ""
 "( %s )"
 
 msgid "Backup-Set is not complete!"
-msgstr "Kopia zapasowa-nie jest zakończona!"
+msgstr "Kopia zapasowa nie jest zakończona!"
 
 msgid "complete"
 msgstr "zakończone"
@@ -82,7 +85,7 @@ msgid "No Backup-Set found!"
 msgstr "Nie znaleziono kopii zapasowej!"
 
 msgid "Settings successfully restored."
-msgstr "Ustawienia przywrócone pomyślnie"
+msgstr "Ustawienia pomyślnie przywrócone"
 
 msgid "Restoring Backup-Set %d ..."
 msgstr "Przywracanie kopii zapasowej %d ..."
@@ -96,14 +99,8 @@ msgstr "Zastąpić bieżącą kopie zapasową?"
 msgid "Overwrite current Settings?"
 msgstr "Zastąpić bieżące ustawienia?"
 
-msgid "     "
-msgstr "     "
-
 msgid "--- empty ---"
-msgstr "--- puste ---"
-
-msgid "-"
-msgstr "-"
+msgstr "---puste---"
 
 msgid "Color settings"
 msgstr "Ustawienia kolorów"
@@ -137,9 +134,6 @@ msgstr "Tło"
 
 msgid "Text in background"
 msgstr "Tekst w tle"
-
-msgid "Menu"
-msgstr ""
 
 msgid "Font color"
 msgstr "Kolor czcionki"
@@ -196,7 +190,7 @@ msgid "Event Description"
 msgstr "Opis wydarzenia"
 
 msgid "Event List"
-msgstr "Lista wydarzenia"
+msgstr "Lista wydarzeń"
 
 msgid "Time Line"
 msgstr "Linia czasu"
@@ -221,6 +215,9 @@ msgstr "Opis kanału"
 
 msgid "EMC Movie List"
 msgstr "EMC lista filmów"
+
+msgid "EMC/MovieList"
+msgstr "EMC/lista filmów"
 
 msgid "Watched color"
 msgstr "Kolor oglądanego filmu"
@@ -336,14 +333,11 @@ msgstr "Regularne"
 msgid "RegularLight"
 msgstr "Regularne światło"
 
-msgid "SetrixHD"
-msgstr ""
-
 msgid "Meteo"
 msgstr "Pogoda"
 
 msgid "Individual Settings (only for some individual skinned screens)"
-msgstr "Indywidualne ustawienia(tylko dla niektórych skórek)"
+msgstr "Indywidualne ustawienia(tylko dla niektórych ekranów skóry)"
 
 msgid "Generally"
 msgstr "Ogólne"
@@ -390,9 +384,6 @@ msgstr "Tekst inny"
 msgid "Error creating Preset! One or more Fonts are not available!"
 msgstr "Błąd podczas tworzenia!Jedna lub więcej czcionek są nie dostępne!"
 
-msgid "MyMetrixLite"
-msgstr "Mój lekki Metrix"
-
 msgid "Apply changes"
 msgstr "Zatwierdź zmiany"
 
@@ -425,10 +416,10 @@ msgid "Do you really want to reboot now?"
 msgstr "Czy na pewno chcesz uruchomić ponownie teraz?"
 
 msgid "Restart GUI"
-msgstr "Restart GUI"
+msgstr "Ponowne uruchamianie GUI"
 
 msgid "MyMetrixLite apply Changes"
-msgstr "Mój lekki Metrix zatwierdź zmiany"
+msgstr "Zatwierdź zmiany w MyMetrixLite"
 
 msgid "<!-- original file -->"
 msgstr "<!-- Oryginalny plik -->"
@@ -437,7 +428,7 @@ msgid "<!-- !!!copied and changed file!!! -->"
 msgstr "<!-- !!!kopiowanie i zmiana pliku!!! -->"
 
 msgid "recovery"
-msgstr "poprawa"
+msgstr "odzyskanie"
 
 msgid "backup"
 msgstr "kopia"
@@ -509,7 +500,7 @@ msgid ""
 "Do you want to Restart the GUI now?"
 msgstr ""
 "Odbiornik musi zostać zrestartowany,aby zastosować nowe ustawienia\n"
-"Czy chcesz wykonać restart GUI?"
+"Czy chcesz ponownie uruchomić GUI?"
 
 msgid "Error creating Skin!"
 msgstr "Błąd podczas tworzenia skóry!"
@@ -748,9 +739,6 @@ msgstr "Pasek info./drugi pasek info./pasek filmów"
 msgid "ChannelName/Number FontSize"
 msgstr "Nazwa kanału/numer rozmiaru czcionki"
 
-msgid "EMC"
-msgstr ""
-
 msgid "Show Cover in Media Center"
 msgstr "Pokazać okładkę w programie Media Center"
 
@@ -764,7 +752,7 @@ msgid "Show Movie Description"
 msgstr "Pokazać opis filmu"
 
 msgid "Change Number of Lines in Movie Selection"
-msgstr "Zmienić liczbę linii w wyborze filmu"
+msgstr "Zmiana liczby linii w wyborze filmu"
 
 msgid "graphical EPG"
 msgstr "graficzne EPG"
@@ -857,14 +845,14 @@ msgid ""
 "Cant get weather data:\n"
 "%s"
 msgstr ""
-"Nie można pobrać pogodowych danych:\n"
+"Nie można pobrać danych pogodowych:\n"
 "%s"
 
 msgid "Please wait, get weather data ..."
 msgstr "Proszę czekać,otrzymywanie danych o pogodzie..."
 
 msgid "Show in MoviePlayer"
-msgstr "Pokazać w odtwarzacz filmów"
+msgstr "Pokazać w odtwarzaczu filmów"
 
 msgid "MetrixWeather ID"
 msgstr "Id pogody dla Metrixa"
@@ -879,7 +867,7 @@ msgid "Refresh Interval (min)"
 msgstr "Interwał odświeżania(min.)"
 
 msgid "Amber"
-msgstr "Żółtopomarańczowy "
+msgstr "Żółtopomarańczowy"
 
 msgid "Brown"
 msgstr "Brązowy"
@@ -903,7 +891,7 @@ msgid "Magenta"
 msgstr "Czerwononiebieski"
 
 msgid "Lime"
-msgstr "Jasnozielono żółty  "
+msgstr "Jasnozielono żółty"
 
 msgid "Indigo"
 msgstr "Niebieskofioletowy"
@@ -1049,9 +1037,6 @@ msgstr "Analogowa czcionka"
 msgid "Celsius"
 msgstr "Celsjusz"
 
-msgid "Fahrenheit"
-msgstr ""
-
 msgid "Focus left, no picon, 5 next Events"
 msgstr "Przesuń w lewo,bez loga kanału,5 następnych wydarzeń"
 
@@ -1113,7 +1098,7 @@ msgid "Bottom of the screen"
 msgstr "Na dole ekranu"
 
 msgid "Standard"
-msgstr "Standardowo"
+msgstr "Standardowe"
 
 msgid "Infobar"
 msgstr "pasek informacyjny"
@@ -1138,3 +1123,332 @@ msgstr "Warstwy A/B w tej samej wysokości/Zegar w warstwie A"
 
 msgid "Layer A and B same height, Clock in Layer B"
 msgstr "Warstwy A/B w tej samej wysokości/Zegar w warstwie B"
+
+msgid "Skinpart settings"
+msgstr "Ustawienia część skóry"
+
+msgid "Borderlines"
+msgstr "linie graniczne"
+
+msgid "(Text-Mode)"
+msgstr "(Tryb tekstu)"
+
+msgid "Service List"
+msgstr "Lista kanałów"
+
+msgid "now"
+msgstr "obecnie"
+
+msgid "selected"
+msgstr "wybrane"
+
+msgid "Your enhanced hd settings are inconsistent. Please check this."
+msgstr "Rozszerzone ustawienia hd są niespójne.Proszę to sprawdzić."
+
+msgid "Not enough free flash memory free to create the new %s skin files. ( %d kb is required )"
+msgstr "Za mało pamięci do tworzenie %s  plików skóry.(wymagane jest %d kb)"
+
+msgid ""
+"Error creating %s skin. HD skin is used!\n"
+"\n"
+msgstr ""
+"Błąd podczas tworzenia %s skóry.Skóra HD jest używana!\n"
+"\n"
+"\n"
+
+msgid ""
+"One or more %s icons are missing. Using HD icons for this.\n"
+"\n"
+msgstr ""
+"Brakuje jednej lub więcej Ikon %s.Ikony HD nie są wykorzystywane do tego.\n"
+"\n"
+
+msgid ""
+"!!! If your receiver not compatible is a crash possible !!!\n"
+"\n"
+"Choose 'yes', then starts the resolution test.\n"
+"The old resolution will automatically restored after 10 seconds."
+msgstr ""
+"!!!Gdy odbiornik nie jest kompatybilny jest możliwa awaria systemu !!!\n"
+"\n"
+"Wybierz \"Tak\", a następnie rozpocznie się test rozdzielczości\n"
+"Stara rozdzielczość zostanie automatycznie przywrócona po 10 sek."
+
+msgid ""
+"\n"
+"Maybe is a compatibility issue with %s resolution.\n"
+"Attention: The osd-error occurs first after gui or system restart!\n"
+"\n"
+"Do you want really change from %s to %s - skin?"
+msgstr ""
+"\n"
+"Może jest to kwestia kompatybilności z rozdzielczością %s .\n"
+"Uwaga: Ten błąd pojawia się po ponownym uruchomieniu ekranu GUI lub systemu!\n"
+"\n"
+"Czy naprawdę chcesz z %s do %s - zmiany skóry?"
+
+msgid "!!! Recording(s) are in progress or coming up in few minutes !!!"
+msgstr "!!! Nagranie jest aktywne lub rozpocznie się w ciągu kilku minut !!!"
+
+msgid ""
+"If you can see this then is your receiver compatible.\n"
+"Do you want change from %s to %s - skin resolution?"
+msgstr ""
+"Jeśli widzisz to jest kompatybilny odbiornik.\n"
+"Chcesz zmienić z %s do %s - rozdzielczość skóry?"
+
+msgid "Not enough free flash memory free to install the %s icons. ( %d MB is required )"
+msgstr "Mało wolnej pamięc w fleshu aby zainstalować %s ikony.( wymagane jest %d MB )"
+
+msgid "Enhanced HD Option"
+msgstr "Ulepszona opcja HD"
+
+msgid "Choose skin resolution"
+msgstr "Wybierz rozdzielczość skóry"
+
+msgid "HandelGotD Fonts"
+msgstr "Czcionki HandelGotD"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "Set primetime in graphical epg settings."
+msgstr "Ustawić godziny największej oglądalności w ustawieniach graficznych EPG."
+
+msgid "Flash Memory free: %s MByte"
+msgstr "Wolnej pamięć w fleshu %s MB"
+
+msgid "CPU-Load: %s"
+msgstr "Obciążenie procesora: %s"
+
+msgid "CPU-Temp: %s"
+msgstr "Temperatura procesora: %s"
+
+msgid "CPU-Speed: %s MHz"
+msgstr "Prędkość procesora: %s MHz"
+
+msgid "SYS-Temp: %s"
+msgstr "Ogólna tem.odbiornika: %s"
+
+msgid "Show also in main layer?"
+msgstr "Pokazać także w głównej warstwie?"
+
+msgid "Screen title separating line"
+msgstr "Tytuł ekran oddzielenie linii"
+
+msgid "Skinpart are not available - can't be activated."
+msgstr "Część skóry nie są dostępne,nie można aktywować."
+
+msgid "No screens in skinpart are available - can't be activated."
+msgstr "Brak ekranów w częściach skóry,nie mogą być aktywowane."
+
+msgid "No description available."
+msgstr "Brak dostępnego opisu."
+
+msgid ""
+"\n"
+"(No preview picture available.)"
+msgstr ""
+"\n"
+"(Brak podglądu zdjęcia.)"
+
+msgid "Yes, show screens"
+msgstr "Tak,pokaż ekrany"
+
+msgid " - box support unknown"
+msgstr "Wsparcie odbiornika nieznane"
+
+msgid "Test Resolution"
+msgstr "Test rozdzielczości"
+
+msgid "RAM-Free: %s MB"
+msgstr "RAM-wolne: %s MB"
+
+msgid "Zoom"
+msgstr "Powiększenie"
+
+msgid "%d. name error - file: %s, line: %s, screen: %s (%s)"
+msgstr "%d. nazwa błędu - plik: %s, linia: %s, ekran: %s (%s)"
+
+msgid "%d. index error - file: %s, line: %s, screen: %s"
+msgstr "%d. błąd indeksu - plik: %s, linia: %s, ekran: %s"
+
+msgid "%d. file error - file: %s (index > lines)\n"
+msgstr "%d. błąd pliku - plik: %s (indeks > linie)\n"
+
+msgid "example"
+msgstr "przykład"
+
+msgid "CLOCKWIDKET"
+msgstr "Element graficzny zegara"
+
+msgid "Volume"
+msgstr "Głośność"
+
+msgid ""
+"\n"
+"Press 'OK-Button'"
+msgstr ""
+"\n"
+"Naciśnij przycisk'OK '"
+
+msgid " = mini TV on)"
+msgstr " = mini TV w)"
+
+msgid "%s darker than background"
+msgstr "%s ciemniejszy niż tło"
+
+msgid ""
+"'\n"
+"in\n"
+"'"
+msgstr ""
+"'\n"
+"w\n"
+"'"
+
+msgid "A higher value results in a slow movement."
+msgstr "Wyższa wartość spowalnia ruch."
+
+msgid "Change Number of Rows in Movie Selection"
+msgstr "Zmiana liczby wierszy w liście filmów"
+
+msgid "Change field size 'Count/Size' in Movie Selection"
+msgstr "Zmiana szerokość numeru/rozmiaru listy filmów."
+
+msgid "Change field size 'Date' in Movie Selection"
+msgstr "Zmiana szerokość pola daty w liście filmów."
+
+msgid "Change field size 'Progressbar' in Movie Selection"
+msgstr "Zmiana szerokość paska postępu w liście filmów."
+
+msgid "Change field size or hide"
+msgstr "Zmiana lub ukrycie pola rozmiaru."
+
+msgid "Channel list service mode*"
+msgstr "Lista kanałów/tryb serwisowy*"
+
+msgid "Channel selection settings"
+msgstr "Ustawienia wyboru kanału"
+
+msgid ""
+"Cycle/failure indicator colors on widget:\n"
+"green - 6 times try to fetch weather data\n"
+"yellow - fetch weather data paused 5 mins\n"
+"red - fetch weather data aborted after 6 times green and yellow\n"
+"(if red -> press 'save' for refresh)"
+msgstr ""
+"Wskaźnik Cycle / usterka w widgecie:\n"
+"zielone - próbuje pobrać informacje o pogodzie.\n"
+"żółty - pobrać dane pogodowe ,wstrzymać 5 minut.\n"
+"czerwony - anulowane pobieranie informacji o pogodzie.\n"
+"(Jeżeli czerwona -> naciśnij \"zapisz\" dla odświeżenia)"
+
+msgid "Distance between Servicename and Eventname."
+msgstr "Odległość między nazwą usługi oraz nazwą wydarzenia."
+
+msgid "Distance between Servicenumber and Servicename or Eventname and Progressbar."
+msgstr "Odległość między nr.kanalu,nazwą usługi,nazwa wydarzenia,paskiem postępu."
+
+msgid "Field Distance"
+msgstr "Pole odległości"
+
+msgid "GraphicalEPG settings"
+msgstr "Ustawienia graficznego EPG"
+
+msgid "Hide PVR State"
+msgstr "Ukryć stan PVR"
+
+msgid "If set to '0', fetch weather data only at system(gui) start."
+msgstr "Jeśli  jest ustawione na\"0\", wówczas dane pogodowe są zbierane tylko raz podczas uruchamiania systemu."
+
+msgid "It follows:"
+msgstr "Następuje:"
+
+msgid "Item Distance"
+msgstr "Odległość przedmiotów"
+
+msgid "Movie List Setup"
+msgstr "Ustawienia Lista filmów"
+
+msgid "Not enough free flash memory to create the new %s skin files. ( %d kb is required )"
+msgstr "Za mało pamięci flash aby stworzyć nowy %s plik skóry. ( %d kb wymagane )"
+
+msgid "Not enough free flash memory to install the %s icons. ( %d MB is required )"
+msgstr "Za mało pamięci flash aby zainstalować %s Ikony. ( %d MB wymagane )"
+
+msgid "OSD settings"
+msgstr "Ustawienia OSD"
+
+msgid "Picture in graphics"
+msgstr "Pokazać Mini-TV w graficznym EPG?"
+
+msgid "Please enter new name:"
+msgstr "Proszę wprowadzić nową nazwę:"
+
+msgid "Position PVR State"
+msgstr "Stan pozycji PVR"
+
+msgid "Quick Setup"
+msgstr "Szybka konfiguracja"
+
+msgid "Running Text Parameter"
+msgstr "Ustawianie przewijania tekstu."
+
+msgid ""
+"Setting is the same as\n"
+"'"
+msgstr ""
+"Ustawienie jest takie samo jak\n"
+"'"
+
+msgid "Show PVR status in MoviePlayer infobar"
+msgstr "Pokazać stan PVR w pasku informacyjnym odtwarzacza filmów?"
+
+msgid "Show Scrollbar if more than one pages are available."
+msgstr "Pokazać pasek przewijania, jeśli jest więcej stron?"
+
+msgid "Show in Channel selection?"
+msgstr "Pokazać w wyborze kanału?"
+
+msgid "Show in Movie Center?"
+msgstr "Pokazaćw Movie Center?"
+
+msgid "Show in graphical EPG?"
+msgstr "Pokazać w graficznym EPG?"
+
+msgid "Show running text for description of the event."
+msgstr "Pokazać ruchomy tekst,opisu wydarzenia?"
+
+msgid "Show running text?"
+msgstr "Pokazać ruchomy tekst?"
+
+msgid "Show scrollbar?"
+msgstr "Pokazać pasek przewijania?"
+
+msgid "Simple"
+msgstr "Prosty"
+
+msgid "Speed"
+msgstr "Prędkość"
+
+msgid "Startdelay"
+msgstr "Opóźnienie startu"
+
+msgid "Use slim screen"
+msgstr "Użyć smukłego ekranu"
+
+msgid "disabled"
+msgstr "wyłączone"
+
+msgid "same as background"
+msgstr "jako tło."
+
+msgid "Color Gradient"
+msgstr "Kolor Gradient"
+
+msgid "timed out"
+msgstr "przekroczy limit czasu"
+
+msgid "CLOCKWIDGET"
+msgstr "Graficzny interfejs zegara"
