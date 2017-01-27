@@ -28,13 +28,16 @@ myPath=$1
 #[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
 
+#DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|sed '/<div class="file-wrap">/,$!d'|tr -d '\n'`
+DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|tr -d '\n'|sed 's/<tr class="js-navigation-item">/\nNEWjITEM/g'|sed '/NEWjITEM/,$!d'`
+echo "$DownloadableArchives" > /tmp/DownloadableArchives.log
 if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
   ByDate=1
-  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|sed '/<div class="file-wrap">/,$!d'|tr -d '\n'| \
+  DownloadableArchives=`echo "$DownloadableArchives"| \
   sed 's/js-navigation-item/\nj00zekNewItem/g'|grep 'title=".*\.po"'|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\2\t\1;'|sort -bfir`
 else
   ByDate=0
-  DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|sed '/<div class="file-wrap">/,$!d'|tr -d '\n'| \
+  DownloadableArchives=`echo "$DownloadableArchives"| \
   sed 's/js-navigation-item/\nj00zekNewItem/g'|grep 'title=".*\.po"'|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\1\t\2;'|sort -bfi`
 fi
 
