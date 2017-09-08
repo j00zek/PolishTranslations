@@ -22,26 +22,37 @@
 ###########################################################################################################
 #curl -s --ftp-pasv $addons 1>/dev/null 2>&1
 #[ $? -gt 0 ] && addons="$addons/"
-myPath=$1
+if [ -z $1 ];then
+  myPath=`dirname $0`
+else
+  myPath=$1
+fi
 
 [ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
 #[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
 
 #DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|sed '/<div class="file-wrap">/,$!d'|tr -d '\n'`
-DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|tr -d '\n'|sed 's/<tr class="js-navigation-item">/\nNEWjITEM/g'|sed '/NEWjITEM/,$!d'`
+DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|tr -d '\n'|sed 's/<tr class="js-navigation-item">/\nNEWjITEM/g'|grep 'NEWjITEM'|grep 'blob/master'|grep '\.po"'`
 echo "$DownloadableArchives" > /tmp/DownloadableArchives.log
-if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
-  ByDate=1
-  DownloadableArchives=`echo "$DownloadableArchives"| \
-  sed 's/js-navigation-item/\nj00zekNewItem/g'|grep 'title=".*\.po"'|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\2\t\1;'|sort -bfir`
+#sed 's|NEWjITEM.*blob/master||g'`
+if [ -e $settingsFile ];then
+  if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
+    ByDate=1
+  else
+    ByDate=0
+  fi
 else
-  ByDate=0
-  DownloadableArchives=`echo "$DownloadableArchives"| \
-  sed 's/js-navigation-item/\nj00zekNewItem/g'|grep 'title=".*\.po"'|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\1\t\2;'|sort -bfi`
+    ByDate=1
 fi
 
-if `grep -q 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile`;then
+if [ $ByDate -eq 1 ];then
+  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\2\t\1;'|sort -bfir`
+else
+  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\1\t\2;'|sort -bfi`
+fi
+
+if [ -e $settingsFile ] && [ `grep -c 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile` -gt 0 ];then
   UkryjNiezainstalowane=1
 else
   UkryjNiezainstalowane=0
