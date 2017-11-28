@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: openATV-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-07 11:08+0000\n"
-"PO-Revision-Date: 2017-07-06 20:25+0200\n"
+"PO-Revision-Date: 2017-11-28 13:27+0100\n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language-Team: Poland <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.4\n"
 
 msgid ""
 "\n"
@@ -210,7 +210,7 @@ msgid " Except %s"
 msgstr " z wyjątkiem %s?"
 
 msgid " FOUND %d CI Slots "
-msgstr " znaleziono %d gniazda CI"
+msgstr " znaleziono %d gniazda CI "
 
 msgid " Local"
 msgstr " Lokalnie"
@@ -257,7 +257,7 @@ msgid " extensions."
 msgstr " Rozszerzenia."
 
 msgid " got Accespoints!"
-msgstr " Dostał punkt dostępu"
+msgstr " uzyskałem Punkty Dostępu!"
 
 msgid ""
 " has been sent to the AAF beta team.\n"
@@ -4165,7 +4165,7 @@ msgid "Enable blinking rec symbol on the LCD Display"
 msgstr "Tutaj można aktywować ikonę migającą nagrywania na wyświetlaczu."
 
 msgid "Enable debug log *"
-msgstr "Włączyć dziennik błędów "
+msgstr "Włączyć dziennik błędów"
 
 msgid "Enable fallback remote receiver"
 msgstr "Włączyć zdalny rezerwowy odbiornik"
@@ -18262,7 +18262,7 @@ msgid "This option allows you to hide and sorting of the menus"
 msgstr "Opcja ta pozwala na ukrycie i sortowanie menu"
 
 msgid "Sort plug in browser entries"
-msgstr "Kolejność sortowania wtyczki przeglądarki"
+msgstr "Sortuj wtyczki w pozycjach przeglądarki"
 
 msgid "This option allows you to hide and sorting of the plugin browser."
 msgstr "Opcja ta pozwala na ukrycie i sortowanie wtyczki przeglądarki."
@@ -18491,19 +18491,125 @@ msgid "enable PIP no HDR"
 msgstr "Aktywować PIP bez HDR"
 
 msgid "12bit 4:2:0/4:2:2 no PIP"
-msgstr "12bitowy 4:2:0/4:2:2 nie PIP"
+msgstr "12bit. 4:2:0/4:2:2 nie PIP"
 
 msgid "Use Manual dns-nameserver"
 msgstr "Użyć serwera nazw DNS ręczne"
 
 msgid "Use only for Wake on WLan (WoW)"
-msgstr "Należy używać tylko dla Wake on WLAN (WoW)"
+msgstr "Należy używać tylko dla \"Obudzić sieć WLAN\""
+
+msgid "Choose whether DTS channel sound tracks should be downmixed or transcoded."
+msgstr "Wybierz czy ścieżki dźwiękowe kanału DTS powinny być miksowane lub transkodowane."
+
+msgid "Choose whether WMA Pro channel sound tracks should be downmixed or transcoded."
+msgstr "Wybierz, czy ścieżki dźwiękowe kanału WMA Pro powinny być poddawane procesowi miksowania lub transkodowania."
+
+msgid "Setup - %s"
+msgstr "Ustawienia - %s"
+
+msgid "Style:"
+msgstr "Styl:"
+
+msgid "Font:"
+msgstr "Czcionka:"
+
+msgid "Change skin"
+msgstr "Zmień skórę"
+
+msgid "Search weather location ID"
+msgstr "Wyszukaj identyfikator lokalizacji pogody"
+
+msgid "---Weather---"
+msgstr "---Pogoda---"
+
+msgid "Location # (http://weather.yahoo.com/):"
+msgstr "Lokalizacja # (http://weather.yahoo.com/):"
+
+msgid "Please enter search string for your location"
+msgstr "Wprowadź lokalizację, którą chcesz wyszukać"
+
+msgid "Sorry, there was a problem:"
+msgstr "Przepraszamy,wystąpił problem:"
 
 msgid "If set to 'yes; the infobar will remain shown permanently in 'paused' state (no timeout)."
-msgstr "Jeśli ustawiono na 'tak';Pasek informacyjny będzie widoczny na stałe w stanie \"wstrzymania\" (bez limitu czasu)."
+msgstr "Jeśli ustawione jest na \"Tak\", pasek informacji będzie wyświetlany na stałe w stanie pauzy i nie będzie ukryty."
+
+msgid "Left long"
+msgstr "Lewo długo"
+
+msgid "Right long"
+msgstr "Prawo długo"
 
 msgid "Show infobar permanently while paused"
-msgstr "Pokazać na stałę pasek informacyjny podczas \"wstrzymania\""
+msgstr "Pokazać pasek informacyjny na stałe podczas pauzy"
+
+msgid "Hide VBI line for this service"
+msgstr "Ukryć linię VBI dla tego kanału"
+
+msgid "Remove hide VBI line for this service"
+msgstr "Wyłączyć ukrywanie linii VBI"
+
+msgid "Put your AV Receiver in standby"
+msgstr "Przełączyć odbiornik w tryb gotowości AV"
+
+msgid "Wakeup your AV Receiver from standby"
+msgstr "Obudzić odbiornik z trybu gotowości AV"
+
+msgid "Mode for autorestore"
+msgstr "Tryb automatycznego przywracania"
+
+msgid ""
+"Turbo: One reboot after flash\n"
+"Fast: One reboot after flash, one reboot after restore\n"
+"Slow: One reboot after flash, one reboot after restore in GUI"
+msgstr ""
+"Turbo:Uruchom ponownie po flashowaniu\n"
+"Szybkie:Jeden restart po flashowaniu, jeden restart po przywróceniu\n"
+"Wolne:Jeden restart po flashowaniu, jeden restart po przywróceniu z GUI"
+
+msgid "Remote control model shown"
+msgstr "Pokazać model zdalnego sterowania"
+
+msgid "Which remote control gets shown. Only influences graphical representation."
+msgstr "Tutaj możesz ustawić, który pilot powinien być wyświetlany graficznie."
+
+msgid "Channel list show MiniTV"
+msgstr "Pokazać MiniTV w liście kanałów"
+
+msgid "Channel list show MiniTV when Skin use."
+msgstr "Lista kanałów pokazuje MiniTV, gdy pozwala na to skóra."
+
+msgid "Turn off HDMI-IN Full screen mode"
+msgstr "Wyłączyć tryb pełnoekranowy HDMI-IN"
+
+msgid "Videosetup"
+msgstr "Konfiguracja wideo"
+
+msgid "Show recording symbol"
+msgstr "Pokazać symbol nagrywania"
+
+msgid "Show warning before restart"
+msgstr "Pokazać ostrzeżenie przed ponownym uruchomieniem"
+
+msgid "Force LNB Power"
+msgstr "Wymusić moc LNB"
+
+msgid "Force LNB Tuner Power settings."
+msgstr "Wymusić ustawienia mocy tunera LNB."
+
+msgid "Force ToneBurst"
+msgstr "Wymusić Toneburst"
+
+msgid "Force LNB Tuner ToneBurst settings."
+msgstr "Wymusić ustawienia ToneBurst tunera LNB."
+
+msgid ""
+"Please set up tuner B\n"
+"For Hybrid Tuner Models switch Tuner Type with left and right keys"
+msgstr ""
+"Proszę ustawić głowicę B\n"
+"W przypadku modeli hybrydowych należy zmienić typ głowicy za pomocą lewego i prawego klawisza"
 
 msgid "8 character"
 msgstr "8 znaków"
@@ -18511,8 +18617,831 @@ msgstr "8 znaków"
 msgid "12 character"
 msgstr "12 znaków"
 
-msgid "switch 12 to 8 character display mode"
-msgstr "Przełączanie trybu wyświetlania 12 do 8 znaków"
-
 msgid "12, show latin-1 characters except for greek and cyrillic, switch to 8 if needed."
-msgstr "12,pokazać łacińską 1 z wyjątkiem greckiego i cyrylicy,przełączyć do 8 w razie potrzeby."
+msgstr "12, pokazuje zestaw znaków alfabetu łacińskiego, z wyjątkiem greckiego i cyrylicy, w razie potrzeby przełącz na 8."
+
+msgid "Descramble receiving http streams"
+msgstr "Odszyfruj otrzymane strumienie HTTP"
+
+msgid "When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is added to the service type, regardless of this setting. Default off."
+msgstr "Po włączeniu otrzymane strumienie HTTP są zawsze odszyfrowywane. Zużywa to więcej zasobów (demuxer). W razie potrzeby aktywuj tę opcję. Poszczególne strumienie są zawsze odszyfrowywane, jeśli 0x100 został dodany do typu usługi, niezależnie od tego ustawienia."
+
+msgid "Always include ECM in recordings"
+msgstr "Zawsze włączać ECM w nagraniach"
+
+msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver. Default: off."
+msgstr "Zawsze dołączaj komunikaty ECM do nagrań.Powoduje to zastąpienie indywidualnych ustawień timera globalnie.Pozwala to na późniejsze odszyfrowanie nagrań (czasami nazywane dekodowaniem offline), jeśli obsługuje je Twój odbiornik.Domyślnie: wyłączone."
+
+msgid "Never decrypt while recording"
+msgstr "Nigdy nie odszyfruj podczas nagrywania"
+
+msgid "Never decrypt the content while recording. This overrides the individual timer settings globally. If enabled, recordings are stored in crypted presentation and must be decrypted afterwards (sometimes called offline decoding). Default: off."
+msgstr "Nigdy nie odszyfruj zawartości podczas nagrywania.Powoduje to zastąpienie indywidualnych ustawień timera globalnie.Jeśli opcja jest włączona, nagrania są przechowywane w postaci zaszyfrowanej i muszą zostać później odszyfrowane (czasami nazywane dekodowaniem offline).Domyślnie: wyłączone."
+
+msgid "Do not center DVB subs on this service"
+msgstr "Nigdy nie wyśrodkuj napisów na tym kanale"
+
+msgid "Do center DVB subs on this service"
+msgstr "Zawsze wyśrodkuj napisy na tym kanale"
+
+msgid "Audio volume step size"
+msgstr "Wielkość kroku głośności dźwięku"
+
+msgid "Audio volume step size fast mode"
+msgstr "Szybkość trybu wielkości kroku głośności dźwięku"
+
+msgid "Configure the general audio volume step size (limit 1-10)."
+msgstr "Skonfiguruj ogólny rozmiar kroku głośności dźwięku (limit 1-10)."
+
+msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
+msgstr "Skonfiguruj rozmiar kroku dla głośności w trybie szybkim (od 1-10).Aktywowane,gdy klawisz głośności zostanie naciśnięty trwale lub szybko jeden po drugim."
+
+msgid "Delivery system workaround"
+msgstr "Specjalna funkcja systemu głowicy"
+
+msgid "Workaround for old tuner driver"
+msgstr "Aktywuj tylko w przypadku problemów z Multigłowicą"
+
+msgid ""
+"Incorrect format for skip value: '%s'\n"
+"Skip cancelled."
+msgstr ""
+"Nie wprowadzono prawidłowej wartości: '%s'\n"
+"Pomiń anulowane."
+
+msgid "Country"
+msgstr "Kraj"
+
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+msgid "Aland Islands"
+msgstr "Wyspy Alandzkie"
+
+msgid "Albania"
+msgstr "Albania"
+
+msgid "Algeria"
+msgstr "Algieria"
+
+msgid "American Samoa"
+msgstr "Amerykańskie Samoa"
+
+msgid "Andorra"
+msgstr "Andora"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Anguilla"
+msgstr "Wyspa Anguilla"
+
+msgid "Antarctica"
+msgstr "Antarktyda"
+
+msgid "Antigua and Barbuda"
+msgstr "Wyspa Antigua i Barbuda"
+
+msgid "Argentina"
+msgstr "Argentyna"
+
+msgid "Armenia"
+msgstr "Armenia"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Azerbaijan"
+msgstr "Azerbejdżan"
+
+msgid "Bahamas"
+msgstr "Wyspy Bahama"
+
+msgid "Bahrain"
+msgstr "Bahrajn"
+
+msgid "Bangladesh"
+msgstr "Bangladesz"
+
+msgid "Barbados"
+msgstr "Wyspa Barbados"
+
+msgid "Belarus"
+msgstr "Białoruś"
+
+msgid "Belgium"
+msgstr "Belgia"
+
+msgid "Belize"
+msgstr "Belize"
+
+msgid "Benin"
+msgstr "Benin"
+
+msgid "Bermuda"
+msgstr "Bermudy"
+
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgid "Bolivia (Plurinational State of)"
+msgstr "Boliwia (Wielonarodowe Państwo)"
+
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius und Saba"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bośnia i Hercegowina"
+
+msgid "Botswana"
+msgstr "Botswana"
+
+msgid "Bouvet Island"
+msgstr "Wyspa Bouveta"
+
+msgid "Brazil"
+msgstr "Brazylia"
+
+msgid "British Indian Ocean Territory"
+msgstr "Brytyjskie Terytorium Oceanu Indyjskiego"
+
+msgid "Brunei Darussalam"
+msgstr "Brunea"
+
+msgid "Bulgaria"
+msgstr "Bułgaria"
+
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "Cabo Verde"
+msgstr "Republika Zielonego Przylądka"
+
+msgid "Cambodia"
+msgstr "Kambodża"
+
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgid "Canada"
+msgstr "Kanada"
+
+msgid "Cayman Islands"
+msgstr "Kajmany"
+
+msgid "Central African Republic"
+msgstr "Republika Środkowoafrykańska"
+
+msgid "Chad"
+msgstr "Czad"
+
+msgid "Chile"
+msgstr "Chile"
+
+msgid "China"
+msgstr "Chiny"
+
+msgid "Christmas Island"
+msgstr "Wyspa Bożego Narodzenia"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Wyspy Kokosowe (Keelinga)"
+
+msgid "Colombia"
+msgstr "Kolumbia"
+
+msgid "Comoros"
+msgstr "Komory"
+
+msgid "Congo"
+msgstr "Kongo"
+
+msgid "Congo (Democratic Republic of the)"
+msgstr "Kongo (Demokratyczna Republika)"
+
+msgid "Cook Islands"
+msgstr "Wyspy Cooka"
+
+msgid "Costa Rica"
+msgstr "Kostaryka"
+
+msgid "Cote d'Ivoire"
+msgstr "Wybrzeże Kości Słoniowej"
+
+msgid "Croatia"
+msgstr "Chorwacja"
+
+msgid "Cuba"
+msgstr "Kuba"
+
+msgid "Curacao"
+msgstr "Curacao"
+
+msgid "Cyprus"
+msgstr "Cypr"
+
+msgid "Czechia"
+msgstr "Czechy"
+
+msgid "Denmark"
+msgstr "Dania"
+
+msgid "Djibouti"
+msgstr "Dżibuti"
+
+msgid "Dominica"
+msgstr "Dominikana"
+
+msgid "Dominican Republic"
+msgstr "Republika Dominikany"
+
+msgid "Ecuador"
+msgstr "Ekwador"
+
+msgid "Egypt"
+msgstr "Egipt"
+
+msgid "El Salvador"
+msgstr "Salwador"
+
+msgid "Equatorial Guinea"
+msgstr "Gwinea Równikowa"
+
+msgid "Eritrea"
+msgstr "Erytrea"
+
+msgid "Estonia"
+msgstr "Estonia"
+
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+msgid "Falkland Islands (Malvinas)"
+msgstr "Wyspy Falklandzkie"
+
+msgid "Faroe Islands"
+msgstr "Wyspy Owcze"
+
+msgid "Fiji"
+msgstr "Fidżi"
+
+msgid "Finland"
+msgstr "Finlandia"
+
+msgid "France"
+msgstr "Francja"
+
+msgid "French Guiana"
+msgstr "Gujana Francuska"
+
+msgid "French Polynesia"
+msgstr "Polinezja Francuska"
+
+msgid "French Southern Territories"
+msgstr "Francuskie Terytoria Południowe"
+
+msgid "Gabon"
+msgstr "Gabon"
+
+msgid "Gambia"
+msgstr "Gambia"
+
+msgid "Georgia"
+msgstr "Gruzja"
+
+msgid "Germany"
+msgstr "Niemcy"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+msgid "Greece"
+msgstr "Grecja"
+
+msgid "Greenland"
+msgstr "Grenlandia"
+
+msgid "Grenada"
+msgstr "Grenada"
+
+msgid "Guadeloupe"
+msgstr "Gwadelupa"
+
+msgid "Guam"
+msgstr "Guam"
+
+msgid "Guatemala"
+msgstr "Gwatemala"
+
+msgid "Guernsey"
+msgstr "Guernsey"
+
+msgid "Guinea"
+msgstr "Gwinea"
+
+msgid "Guinea-Bissau"
+msgstr "Gwinea"
+
+msgid "Guyana"
+msgstr "Gujana"
+
+msgid "Haiti"
+msgstr "Haiti"
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Wyspy Heard i McDonalda"
+
+msgid "Holy See"
+msgstr "Stolica Apostolska"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgid "Hungary"
+msgstr "Węgry"
+
+msgid "Iceland"
+msgstr "Islandia"
+
+msgid "India"
+msgstr "Indie"
+
+msgid "Indonesia"
+msgstr "Indonezja"
+
+msgid "Iran (Islamic Republic of)"
+msgstr "Iran (Islamska Republika)"
+
+msgid "Iraq"
+msgstr "Irak"
+
+msgid "Ireland"
+msgstr "Irlandia"
+
+msgid "Isle of Man"
+msgstr "Wyspa Man"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Italy"
+msgstr "Włochy"
+
+msgid "Jamaica"
+msgstr "Jamajka"
+
+msgid "Japan"
+msgstr "Japonia"
+
+msgid "Jersey"
+msgstr "Wyspy Jersey"
+
+msgid "Jordan"
+msgstr "Jordania"
+
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+msgid "Kenya"
+msgstr "Kenia"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "Korea (Democratic People's Republic of)"
+msgstr "Korea (Demokratyczna Republika Ludowa) ;) "
+
+msgid "Korea (Republic of)"
+msgstr "Republika Korei"
+
+msgid "Kuwait"
+msgstr "Kuwejt"
+
+msgid "Kyrgyzstan"
+msgstr "Kirgistan"
+
+msgid "Lao People's Democratic Republic"
+msgstr "Laotańska Republika Ludowo-Demokratyczna"
+
+msgid "Latvia"
+msgstr "Łotwa"
+
+msgid "Lebanon"
+msgstr "Liban"
+
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgid "Liberia"
+msgstr "Liberia"
+
+msgid "Libya"
+msgstr "Libia"
+
+msgid "Liechtenstein"
+msgstr "Księstwo Liechtensteinu"
+
+msgid "Lithuania"
+msgstr "Litwa"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Macao"
+msgstr "Makao"
+
+msgid "Macedonia (the former Yugoslav Republic of)"
+msgstr "Macedonia (była jugosłowiańska republika)"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Malaysia"
+msgstr "Malezja"
+
+msgid "Maldives"
+msgstr "Malediwy"
+
+msgid "Mali"
+msgstr "Mali"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Marshall Islands"
+msgstr "Wyspy Marshalla"
+
+msgid "Martinique"
+msgstr "Martynika"
+
+msgid "Mauritania"
+msgstr "Mauretania"
+
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgid "Mayotte"
+msgstr "Wyspa Majotta"
+
+msgid "Mexico"
+msgstr "Meksyk"
+
+msgid "Micronesia (Federated States of)"
+msgstr "Mikronezja (Stany Federalne)"
+
+msgid "Moldova (Republic of)"
+msgstr "Mołdawia (Republika)"
+
+msgid "Monaco"
+msgstr "Monako"
+
+msgid "Mongolia"
+msgstr "Mongolia"
+
+msgid "Montenegro"
+msgstr "Czarnogóra"
+
+msgid "Montserrat"
+msgstr "Wyspa Montserrat"
+
+msgid "Morocco"
+msgstr "Maroko"
+
+msgid "Mozambique"
+msgstr "Mozambik"
+
+msgid "Myanmar"
+msgstr "Republika Związku Mjanmy"
+
+msgid "Namibia"
+msgstr "Namibia"
+
+msgid "Nauru"
+msgstr "Republika Nauru"
+
+msgid "Nepal"
+msgstr "Nepal"
+
+msgid "Netherlands"
+msgstr "Holandia"
+
+msgid "New Caledonia"
+msgstr "Nowa Kaledonia"
+
+msgid "New Zealand"
+msgstr "Nowa Zelandia"
+
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+msgid "Niger"
+msgstr "Republika Nigru"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Niue"
+msgstr "Wyspa Niue"
+
+msgid "Norfolk Island"
+msgstr "Wyspa Norfolk"
+
+msgid "Northern Mariana Islands"
+msgstr "Mariany Północne"
+
+msgid "Norway"
+msgstr "Norwegia"
+
+msgid "Oman"
+msgstr "Oman"
+
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgid "Palau"
+msgstr "Palau"
+
+msgid "Palestine, State of"
+msgstr "Palestyna"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "Papua New Guinea"
+msgstr "Papua Nowa Gwinea"
+
+msgid "Paraguay"
+msgstr "Paragwaj"
+
+msgid "Peru"
+msgstr "Peru"
+
+msgid "Philippines"
+msgstr "Filipiny"
+
+msgid "Pitcairn"
+msgstr "Wyspy Pitcairn"
+
+msgid "Poland"
+msgstr "Polska"
+
+msgid "Portugal"
+msgstr "Portugalia"
+
+msgid "Puerto Rico"
+msgstr "Portoryko"
+
+msgid "Qatar"
+msgstr "Katar"
+
+msgid "Reunion"
+msgstr "Wyspa Réunion"
+
+msgid "Romania"
+msgstr "Rumunia"
+
+msgid "Russian Federation"
+msgstr "Federacja Rosyjska"
+
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgid "Saint Barthelemy"
+msgstr "Wyspy Saint Barthelemy"
+
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts i Nevis"
+
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (część francuska)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Wspólnota Terytorialna Saint-Pierre i Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent i Grenadyny"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "San Marino"
+msgstr "San Marino"
+
+msgid "Sao Tome and Principe"
+msgstr "Wyspy Świętego Tomasza i Książęce"
+
+msgid "Saudi Arabia"
+msgstr "Arabia Saudyjska"
+
+msgid "Senegal"
+msgstr "Senegal"
+
+msgid "Serbia"
+msgstr "Serbia"
+
+msgid "Seychelles"
+msgstr "Seszele"
+
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgid "Singapore"
+msgstr "Singapur"
+
+msgid "Sint Maarten (Dutch part)"
+msgstr "Sint Maarten (holenderska część)"
+
+msgid "Slovakia"
+msgstr "Słowacja"
+
+msgid "Slovenia"
+msgstr "Słowenia"
+
+msgid "Solomon Islands"
+msgstr "Wyspy Salomona"
+
+msgid "Somalia"
+msgstr "Somalia"
+
+msgid "South Africa"
+msgstr "Afryka Południowa"
+
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Południowa Gruzja"
+
+msgid "South Sudan"
+msgstr "Południowy Sudan"
+
+msgid "Spain"
+msgstr "Hiszpania"
+
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgid "Sudan"
+msgstr "Sudan"
+
+msgid "Suriname"
+msgstr "Surinam"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Wyspy Svalbard i Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Suazi"
+
+msgid "Sweden"
+msgstr "Szwecja"
+
+msgid "Switzerland"
+msgstr "Szwajcaria"
+
+msgid "Syrian Arab Republic"
+msgstr "Republika Syryjsko-Arabska"
+
+msgid "Tajikistan"
+msgstr "Tadżykistan"
+
+msgid "Tanzania, United Republic of"
+msgstr "Tanzania, Zjednoczona Republika"
+
+msgid "Thailand"
+msgstr "Tajlandia"
+
+msgid "Timor-Leste"
+msgstr "Timor Wschodni"
+
+msgid "Togo"
+msgstr "Togo"
+
+msgid "Tokelau"
+msgstr "Wyspy Tokelau"
+
+msgid "Tonga"
+msgstr "Wyspy Tonga"
+
+msgid "Trinidad and Tobago"
+msgstr "Trynidad i Tobago"
+
+msgid "Tunisia"
+msgstr "Tunezja"
+
+msgid "Turkey"
+msgstr "Turcja"
+
+msgid "Turkmenistan"
+msgstr "Turkmenia"
+
+msgid "Turks and Caicos Islands"
+msgstr "Wyspy Turks i Caicos"
+
+msgid "Tuvalu"
+msgstr "Wyspy Lagunowe"
+
+msgid "Uganda"
+msgstr "Uganda"
+
+msgid "Ukraine"
+msgstr "Ukraina"
+
+msgid "United Arab Emirates"
+msgstr "Zjednoczone Emiraty Arabskie"
+
+msgid "United Kingdom"
+msgstr "Zjednoczone Królestwo"
+
+msgid "United States of America"
+msgstr "Stany Zjednoczone Ameryki"
+
+msgid "United States Minor Outlying Islands"
+msgstr "Dalekie Wyspy Mniejsze Stanów Zjednoczonych"
+
+msgid "Uruguay"
+msgstr "Urugwaj"
+
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+msgid "Vanuatu"
+msgstr "Wyspy Vanuatu"
+
+msgid "Venezuela (Bolivarian Republic of)"
+msgstr "Wenezuela"
+
+msgid "Viet Nam"
+msgstr "Wietnam"
+
+msgid "Virgin Islands (British)"
+msgstr "Wyspy Dziewicze (Brytyjskie)"
+
+msgid "Virgin Islands (U.S.)"
+msgstr "Wyspy Dziewicze (USA)"
+
+msgid "Wallis and Futuna"
+msgstr "Wyspy Wallis i Futuna"
+
+msgid "Western Sahara"
+msgstr "Sahara Zachodnia"
+
+msgid "Yemen"
+msgstr "Jemen"
+
+msgid "Zambia"
+msgstr "Zambia"
+
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgid "Stretch linear"
+msgstr "Rozciąganie liniowe"
+
+msgid "Stretch nonlinear"
+msgstr "Rozciąganie nie liniowe"
+
+msgid "Up long"
+msgstr "Długo w górę"
+
+msgid "Down long"
+msgstr "Długo w dół"
+
+msgid "Enable cut file support for non *.ts files"
+msgstr "Włączyć obsługę przycinania do plików innych niż *.ts"
+
+msgid "Enable cut file support for audio files"
+msgstr "Włączyć obsługę przycinania dla plików audio"
+
+msgid "Enable chapter support for video files"
+msgstr "Włączyć obsługę rozdziałów dla plików wideo"
+
+msgid "Enable cut file support for non *.ts files. (e.g. mp4)"
+msgstr "Włączyć obsługę plików przyciętych dla plików innych niż ts.(np.mp4)"
+
+msgid "Enable cut file support for audio files. (e.g. mp3)"
+msgstr "Włączyć obsługę plików przyciętych dla plików audio.(np.mp3)"
+
+msgid "Show chapter positions for supported video files. (gstreamer version must be greather than 1)"
+msgstr "Pokażać pozycje rozdziałów dla obsługiwanych plików wideo.(Wersja Gstreamera musi być większa niż 1)"
