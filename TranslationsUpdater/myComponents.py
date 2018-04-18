@@ -21,6 +21,7 @@ config.plugins.TranslationsUpdater = ConfigSubsection()
 config.plugins.TranslationsUpdater.SortowaniePoDacie = ConfigYesNo(default = False)
 config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych = ConfigYesNo(default = False)
 config.plugins.TranslationsUpdater.AutoUpdate = ConfigYesNo(default = False)
+config.plugins.TranslationsUpdater.UsunPlikiTMP = ConfigYesNo(default = True)
 
 
 def substring_2_translate(text):
@@ -199,6 +200,7 @@ class j00zekTUMenu(Screen,):
         self["Header2"] = StaticText("")
       
     def onStart(self):
+        self.system( "rm -f /tmp/PolishTranslations.list" )
         self.updateDataTimer = eTimer()
         self.updateDataTimer.callback.append(self.updateData)
         self.updateDataTimer.start(500, True) # singleshot

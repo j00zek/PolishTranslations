@@ -1,4 +1,4 @@
-# @j00zek 2015 dla Graterlia
+# @j00zek 2018
 #
 #$2 = sciezka do aktualnej skorki
 

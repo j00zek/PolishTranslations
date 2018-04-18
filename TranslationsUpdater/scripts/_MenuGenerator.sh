@@ -1,5 +1,5 @@
 #!/bin/sh 
-# @j00zek 2015/2016 dla Graterlia
+# @j00zek 2015-2018
 #
 #Plik do generowania menu
 #musi znajdować się w katalogu menu i jest zawsze uruchamiany przy wyborzez ikonki
@@ -32,10 +32,13 @@ fi
 #[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
 
-#DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|sed '/<div class="file-wrap">/,$!d'|tr -d '\n'`
-DownloadableArchives=`curl -kLs https://github.com/j00zek/PolishTranslations|tr -d '\n'|sed 's/<tr class="js-navigation-item">/\nNEWjITEM/g'|grep 'NEWjITEM'|grep 'blob/master'|grep '\.po"'`
-echo "$DownloadableArchives" > /tmp/DownloadableArchives.log
-#sed 's|NEWjITEM.*blob/master||g'`
+if [ ! -f /tmp/PolishTranslations.list ];then
+    curl -kLs https://github.com/j00zek/PolishTranslations -o /tmp/PolishTranslations.web
+    sed '/<table class=".*js-navigation-container.*"/,$!d' < /tmp/PolishTranslations.web > /tmp/PolishTranslations.table
+    sed -i '/<div id="readme" class=".*">/,$d' /tmp/PolishTranslations.table
+    cat /tmp/PolishTranslations.table|tr -d '\n'|sed 's/<tr class=/\nTRclass/g'|grep 'TRclass'|grep '\.po"' > /tmp/PolishTranslations.list
+fi
+DownloadableArchives=`cat /tmp/PolishTranslations.list`
 if [ -e $settingsFile ];then
   if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
     ByDate=1
@@ -45,11 +48,11 @@ if [ -e $settingsFile ];then
 else
     ByDate=1
 fi
-
+echo "ByDate=$ByDate"
 if [ $ByDate -eq 1 ];then
-  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\2\t\1;'|sort -bfir`
+  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)"[ ]*>.*class.*datetime="\(.*\)T.*$;\2\t\1;'|sort -bfir`
 else
-  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)" class.*datetime="\(.*\)T.*$;\1\t\2;'|sort -bfi`
+  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)"[ ]*>.*class.*datetime="\(.*\)T.*$;\1\t\2;'|sort -bfi`
 fi
 
 if [ -e $settingsFile ] && [ `grep -c 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile` -gt 0 ];then
@@ -62,7 +65,6 @@ if [ $? -gt 0 ]; then
   echo "ITEM|Błąd pobierania tłumaczeń|DONOTHING|">>/tmp/_GetTranslations
   exit 0
 fi
-##echo $DownloadableArchives>/tmp/getTranslations.log
 
 echo "MENU|Aktualizuj tłumaczenia:">/tmp/_GetTranslations
 if [ -z "$DownloadableArchives" ];then
@@ -76,7 +78,7 @@ IFS=$'\n'
 [ -e /tmp/getTranslations.log ] && rm -f /tmp/getTranslations.log
 for item in $DownloadableArchives
 do
-  echo "'$item'">>/tmp/getTranslations.log
+  #echo "'$item'">>/tmp/getTranslations.log
   addonName=`echo $item|cut -d$'\t' -f1|cut -d$'.' -f1`
   NameLen=${#addonName}
   #echo $addonName $NameLen
@@ -140,4 +142,10 @@ wersjaOnline=`curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslati
 [ $? -gt 0 ] && exit 0
 if [ $wersjaOnline -gt $wersjaCurrent ];then
   echo -e "ITEM|>>> Aktualizuj wtyczkę <<<|CONSOLE|pluginUpdate.sh">>/tmp/_GetTranslations
+fi
+
+if `grep -q 'config.plugins.TranslationsUpdater.UsunPlikiTMP=true' <$settingsFile`;then
+  rm -f /tmp/PolishTranslations.web
+  rm -f /tmp/PolishTranslations.table
+  #rm -f /tmp/PolishTranslations.list
 fi
