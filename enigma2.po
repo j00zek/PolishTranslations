@@ -19445,3 +19445,126 @@ msgstr "Włączyć obsługę plików przyciętych dla plików audio.(np.mp3)"
 
 msgid "Show chapter positions for supported video files. (gstreamer version must be greather than 1)"
 msgstr "Pokażać pozycje rozdziałów dla obsługiwanych plików wideo.(Wersja Gstreamera musi być większa niż 1)"
+
+msgid "This option allows you can force the HLG Modes for UHD"
+msgstr "Ta opcja pozwala wymusić tryby HLG dla UHD"
+
+msgid "This option allows you can force the HDR10 Modes for UHD"
+msgstr "Ta opcja pozwala wymusić tryb HDR10 dla UHD"
+
+msgid "This option allows you can enable or disable the 12 Bit Color Mode"
+msgstr "Ta opcja pozwala włączyć lub wyłączyć tryb 12-bitowego koloru"
+
+msgid "This option allows you can enable or disable the 10 Bit Color Mode"
+msgstr "Ta opcja umożliwia włączanie i wyłączanie trybu 10-bitowego koloru"
+
+msgid "HLG Support"
+msgstr "Wsparcie HLG"
+
+msgid "HDR10 Support"
+msgstr "HDR10 Wsparcie"
+
+msgid "Allow 12bit"
+msgstr "Zezwalaj na 12bit"
+
+msgid "Allow 10bit"
+msgstr "Zezwalaj na 10bit"
+
+msgid "force enabled"
+msgstr "Wymuszone włączenie"
+
+msgid "force disabled"
+msgstr "Wymuszone wyłączenie"
+
+msgid ""
+"Use automatic mode detection.\n"
+" This option reads all supported modes from your TV.\n"
+" Please disable it only if you want to customize the preferred configuration."
+msgstr ""
+"Użyj automatycznego wykrywania trybu.\n"
+" Ta opcja odczytuje wszystkie obsługiwane tryby z twojego telewizora.\n"
+" Wyłącz tę opcję tylko,jeśli chcesz dostosować preferowaną konfigurację."
+
+msgid "Default Modes Selected."
+msgstr "Wybrano tryby standardowy."
+
+msgid "Auto Modes Selected."
+msgstr "Wybrano tryb automatyczny."
+
+msgid "Allow unsupported modes"
+msgstr "Zezwól na nieobsługiwane tryby"
+
+msgid "This option allows you to use all HDMI Modes"
+msgstr "Ta opcja umożliwia korzystanie ze wszystkich trybów HDMI"
+
+msgid "Create seperate radio userbouquet"
+msgstr "Utwórz osobny bukiet radiowy"
+
+msgid "Enable auto fast scan"
+msgstr "Włącz automatyczne szybkie wyszukiwanie"
+
+msgid "Enable auto fast scan for %s"
+msgstr "Włącz automatyczne szybkie wyszukiwanie dla %s"
+
+msgid "Default 'After event' *"
+msgstr "Domyślne \"po nagraniu\" "
+
+msgid "Log python stack trace on spinner (may have side effects) ?"
+msgstr "Dziennik śledzenia Pythona (może mieć efekty uboczne)?"
+
+msgid "Set to yes ONLY TEMPORARILY for debugging the root cause of a spinner."
+msgstr "Ustaw opcję TYLKO TYMCZASOWO na debugowanie głównej przyczyny spinnera."
+
+msgid "Show PIP in MiniTV"
+msgstr "Pokazać PIP w MiniTV"
+
+msgid "Show Live in MiniTV"
+msgstr "Pokazać na żywo w MiniTV"
+
+msgid "Force Legacy Signal Stats"
+msgstr "Wymuś starsze statystyki sygnałów"
+
+msgid "HDMI HDR Type"
+msgstr "Tryb HDMI HDR"
+
+msgid "This option allows you can force the HDR Modes for UHD"
+msgstr "Ta opcja pozwala wymusić tryb HDR dla UHD"
+
+msgid "Ignore DVB-C namespace sub network"
+msgstr "Zignorować podsieć DVB-C"
+
+msgid "Ignore DVB-S namespace sub network"
+msgstr "Zignorować podsieć DVB-S"
+
+msgid "Ignore DVB-T namespace sub network"
+msgstr "Zignorować podsieć DVB-T"
+
+msgid "On valid ONIDs, ignore frequency sub network part"
+msgstr "Na ważnych ONIDach zignoruj część częstotliwości podsieci"
+
+msgid "HDMI-IN Recording settings"
+msgstr "Ustawienia nagrywania HDMI-IN"
+
+msgid "Frame rate"
+msgstr "Częstotliwość odświeżania"
+
+msgid "Interlaced"
+msgstr "Z przeplotem"
+
+msgid "The bitrate of the video encoder. Larger value improves quality and increases file size."
+msgstr "Szybkość transmisji kodeka wideo. Większa wartość poprawia jakość i zwiększa rozmiar pliku."
+
+msgid "The width of the picture. The input will be scaled to match this value."
+msgstr "Szerokość obrazu. Dane wejściowe są skalowane w celu dopasowania do tej wartości."
+
+msgid "The height of the picture. The input will be scaled to match this value."
+msgstr "Wysokość obrazu. Dane wejściowe są skalowane w celu dopasowania do tej wartości."
+
+msgid "The frame rate of the recording. Ideally, this will match the frame rate of the source or be an integer multiple. If in doubt, set to 60, which should work with most sources."
+msgstr "Liczba klatek na sekundę nagrania. Idealnie odpowiada to szybkości klatek źródła lub wielokrotności całkowitej. W razie wątpliwości ustaw wartość 60, która działa z większością źródeł."
+
+msgid "In most cases this should be set to No. Only enable if you have a very specific need."
+msgstr "W większości przypadków powinno to być ustawione na 'Nie'. Aktywuj tylko, jeśli masz konkretną potrzebę."
+
+msgid "The aspect ratio of the recording."
+msgstr "Współczynnik kształtu nagrania"
