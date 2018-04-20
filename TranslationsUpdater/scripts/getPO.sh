@@ -24,7 +24,6 @@ if [ -z $addonConfig ]; then
     exit 0
   else
     addonConfig=`grep "^$myConfig=" < /tmp/paths.conf| cut -d '=' -f2|tr -d '\n'`
-    echo "Konfiguracja dla $myConfig : $addonConfig"
   fi
 fi
 
@@ -54,21 +53,36 @@ echo "Kompiluję $myConfig.mo..."
 chmod 775 $myPath/msgfmt.py
 $myPath/msgfmt.py /tmp/$addon
 if [ $? -gt 0 ]; then
-  echo "Błąd podczas kompilacji, koniec :("
+  echo "Błąd podczas kompilacji tłumaczenia, koniec :("
   exit 0
 fi
-echo `dirname $addonConfig`
+echo "Ścieżka instalacji $myConfig.mo = $addonConfig"
+
 mkdir -p `dirname $addonConfig`
 sync
-echo "mv -f /tmp/$myConfig.mo $addonConfig" >/tmp/aqq
+#echo "mv -f /tmp/$myConfig.mo $addonConfig"
 mv -f "/tmp/$myConfig.mo" "$addonConfig"
 touch $addonConfig.aqq
 #cp -f "/tmp/$myConfig.mo" "$addonConfig"
 rm -rf /tmp/$addon
 rm -rf /tmp/paths.conf
-echo
-echo "$addon zainstalowany poprawnie, zrestartuj teraz system."
-echo
+if [ `echo $addon|grep -c 'enigma2'` -eq 1 ];then
+  opkg update 1 > /dev/null 2>&1
+  if [ `opkg list-installed 2>&1|grep -c 'enigma2-locale-pl'` -eq 1 ];then
+    echo
+    echo "WYKRYTO zainstalowane standardowe tłumaczenie enigmy. Zaleca się jego odinstalowanie, aby system nie nadpisywał go przy aktualizacji!!!."
+    echo
+    echo "Tłumaczenie dla enigma2 zainstalowane. zrestartuj teraz system."
+  else
+    echo
+    echo "Tłumaczenie dla enigma2 zainstalowane. zrestartuj teraz system."
+  fi
+  echo
+else
+  echo
+  echo "$addon zainstalowany poprawnie, zrestartuj teraz system."
+  echo
+fi
 #echo "LICENCJA: Wszystkie tłumaczenia są autorstwem kolegi Mariusz1970P. Możesz z nich korzystać jedynie za pośrednictwem wtyczki Aktualizator tłumaczeń."
 #echo "Uszanuj jego pracę i poświęcony czas i nie wykorzystuj ich bezpośrednio w swoich wtyczkach, czy paczkach."
 #echo

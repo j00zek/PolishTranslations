@@ -33,10 +33,7 @@ fi
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
 
 if [ ! -f /tmp/PolishTranslations.list ];then
-    curl -kLs https://github.com/j00zek/PolishTranslations -o /tmp/PolishTranslations.web
-    sed '/<table class=".*js-navigation-container.*"/,$!d' < /tmp/PolishTranslations.web > /tmp/PolishTranslations.table
-    sed -i '/<div id="readme" class=".*">/,$d' /tmp/PolishTranslations.table
-    cat /tmp/PolishTranslations.table|tr -d '\n'|sed 's/<tr class=/\nTRclass/g'|grep 'TRclass'|grep '\.po"' > /tmp/PolishTranslations.list
+  $myPath/getList.sh
 fi
 DownloadableArchives=`cat /tmp/PolishTranslations.list`
 if [ -e $settingsFile ];then
@@ -136,16 +133,21 @@ do
   fi
 done
 
-#aktualizacja wtyczki, jesli potrzebna
-wersjaCurrent=`grep "^wersja" < $myPath/../__init__.py|cut -d '=' -f2`
-wersjaOnline=`curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslations/master/TranslationsUpdater/__init__.py|grep "^wersja"|cut -d '=' -f2`
-[ $? -gt 0 ] && exit 0
-if [ $wersjaOnline -gt $wersjaCurrent ];then
-  echo -e "ITEM|>>> Aktualizuj wtyczkę <<<|CONSOLE|pluginUpdate.sh">>/tmp/_GetTranslations
+opkg update 1 > /dev/null 2>&1
+if [ `opkg list-installed 2>&1|grep -c 'enigma2-locale-pl'` -eq 1 ];then
+  echo -e "ITEM|> Odinstaluj standardowe tłumaczenie enigmy <|CONSOLE|opkg remove enigma2-locale-pl">>/tmp/_GetTranslations
 fi
 
 if `grep -q 'config.plugins.TranslationsUpdater.UsunPlikiTMP=true' <$settingsFile`;then
   rm -f /tmp/PolishTranslations.web
   rm -f /tmp/PolishTranslations.table
   #rm -f /tmp/PolishTranslations.list
+fi
+
+#aktualizacja wtyczki, jesli potrzebna
+wersjaCurrent=`grep "^wersja" < $myPath/../__init__.py|cut -d '=' -f2`
+wersjaOnline=`curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslations/master/TranslationsUpdater/__init__.py|grep "^wersja"|cut -d '=' -f2`
+[ $? -gt 0 ] && exit 0
+if [ $wersjaOnline -gt $wersjaCurrent ];then
+  echo -e "ITEM|>>> Aktualizuj wtyczkę <<<|CONSOLE|pluginUpdate.sh">>/tmp/_GetTranslations
 fi

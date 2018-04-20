@@ -7,28 +7,28 @@ sudo rm -rf /tmp/j00zek-PolishTranslations-* 2>/dev/null
 
 curl --help 1>/dev/null 2>&1
 if [ $? -gt 0 ]; then
-  echo "_(Required program 'curl' is not installed. Trying to install it via OPKG.)"
+  echo "Wymagany program 'curl' jest niezainstalowany. Próbuję instalacji poprzez OPKG."
   echo
   opkg install curl 
 
   curl --help 1>/dev/null 2>&1
   if [ $? -gt 0 ]; then
     echo
-    echo "_(Required program 'curl' is not available. Please install it first manually.)"
+    echo "Wymagany program 'curl' jest niedostępny w OPKG. Zainstaluj go najpierw samodzielnie."
     exit 0
   fi
 fi
 
 echo "Sprawdzam tryb instalacji..."
 if `opkg list-installed 2>/dev/null | tr '[:upper:]' '[:lower:]'| grep -q 'polishtranslations'`;then
-  echo "_(UserSkin controlled by OPKG. Please use it for updates.)"
+  echo "Aktualizator tłumaczeń jest kontrolowany przez OPKG. Proszę użyć OPKG do aktualizacji wtyczki."
   exit 0
 fi
 
 echo "Sprawdzam połączenie z serwerem..."
 ping -c 1 github.com 1>/dev/null 2>&1
 if [ $? -gt 0 ]; then
-  echo "_(github server unavailable, update impossible)!!!"
+  echo "Serwer github jest niedostępny, aktualizacja niemożliwa!!!"
   exit 0
 fi
 

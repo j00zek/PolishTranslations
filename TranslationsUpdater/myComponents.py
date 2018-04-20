@@ -300,16 +300,17 @@ class j00zekTUMenu(Screen,):
     def endrun(self, ret =0, wymusUpdate=False):
         #odświerzamy menu
         if not os_path.exists(self.MenuFile) or wymusUpdate == True:
-            with open("/proc/sys/vm/drop_caches", "w") as f: f.write("1\n")
             self.system( "%s/_MenuGenerator.sh %s" % (self.myPath, self.myPath) )
         self.clearLIST()
         self.reloadLIST()
 
     def SkryptOpcjiWithFullPAth(self, txt):
-        if not txt.startswith('/'):
-            return ('%s/%s') %(self.myPath,txt)
-        else:
+        if txt.startswith('/'):
             return txt
+        elif txt.split(' ')[0] in ('opkg'):
+            return txt
+        else:
+            return ('%s/%s') %(self.myPath,txt)
             
     def clearLIST(self):
         #czyścimy listę w ten dziwny sposób, aby GUI działało, bo nie zmienimy obiektów ;)
