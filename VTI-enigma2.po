@@ -5770,6 +5770,18 @@ msgstr ""
 msgid "Scanning AP List.."
 msgstr "Skanowanie listy AP.."
 
+msgid "Scanning BLE bluetooth devices"
+msgstr "Skanowanie urządzeń bluetooth BLE"
+
+msgid "Scanning VUPLUS BLE RCU"
+msgstr "Skanowanie pilota Vu+ BLE"
+
+msgid "Scanning bluetooth devices"
+msgstr "Skanowanie urządzeń BlueTooth"
+
+msgid "Scanning failed!"
+msgstr "Skanowanie nieudane!"
+
 msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr ""
@@ -5777,6 +5789,25 @@ msgstr ""
 
 msgid "Scart loop ok?"
 msgstr "Pętla Scart ok?"
+
+msgid "Scheduled Task"
+msgstr "Zaplanowane zadanie"
+
+msgid "Scheduled Tasks"
+msgstr "Zaplanowane zadania"
+
+msgid "Scheduled task finished:"
+msgstr "Zaplanowane zadanie zakończone:"
+
+msgid "Scheduled task is active"
+msgstr "Zaplanowane zadanie jest aktywne"
+
+msgid "Scheduled task is starting soon"
+msgstr "Zaplanowane zadanie zostanie uruchomione wkrótce"
+
+msgid "Scheduled task(s) are in progress or coming up in few seconds!"
+msgstr "Zaplanowane zadanie(a) działają, lub zostaną uruchomione za kilka sekund!"
+
 
 msgid "Search east"
 msgstr "Szukaj na wschód"
@@ -18297,7 +18328,7 @@ msgid "Failed to move the movie %s to %s in the background"
 msgstr ""
 
 msgid "Filename"
-msgstr ""
+msgstr "Nazwa pliku"
 
 msgid "Name and Description Input"
 msgstr ""
@@ -18310,14 +18341,20 @@ msgid ""
 "Do you want to replace it?"
 msgstr ""
 
+msgid "Task list"
+msgstr "Lista zadań"
+
+msgid "Tasks"
+msgstr "Zadania"
+
 msgid "The movie is moved in the background from %s to %s."
-msgstr ""
+msgstr "Film jest przenoszony w tle z %s do %s."
 
 msgid "The target directory is not found. The file is not renamed."
-msgstr ""
+msgstr "Katalog docelowy nie znaleziony. Plik nie został przeniesiony."
 
 msgid "change name..."
-msgstr ""
+msgstr "Zmiana nazwy..."
 
 msgid "(actual)"
 msgstr ""
@@ -18338,7 +18375,7 @@ msgid "down"
 msgstr ""
 
 msgid "not found"
-msgstr ""
+msgstr "nie znaleziony"
 
 msgid "parser error"
 msgstr ""
@@ -18359,7 +18396,7 @@ msgid "%s - creating preview for movie %s"
 msgstr ""
 
 msgid "Everything done ;)"
-msgstr ""
+msgstr "Wszystko zakończone ;)"
 
 msgid "Autocreate of previews aborted due user!"
 msgstr ""
@@ -18401,7 +18438,7 @@ msgid "Abort transfer"
 msgstr ""
 
 msgid "Address:"
-msgstr ""
+msgstr "Adres:"
 
 msgid "Are you sure you want to delete %s?"
 msgstr ""
@@ -18452,7 +18489,7 @@ msgid "Local"
 msgstr ""
 
 msgid "Port:"
-msgstr ""
+msgstr "Port:"
 
 msgid "Queue Manager"
 msgstr ""
@@ -18579,7 +18616,7 @@ msgid "Setup color space for video"
 msgstr ""
 
 msgid "Mode:"
-msgstr ""
+msgstr "Tryb:"
 
 msgid "Porn Center"
 msgstr ""
@@ -18588,7 +18625,7 @@ msgid "Adult streaming plugins for dm800/dm8000"
 msgstr ""
 
 msgid "Description:"
-msgstr ""
+msgstr "Opis:"
 
 msgid "Error while getting video url!"
 msgstr ""
@@ -18627,7 +18664,7 @@ msgid "Energy schedule"
 msgstr "Plan zamykania"
 
 msgid "Power on"
-msgstr ""
+msgstr "Uruchom"
 
 msgid "Event"
 msgstr ""
@@ -18636,7 +18673,7 @@ msgid "Execution time"
 msgstr ""
 
 msgid "After power on"
-msgstr ""
+msgstr "Po uruchomieniu"
 
 msgid ""
 "An energy schedule task wants to set your Vu+ STB to standby\n"
@@ -18675,7 +18712,7 @@ msgid "Primetime"
 msgstr ""
 
 msgid "Now"
-msgstr ""
+msgstr "Teraz"
 
 msgid "Full EPG"
 msgstr ""
