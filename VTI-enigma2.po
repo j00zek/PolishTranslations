@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-12-16 19:03+0100\n"
-"Last-Translator: Century (AC_fullHD) <Century>\n"
+"PO-Revision-Date: 2018-04-21 10:00+0100\n"
+"Last-Translator: zdzislaw22\n"
 "Language-Team: none\n"
 "Language: pl_PL\n"
 "MIME-Version: 1.0\n"
@@ -12,6 +12,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.6\n"
+"\n"
+"<Code set manual>"
+msgstr ""
+"\n"
+"\n"
+"<Ręczne ustawienie kodu>"
+
+msgid ""
+"\n"
+"\n"
+"Please take a look at\n"
+"%s\n"
+"for more details"
+msgstr ""
+"\n"
+"\n"
+"Więcej szczegółów w pliku\n"
+"%s\n"
+
+msgid ""
+"\n"
+"1. Press <OK> and <STB> simultaneously for 3 seconds. After 3 seconds LED "
+"turns on. "
+msgstr ""
+"\n"
+"1. Naciśnij razem <OK> i <STB> przez 3 sekundy, aby włączyć LED-a"
+
+msgid ""
+"\n"
+"2. Enter a 5 digit code(ex. code 2 is '00002')"
+msgstr ""
+"\n"
+"2. Wpisz 5 znakowy kod (Np. kode 2 = '00002')"
+
+msgid ""
+"\n"
+"3. Press the <OK> key. LED is blinked and turns on."
+msgstr ""
+"\n"
+"3. Naciśnij <OK>, aby LED krótko mignął"
+
+msgid ""
+"\n"
+"<This tuner is configured automatically>"
+msgstr ""
+"\n"
+"<Tuner jest skonfigurowany automatycznie>"
+
+msgid ""
+"\n"
 
 msgid ""
 "\n"
@@ -82,6 +132,17 @@ msgid ""
 msgstr ""
 "\n"
 "Aktualizacja Online oprogramowania VU+."
+
+msgid ""
+"\n"
+"Package : %s \n"
+"old version : %s \n"
+"new version : %s\n"
+msgstr ""
+"\n"
+"Pakiet: %s \n"
+"stara wersja: %s\n"
+"Nowa wersja: %s\n"
 
 msgid ""
 "\n"
@@ -185,6 +246,13 @@ msgstr ""
 
 msgid ""
 "\n"
+"Your System is up to date"
+msgstr ""
+"\n"
+"System jest aktualny"
+
+msgid ""
+"\n"
 "partition %d : %s MB"
 msgstr ""
 "\n"
@@ -201,6 +269,52 @@ msgstr "    - Poziom logowania"
 
 msgid "    - Type"
 msgstr "    - Typ"
+
+msgid "  Menu key : Select quad channel"
+msgstr " Klawisz MENU : wybierz kanał dla 4-PiP"
+
+msgid "  Red key : Show/Hide focus bar"
+msgstr " Klawsz CZERWONY : Wł/Wył informacje"
+
+msgid "  Red key : Zap focused channel on full screen"
+msgstr "  Klawsz CZERWONY : Przełącz wybrany kanał na cały ekran"
+
+msgid " -- "
+msgstr " -- "
+
+msgid " 1"
+msgstr " 1"
+
+msgid " 2"
+msgstr " 2"
+
+msgid " 3"
+msgstr " 3"
+
+msgid " Min 0.00 | Max 1.00 | Default 0.00"
+msgstr "Min 0.00 | Max 1.00 | Standard 0.00"
+
+msgid " Min 0.00 | Max 1.00 | Default 1.00"
+msgstr "Min 0.00 | Max 1.00 | Standard 1.00"
+
+msgid " Results"
+msgstr " Wyniki"
+
+msgid " Set the order as given in enigmalight.conf."
+msgstr "Ustaw kolejność jak zdefiniowano w enigmalight.conf."
+
+msgid ""
+" Some tv's are slower then the lights. With this option you can make the "
+"output 1 -> 20 frames later."
+msgstr ""
+"Niektóre telewizory są wolniejsze od LED-ów. Ta opcja pozwala ustawićopóźnienie "
+"od 1 do 20 ramek."
+
+msgid " added to EasyMedia"
+msgstr " dodano do EasyMedia"
+
+msgid " as "
+msgstr " jako "
 
 msgid " 1"
 msgstr "1"
@@ -222,6 +336,9 @@ msgstr "ms"
 
 msgid " packages selected."
 msgstr "wybrane pakiety."
+
+msgid " removed from EasyMedia"
+msgstr " usunięty z EasyMedia"
 
 msgid " updates available."
 msgstr "dostępne aktualizacje."
@@ -266,8 +383,17 @@ msgstr "#ffffff"
 msgid "#ffffffff"
 msgstr "#ffffffff"
 
+msgid "%(name)s (%(user)s@%(server)s)"
+msgstr "%(name)s (%(user)s@%(server)s)"
+
 msgid "%H:%M"
 msgstr "%H:%M"
+
+msgid "%d"
+msgstr "%d"
+
+msgid "%d %%"
+msgstr "%d %%"
 
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
@@ -275,14 +401,52 @@ msgstr "%d %B %Y"
 msgid "%d / 100"
 msgstr "%d / 100"
 
+msgid "%d Feed(s) were added to configuration."
+msgstr "%d kanałów dodano do konfiguracji."
+
+msgid "%d GB"
+msgstr "%d GB"
+
+msgid "%d MB"
+msgstr "%d MB"
+
+msgid "%d Min"
+msgstr "%d Min"
+
+msgid ""
+"%d conflict(s) encountered when trying to add new timers:\n"
+"%s"
+msgstr ""
+"%d Konflikt(ów) znaleziono przy próbie dodanie nowych timerów:\n"
+"%s"
+
+msgid ""
+"%d conflict(s) solved with similar timer(s):\n"
+"%s"
+msgstr ""
+"%d Konflikt(ów) znalezionoz podobnymi timerami:\n"
+"%s"
+
+msgid "%d error while moving Movie '%s' to '%s': %s"
+msgstr "Błąd %d przenoszenie filmu '%s' do '%s':%s"
+
 msgid "%d jobs are running in the background!"
 msgstr "To %d zadanie jest wykonywane w tle!"
+
+msgid "%d kb/s"
+msgstr "%d kb/s"
 
 msgid "%d min"
 msgstr "%d min"
 
 msgid "%d services found!"
 msgstr "%d znalezionych kanałów!"
+
+msgid "%d.%B %Y"
+msgstr "%d.%B %Y"
+
+msgid "%i ms"
+msgstr "%i ms"
 
 msgid "%s"
 msgstr "%s"
@@ -304,17 +468,90 @@ msgstr ""
 msgid "%s (%s)\n"
 msgstr "%s (%s)\n"
 
+msgid "%s - Setup"
+msgstr "%s - Konfiguracja"
+
+msgid "%s - creating preview for movie %s"
+msgstr "%s - utwóz podgląd dla filmu %s"
+
+msgid "%s ..."
+msgstr "%s..."
+
+msgid "%s Setup"
+msgstr "%s Konfiguracja"
+
+msgid "%s additional screens"
+msgstr "%s dodatkowe ekrany"
+
+msgid "%s does not exist!"
+msgstr "%s nie istnieje!"
+
 msgid "%s ok?"
 msgstr "%s ok?"
+
+msgid "%s..."
+msgstr "%s..."
+
+msgid "%s: %s at %s"
+msgstr "%s: %s o %s"
+
+msgid ""
+"'%s' already exists in destination directory '%s', set force=1 to move "
+"anyway."
+msgstr ""
+"'%s' już istnieje w docelowym katalogu '%s', ustaw 'force=1' aby "
+"wymusić przeniesienie."
+
+msgid "'%s' does not exist in source directory."
+msgstr "'%s' nie istnieje w katalogu źródłowym."
+
+msgid "'%s' has been added to playlist"
+msgstr "'%s' dodany do listy odtwarzania"
+
+msgid "'%s' is neither a valid reference nor a valid file"
+msgstr "'%s' nie jest poprawną referencją ani poprawnym plikiem"
+
+msgid "'%s' not found in playlist"
+msgstr "Nie znaleziono '%s' na liście odtwarzania"
+
+msgid "'%s' removed from playlist"
+msgstr "Usinięto '%s' z listy odtwarzania"
+
+msgid "(De)/Activate AudioZap"
+msgstr "Wł/Wył przełączanie dźwięku"
+
+msgid "(De)/Activate SplitScreen"
+msgstr "Wł/Wył podział ekranu"
+
+msgid "(Re)start client ?"
+msgstr "Uruchomić klienta ?"
 
 msgid "(ZAP)"
 msgstr "(Przełącz)"
 
+msgid "(actual)"
+msgstr "(aktualny)"
+
+msgid "(de)activate Audio Zap..."
+msgstr "Wł/wył przełączanie dźwięku"
+
 msgid "(de)activate Picture in Picture..."
 msgstr "(Dez)aktywuj PiP..."
 
+msgid "(de)activate Split Screen..."
+msgstr "Wł/wył podział ekranu..."
+
 msgid "(empty)"
 msgstr "(pusty)"
+
+msgid "(offline!)"
+msgstr "(INET wył!)"
+
+msgid "(online)"
+msgstr "(INET wł)"
+
+msgid "(set point)"
+msgstr "(ustaw)"
 
 msgid "(show optional DVD audio menu)"
 msgstr "(pokaż opcjonalne menu ustawień DVD audio)"
@@ -322,14 +559,221 @@ msgstr "(pokaż opcjonalne menu ustawień DVD audio)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Dostępne tylko gdy więcej niż jeden interfejs jest aktywny."
 
+msgid "* current animation"
+msgstr "* aktualna animacja"
+
+msgid "-"
+msgstr "-"
+
+msgid "- 3D Mode:"
+msgstr "- Tryb 3D"
+
+msgid "- Address:"
+msgstr "- Adres:"
+
+msgid "- Adjust BLUE "
+msgstr "- NIEBIESKI "
+
+msgid "- Adjust GREEN "
+msgstr "- ZIELONY "
+
+msgid "- Adjust RED "
+msgstr "- CZERWONY "
+
+msgid "- Ambioder precision:"
+msgstr "- Precyzja Ambioder:"
+
+msgid "- Auto speed:"
+msgstr "- Prędkość (Auto)"
+
+msgid "- Blue Adjust:"
+msgstr "- NIEBIESKI"
+
+msgid "- Blue Blacklevel:"
+msgstr "- Poziom czerwni koloru niebieskiego"
+
+msgid "- Blue Gamma:"
+msgstr "- Gamme koloru niebieskiego"
+
+msgid "- Brightness:"
+msgstr "- Jasność:"
+
+msgid "- Bus:"
+msgstr "- Szyna:"
+
+msgid "- Check for update, press OK"
+msgstr "- Naciśnij OK, aby sprawdzić dostępność aktualizacji"
+
+msgid "- Color BLUE\t: %s"
+msgstr "- NIEBIESKI\t: %s"
+
+msgid "- Color GREEN\t: %s"
+msgstr "- ZIELONY\t: %s"
+
+msgid "- Color RED\t: %s"
+msgstr "- CZERWONY\t: %s"
+
+msgid "- Color order:"
+msgstr "- Kolejność kolorów"
+
+msgid "- Configuration File"
+msgstr "- Plik konfiguracyjny"
+
+msgid "- Daemon port:"
+msgstr "- Port serwera:"
+
+msgid "- Debug-Logging > /tmp/enigmalight_gui.log:"
+msgstr "- Aktywacja logowanie do /tmp/enigmalight_gui.log"
+
+msgid "- Default lightmode:"
+msgstr "- Tryb standardowy:"
+
+msgid "- Delay before remove:"
+msgstr "- Opóźnienie przez usunięciem:"
+
+msgid "- Delay:"
+msgstr "- Opóźnienie:"
+
+msgid "- Device output:"
+msgstr "- Wyjście urządzenia:"
+
+msgid "- Device rate:"
+msgstr "- Prędkość urządzenia:"
+
+msgid "- Device type:"
+msgstr "- Typ urządzenia:"
+
+msgid "- Disable lights:"
+msgstr "- Wyłącz LED-y:"
+
+msgid "- Don't turn lights off/on in standby:"
+msgstr "- Nie przełączaj LED-ów w czuwaniu:"
+
+msgid "- Enable lights on boot:"
+msgstr "- Aktywuj LED-y przy starcie:"
+
+msgid "- Enable lights:"
+msgstr "-  Włącz LED-y"
+
+msgid "- Enable network mode (connect with other daemon):"
+msgstr "- Aktywuj tryb sieciowy (połącz z innym serwerem):"
+
+msgid "- Fader brightness : %s\t"
+msgstr "- Jasność : %s\t"
+
+msgid "- Gamma correction 1-10:"
+msgstr "- Korekcja Gamma 1-10"
+
+msgid "- Green Adjust:"
+msgstr "- ZIELONY"
+
+msgid "- Green Blacklevel:"
+msgstr "- poziom czerni koloru ZIELONEGO:"
+
+msgid "- Green Gamma:"
+msgstr "- Gamma koloru ZIELONEGO:"
+
+msgid "- Host ipaddress:"
+msgstr "- Adres IP hosta:"
+
+msgid "- How many lights Bottom:"
+msgstr "- Liczba dolnych LED-ów:"
+
+msgid "- How many lights Left:"
+msgstr "- Liczba LED-ów na lewo:"
+
+msgid "- How many lights Right:"
+msgstr "- Liczba dolnych LED-ów na prawo:"
+
+msgid "- How many lights Top:"
+msgstr "- Liczba górnych LED-ów:"
+
+msgid "- Interval:"
+msgstr "- Interwał:"
+
+msgid "- Led speed:"
+msgstr "- Prędkość LED-ów"
+
+msgid "- Maximal Brightness:"
+msgstr "- Maksymalna jasność:"
+
+msgid "- Maximal Saturation 0.00-1.00:"
+msgstr "- Maksymalna Saturacja 0.00-1.00"
+
+msgid "- Minimal Brightness:"
+msgstr "- Minimalna jasność:"
+
+msgid "- Minimal Saturation 0.00-1.00:"
+msgstr "- Minimalna saturacja 0.00-1.00"
+
+msgid "- Moodlamp Mode:"
+msgstr "- Tryb nastroju:"
+
+msgid "- NodeMCU IP:"
+msgstr "- Ip węzła MCU:"
+
+msgid "- NodeMCU PORT:"
+msgstr "- Port węzła MCU:"
+
+msgid "- Profile:"
+msgstr "- Profil:"
+
+msgid "- Red Adjust:"
+msgstr "- CZERWONY"
+
+msgid "- Sample picture:"
+msgstr "- Obraz testowy"
+
+msgid "- Saturation 0-20:"
+msgstr "- Saturacja 0-20:"
+
+msgid "- Serial:"
+msgstr "- Serial:"
+
+msgid "- Show sample pictures:"
+msgstr "- Pokaż testowe obrazy:"
+
+msgid "- Standby Mode:"
+msgstr "- Tryb w uśpieniu:"
+
+msgid "- Standby mode:"
+msgstr "- Tryb w uśpieniu:"
+
+msgid "- Use Timer:"
+msgstr "- Użyj timera:"
+
+msgid "- Use webinterface:"
+msgstr "- Aktywuj interfejs WEB:"
+
+msgid "- Webinterface port:"
+msgstr "- Port interfejsu WEB:"
+
+msgid "---Weather---"
+msgstr "---Pogoda---"
+
 msgid "/"
 msgstr "/"
+
+msgid "/media/custom"
+msgstr "/media/użykownika"
 
 msgid "0"
 msgstr "0"
 
+msgid "01:00"
+msgstr "01:00"
+
 msgid "1"
 msgstr "1"
+
+msgid "1 minute"
+msgstr "1 Minuta"
+
+msgid "1 minutes"
+msgstr "1 Minuty"
+
+msgid "1 second"
+msgstr "1 Sekunda"
 
 msgid "1 wireless network found!"
 msgstr "Znaleziono 1 sieć bezprzewodową!"
@@ -357,6 +801,9 @@ msgstr "1.2"
 
 msgid "10"
 msgstr "10"
+
+msgid "10 seconds"
+msgstr "10 Sekund"
 
 msgid "12V output"
 msgstr "Wyjście 12V "
@@ -391,6 +838,15 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "2 minutes"
+msgstr "2 Minuty"
+
+msgid "2 seconds"
+msgstr "2 Sekundy"
+
+msgid "2. Change 'Skip firmware update of VUPLUS-BLE-RCU' option to 'no'\n"
+msgstr "2. Zmień opcję 'opuść aktualizację firmware VUPLUS-BLE-RCU' na NIE\n"
+
 msgid "2. Contact"
 msgstr "2. Podłącz"
 
@@ -402,6 +858,9 @@ msgstr "2. Odłącz mobilne urządzenie UMTS"
 
 msgid "20"
 msgstr "20"
+
+msgid "20 seconds"
+msgstr "20 Sekund"
 
 msgid "23976"
 msgstr "23976"
@@ -417,6 +876,12 @@ msgstr "29970"
 
 msgid "3"
 msgstr "3"
+
+msgid "3 minutes"
+msgstr "3 Minuty"
+
+msgid "3 seconds"
+msgstr "3 Sekundy"
 
 msgid "3. Done"
 msgstr "3. Zrobione"
@@ -439,6 +904,9 @@ msgstr "Tryb 3D"
 msgid "4"
 msgstr "4"
 
+msgid "4 seconds"
+msgstr "4 Sekundy"
+
 msgid "4. Attempt to connect"
 msgstr "4. Spróbuj połączyć"
 
@@ -457,6 +925,9 @@ msgstr "5"
 msgid "5 minutes"
 msgstr "5 minut"
 
+msgid "5 seconds"
+msgstr "5 Sekund"
+
 msgid "5. Done"
 msgstr "5. Zrobione"
 
@@ -469,6 +940,9 @@ msgstr "59940"
 msgid "6"
 msgstr "6"
 
+msgid "6 seconds"
+msgstr "6 Sekund"
+
 msgid "60 minutes"
 msgstr "60 minut"
 
@@ -478,11 +952,20 @@ msgstr "60000"
 msgid "7"
 msgstr "7"
 
+msgid "7 seconds"
+msgstr "7 Sekund"
+
 msgid "8"
 msgstr "8"
 
+msgid "8 seconds"
+msgstr "8 Sekund"
+
 msgid "9"
 msgstr "9"
+
+msgid "9 seconds"
+msgstr "9 Sekund"
 
 msgid ": "
 msgstr ":"
@@ -496,11 +979,23 @@ msgstr "<Domyślna lokalizacja filmów>"
 msgid "<Last timer location>"
 msgstr "<Lokalizacja ostatniego timera>"
 
+msgid "<No Channel>"
+msgstr "<Brak kanału>"
+
+msgid "<empty>"
+msgstr "<pusty>"
+
 msgid "<unknown>"
 msgstr "<nieznany>"
 
 msgid "??"
 msgstr "??"
+
+msgid "?? kb/s"
+msgstr "?? kb/s"
+
+msgid "??:??"
+msgstr "??:??"
 
 msgid "A"
 msgstr "A"
@@ -528,6 +1023,9 @@ msgstr ""
 
 msgid "A graphical EPG for all services of an specific bouquet"
 msgstr "Graficzny EPG dla wszystkich usług określonego pakietu"
+
+msgid "A new skin was installed\n"
+msgstr "Zainstalowano nową skórkę\n"
 
 msgid ""
 "A record has been started:\n"
@@ -562,6 +1060,9 @@ msgstr ""
 "\n"
 "Czy chcesz wyłączyć drugi interfejs sieciowy?"
 
+msgid "A simple to use RSS reader"
+msgstr "Prosty w użyciu czytnik RSS"
+
 msgid ""
 "A sleep timer wants to set your\n"
 "STB to standby. Do that now?"
@@ -586,8 +1087,14 @@ msgstr ""
 "Timer nie mógł nagrać!\n"
 "Wyłączyć TV i spróbować ponownie?\n"
 
+msgid "A/V + TV wakeup"
+msgstr "Obudź A/V i TV"
+
 msgid "A/V Settings"
 msgstr "Ustawienia A/V"
+
+msgid "A/V-Color space settings"
+msgstr "Ustawienia przestrzeni kolorów A/V"
 
 msgid "A/V-Receiver power off:"
 msgstr "Wyłącz odbiornik:"
@@ -604,11 +1111,26 @@ msgstr "Ścisz odbiornik:"
 msgid "A/V-Receiver volume up:"
 msgstr "Zgłośnij odbiornik:"
 
+msgid "A:"
+msgstr "A:"
+
 msgid "AA"
 msgstr "AA"
 
+msgid "AAC downmix"
+msgstr "Downmix AAC"
+
+msgid "AAC software decoding"
+msgstr "Programowy dekoder AAC"
+
 msgid "AB"
 msgstr "AB"
+
+msgid "AC3 Downmix disabled"
+msgstr "Downmix AC3 wyłączony"
+
+msgid "AC3 Downmix enabled"
+msgstr "Downmix AC3 włączony"
 
 msgid "AP Device"
 msgstr "Urządzenie AP"
@@ -625,17 +1147,44 @@ msgstr "ASCII"
 msgid "Abort"
 msgstr "Zrezygnuj"
 
+msgid "Abort all downloads"
+msgstr "Przerwij pobieranie wszystkich materiałów"
+
+msgid "Abort scan"
+msgstr "Przerwij skanowanie"
+
+msgid "Abort this Wizard."
+msgstr "Przerwij ten pomocnik."
+
+msgid "Abort transfer"
+msgstr "Przerwij transfer"
+
 msgid "About"
-msgstr "Wersja"
+msgstr "O..."
+
+msgid "About EnigmaLight / Box information"
+msgstr "O EnigmaLight / Info o tunerze"
+
+msgid "About FritzCall"
+msgstr "O wtyczce FritzCall"
 
 msgid "About..."
-msgstr "Wersja..."
+msgstr "O..."
 
 msgid "Accesspoint:"
 msgstr "Punkt dostępowy:"
 
+msgid "Accounts list"
+msgstr "Lista kont"
+
+msgid "Action"
+msgstr "Aktcja"
+
 msgid "Action after summit"
-msgstr ""
+msgstr "Akcja po spotkaniu"
+
+msgid "Action for inactivity:"
+msgstr "Akcja dla braku aktywności:"
 
 msgid "Action on long powerbutton press"
 msgstr "Akcja po długim naciśnięciu przycisku wyłączania"
@@ -646,17 +1195,50 @@ msgstr "Akcja po krótkim naciśnięciu przycisku wyłączania"
 msgid "Action:"
 msgstr "Akcja:"
 
+msgid "Activate"
+msgstr "Aktywuj"
+
+msgid "Activate Audio Zap"
+msgstr "Aktywuj przełączanie dźwięku"
+
+msgid "Activate Movielist Preview"
+msgstr "Aktywuj podgląd na liście filmów"
+
 msgid "Activate Picture in Picture"
-msgstr "Uaktywnij PiP"
+msgstr "Aktywuj Obraz w obrazie (PiP)"
+
+msgid "Activate Split Screen"
+msgstr "Aktywuj podział obrazu"
+
+msgid "Activate VPS"
+msgstr "Aktywuj VPS"
+
+msgid "Activate WLAN guest access"
+msgstr "Aktywuj dostęp gościa do WLAN"
+
+msgid "Activate debug logging?"
+msgstr "Aktywować logowanie?"
 
 msgid "Activate network settings"
 msgstr "Aktywuj ustawienia sieci"
 
+msgid "Activate permanent clock"
+msgstr "Aktywuj permanentny zegar"
+
 msgid "Activation mode"
 msgstr "Tryb aktywacji"
 
+msgid "Active"
+msgstr "Aktywny"
+
 msgid "Active Source Reply On:"
 msgstr "Rozpoznawanie aktywnego źródła:"
+
+msgid "Active Time Profile"
+msgstr "Aktywny profil czasu"
+
+msgid "Active Usersessions :"
+msgstr "Aktywne sesje użytkowników:"
 
 msgid "Adapter settings"
 msgstr "Ustawienia adaptera"
@@ -664,23 +1246,113 @@ msgstr "Ustawienia adaptera"
 msgid "Add"
 msgstr "Dodaj"
 
+msgid "Add \"Search\" Button to EPG"
+msgstr "Dodaj klawisz 'Szukaj' w standardowym EPG"
+
+msgid "Add Autotimer"
+msgstr "Dodaj Autotimer"
+
 msgid "Add Bookmark"
 msgstr "Dodaj zakładkę"
+
+msgid "Add Functions to MQB Key"
+msgstr "Dodaj funkcję do klawisza w MQB"
+
+msgid "Add Macro to MQB Key"
+msgstr "Dodaj makro do klawisza w MQB"
+
+msgid "Add New Quad Channel Entry"
+msgstr "Dodaj nową pozycję dla 4-PiP"
+
+msgid "Add Plugins to MQB Key"
+msgstr "Dodaj wtyczkę do klawisza w MQB"
+
+msgid "Add Script/Binary to MQB Key"
+msgstr "DodajSkript/ausfĂĽhrbare Datei zur MQB Taste hinzufĂĽgen"
+
+msgid "Add Service"
+msgstr "Dodaj serwis"
+
+msgid "Add Timer"
+msgstr "Dodaj timer"
+
+msgid "Add Zap Timer"
+msgstr "Dodaj timer do przełączenia"
+
+msgid "Add a executable to ExeManager"
+msgstr "Dodaj plik do ExeManager-a"
+
+msgid "Add a job to CronManager"
+msgstr "Dodaj zadanie do menadżera cron"
 
 msgid "Add a mark"
 msgstr "Dodaj znacznik"
 
+msgid "Add a new NFS or CIFS mount point to your STB."
+msgstr "Dodaj nowy punkt montowania NFS/CIFS."
+
 msgid "Add a new title"
 msgstr "Dodaj nowy tytuł"
 
+msgid "Add bouquet services"
+msgstr "Dodaj bukiet"
+
+msgid "Add command line options ?"
+msgstr "Dodać opcja linii poleceń?"
+
+msgid "Add current playing stream to favorite"
+msgstr "Dodaj aktualny przekaz do ulubionych"
+
+msgid "Add current selected genre to favorite"
+msgstr "Dodaj wybraną kategorię do ulubionych"
+
+msgid "Add current selected station to favorite"
+msgstr "Dodaj wybraną stację do ulubionych"
+
+msgid "Add downloads from txt files"
+msgstr "Dodaj pliki do pobrania z plików tekstowych"
+
+msgid "Add entry to phonebook"
+msgstr "Dodaj wpis do książki telefonicznej"
+
+msgid "Add files from container"
+msgstr "Dodaj pliki z kontenera"
+
+msgid "Add instant Timer"
+msgstr "Dodaj natychmiastowy timer"
+
+msgid "Add new AutoTimer"
+msgstr "Dodaj nowy AutoTimer"
+
+msgid "Add new network mount point"
+msgstr "Dodaj nowy punkt montowania sieci"
+
+msgid "Add new page"
+msgstr "Dodaj nową stronę"
+
+msgid "Add new tag..."
+msgstr "Dodaj nowy znacznik..."
+
+msgid "Add sequence number to output file"
+msgstr "Dodaj sekwencje cyfr do nazwy pliku"
+
+msgid "Add similar timer on conflict"
+msgstr "Dodaj podobny timer przy konflikcie"
+
 msgid "Add timer"
 msgstr "Dodaj timer"
+
+msgid "Add timer as disabled on conflict"
+msgstr "Dodaj timer jako wyłączony przy konflikcie"
 
 msgid "Add title"
 msgstr "Dodaj tytuł"
 
 msgid "Add to bouquet"
 msgstr "Dodaj do pakietu"
+
+msgid "Add to extension menu"
+msgstr "Dodaj do menu rozszerzeń"
 
 msgid "Add to favourites"
 msgstr "Dodaj do ulubionych"
@@ -690,6 +1362,9 @@ msgstr "Dodatkowa kopia zapasowa ->"
 
 msgid "Address (0~FF):"
 msgstr "Adres (0~FF):"
+
+msgid "Address:"
+msgstr "Adres:"
 
 msgid "Adjust 3D settings"
 msgstr "Dostosuj ustawienia 3D"
@@ -708,6 +1383,21 @@ msgstr ""
 "rezultatu, naciśnij OK aby wyjść z dostosowania wideo lub wybierz numer aby "
 "zobaczyć inny testowy ekran."
 
+msgid "Adjustments"
+msgstr "Dopasowania"
+
+msgid "Adult streaming plugins for dm800/dm8000"
+msgstr "Filme fĂĽr Erwachsene auf der Dreambox"
+
+msgid "Advanced HDMI-Cec Control"
+msgstr "Zaawansowana kontrola HDMI-CEC"
+
+msgid "Advanced HDMI-Cec Setup"
+msgstr "Zaawansowana konfiguracja HDMI-CEC"
+
+msgid "Advanced Ipkg Install"
+msgstr "Rozszerzona instalacja pakietu IPKG"
+
 msgid "Advanced Options"
 msgstr "Zaawansowane Opcje"
 
@@ -720,11 +1410,30 @@ msgstr "Zaawasnowane oprogramowanie wtyczki"
 msgid "Advanced Video Enhancement Setup"
 msgstr "Zaawansowane ustawienia A/V"
 
+msgid "Advanced cut specification..."
+msgstr "Zaawansowane ustawienie wycinania"
+
 msgid "Advanced restore"
 msgstr "Przywracanie zaawansowane"
 
+msgid "Advertisment detection"
+msgstr "Detekcja reklam"
+
+msgid ""
+"After a successful refresh the AutoTimer will automatically search for new "
+"matches if this is enabled."
+msgstr ""
+"Po aktywacji opcji wtyczka AutoTimer będzie automatycznie szukać nowych "
+" programów w EPG."
+
 msgid "After event"
 msgstr "Po wydarzeniu"
+
+msgid "After power on"
+msgstr "Po włączeniu"
+
+msgid "After scheduled task"
+msgstr "Po zaplanowanym zadaniu"
 
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
@@ -744,6 +1453,9 @@ msgstr "Wszystkie"
 
 msgid "All Satellites"
 msgstr "Wszystkie satelity"
+
+msgid "Allow duplicates"
+msgstr "Zezwalaj na duplikaty"
 
 msgid "Allow removing of entries in service list"
 msgstr "Pozwól na usuwanie wpisów na liście kanałów"
@@ -778,6 +1490,9 @@ msgstr "Pusta nazwa pliku jest niedozwolona."
 msgid "An unknown error occured!"
 msgstr "Wystąpił nieznany błąd!"
 
+msgid "Animations"
+msgstr "Animacje"
+
 msgid ""
 "Another adapter connected has been found.\n"
 "\n"
@@ -789,8 +1504,25 @@ msgstr ""
 "Po wyłączeniu tej karty połączenie zostanie ponownie ustanowione, "
 "kontynuować?"
 
+msgid "Apr"
+msgstr "Kwi"
+
+msgid "April"
+msgstr "Kwiecień"
+
 msgid "Arabic"
 msgstr "Arabski"
+
+msgid "Are you sure to %s ?"
+msgstr "Jesteś pewien żeby %s ?"
+
+msgid "Are you sure to delete swapfile ?"
+msgstr ""
+"Jesteś pewien żeby skasować plik wymiany?"
+
+msgid "Are you sure to set hdd in standby mode?"
+msgstr ""
+"Jesteś pewien żeby, żeby ustawić dysk tryb uśpienia?"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -805,6 +1537,9 @@ msgid ""
 msgstr ""
 "Jesteś pewien, że chcesz usunąć\n"
 "następującą kopię zapasową:\n"
+
+msgid "Are you sure you want to delete %s?"
+msgstr "Na pewno skasować %s?"
 
 msgid "Are you sure you want to exit this wizard?"
 msgstr "Czy chcesz opuścić kreatora?"
@@ -846,11 +1581,17 @@ msgstr "Artysta"
 msgid "Ask before shutdown:"
 msgstr "Zapytaj przed zamknięciem:"
 
+msgid "Ask before stopping timeshift"
+msgstr "Pytaj przed zatrzymaniem timeshift-u"
+
 msgid "Ask for deleting files after canceling timers"
-msgstr "Zapytaj o usuwanie plików po anulowaniu nagrania"
+msgstr "Pytaj, czy skasować pliki po anulowaniu nagrania"
+
+msgid "Ask for timer type when Autotimer is installed"
+msgstr "Pytaj o timer gdy Autotimer jest zainstalowany"
 
 msgid "Ask user"
-msgstr "Zapytaj użytkownika"
+msgstr "Pytaj użytkownika"
 
 msgid "Aspect Ratio"
 msgstr "Format obrazu"
@@ -859,10 +1600,22 @@ msgid "Aspect ratio"
 msgstr "Format obrazu"
 
 msgid "Atheros"
-msgstr ""
+msgstr "Atheros"
+
+msgid "Attachments"
+msgstr "Załączniki"
 
 msgid "Audio"
 msgstr "Dźwięk"
+
+msgid "Audio Bitrate"
+msgstr "Prędkość transmisji dźwięku"
+
+msgid "Audio Channels"
+msgstr "Liczba kanałów dźwiękowych"
+
+msgid "Audio Codec"
+msgstr "Kodek dźwięku"
 
 msgid "Audio Options..."
 msgstr "Opcje dźwięku"
@@ -870,11 +1623,41 @@ msgstr "Opcje dźwięku"
 msgid "Audio PID"
 msgstr "Audio PID"
 
+msgid "Audio Samplerate"
+msgstr "Próbkowanie dźwięku"
+
+msgid "Audio Sync"
+msgstr "Synchro dźwięku"
+
+msgid "Audio Sync Setup"
+msgstr "Konfiguracja synchronizacji dźwięku"
+
+msgid "Audio Zap"
+msgstr "Przełącz dźwięk"
+
+msgid "Audio restart Setup"
+msgstr "Konfiguracja restartu dźwięku"
+
+msgid "Aug"
+msgstr "Sie"
+
+msgid "August"
+msgstr "Sierpień"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Austria"
+
 msgid "Author: "
 msgstr "Autor: "
 
 msgid "Authoring mode"
 msgstr "Tryb autoringu"
+
+msgid "Authors"
+msgstr "Autorzy"
 
 msgid "Auto"
 msgstr "Auto"
@@ -886,7 +1669,64 @@ msgid "Auto flesh"
 msgstr "Automatyczne rozświetlenie"
 
 msgid "Auto scart switching"
-msgstr "Auto przełączanie scart"
+msgstr "Automatyczne przełączanie scart"
+
+msgid "Auto select stream"
+msgstr "Automatyczny wybór strumienia"
+
+msgid "Auto turn on subtitles"
+msgstr "Automatyczne włączenie napisów"
+
+msgid "AutoFS"
+msgstr "autofs"
+
+msgid "AutoResolution is disabled"
+msgstr "AutoResolution jest wyłączona"
+
+msgid "AutoResolution is enabled"
+msgstr "AutoResolution jest włączona"
+
+msgid "AutoResolution on/off"
+msgstr "Wł/wył AutoResolution"
+
+msgid "AutoShutDown Setup"
+msgstr "Ustawienia automatycznego wyłączenia"
+
+msgid "AutoShutDown settings"
+msgstr "Ustawienia automatycznego wyłączenia"
+
+msgid "AutoShutDown: %s ?"
+msgstr "Automatyczne wyłączenie: %s?"
+
+msgid "AutoTimer Editor"
+msgstr "Edytor AutoTimer-a"
+
+msgid "AutoTimer Filters"
+msgstr "Filtry AutoTimer-a"
+
+msgid "AutoTimer Services"
+msgstr "Kanały AutoTimer-a"
+
+msgid "AutoTimer Settings"
+msgstr "Ustawienia AutoTimer-a"
+
+msgid "AutoTimer overview"
+msgstr "Opis AutoTimer-a"
+
+msgid "AutoTimer was added successfully"
+msgstr "AutoTimer dodany poprawnie"
+
+msgid "AutoTimer was changed successfully"
+msgstr "AutoTimer zmieniony poprawnie"
+
+msgid "AutoTimer was removed"
+msgstr "AutoTimer skasowany"
+
+msgid "Autocreate of missing previews"
+msgstr "Automatyczne tworzenie brakujących podglądów"
+
+msgid "Autocreate of previews aborted due user!"
+msgstr "Automatyczne tworzenie podglądów przerwane przez użytkownika!"
 
 msgid "Automatic"
 msgstr "Automatycznie"
@@ -900,8 +1740,29 @@ msgstr "Konfiguracja automatycznego punktów montowania"
 msgid "Autoremove depended packages at package remove"
 msgstr "Automatyczne usuwanie zależnych pakietów"
 
+msgid "Autos & Vehicles"
+msgstr "Samochody i pojazdy"
+
+msgid "Autostart"
+msgstr "Autostart"
+
+msgid "Autoupdate"
+msgstr "Automatyczna aktualizacja"
+
+msgid "Autowrite timer"
+msgstr "Twórz timer automatycznie"
+
 msgid "Available format variables"
 msgstr "Dostępne zmienne formatu"
+
+msgid "Average"
+msgstr "Średnio"
+
+msgid "Avoid deep standby when HDD is active, e.g. for FTP"
+msgstr "Nie pozwól na wyłączenie, gdy dysk jest aktywny"
+
+msgid "Avoid simultaneous timer starts"
+msgstr "Nie pozwól na uruchomienie kilku timerów na raz"
 
 msgid "B"
 msgstr "B"
@@ -921,6 +1782,15 @@ msgstr "BER"
 msgid "BER:"
 msgstr "BER:"
 
+msgid "BOTTOM [left]"
+msgstr "DOLNY [lewo]"
+
+msgid "BOTTOM [middle]"
+msgstr "DOLNY [środek]"
+
+msgid "BOTTOM [right]"
+msgstr "DOLNY [prawo]"
+
 msgid "Back"
 msgstr "Powrót"
 
@@ -936,6 +1806,21 @@ msgstr "Tło"
 msgid "Backspace Key"
 msgstr "Klawisz Backspace"
 
+msgid "Backup"
+msgstr "Kopia zapasowa"
+
+msgid "Backup Image"
+msgstr "Kopia zapasowa softu"
+
+msgid "Backup Settings..."
+msgstr "Kopia zapasowa ustawień..."
+
+msgid "Backup channel settings"
+msgstr "Kopia zapasowa listy kanałów"
+
+msgid "Backup configurations"
+msgstr "Ustawienia Kopii zapasowej"
+
 msgid "Backup done."
 msgstr "Kopia zapasowa wykonana."
 
@@ -945,11 +1830,20 @@ msgstr "Kopia zapasowa nieudana."
 msgid "Backup finished and copied to your USB-flashdrive."
 msgstr "Zakończono wykonywanie kopii zapasowej i skopiowano pliki na USB."
 
+msgid "Backup installed channellist and plugins"
+msgstr "Kopialisty kanałów i wtyczek"
+
+msgid "Backup installed plugins"
+msgstr "Kopia wtyczek"
+
 msgid "Backup is running..."
 msgstr "Tworzenie kopii..."
 
 msgid "Backup system settings"
 msgstr "Skopiuj ustawienia systemu"
+
+msgid "Bad arguments"
+msgstr "Złe parametry"
 
 msgid "Band"
 msgstr "Pasmo"
@@ -960,14 +1854,29 @@ msgstr "Szerokie pasmo"
 msgid "Beacon (15~65535)"
 msgstr "Beacon (15~65535)"
 
+msgid "Begin"
+msgstr "Rozpocznij"
+
+msgid "Begin / End of playback"
+msgstr "Rozpocznij/zakończ odtwarzanie"
+
 msgid "Begin time"
 msgstr "Czas rozpoczęcia"
 
 msgid "Behavior of 'pause' when paused"
 msgstr "Zachowanie 'pauzy' gdy zatrzymany"
 
+msgid "Behavior of 0 key (double-click) in PiP-mode"
+msgstr "Zachowanie przycisku 0 (podwójne naciśnięcie) w trybie PiP"
+
 msgid "Behavior of 0 key in PiP-mode"
 msgstr "Zachowanie przycisku 0 w trybie PiP"
+
+msgid "Behavior of OK key during winding or in PAUSE state"
+msgstr "Zachowanie przycisku OK przy naciskaniu lub w PAUZIE"
+
+msgid "Behavior when Live TV event changes during timeshift"
+msgstr "Zachowanie, gdy opis audycji zmieni się podczas timeshift-u"
 
 msgid "Behavior when a movie is started"
 msgstr "Zachowanie gdy film rozpoczęty"
@@ -978,11 +1887,17 @@ msgstr "Zachowanie gdy film zatrzymany"
 msgid "Behavior when a movie reaches the end"
 msgstr "Zachowanie gdy film osiąga koniec"
 
+msgid "Behavior when a service changes during timeshift"
+msgstr "Zachowanie gdy zmieni się kanał podczas timeshift-u"
+
 msgid "Bitrate"
-msgstr "Szybkość przepływu"
+msgstr "Szybkość transmisji"
+
+msgid "Bitrate Viewer"
+msgstr "Podgląd Szybkości transmisji"
 
 msgid "Bitrate:"
-msgstr "Szybkość przepływu:"
+msgstr "Szybkość transmisji:"
 
 msgid "Blindscan"
 msgstr "Blindscan"
@@ -1017,6 +1932,9 @@ msgstr "Zakładki"
 msgid "Brightness"
 msgstr "Jasność"
 
+msgid "Browse network neighbourhood"
+msgstr "Przeglądaj otoczenie sieciowe"
+
 msgid "Browser Help"
 msgstr "Pomoc"
 
@@ -1025,6 +1943,21 @@ msgstr "Uruchom/Zatrzymaj przeglądarkę "
 
 msgid "BrowserMain"
 msgstr "Przeglądarka główna"
+
+msgid "Buffer device:"
+msgstr "Urządzenie buforujące:"
+
+msgid "Buffer duration"
+msgstr "Czas buforowania"
+
+msgid "Buffer file handling:"
+msgstr "Plik buforowania:"
+
+msgid "Buffer size"
+msgstr "Wielkość bufora"
+
+msgid "Buffer:"
+msgstr "Bufor:"
 
 msgid "Burn DVD"
 msgstr "Nagraj DVD"
@@ -1036,7 +1969,19 @@ msgid "Burn to DVD"
 msgstr "Nagraj DVD"
 
 msgid "Bus: "
-msgstr "Bus:"
+msgstr "Szyna:"
+
+msgid "Busy...."
+msgstr "Zajęty..."
+
+msgid "Button : "
+msgstr "Klawisz : "
+
+msgid "Buttons"
+msgstr "Klawisze"
+
+msgid "Buttons setup"
+msgstr "Ustawienia klawiszy"
 
 msgid ""
 "By pressing the OK Button on your remote control, the info bar is being "
@@ -1068,6 +2013,15 @@ msgstr ""
 
 msgid "CI assignment"
 msgstr "Zadania CI"
+
+msgid "CIFS share"
+msgstr "Udział CIFS"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "CPU %"
+msgstr "CPU %"
 
 msgid "CVBS"
 msgstr "CVBS"
@@ -1198,8 +2152,17 @@ msgstr "Kanał"
 msgid "Channel (1~13)"
 msgstr "Kanał (1~13)"
 
+msgid "Channel Number"
+msgstr "Numer Kanału"
+
 msgid "Channel Selection"
 msgstr "Wybór kanału"
+
+msgid "Channel audio:"
+msgstr "Ścieżka dźwiękowa kanału:"
+
+msgid "Channel list"
+msgstr "Lista kanałów"
 
 msgid "Channel not in services list"
 msgstr "Nie odnaleziono w liście kanałów"
@@ -1342,8 +2305,20 @@ msgstr "Kompleksowe (pozwala mixować ścieżki audio i aspekty)"
 msgid "Composition of the recording filenames"
 msgstr "Skład nazwy nagrania"
 
+msgid "Config Editor"
+msgstr "Edytor konfiguracji"
+
+msgid "Configuration"
+msgstr "Konfiguracja"
+
 msgid "Configuration Mode"
 msgstr "Tryb konfiguracji"
+
+msgid "Configuration for the Webinterface"
+msgstr "Konfiguracja interfejsu WEB"
+
+msgid "Configuration saved."
+msgstr "Konfiguracja zapisana."
 
 msgid "Configuration your AP is finished"
 msgstr "Konfiguracja Twojego AP jest zakończona"
@@ -1363,6 +2338,9 @@ msgstr "Skonfiguruj ponownie wewnętrzną sieć LAN"
 msgid "Configuring"
 msgstr "Konfiguruję"
 
+msgid "Conflicting Timer(s) detected! %s"
+msgstr "Wykryto konflikt Timer-a! %s"
+
 msgid "Conflicting timer"
 msgstr "Konflikt timera"
 
@@ -1378,11 +2356,23 @@ msgstr "Podłączony do"
 msgid "Connected!"
 msgstr "Połączony!"
 
+msgid "Console & File"
+msgstr "Konsola i plik"
+
+msgid "Console & File (loop)"
+msgstr "Konsola i plik (w pętli)"
+
+msgid "Constant SmartSeek skip intervall in seconds (left/right)"
+msgstr "Stały interwał SmartSeek w sekundach (lewo/prawo)"
+
 msgid "Constellation"
 msgstr "Konstelacja"
 
 msgid "Content does not fit on DVD!"
 msgstr "Zawartość nie pasuje do DVD!"
+
+msgid "Context Menu"
+msgstr "Menu kontekstowe"
 
 msgid "Continue"
 msgstr "Kontynuuj"
@@ -1413,6 +2403,12 @@ msgstr "Nie można nagrać z powodu konfliktu timera %s"
 
 msgid "Couldn't record due to invalid service %s"
 msgstr "Nie można nagrywać z powodu nieprawidłowych kanałów % s"
+
+msgid "Countries"
+msgstr "Kraje"
+
+msgid "Country"
+msgstr "Kraj"
 
 msgid "Crashlog Reporting"
 msgstr "Raportowanie błędów"
@@ -1469,6 +2465,9 @@ msgstr "Aktualny Transponder"
 msgid "Current device: "
 msgstr "Aktualne urządzenie:"
 
+msgid "Current drivers: "
+msgstr "Aktualny sterownik: "
+
 msgid "Current page is already exist."
 msgstr "Ta strona jest już istnieje."
 
@@ -1477,6 +2476,9 @@ msgstr "Aktualne ustawienia (interfejs : br0)"
 
 msgid "Current settings:"
 msgstr "Aktualne ustawienia:"
+
+msgid "Current timeshift"
+msgstr "Aktualny timeshift"
 
 msgid "Current value: "
 msgstr "Obecna wartość:"
@@ -1514,11 +2516,20 @@ msgstr "DAC"
 msgid "DHCP"
 msgstr "DHCP"
 
+msgid "DHCP enabled"
+msgstr "DHCP aktywne"
+
 msgid "DLNA/uPnP Browser"
 msgstr "Przeglądarka DLNA"
 
+msgid "DTS software decoding"
+msgstr "Programowy dekoder DTS"
+
 msgid "DUAL LAYER DVD"
 msgstr "DUAL LAYER DVD"
+
+msgid "DVB CI Delay"
+msgstr "Opóźnienie DVB CI"
 
 msgid "DVB subtitle transparency"
 msgstr "Przeźroczystość napisów DVB"
@@ -1528,6 +2539,12 @@ msgstr "DVB-S"
 
 msgid "DVB-S2"
 msgstr "DVB-S2"
+
+msgid "DVD Backup"
+msgstr "Kopia DVD"
+
+msgid "DVD Device (leave empty for default)"
+msgstr "Napęd DVD (standardowo zostaw pusty)"
 
 msgid "DVD Drive"
 msgstr "Napęd DVD"
@@ -1568,6 +2585,9 @@ msgstr "Domyślny wygląd EPG (przycisk EPG)"
 msgid "Default Settings"
 msgstr "Ustawienia Domyślne"
 
+msgid "Default function for button EXIT long"
+msgstr "Domyślna funckja długiego naciśnięcia klawisza EXIT"
+
 msgid "Default movie location"
 msgstr "Domyślna lokalizacja"
 
@@ -1579,6 +2599,9 @@ msgstr "Opóźnienie"
 
 msgid "Delete"
 msgstr "Usuń"
+
+msgid "Delete broken epg.dat"
+msgstr "Kasowanie uszkodzonego pliky epg.dat"
 
 msgid ""
 "Delete directory failed!\n"
@@ -1593,6 +2616,9 @@ msgid ""
 msgstr ""
 "Usuwanie katalogu nie powiodło się!\n"
 "Być może katalog nie jest pusty."
+
+msgid "Delete download"
+msgstr "Skasuj pobrany materiał"
 
 msgid "Delete entry"
 msgstr "Skasuj wpis"
@@ -1617,7 +2643,7 @@ msgid "Deselect"
 msgstr "Odznacz"
 
 msgid "Details for plugin: "
-msgstr "Szczegóły dotyczące wtyczki:"
+msgstr "Szczegóły wtyczki:"
 
 msgid "Detected HDD:"
 msgstr "Wykryto HDD:"
@@ -1625,17 +2651,38 @@ msgstr "Wykryto HDD:"
 msgid "Detected NIMs:"
 msgstr "Wykryto NIMs:"
 
+msgid "Device : /dev/%s"
+msgstr "Urządzenie: /dev/%s"
+
+msgid "Device Info"
+msgstr "Info o urządzeniu"
+
 msgid "Device Initialization finished sucessfully!"
 msgstr "Inicjalizacja urządzenia zakończona pomyślnie!"
 
+msgid "Device is disabling..."
+msgstr "Urządzenie zostanie wyłączone..."
+
+msgid "Device is enabled."
+msgstr "Urządzenie jest włączone"
+
+msgid "Device is enabling..."
+msgstr "Urządzenie zostanie włączone..."
+
 msgid "Device not found."
 msgstr "Nie znaleziono urządzenia."
+
+msgid "Device: "
+msgstr "Urządzenie: "
 
 msgid "DeviceList Refresh Interval"
 msgstr "Częstotliwość odświeżania listy urządzeń"
 
 msgid "DeviceManager"
 msgstr "Menadżer urządzeń"
+
+msgid "DeviceManager Message"
+msgstr "Wiadomość menadżera urządzeń"
 
 msgid "DeviceManager configuration"
 msgstr "Konfiguracja menadżera urządzeń"
@@ -1667,6 +2714,9 @@ msgstr "Wybieranie:"
 msgid "Digital contour removal"
 msgstr "Cyfrowe usunięcie konturu"
 
+msgid "Dir:"
+msgstr "Katalog:"
+
 msgid "Direct Input"
 msgstr "Bezpośrednie wejście"
 
@@ -1687,6 +2737,15 @@ msgstr "Przeglądarka katalogów"
 
 msgid "Disable"
 msgstr "Wyłącz"
+
+msgid "Disable HDMI-IN on PIP"
+msgstr "Wyłącz HDMI IN w PIP"
+
+msgid "Disable KiddyTimer"
+msgstr "Wyłącz 'KiddyTimer'"
+
+msgid "Disable MiniTV"
+msgstr "Wyłącz MiniTV"
 
 msgid "Disable Picture in Picture"
 msgstr "Wyłącz PiP"
@@ -1891,6 +2950,9 @@ msgstr "Domyślnie Dolby Downmix"
 msgid "Don't stop current event but disable coming events"
 msgstr "Nie zatrzymuj aktualnego wydarzenia ale wyłącz nadchodzące"
 
+msgid "Don't wake up"
+msgstr "Nie budź"
+
 msgid "Done - Installed or upgraded %d packages"
 msgstr "Zrobione - Instalowanie lub aktualizowanie %d pakietów"
 
@@ -1903,7 +2965,10 @@ msgstr "Dół"
 msgid "Download"
 msgstr "Ładuj"
 
-msgid "Download Plugins"
+mmsgid "Download %s"
+msgstr "Pobierz %s"
+
+sgid "Download Plugins"
 msgstr "Pobierz wtyczki"
 
 msgid "Downloadable new plugins"
@@ -4912,10 +5977,10 @@ msgid "Setup - Timer"
 msgstr "Nagrania"
 
 msgid "Setup - Timeshift"
-msgstr "Ustawienia - Timeshift"
+msgstr "Konfiguracja Timeshift-u"
 
 msgid "Setup - Service List"
-msgstr "Lista kanałów"
+msgstr "Konfiguracja listy kanałów"
 
 msgid "Setup - Subtitles"
 msgstr "Napisy"
