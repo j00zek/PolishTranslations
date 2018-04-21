@@ -2965,7 +2965,7 @@ msgstr "Dół"
 msgid "Download"
 msgstr "Ładuj"
 
-mmsgid "Download %s"
+msgid "Download %s"
 msgstr "Pobierz %s"
 
 sgid "Download Plugins"
