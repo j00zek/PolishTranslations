@@ -19100,7 +19100,7 @@ msgid "Info: [%s]"
 msgstr "Info: [%s]"
 
 msgid "InfoBar at pause"
-msgstr "Belka informacyjna przy pauzie
+msgstr "Belka informacyjna przy pauzie"
 
 msgid "Input channel name."
 msgstr "Wpisz nazwę kanału"
