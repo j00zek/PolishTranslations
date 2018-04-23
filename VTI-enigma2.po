@@ -18047,7 +18047,7 @@ msgid "4 seconds"
 msgstr "4 Sekundy"
 
 msgid "5 seconds"
-msgstr "5 Sekunde
+msgstr "5 Sekund"
 
 msgid "6 seconds"
 msgstr "6 Sekund"
