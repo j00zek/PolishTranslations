@@ -20,6 +20,8 @@
 #YESNO pyta sie czy uruchomic skrypt
 #
 ###########################################################################################################
+DEBUG=1
+
 #curl -s --ftp-pasv $addons 1>/dev/null 2>&1
 #[ $? -gt 0 ] && addons="$addons/"
 if [ -z $1 ];then
@@ -32,10 +34,13 @@ fi
 #[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
 
+[ $DEBUG -eq 1 ] && echo "----- START -----" > /tmp/PolishTranslations.log
 if [ ! -f /tmp/PolishTranslations.list ];then
+  [ $DEBUG -eq 1 ] && echo "Brak /tmp/PolishTranslations.list, pobieram" >> /tmp/PolishTranslations.log
   $myPath/getList.sh
+else
+  [ $DEBUG -eq 1 ] && echo "/tmp/PolishTranslations.list juz pobrana" >> /tmp/PolishTranslations.log
 fi
-DownloadableArchives=`cat /tmp/PolishTranslations.list`
 if [ -e $settingsFile ];then
   if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
     ByDate=1
@@ -45,12 +50,15 @@ if [ -e $settingsFile ];then
 else
     ByDate=1
 fi
-echo "ByDate=$ByDate"
+
+[ $DEBUG -eq 1 ] && echo "ByDate=$ByDate" >> /tmp/PolishTranslations.log
+
 if [ $ByDate -eq 1 ];then
-  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)"[ ]*>.*class.*datetime="\(.*\)T.*$;\2\t\1;'|sort -bfir`
+  DownloadableArchives=`cat /tmp/PolishTranslations.list|sed -e 's;^\(.*\)|\(.*\)$;\2|\1;'|sort -bfir`
 else
-  DownloadableArchives=`echo "$DownloadableArchives"|sed -e 's;^.*\/blob\/master\/\(.*\.po\)"[ ]*>.*class.*datetime="\(.*\)T.*$;\1\t\2;'|sort -bfi`
+  DownloadableArchives=`cat /tmp/PolishTranslations.list|sed -e 's;^\(.*\)|\(.*\)$;\1|\2;'|sort -bfi`
 fi
+[ $DEBUG -eq 1 ] && echo "$DownloadableArchives" >> /tmp/PolishTranslations.log
 
 if [ -e $settingsFile ] && [ `grep -c 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile` -gt 0 ];then
   UkryjNiezainstalowane=1
@@ -76,12 +84,12 @@ IFS=$'\n'
 for item in $DownloadableArchives
 do
   #echo "'$item'">>/tmp/getTranslations.log
-  addonName=`echo $item|cut -d$'\t' -f1|cut -d$'.' -f1`
+  addonName=`echo $item|cut -d$'|' -f1|cut -d$'.' -f1`
   NameLen=${#addonName}
   #echo $addonName $NameLen
   [ $NameLen -gt $maxLenght ] && maxLenght=$NameLen
 done
-echo "MAXLENGHT = $maxLenght"
+echo "MAXLENGHT = $maxLenght" >>/tmp/
 
 for ArchiveName in $DownloadableArchives
 do
@@ -91,9 +99,9 @@ do
     dodajDoListy=1
   else
     if [ $ByDate -eq 1 ];then #data na początku
-      addonLink=`echo $ArchiveName|cut -d$'\t' -f2|sed 's/\.po//'`
+      addonLink=`echo $ArchiveName|cut -d$'|' -f2|sed 's/\.po//'`
     else
-      addonLink=`echo $ArchiveName|cut -d$'\t' -f1|sed 's/\.po//'`
+      addonLink=`echo $ArchiveName|cut -d$'|' -f1|sed 's/\.po//'`
     fi
     echo $addonLink
     findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`
@@ -105,9 +113,9 @@ do
   fi
   if [ $dodajDoListy -eq 1 ];then
     if [ $ByDate -eq 1 ];then #data na początku
-      addonLink=`echo $ArchiveName|cut -d$'\t' -f2`
-      addonName=`echo $ArchiveName|cut -d$'\t' -f1`
-      addonDate=`echo $ArchiveName|cut -d$'\t' -f2|cut -d$'.' -f1`
+      addonLink=`echo $ArchiveName|cut -d$'|' -f2`
+      addonName=`echo $ArchiveName|cut -d$'|' -f1`
+      addonDate=`echo $ArchiveName|cut -d$'|' -f2|cut -d$'.' -f1`
     
       DateABBR=`echo $addonName|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
       if [ $DateABBR == ' 1' ];then
@@ -115,9 +123,9 @@ do
         addonName=`echo $addonName|sed 's/^\(...\)/_(\1)/'`
       fi
     else
-      addonLink=`echo $ArchiveName|cut -d$'\t' -f1`
-      addonName=`echo $ArchiveName|cut -d$'\t' -f1|cut -d$'.' -f1`
-      addonDate=`echo $ArchiveName|cut -d$'\t' -f2`
+      addonLink=`echo $ArchiveName|cut -d$'|' -f1`
+      addonName=`echo $ArchiveName|cut -d$'|' -f1|cut -d$'.' -f1`
+      addonDate=`echo $ArchiveName|cut -d$'|' -f2`
     
       DateABBR=`echo $addonDate|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
       if [ $DateABBR == ' ' ];then
@@ -129,6 +137,9 @@ do
     LenDiff=$(( maxLenght - NameLen ))
     [ $LenDiff -gt 4 ] && extraTAB='\t' || extraTAB=''
     #echo "$ArchiveName > $addonLink"
+    [ $DEBUG -eq 1 ] && echo "addonLink=$addonLink" >> /tmp/PolishTranslations.log
+    [ $DEBUG -eq 1 ] && echo "addonName=$addonName" >> /tmp/PolishTranslations.log
+    [ $DEBUG -eq 1 ] && echo "addonDate=$addonDate" >> /tmp/PolishTranslations.log
     echo -e "ITEM|$addonName\t$extraTAB $addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
   fi
 done

@@ -18277,7 +18277,7 @@ msgid "AutoResolution on/off"
 msgstr "Wł/wył AutoResolution"
 
 msgid "AutoShutDown Setup"
-msgstr "Ustawienia automatycznego wyłączania"
+msgstr "Automatyczne wyłączanie"
 
 msgid "AutoShutDown settings"
 msgstr "Ustawienia automatycznego wyłączania"
