@@ -20297,7 +20297,7 @@ msgid "restore : %s"
 msgstr "odzyskaj: %s"
 
 msgid "restore selected items"
-msgstr ""
+msgstr "odzyskaj wybrane elementy"
 
 msgid "search for movies"
 msgstr "Szukaj filmu"
@@ -20306,10 +20306,10 @@ msgid "search movie"
 msgstr "Szukaj filmu"
 
 msgid "update movie database (full)"
-msgstr ""
+msgstr "pełna aktualizacja bazy"
 
 msgid "update movie database for: %s"
-msgstr ""
+msgstr "aktualizacja bazy dla: %s"
 
 msgid "wide"
 msgstr "szeroki"
@@ -20319,3 +20319,15 @@ msgstr "tak, Profil 1"
 
 msgid "yes, Profile 2"
 msgstr "tak, Profil 2"
+
+msgid "NetworkBrowser"
+msgstr "Przeglądarka sieci"
+
+msgid "Search for network shares "
+msgstr "Szukaj udziałów sieciowych "
+
+msgid "MountManager"
+msgstr "Menadżer montowania"
+
+msgid "Manage network shares"
+msgstr "Zarządzaj udziałami sieciowymi"
