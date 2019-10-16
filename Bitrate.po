@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2-plugins 3.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 00:57+0000\n"
+"PO-Revision-Date: 2019-10-11 07:35+0100\n"
+"Last-Translator: @Kos\n"
+"Language-Team: special OpenATV\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.6\n"
+
+msgid " kbit/s"
+msgstr "kbit/ s"
+
+msgid "Audio:"
+msgstr "Audio:"
+
+msgid "Background window"
+msgstr "Okno w tle"
+
+msgid "Bitrate setup"
+msgstr "Konfiguracja Bitrate"
+
+msgid "Bitrate viewer"
+msgstr "Przeglądarka przepływności"
+
+msgid "Bitrate viewer setup"
+msgstr "Konfiguracja "
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "GUI needs a restart to apply changes!"
+msgstr "GUI wymaga ponownego uruchomienia, aby zastosować zmiany."
+
+msgid "Mode"
+msgstr "Tryb"
+
+msgid "Restart bitrate viewer"
+msgstr "Uruchom ponownie bitrate viewer"
+
+msgid "Save/OK"
+msgstr "Zapisz"
+
+msgid "Show 'restart bitrate' in extensions menu"
+msgstr "Pokaż „uruchom ponownie bitrate” w menu rozszerzeń"
+
+msgid "Show bitrate for live service"
+msgstr "Pokaż szybkość transmisji dla usługi na żywo"
+
+msgid "Start for type services"
+msgstr "Zacznij od usług typu"
+
+msgid "Style skin"
+msgstr "Stylowa skóra"
+
+msgid "Using bitrate in the skins with this plugin is not compatible!"
+msgstr "Używanie bitrate w skórkach z tą wtyczką nie jest kompatybilne!"
+
+msgid "Video:"
+msgstr "Video:"
+
+msgid "X screen position"
+msgstr "Pozycja ekranu X."
+
+msgid "Y screen position"
+msgstr "Pozycja ekranu Y."
+
+msgid "Z screen position"
+msgstr "Pozycja ekranu Z."
+
+msgid "all"
+msgstr "Wszystkie"
+
+msgid "as infobar"
+msgstr "jako pasek informacyjny"
+
+msgid "black"
+msgstr "czarny"
+
+msgid "compact"
+msgstr "zwarte"
+
+msgid "extension menu"
+msgstr "Menu rozszerzeń"
+
+msgid "full info"
+msgstr "Pełna informacja"
+
+msgid "only DVB"
+msgstr "tylko DVB"
+
+msgid "transparent"
+msgstr "przeźroczysty"
