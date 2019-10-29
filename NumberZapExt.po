@@ -1,33 +1,34 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: NumberZapExt-2\n"
+"Project-Id-Version: NumberZapExt.mo conversion\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-28 19:54+0100\n"
-"PO-Revision-Date: 2015-12-21 14:51+0100\n"
-"Language-Team: Poland <Mariusz1970@onet.eu>\n"
+"POT-Creation-Date: 2019-10-20 23:14+0200\n"
+"PO-Revision-Date: 2019-10-21 20:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
-"Language: pl\n"
-"X-Generator: Poedit 1.8.6\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Loco-Source-Locale: pl-PL\n"
+"X-Loco-Api-Version: 1.0.23 20191004-1\n"
 
 msgid "<< Press colors keys (the first four bouquets) >>"
-msgstr "<<Naciśnij kolorowy przycisk(pierwsze cztery bukiety)>>"
+msgstr "<< Naciśnij kolorowe przyciski (pierwsze cztery bukiety)>>"
 
 msgid "<< Press menu key (for priority bouquets) >>"
-msgstr "<<Naciśnij przycisk menu(dla priorytetowych bukietów)>>"
+msgstr "<< Naciśnij klawisz menu (w przypadku bukietów priorytetowych)>>"
 
 msgid "Action:"
-msgstr "Działanie:"
+msgstr "Akcja:"
 
 msgid "Alternative service counter in bouquets"
-msgstr "Alternatywne zliczanie kanałów w bukietach"
+msgstr "Alternatywny licznik usług w bukietach"
 
 msgid "Behavior when timeshift is enabled"
-msgstr "Zachowanie przy timeshifcie gdy jest włączony"
+msgstr "Zachowanie, gdy funkcja Timeshift jest aktywowana"
 
 msgid "Bouquet:"
 msgstr "Bukiet:"
@@ -42,191 +43,181 @@ msgid "Channel:"
 msgstr "Kanał:"
 
 msgid "Check timeshift of 0 key in recall service"
-msgstr "Sprawdź timeshift z przyciskiem '0' przywołania kanału"
+msgstr "Sprawdź przesunięcie czasowe klawisza 0 w usłudze wycofania"
 
 msgid "Confirmation on hotkey action"
-msgstr "Potwierdzenie działania skrótu przycisków"
+msgstr "Potwierdzenie akcji skrótu"
 
 msgid "Directory browser"
 msgstr "Przeglądarka katalogów"
 
 msgid "Enable bouquets hotkeys"
-msgstr "Włączyć skróty przycisków/bukiety"
+msgstr "Aktywuj skróty klawiszowe do bukietów"
 
 msgid "Enable extended number zap"
-msgstr "Włączyć rozszerzone numery przełączeń"
+msgstr "Aktywuj Extended Number Zap"
 
 msgid "Enable number hotkeys"
-msgstr "Włączyć numeryczne przyciski skrótów"
+msgstr "Aktywuj skróty klawiszowe"
 
 msgid "Enable picons"
-msgstr "Włączyć loga stacji"
+msgstr "Aktywuj Picony"
 
 msgid "Enigma Restart"
-msgstr "Ponowne uruchamianie Enigmy"
+msgstr "Restart GUI "
 
 msgid "Enigma Standby"
-msgstr "Czuwanie Enigmy"
+msgstr "Tryb gotowości Enigmy"
+
+msgid "Extended NumberZap"
+msgstr "Extended NumberZap"
+
+msgid "Extended NumberZap Setup"
+msgstr "Ustawienia Extended NumberZap"
 
 msgid "Extended NumberZap Setup "
-msgstr "Ustawienia rozszerzonej numeracji przełączeń"
+msgstr "Ustawienia Extended NumberZap"
 
 msgid "Extensions Menu"
 msgstr "Menu rozszerzeń"
 
 msgid ""
-"GUI needs a restart to apply changes 'Behavior when timeshift is enabled'.\n"
+"GUI needs a restart to apply changes 'Behavior when timeshift is "
+"enabled'.\n"
 "Restart the GUI now?"
 msgstr ""
-"Wymagane ponowne uruchomienie GUI odbiornika w celu zastosowania zmian \"Zachowanie przy Timeshifcie gdy jest włączony\".\n"
-"Uruchomić ponownie teraz GUI?"
+"GUI wymaga ponownego uruchomienia, aby zastosować zmiany „Zachowanie, "
+"gdy włączona jest funkcja Timeshift”.\n"
+"Zrestartować teraz GUI?"
 
 msgid "Hotkey action have priority"
-msgstr "Skróty działania mają pierwszeństwo"
+msgstr "Skrót akcji ma priorytet"
 
 msgid "Hotkey bouquets have priority"
-msgstr "Skróty działania bukietów mają pierwszeństwo"
+msgstr "Skrót bukietu ma priorytet"
 
 msgid "Menu Harddisk"
-msgstr "Menu twardego dysku"
+msgstr "Menu HDD"
 
 msgid "Menu Information"
-msgstr "Menu informacji"
+msgstr "Menu Informacji"
 
 msgid "Menu Mainmenu"
 msgstr "Menu główne"
 
 msgid "Menu Service Searching"
-msgstr "Menu wyszukiwani kanałów"
+msgstr "Menu wyszukiwania usług"
 
 msgid "Menu Setup"
-msgstr "Menu ustawienia"
+msgstr "Konfiguracja menu"
 
 msgid "Menu Standby/Restart"
-msgstr "Menu tryb czuwania/Ponownego uruchamiania"
+msgstr "Menu Standby/Restart"
 
 msgid "Menu System"
-msgstr "Menu systemowe"
+msgstr "Menu Systemu"
 
 msgid "Menuitem About"
-msgstr "Podmenu Informacje o obrazie. "
+msgstr "Menu Info"
 
 msgid "Menuitem Language"
-msgstr "Podmenu wybór języka"
+msgstr "Menu Języka"
 
 msgid "Menuitem Manual Scan"
-msgstr "Podmenu ręczne wyszukiwanie"
+msgstr "Nenu Skanowanie ręczne"
 
 msgid "Menuitem Network"
-msgstr "Podmenu sieci"
+msgstr "Menu Sieci"
 
 msgid "No (close)"
-msgstr "Nie(zamykaj)"
+msgstr "Nie (zamknij)"
 
 msgid "No (do not remind)"
-msgstr "Nie(Nie przypominaj mi)"
+msgstr "Nie (nie przypominaj)"
 
-msgid "Picons directory (press OK)"
-msgstr "Wybierz ścieżkę do folderu z logami stacji(kliknij OK)"
-
-msgid "Plugin Browser"
-msgstr "Przeglądarka wtyczek"
-
-msgid "Save"
-msgstr "Zapisz"
-
-msgid "Service"
-msgstr "Kanał"
-
-msgid "Setup A/V Settings"
-msgstr "Ustawienia Audio/Wideo"
-
-msgid "Setup Customize"
-msgstr "Dostosuj ustawienia"
-
-msgid "Setup Network"
-msgstr "Konfiguracja sieci"
-
-msgid "Setup Timezone"
-msgstr "Ustawienia strefy czasowej"
-
-msgid "System Reboot"
-msgstr "Ponowne uruchomienie systemu"
-
-msgid "System Shutdown"
-msgstr "Zamykanie systemu"
-
-msgid "Time to wait next keypress (milliseconds)"
-msgstr "Czas oczekiwania na następne naciśnięcie przycisku(ms)"
-
-msgid "Timers List"
-msgstr "Lista timerów"
-
-msgid "always number zap"
-msgstr "zawsze zliczać przełączanie"
-
-msgid "current:  %s"
-msgstr "obecny:  %s"
-
-msgid "only seek jump if available"
-msgstr "tylko szukać przełączeń,jeżeli są dostępne"
-
-msgid "standart"
-msgstr "standartowe"
-
-msgid "Extended NumberZap"
-msgstr "Rozszerzona numeracja przełączeń"
-
-msgid "Extended NumberZap Setup"
-msgstr "Ustawienia rozszerzonej numeracji przełączeń"
+msgid "Number of channel number digits"
+msgstr "Liczba cyfr numeru kanału"
 
 msgid "Number:"
 msgstr "Numer:"
+
+msgid "Picons directory (press OK)"
+msgstr "Katalog Piconów (naciśnij OK)"
+
+msgid "Plugin Browser"
+msgstr "Przeglądarka wtyczek"
 
 msgid "Plugins"
 msgstr "Wtyczki"
 
 msgid "Really run %s now?"
-msgstr "Naprawdę uruchomić %s teraz?"
+msgstr "Naprawdę uruchomić teraz% s?"
 
 msgid "Reboot"
-msgstr "Ponowne uruchomienie"
+msgstr "Restart"
 
 msgid "Restart GUI"
-msgstr "Ponowne uruchamianie GUI"
+msgstr "Restart GUI"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Service"
+msgstr "Serwis"
 
 msgid "Service Info"
-msgstr "Informacja o kanale"
+msgstr "Serwis Info"
+
+msgid "Setup A/V Settings"
+msgstr "Ustawienia A/V"
+
+msgid "Setup Customize"
+msgstr "Dostosuj ustawienia"
+
+msgid "Setup Network"
+msgstr "Ustawienia sieci"
+
+msgid "Setup Timezone"
+msgstr "Ustawienia czasu"
 
 msgid "Shutdown"
-msgstr "Wyłączanie"
+msgstr "Zamknij"
 
 msgid "Standby"
 msgstr "Czuwanie"
 
-msgid "alternative service counter in bouquets"
-msgstr "Alternatywne zliczanie kanałów w bukietach"
+msgid "System Reboot"
+msgstr "Restart systemu"
 
-msgid "confirmation on hotkey action"
-msgstr "Potwierdź działanie skrótu przycisków"
+msgid "System Shutdown"
+msgstr "Zamykanie systemu"
 
-msgid "enable extended number zap"
-msgstr "Aktywować rozszerzoną numerację przełączeń"
+msgid "Time to wait first keypress (ms)"
+msgstr "Czas oczekiwania na pierwsze naciśnięcie klawisza (ms)"
 
-msgid "enable number hotkeys"
-msgstr "Aktywować skróty numeryczne przycisków"
+msgid "Time to wait next keypress (ms)"
+msgstr "Czas oczekiwania na kolejne naciśnięcie klawisza (ms)"
 
-msgid "enable picons"
-msgstr "Aktywować loga stacji"
+msgid "Timers List"
+msgstr "Lista timerów"
+
+msgid "Use default picon if possible"
+msgstr "Użyj domyślnych picon jeśli to możliwe"
+
+msgid "always number zap"
+msgstr "Zawsze Numer zap"
+
+msgid "current:  %s"
+msgstr "aktualnie:  %s"
 
 msgid "invalid channel number"
 msgstr "Nieprawidłowy numer kanału"
 
-msgid "picons directory:"
-msgstr "Ścieszka do katalogu z logami stacji:"
+msgid "only seek jump if available"
+msgstr "Szukaj tylko gdy dostępny"
 
 msgid "service not found"
-msgstr "Nie znaleziono kanału"
+msgstr "Nie znaleziono serwisu"
 
-msgid "time to wait next keypress (millisecond)"
-msgstr "Czas oczekiwania na naciśnięcie następnego przycisku(ms)"
+msgid "standard"
+msgstr "Standard"
