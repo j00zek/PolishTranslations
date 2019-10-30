@@ -1,264 +1,236 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: EPGSearchMod\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-01-29 20:31+0100\n"
-"Last-Translator: Century (AC_fullHD) <Century>\n"
-"Language-Team: Polska <AC FullHD>\n"
+"Project-Id-Version: enigma2-plugins 3.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 00:57+0000\n"
+"PO-Revision-Date: 2019-10-11 07:35+0100\n"
+"Last-Translator: @Kos\n"
+"Language-Team: Special OpenATV\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: pl_PL\n"
+"X-Generator: Poedit 1.7.6\n"
 
-msgid "Add \"Search\" Button to EPG"
-msgstr "Dodaj przycisk \"Wyszukiwanie\" do EPG"
+msgid "Add AutoTimer"
+msgstr "Dodaj AutoTimer"
 
-msgid "Add timer"
-msgstr "Dodaj timer"
+msgid "all services"
+msgstr "Wszystkie kanały"
 
-msgid "Ask before search"
-msgstr "Pytaj przed wyszukiwaniem"
+msgid "All services"
+msgstr "Wszystkie kanały"
+
+msgid "all bouquets"
+msgstr "wszystkie Pakiety"
+
+msgid "All bouquets"
+msgstr "wszystkie Pakiety"
+
+msgid "ask user"
+msgstr "Zapytaj użytkownika"
+
+msgid "current service"
+msgstr "bieżący kanał"
+
+msgid "current bouquet"
+msgstr "bieżący pakiet"
+
+msgid "Current service"
+msgstr "bieżący kanał"
+
+msgid "Current bouquet"
+msgstr "bieżący pakiet"
+
+msgid "case-insensitive search"
+msgstr "Szukaj (nie uwzględniaj wielkości liter)"
+
+msgid "case-sensitive search"
+msgstr "Szukaj (uwzględnij wielkość liter)"
 
 msgid "Cancel"
 msgstr "Anuluj"
 
-msgid "Case sensitive search"
-msgstr "Uwzględnij wielkość liter"
-
 msgid "Channel Selection"
 msgstr "Wybór kanału"
-
-msgid "Choose how the search string should match the results."
-msgstr "Wybór sposobu wyszukiwania wyrażeń i ich  dopasowania do wyniku."
-
-msgid "Configure EPG search type"
-msgstr "Konfiguracja domyślnego miejsca wyszukiwania w EPG"
 
 msgid "Could not read AutoTimer timer list: %s"
 msgstr "Nie można odczytać listy AutoTimer: %s"
 
-msgid "Default search type"
-msgstr "Domyślne miejsce wyszukiwania w EPG"
+msgid "Control where to search in the EPG. When 'all bouquets' is set, all bouquets are searched, even if 'Enable multiple bouquets' is disabled."
+msgstr "Kontroluj, gdzie szukać w EPG. Gdy ustawione jest \"wszystkie pakiety\", wszystkie bukiety są przeszukiwane, nawet jeśli „Włącz wiele bukietów” jest wyłączone."
 
-msgid "Duration for showing additional information for search filters"
-msgstr "Czas wyświetlania dodatkowych informacji o filtrach wyszukiwania"
+msgid "Choose the encoding type for searches, helpful for foreign languages."
+msgstr "Wybierz typ kodowania dla wyszukiwań, pomocny w przypadku języków obcych."
+
+msgid "disabled"
+msgstr "wyłączony"
+
+msgid "Default scope when asked"
+msgstr "Domyślny zakres na zapytanie"
+
+msgid "enabled"
+msgstr "włączone"
+
+msgid "exclude"
+msgstr "Wyklucz"
+
+msgid "Exclude results from"
+msgstr "Wyklucz wyniki z"
 
 msgid "EPG Search"
-msgstr "EPG Search"
+msgstr "Wyszukiwarka EPG"
+
+msgid "EPGSearch"
+msgstr "Wyszukiwarka EPG"
+
+msgid "EPG Search setup"
+msgstr "EPG Ustawienia wyszukiwania"
 
 msgid "EPGSearch Setup"
-msgstr "Konfiguracja EPG Search"
+msgstr "EPG Ustawienia wyszukiwania"
 
-msgid "Edit Search"
-msgstr "Edycja wyszukiwania"
+msgid "exact match"
+msgstr "dokładne dopasowanie"
 
 msgid "Enter text to search for"
-msgstr "Podaj tekst do wyszukiwania"
+msgstr "Wpisz tekst do wyszukania"
 
-msgid "Exit"
-msgstr "Wyjście"
+msgid "Enable this to allow access to EPG Search from within the plugin browser."
+msgstr "Włącz to, aby umożliwić dostęp do wyszukiwania EPG z poziomu przeglądarki wtyczek."
 
-msgid "Export selected as AutoTimer"
-msgstr "Eksport zaznaczonych pozycji do AutoTimer"
+msgid "Filter results by source"
+msgstr "Filtruj wyniki według źródła"
 
-msgid "Extended description"
-msgstr "Dodatkowy opis"
+msgid "include"
+msgstr "Dołącz"
 
-msgid "Filter: keep"
-msgstr "Filtr: utrzymać"
+msgid "Include/exclude sources"
+msgstr "Dołącz / Wyklucz źródła"
 
-msgid "Filter: remove"
-msgstr "Filtr: usunąć"
+msgid "Include results from"
+msgstr "Dołącz  wyniki z"
 
-msgid "Hide event short description"
-msgstr "Ukryj skrócone opisy wydarzeń"
-
-msgid "History"
-msgstr "Historia"
-
-msgid ""
-"How many entries to keep in the search history at most. 0 disables history "
-"entirely!"
-msgstr ""
-"Ile wpisów przechowywać w historii wyszukiwania. 0 wyłącza historię "
-"wyszukiwania!"
-
-msgid ""
-"If enabled, only search results for Channels within a Bouquet are shown "
-"(either TV or Radio Bouquets)."
-msgstr ""
-"Jeśli opcja jest włączona, wynik wyszukiwania dotyczy kanałów w obrębie "
-"bieżącego pakietu (w obrębie pakietów TV lub radio)."
-
-msgid ""
-"If this setting is enabled, the plugin adds a \"Search\" Button to the "
-"regular EPG."
-msgstr ""
-"Jeśli to ustawienie jest włączone, plugin dodaje przycisk \"Wyszukiwanie\" "
-"do EPG."
+msgid "IMDb Search"
+msgstr "Szukaj w IMDb"
 
 msgid "Import from AutoTimer"
-msgstr "Import z AutoTimer"
+msgstr "Importuj z AutoTimer"
 
 msgid "Import from EPG"
-msgstr "Import z EPG"
+msgstr "Importuj z EPG"
 
 msgid "Import from Timer"
-msgstr "Import z Timer"
+msgstr "Importuj z Timera"
 
-msgid "Keep only this Channel in result list"
-msgstr "Tylko ten kanał w liście wyników"
+msgid "Is the search case-sensitive or case-insensitive?"
+msgstr "Czy w wyszukiwaniu rozróżniane są wielkie i małe litery?"
 
-msgid "Keep only this Event in result list"
-msgstr "Tylko to wydarzenie w liście wyników"
+msgid "Include/exclude search results from this type of source"
+msgstr "Uwzględnij / wyklucz wyniki wyszukiwania z tego typu źródła"
 
-msgid "Length of History"
-msgstr "Ilość wpisów w  historii"
+msgid "Include or exclude results depending on their source (e.g. by satellite)"
+msgstr "Uwzględnij lub wyklucz wyniki w zależności od ich źródła (np. Przez satelitę)"
 
-msgid "Limit \"Search\" to Channels from Bouquet (TV or Radio)"
-msgstr "Ogranicz wyszukiwanie do kanałów z pakietu (TV lub radio)"
+msgid "Length of history"
+msgstr "Długość historii"
 
-msgid "Limit to bouquet"
-msgstr "Ogranicz do pakietu"
-
-msgid "Match any substring"
-msgstr "W dowolnym miejscu"
-
-msgid "Match beginning of a word"
-msgstr "Rozpoczyna się od słowa"
-
-msgid "Match exactly"
-msgstr "Dokładnie brzmi"
-
-msgid "Match of search string: exact, from begin or any substring"
-msgstr "Wyszukiwanie: dokładna brzmi, rozpoczyna się lub w dowolnym miejscu"
+msgid "Maximum number of entries in the search history. Set this to 0 to disable search history."
+msgstr "Maksymalna liczba wpisów w historii wyszukiwania. Ustaw na 0, aby wyłączyć historię wyszukiwania."
 
 msgid "New Search"
 msgstr "Nowe wyszukiwanie"
 
 msgid "No history"
-msgstr "Bez historii"
+msgstr "Brak historii"
+
+msgid "Number of inclusions"
+msgstr "Brak historii"
+
+msgid "Number of inclusions/exclusions"
+msgstr "Liczba włączeń / wykluczeń"
+
+msgid "Number of filters for inclusion/exclusion of results"
+msgstr "Liczba filtrów do włączenia / wyłączenia wyników"
 
 msgid "OK"
-msgstr "OK"
+msgstr "Zapisz"
 
 msgid "Open selected in IMDb"
-msgstr "Otówrz zaznaczony IMDb"
+msgstr "Otwórz wybrany w IMDb"
 
-msgid "Perform case sensitive or case insensitive EPG searches"
-msgstr "Uwzględnia wielkość liter małych i dużych we wyszukiwaniu EPG"
-
-msgid "Perform case sensitive or case intensive EPG searches"
-msgstr "Uwzględniaj wielkość liter we wyszukiwaniu EPG"
-
-msgid "Remove Channel from result list"
-msgstr "Usuń kanał z listy wyników"
-
-msgid "Remove Event from result list"
-msgstr "Usuń wydarzenia z listy wyników"
-
-msgid "Removed all filters"
-msgstr "Usuń wszystkie filtry"
-
-msgid "Reset search result list"
-msgstr "Reset listy wyników"
-
-msgid "Save any search string in history"
-msgstr "Zapisz wszystkie wyszukiwania w historii"
-
-msgid ""
-"Save any search string in history (e.g. searches started via EPG) or only "
-"manually entered/edited search strings."
-msgstr ""
-"Zapisuje wszystkie wyszukiwania w historii (np. uruchomione poprzez EPG lub "
-"wprowadzone/edytowane ręcznie)."
+msgid "partial match"
+msgstr "częściowe dopasowanie"
 
 msgid "Save search as AutoTimer"
-msgstr "Zapisz wyszukiwanie z AutoTimer"
+msgstr "Zapisz wyszukiwanie jako AutoTimer"
+
+msgid "Search in..."
+msgstr "Szukaj w..."
 
 msgid "Search"
-msgstr "Wyszukiwanie"
+msgstr "Szukaj"
 
 msgid "Search EPG"
-msgstr "Wyszukiwanie w EPG"
-
-msgid "Search all channels"
-msgstr "Wyszukiwanie we wszystkich kanałach"
-
-msgid "Select"
-msgstr "Wybierz"
-
-msgid "Select EPG search typ"
-msgstr "Zaznacz typ wyszukiwania EPG"
-
-msgid "Select a timer to search"
-msgstr "Zaznacz timer do wyszukiwania"
-
-msgid "Select text to search for"
-msgstr "Zaznacz tekst do wyszukiwania"
-
-msgid "Settings"
-msgstr "Ustawienia"
-
-msgid "Setup"
-msgstr "Konfiguracja"
-
-msgid "Short description"
-msgstr "Skrócony opis"
-
-msgid "Show event short description"
-msgstr "Pokaż skrócony opis wydarzenia"
-
-msgid ""
-"Show the event short description in the result list. Useful when looking for "
-"a certain episode of a TV show."
-msgstr ""
-"Pokazuje skrócony opis zdarzenia w liście wyników. Przydatne np. przy "
-"wyszukiwaniu danego odcinka serialu."
-
-msgid "Timeout for info pop up"
-msgstr "Pokaż czas trwania informacji"
-
-msgid "Title"
-msgstr "Tytuł"
-
-msgid "Title and short description"
-msgstr "Tytuł i skrócony opis"
-
-msgid "Title, short and extended description"
-msgstr "Tytuł, skrócony i rozszerzony opis"
-
-msgid "Toggle: search all Channels or only Channels in Bouquet"
-msgstr ""
-"Przełącznik: szukaj we wszystkich kanałach lub w kanałach będących tylko w "
-"pakiecie"
-
-msgid "Toggle: show event short description in result list"
-msgstr "Przełącznik: pokaż skrócony opis wydarzeń w liście wyników"
-
-msgid "Type of match for search string"
-msgstr "Rodzaj wyszukiwania"
-
-msgid "any substring"
-msgstr "W dowolnym miejscu"
-
-msgid "beginning of a word"
-msgstr "Rozpoczyna się od słowa"
-
-msgid "channel"
-msgstr "Kanał"
-
-msgid "event"
-msgstr "Wydarzenie"
-
-msgid "exact match"
-msgstr "Dokładnie brzmi"
+msgstr "Szukaj EPG"
 
 msgid "search EPG"
-msgstr "Wyszukaj w EPG"
+msgstr "szukaj EPG"
 
-msgid "search EPG..."
-msgstr "Wyszukiwanie EPG..."
+msgid "%ssearch EPG"
+msgstr "%sWyszukaj w EPG..."
+
+msgid "search EPG from history..."
+msgstr "Wyszukaj EPG na podstawie historii..."
+
+msgid "%ssearch EPG from history..."
+msgstr "%sWyszukaj EPG na podstawie historii..."
+
+msgid "Searching..."
+msgstr "Szukam..."
+
+msgid "Select a timer to search"
+msgstr "Wybierz timer do wyszukania"
+
+msgid "Select text to search for"
+msgstr "Zaznacz tekst, aby wyszukać"
+
+msgid "Setup"
+msgstr "Ustawienia"
+
+msgid "Show in plugin browser"
+msgstr "Pokaż w przeglądarce wtyczek"
+
+msgid "Show search history"
+msgstr "Pokaż historię wyświetleń"
+
+msgid "Show orbital position"
+msgstr "Pokaż pozycję orbitalną"
+
+msgid "Search encoding"
+msgstr "Wyszukaj kodowanie"
+
+msgid "Search scope"
+msgstr "Zakres wyszukiwania"
+
+msgid "Search type"
+msgstr "Typ wyszukiwania"
+
+msgid "Search strictness"
+msgstr "Szukaj ścisłości"
+
+msgid "Show satellite orbital positions in the search results."
+msgstr "Pokaż pozycje orbity satelitarnej w wynikach wyszukiwania."
+
+msgid "Set type of match used to compare program titles with the search string."
+msgstr "Ustaw typ dopasowania używanego do porównywania tytułów programów z wyszukiwanym ciągiem."
+
+msgid "Sets the default search scope when the user is asked."
+msgstr "Ustawia domyślny zakres wyszukiwania, gdy użytkownik zostanie zapytany"
+
+msgid "title starts with"
+msgstr "Tytuł zaczyna się od"
+
+msgid "Use source restrictions below to only include results from the sources, or exclude them."
+msgstr "Użyj ograniczeń źródła poniżej, aby uwzględnić wyniki ze źródeł lub je wykluczyć."

@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OscamStatus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-31 20:39+0100\n"
+"PO-Revision-Date: 2019-10-29 21:00+0100\n"
+"Last-Translator: kosmacz <anteneczka@gmail.com>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SearchPath-0: /usr/local/lib/enigma2/python/Plugins/Extensions/OscamStatus\n"
+
+msgid "%02d days %02d hours %02d minutes %02d seconds"
+msgstr "%02d dni %02d godzin %02d minut %02d sekund"
+
+msgid "%d days %d hours %d minutes %d seconds"
+msgstr "%d dni %d godzin %d minut %d sekund"
+
+msgid "All Clients"
+msgstr "Wszyscy Klienci"
+
+msgid "AU"
+msgstr "AU"
+
+msgid "au:"
+msgstr "Auto EMM:"
+
+msgid "All Readers @"
+msgstr "Wszystkie czytniki @"
+
+msgid "answered:"
+msgstr "Czytnik:"
+
+msgid "Channel"
+msgstr "Kanał"
+
+msgid "caid:"
+msgstr "CaID:"
+
+msgid "caid:provid:srvid"
+msgstr "CaID:ProvID:SID"
+
+msgid "Client"
+msgstr "Klient"
+
+msgid "Client Data"
+msgstr "Dane Klienta"
+
+msgid "connection:"
+msgstr "Połączenie:"
+
+msgid "Connected Clients"
+msgstr "Połączeni Klienci"
+
+msgid "Connected Readers"
+msgstr "Podłączone Czytniki"
+
+msgid "Configuration screen"
+msgstr "Ekran konfiguracji"
+
+msgid "Do you really want to delete this entry?"
+msgstr "Czy na pewno chcesz usunąć ten wpis ?"
+
+msgid "ecmtime:"
+msgstr "Czas ECM:"
+
+msgid "ecmtime"
+msgstr "czas ECM"
+
+msgid "ECM Time"
+msgstr "Czas ECM"
+
+msgid "ECM Time in connected Dialog"
+msgstr "Czas ECM w połączonym oknie dialogowym"
+
+msgid "ecmhistory:"
+msgstr "Historia ECM:"
+
+msgid ""
+"EMM error\n"
+"UK / G / S / UQ"
+msgstr ""
+"EMM Błędy\n"
+"UK / G / S / UQ"
+
+msgid ""
+"EMM written\n"
+"UK / G / S / UQ"
+msgstr ""
+"EMM napisane\n"
+"UK / G / S / UQ"
+
+msgid ""
+"EMM skipped\n"
+"UK / G / S / UQ"
+msgstr ""
+"EMM pominęte\n"
+"UK / G / S / UQ"
+
+msgid ""
+"EMM blocked\n"
+"UK / G / S / UQ"
+msgstr ""
+"EMM zablok..\n"
+"UK / G / S / UQ"
+
+msgid "ip:"
+msgstr "IP :"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Idle Time"
+msgstr "Czas Bez."
+
+msgid "login:"
+msgstr "Zalogowany:"
+
+msgid "Logfile"
+msgstr "Plik dziennika"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Maybe set 'chaninfo = 0' at oscam.conf"
+msgstr "Może ustaw „chaninfo = 0” w oscam.conf"
+
+msgid "online:"
+msgstr "Aktywny:"
+
+msgid "ON"
+msgstr "Włączony"
+
+msgid "OFF"
+msgstr "Wyłączony"
+
+msgid "Oscam Download Error"
+msgstr "Błąd pobierania Oscam"
+
+msgid "Oscam Server Address"
+msgstr "Adres Serwera OsCam"
+
+msgid "Oscam Server Name"
+msgstr "Nazwa Serwera OsCam"
+
+msgid "Oscam Server Setup"
+msgstr "Ustawienia Serwera OsCam"
+
+msgid "Oscam Servers"
+msgstr "Serwery OsCam"
+
+msgid "Oscam XML Error"
+msgstr "Błąd XML Oscam"
+
+msgid "Oscam Status "
+msgstr "Oscam Status "
+
+msgid "Oscam Status globals Setup"
+msgstr "Globalne ustawienia statusu OsCam"
+
+msgid "Password (httppwd)"
+msgstr "Hasło (httppwd)"
+
+msgid "port:"
+msgstr "Port:"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Protocol"
+msgstr "Protokół"
+
+msgid "protocol:"
+msgstr "Protokół:"
+
+msgid "protocolext:"
+msgstr "Protokółext:"
+
+msgid "providers on this card max. display is:"
+msgstr "dostawcy na tej karcie max. wyświetlacz jest:"
+
+msgid "Reader"
+msgstr "Czytnik"
+
+msgid "really restart oscam@%s?"
+msgstr "naprawdę zrestartować oscam @%s ?"
+
+msgid "really shutdown oscam@%s?"
+msgstr "naprawdę wyłączyć oscam @%s ?"
+
+msgid "Server address always in IP Format"
+msgstr "Adres Serwera zawsze w formacie IP"
+
+msgid "Show Plugin in Extensions Menu"
+msgstr "Pokaż wtyczkę w Rozszerzonym Menu"
+
+msgid "srvid:"
+msgstr "SID:"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status Reader "
+msgstr "Status Czytnika "
+
+msgid "Username (httpuser)"
+msgstr "Login (httpuser)"
+
+msgid "X-Offset (move left)"
+msgstr "Przesunięcie w Osi X (w Lewo)"
+
+msgid "avgtime"
+msgstr "Śr.Czas"
+
+msgid "channelname"
+msgstr "Nazwa Kanału"
+
+msgid "delete"
+msgstr "Usuń"
+
+msgid "disable client"
+msgstr "Wyłącz Klienta"
+
+msgid "disable reader"
+msgstr "Wyłącz Czytnik"
+
+msgid "edit"
+msgstr "Edycja"
+
+msgid "enable client"
+msgstr "Włącz Klienta"
+
+msgid "enable reader"
+msgstr "Włącz Czytnik"
+
+msgid "hide idle clients"
+msgstr "Ukryj Bezczynnych"
+
+msgid "idle:"
+msgstr "Bezczynny:"
+
+msgid "Informations @ "
+msgstr "Informacje @ "
+
+msgid "lasttime"
+msgstr "Ost.Czas"
+
+msgid "loading..."
+msgstr "Ładowanie..."
+
+msgid "new"
+msgstr "Nowy"
+
+msgid "not available"
+msgstr "niedostępne"
+
+msgid "no xml"
+msgstr "bez xml"
+
+msgid "req."
+msgstr "Zap."
+
+msgid "readonly:"
+msgstr "Odczyt:"
+
+msgid "restart oscam"
+msgstr "Restart OsCam"
+
+msgid "return"
+msgstr "Powrót"
+
+msgid "revision:"
+msgstr "Poprawki"
+
+msgid "save"
+msgstr "Zapisz"
+
+msgid "service:"
+msgstr "Kanał:"
+
+msgid "starttime:"
+msgstr "Czas Startu:"
+
+msgid "server info"
+msgstr "Info Serwera"
+
+msgid "server restart/shutdown"
+msgstr "Restart/Wyłącz Serwer"
+
+msgid "server setup"
+msgstr "Ustawienia Serwera"
+
+msgid "show all clients"
+msgstr "Wszyscy Klienci"
+
+msgid "show all readers"
+msgstr "Wszystkie Czytniki"
+
+msgid "show client info"
+msgstr "Info Klienta"
+
+msgid "show connected clients"
+msgstr "Podłączeni Klienci"
+
+msgid "show connected readers"
+msgstr "Podłączone Czytniki"
+
+msgid "show idle clients"
+msgstr "Pokaż Bezczynnych"
+
+msgid "show logfile"
+msgstr "Plik Log"
+
+msgid "show reader info"
+msgstr "Info Czytnika"
+
+msgid "show readerstats"
+msgstr "Statystyki Czytnika"
+
+msgid "shutdown oscam"
+msgstr "Wyłącz OsCam"
+
+msgid "status"
+msgstr "Status"
+
+msgid "type"
+msgstr "Typ"
+
+msgid "time on channel"
+msgstr "Czasu na kanale"
+
+msgid "uptime:"
+msgstr "Czas Pracy:"
+
+msgid "use SSL"
+msgstr "Użyj SSL"
+
+msgid "Use Oscam Webif to see them all."
+msgstr "Użyj Oscam Webif, aby zobaczyć je wszystkie."
+
+msgid "Use Picons"
+msgstr "Użyj Piconów"
+
+msgid "whats going on?"
+msgstr "Informacje z OsCam`a"
+
+msgid "unknown"
+msgstr "nieznany"
+
+msgid "you can't shutdown/restart this oscam.\n"
+msgstr "nie można zamknąć,  ponownie uruchomić oscam.\n"
+
+msgid "version:"
+msgstr "wersja:"
