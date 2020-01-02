@@ -1,0 +1,24 @@
+#!/usr/bin/python
+# @j00zek 2020
+#
+#Plik do pobierania listy tlumaczen z github
+###########################################################################################################
+
+import urllib2, os, sys
+
+if __name__ == '__main__': 
+    if len(sys.argv) - 1 < 2:
+        print "ERROR: Wrong parameters provided !!!"
+        print "Example:"
+        print "pyCurl 'https://raw.githubusercontent.com/j00zek/PolishTranslations/master/Menu.conf' '/tmp/PolishTranslations.menu'"
+        quit()
+    try:
+        url=sys.argv[1]
+        fileName=sys.argv[2]
+        if os.path.exists(fileName):
+            os.remove(fileName)
+        webContent = urllib2.urlopen(url).read()
+        with open(fileName, 'w') as f:
+            f.write(webContent)
+    except Exception, e:
+        print "Exception: %s" % str(e)

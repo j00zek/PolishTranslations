@@ -22,143 +22,92 @@
 ###########################################################################################################
 DEBUG=1
 
-#curl -s --ftp-pasv $addons 1>/dev/null 2>&1
-#[ $? -gt 0 ] && addons="$addons/"
 if [ -z $1 ];then
   myPath=`dirname $0`
 else
   myPath=$1
 fi
 
-[ -e /tmp/paths.conf ] && rm -rf /tmp/paths.conf
-#[ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
+[ -e /tmp/PolishTranslations.menu ] && rm -f /tmp/PolishTranslations.menu
+
+#ustawienia
 [ -e /usr/local/e2/etc/enigma2/settings ] && settingsFile='/usr/local/e2/etc/enigma2/settings' || settingsFile='/etc/enigma2/settings'
-
-[ $DEBUG -eq 1 ] && echo "----- START -----" > /tmp/PolishTranslations.log
-if [ ! -f /tmp/PolishTranslations.list ];then
-  [ $DEBUG -eq 1 ] && echo "Brak /tmp/PolishTranslations.list, pobieram" >> /tmp/PolishTranslations.log
-  $myPath/getList.sh
-else
-  [ $DEBUG -eq 1 ] && echo "/tmp/PolishTranslations.list juz pobrana" >> /tmp/PolishTranslations.log
-fi
+UkryjNiezainstalowane=0
+ByDate=1
+KasujTMP=1
 if [ -e $settingsFile ];then
-  if `grep -q 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile`;then
-    ByDate=1
-  else
-    ByDate=0
-  fi
-else
-    ByDate=1
+	[ `grep -c 'config.plugins.TranslationsUpdater.SortowaniePoDacie=true' <$settingsFile` -gt 0 ] || ByDate=0
+	[ `grep -c 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile` -gt 0 ] && UkryjNiezainstalowane=1
+	[ `grep -c 'config.plugins.TranslationsUpdater.UsunPlikiTMP=false' <$settingsFile` -gt 0 ] && KasujTMP=0
 fi
 
-[ $DEBUG -eq 1 ] && echo "ByDate=$ByDate" >> /tmp/PolishTranslations.log
+# start
+[ $DEBUG -eq 1 ] && echo "----- START -----" > /tmp/PolishTranslations.log
+[ $DEBUG -eq 1 ] && echo "Sorty by Date=$ByDate" >> /tmp/PolishTranslations.log
+[ $DEBUG -eq 1 ] && echo "Ukrywanie niezainstalowanych=$UkryjNiezainstalowane" >> /tmp/PolishTranslations.log
+
+#pobieranie i sortowanie listy z github
+$myPath/pyCurl 'https://raw.githubusercontent.com/j00zek/PolishTranslations/master/Menu.conf' '/tmp/PolishTranslations.menu'
+sync
 
 if [ $ByDate -eq 1 ];then
-  DownloadableArchives=`cat /tmp/PolishTranslations.list|sed -e 's;^\(.*\)|\(.*\)$;\2|\1;'|sort -bfir`
+  cat /tmp/PolishTranslations.menu|sed -e 's;^\(.*\)|\(.*\)|\(.*\)|\(.*\);\2 \1|\3|\4;'|sort -bfir|grep -v "^#" > /tmp/PolishTranslations.list
 else
-  DownloadableArchives=`cat /tmp/PolishTranslations.list|sed -e 's;^\(.*\)|\(.*\)$;\1|\2;'|sort -bfi`
+  cat /tmp/PolishTranslations.menu|sed -e 's;^\(.*\)|\(.*\)|\(.*\)|\(.*\);\1 \2|\3|\4;'|sort -bfi |grep -v "^#" > /tmp/PolishTranslations.list
 fi
-[ $DEBUG -eq 1 ] && echo "$DownloadableArchives" >> /tmp/PolishTranslations.log
+[ $DEBUG -eq 1 ] && cat /tmp/PolishTranslations.list >> /tmp/PolishTranslations.log
 
-if [ -e $settingsFile ] && [ `grep -c 'config.plugins.TranslationsUpdater.UkrywanieNiezainstalowanych=true' <$settingsFile` -gt 0 ];then
-  UkryjNiezainstalowane=1
-else
-  UkryjNiezainstalowane=0
-fi
-
-if [ $? -gt 0 ]; then
-  echo "ITEM|Błąd pobierania tłumaczeń|DONOTHING|">>/tmp/_GetTranslations
-  exit 0
-fi
-
+#Tworzenie Menu
 echo "MENU|Aktualizuj tłumaczenia:">/tmp/_GetTranslations
-if [ -z "$DownloadableArchives" ];then
+if [ ! -s /tmp/PolishTranslations.list ];then
   echo "ITEM|Nie znaleziono tłumaczeń|DONOTHING|">>/tmp/_GetTranslations
   exit 0
 fi
 
-#coby ładnie się kolumienki zgadzały ;)
-maxLenght=0
-IFS=$'\n'
-[ -e /tmp/getTranslations.log ] && rm -f /tmp/getTranslations.log
-for item in $DownloadableArchives
-do
-  #echo "'$item'">>/tmp/getTranslations.log
-  addonName=`echo $item|cut -d$'|' -f1|cut -d$'.' -f1`
-  NameLen=${#addonName}
-  #echo $addonName $NameLen
-  [ $NameLen -gt $maxLenght ] && maxLenght=$NameLen
-done
-echo "MAXLENGHT = $maxLenght" >>/tmp/
-
-for ArchiveName in $DownloadableArchives
+while read ArchiveName
 do
   if `echo $ArchiveName|grep -q 'enigma2.po'`;then
     dodajDoListy=1
   elif [ $UkryjNiezainstalowane -ne 1 ];then
     dodajDoListy=1
   else
-    if [ $ByDate -eq 1 ];then #data na początku
-      addonLink=`echo $ArchiveName|cut -d$'|' -f2|sed 's/\.po//'`
-    else
-      addonLink=`echo $ArchiveName|cut -d$'|' -f1|sed 's/\.po//'`
-    fi
-    echo $addonLink
+      addonNameToSearch=`echo $ArchiveName|cut -d$'|' -f2|sed 's/\.po/.mo/'`
+    #echo $addonNameToSearch
     findPath=`echo $myPath|sed 's;^\(.*/Plugins\).*;\1;'`
-    if `find $findPath -name $addonLink.mo|grep -q -m1 "$addonLink.mo"`;then
+    if `find $findPath -name $addonNameToSearch|grep -q -m1 "$addonNameToSearch"`;then
       dodajDoListy=1
     else
       dodajDoListy=0
     fi
   fi
   if [ $dodajDoListy -eq 1 ];then
-    if [ $ByDate -eq 1 ];then #data na początku
-      addonLink=`echo $ArchiveName|cut -d$'|' -f2`
-      addonName=`echo $ArchiveName|cut -d$'|' -f1`
-      addonDate=`echo $ArchiveName|cut -d$'|' -f2|cut -d$'.' -f1`
-    
-      DateABBR=`echo $addonName|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
-      if [ $DateABBR == ' 1' ];then
-        #echo "Month abbreviation found probably, let's try translate it"
-        addonName=`echo $addonName|sed 's/^\(...\)/_(\1)/'`
-      fi
-    else
-      addonLink=`echo $ArchiveName|cut -d$'|' -f1`
-      addonName=`echo $ArchiveName|cut -d$'|' -f1|cut -d$'.' -f1`
-      addonDate=`echo $ArchiveName|cut -d$'|' -f2`
-    
-      DateABBR=`echo $addonDate|cut -d$'\t' -f2|sed 's/^...\(.\).*/\1/'`
-      if [ $DateABBR == ' ' ];then
-        #echo "Month abbreviation found probably, let's try translate it"
-        addonDate=`echo $addonDate|sed 's/^\(...\)/_(\1)/'`
-      fi
-    fi
-    NameLen=${#addonName}
-    LenDiff=$(( maxLenght - NameLen ))
-    [ $LenDiff -gt 4 ] && extraTAB='\t' || extraTAB=''
-    #echo "$ArchiveName > $addonLink"
-    [ $DEBUG -eq 1 ] && echo "addonLink=$addonLink" >> /tmp/PolishTranslations.log
-    [ $DEBUG -eq 1 ] && echo "addonName=$addonName" >> /tmp/PolishTranslations.log
-    [ $DEBUG -eq 1 ] && echo "addonDate=$addonDate" >> /tmp/PolishTranslations.log
-    echo -e "ITEM|$addonName\t$extraTAB $addonDate|CONSOLE|getPO.sh $addonLink">>/tmp/_GetTranslations
+	addonName=`echo "$ArchiveName"|cut -d$'|' -f1`
+    addonFileName=`echo $ArchiveName|cut -d$'|' -f2`
+    addonDestination=`echo $ArchiveName|cut -d$'|' -f3`
+    [ $DEBUG -eq 1 ] && echo "addonName=$addonName, addonFileName=$addonFileName , addonDestination=$addonDestination" >> /tmp/PolishTranslations.log
+    echo -e "ITEM|$addonName|CONSOLE|getPO.sh $addonFileName $addonDestination">>/tmp/_GetTranslations
   fi
-done
+done </tmp/PolishTranslations.list
 
 opkg update 1 > /dev/null 2>&1
 if [ `opkg list-installed 2>&1|grep -c 'enigma2-locale-pl'` -eq 1 ];then
   echo -e "ITEM|> Odinstaluj standardowe tłumaczenie enigmy <|CONSOLE|opkg remove enigma2-locale-pl">>/tmp/_GetTranslations
 fi
 
-if `grep -q 'config.plugins.TranslationsUpdater.UsunPlikiTMP=true' <$settingsFile`;then
-  rm -f /tmp/PolishTranslations.web
-  rm -f /tmp/PolishTranslations.table
-  #rm -f /tmp/PolishTranslations.list
+#aktualizacja wtyczki, jesli potrzebna
+if [ -e $myPath/../__init__.py ];then
+	$myPath/pyCurl 'https://raw.githubusercontent.com/j00zek/PolishTranslations/master/TranslationsUpdater/__init__.py' '/tmp/init.tmp'
+	wersjaCurrent=`grep "^wersja" < $myPath/../__init__.py|cut -d '=' -f2`
+	wersjaOnline=`cat /tmp/init.tmp|grep "^wersja"|cut -d '=' -f2`
+	if [ $wersjaOnline -gt $wersjaCurrent ];then
+		echo -e "ITEM|>>> Aktualizuj wtyczkę <<<|CONSOLE|pluginUpdate.sh">>/tmp/_GetTranslations
+	fi
 fi
 
-#aktualizacja wtyczki, jesli potrzebna
-wersjaCurrent=`grep "^wersja" < $myPath/../__init__.py|cut -d '=' -f2`
-wersjaOnline=`curl -kLs https://raw.githubusercontent.com/j00zek/PolishTranslations/master/TranslationsUpdater/__init__.py|grep "^wersja"|cut -d '=' -f2`
-[ $? -gt 0 ] && exit 0
-if [ $wersjaOnline -gt $wersjaCurrent ];then
-  echo -e "ITEM|>>> Aktualizuj wtyczkę <<<|CONSOLE|pluginUpdate.sh">>/tmp/_GetTranslations
+#czyszczenie po sobie
+if [ $KasujTMP -eq 1 ];then
+  for plik in /tmp/PolishTranslations.menu /tmp/PolishTranslations.web /tmp/PolishTranslations.table /tmp/init.tmp
+  do
+	[ -e $plik ] && rm -f $plik
+  done
 fi

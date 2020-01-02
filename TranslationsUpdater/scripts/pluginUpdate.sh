@@ -1,4 +1,5 @@
 #
+myPath=`dirname $0`
 [ -e /tmp/PolishTranslations.tar.gz ] && rm -rf /tmp/PolishTranslations.tar.gz
 [ -e /tmp/.rebootGUI ] && rm -rf /tmp/.rebootGUI
 
@@ -33,11 +34,7 @@ if [ $? -gt 0 ]; then
 fi
 
 echo "Pobieram najświerzsze archiwum..."
-curl -kLs https://api.github.com/repos/j00zek/PolishTranslations/tarball/master -o /tmp/PolishTranslations.tar.gz
-if [ $? -gt 0 ]; then
-  echo "_(Archive downloaded improperly)"
-  exit 0
-fi
+$myPath/pyCurl https://api.github.com/repos/j00zek/PolishTranslations/tarball/master /tmp/PolishTranslations.tar.gz
 
 if [ ! -e /tmp/PolishTranslations.tar.gz ]; then
   echo "_(No archive downloaded, check your curl version)"

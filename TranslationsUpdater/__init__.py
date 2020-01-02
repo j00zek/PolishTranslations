@@ -1,6 +1,6 @@
 #!/bin/sh
-#@j00zek 14-05-2018
-wersja=19
+#@j00zek 01-01-2020
+wersja=20
 
 PluginName = 'TranslationsUpdater'
 PluginGroup = 'Extensions'
