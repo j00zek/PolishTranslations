@@ -4,7 +4,7 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Mariusz1970 <Mariusz1970@onet.eu>\n"
-"Language-Team: Mariusz1970@onet.eu\n"
+"Language-Team: openATV <Mariusz1970@onet.eu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "Clear before scan"
-msgstr "Wyczyścić przed skanowaniem"
+msgstr "Wyczyścić przed wyszukiwaniem"
 
 msgid "Exit"
 msgstr "Wyjdź"
@@ -64,13 +64,13 @@ msgid "Scan"
 msgstr "Wyszukiwanie"
 
 msgid "Scan start frequency"
-msgstr "Rozpocząć wyszukiwanie częstotliwości"
+msgstr "Rozpocznij wyszukiwanie częstotliwości"
 
 msgid "Scan start symbolrate"
 msgstr "Szybkość symbolu początkowego wyszukiwanie"
 
 msgid "Scan stop frequency"
-msgstr "Zakończyć wyszukiwanie częstotliwość"
+msgstr "Zakończ wyszukiwanie częstotliwość"
 
 msgid "Scan stop symbolrate"
 msgstr "Szybkość symbolu końcowego wyszukiwanie"
@@ -117,7 +117,16 @@ msgid "circular right"
 msgstr "Okrągła prawa"
 
 msgid "circular right and circular left"
-msgstr "Okrągły prawy i lewy kołowy"
+msgstr "Okrągła prawa i lewy kołowy"
+
+msgid "circular right and circular right"
+msgstr "Okrągła prawa i prawy kołowy"
+
+msgid "circular left and circular left"
+msgstr "Okrągła lewa i lewy kołowy"
+
+msgid "circular left and circular right"
+msgstr "Okrągła lewa i prawy kołowy"
 
 msgid " horizontal"
 msgstr " Pozioma"
@@ -264,11 +273,11 @@ msgstr "Polaryzacja"
 msgid "vertical and horizontal"
 msgstr "Pionowa i pozioma"
 
-msgid "Frequency values must be between 10700 MHz and 12749 MHz"
-msgstr "Wartość częstotliwości musi być między 10.700 MHz i 12.749 MHz"
+msgid "Frequency values must be between %d MHz and %d MHz"
+msgstr "Wartość częstotliwości musi być między %d MHz i %d MHz"
 
-msgid "Frequency values must be between 10701 MHz and 12750 MHz"
-msgstr "Wartość częstotliwości musi być między 10.701 MHz i 12.750 MHz"
+msgid "Frequency values must be between %d MHz and %d MHz (C-band)"
+msgstr "Wartość częstotliwości musi być między %d i %d MHz (pasmo C)"
 
 msgid "\"channel scan\" searches for channels and saves them to your receiver; both options do a transponder search and save the result in /tmp in an XML file in satellites.xml format"
 msgstr "\"wyszukiwanie kanałów\" wyszukuje kanały i zapisuje je w odbiorniku;obie opcje wykonują wyszukiwanie transpondera i zapisują wynik w /tmp w pliku XML w formacie satellites.xml"
@@ -277,10 +286,44 @@ msgid "The suggested polarisation for this satellite is \"%s\""
 msgstr "Sugerowana polaryzacja dla tego satelity to \"%s\""
 
 msgid "If you select \"yes\" the scan will only save channels that are not encrypted; \"no\" will find encrypted and non-encrypted channels."
-msgstr "Jeśli wybierzesz \"tak\", wyszukiwanie zapisze tylko te kanały które nie są kodowane, nie znajdzie kodowanych i niekodowanych kanałów."
+msgstr "Jeżeli wybierzesz \"tak\",wyszukiwanie zapisze tylko te kanały które nie są kodowane,nie znajdzie kodowanych kanałów."
 
 msgid "When a neighbouring satellite is very strong this avoids searching transponders known to be coming from the neighbouring satellite."
 msgstr "Gdy sąsiedni satelita jest bardzo silny,pozwala to uniknąć wyszukiwania transponderów o których wiadomo że pochodzą z sąsiedniego satelity."
 
 msgid "horizontal"
-msgstr "Poziomy"
+msgstr "Pozioma"
+
+msgid "yes"
+msgstr "Tak"
+
+msgid "CAUTION: If you select \"yes\" the scan will not sync with transponders listed in satellites.xml. Default is \"no\". Only change this if you understand why you are doing it."
+msgstr "UWAGA: Jeżeli wybierzesz \"tak”,wyszukiwanie nie będzie synchronizowane z transponderami wymienionymi w pliku satellites.xml.Domyślnie jest \"nie”.Zmień to tylko jeśli rozumiesz dlaczego to robisz."
+
+msgid "CAUTION: If you select \"yes\" the scan will not remove \"duplicated\" transponders from the list. Default is \"no\". Only change this if you understand why you are doing it."
+msgstr "UWAGA: Jeżeli wybierzesz \"tak”,wyszukiwanie nie usunie zdublowanych transponderów z listy.Domyślnie jest \"nie”.Zmień to tylko jeśli rozumiesz dlaczego to robisz."
+
+msgid "yes (keep feeds)"
+msgstr "Tak (zachowaj kanały)"
+
+msgid "If you select \"yes\" all channels on the satellite being searched will be deleted before starting the current search, yes (keep feeds) means the same but hold all feed services/transponders."
+msgstr "Jeżeli wybierzesz \"tak”,wszystkie wyszukiwane kanały z satelity zostaną usunięte przed rozpoczęciem bieżącego wyszukiwania."
+
+msgid "\"channel scan\" searches for channels and saves them to your receiver; \"transponder scan\" does a transponder search and displays the results allowing user to select some or all transponder. Both options save the results in satellites.xml format under /tmp"
+msgstr "\"Wyszukiwanie kanałów” wyszukuje kanały i zapisuje je w odbiorniku; \"wyszukiwanie transpondera” wyszukuje transpondery i wyświetla wyniki pozwalając użytkownikowi wybrać część lub całość transpondera.Obie opcje zapisują wyniki w formacie satellites.xml w /tmp"
+
+msgid ""
+"\n"
+"The second slot of this dual tuner may not support blind scan."
+msgstr ""
+"\n"
+"Drugie gniazdo tej podwójnej głowicy może nie obsługiwać wyszukiwania w blind scan."
+
+msgid "scan for transponders"
+msgstr "Przeszukaj transpondery"
+
+msgid "Disable remove duplicates"
+msgstr "Wyłączyć usuwanie duplikatów"
+
+msgid "Disable sync with known transponders"
+msgstr "Wyłączyć synchronizację transponderów z satellites.xml"
