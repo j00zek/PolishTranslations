@@ -132,13 +132,16 @@ msgid " horizontal"
 msgstr " Pozioma"
 
 msgid " --horizontal"
-msgstr "--Pozioma"
+msgstr " --Pozioma"
 
 msgid " vertical"
 msgstr " Pionowa"
 
+msgid "vertical"
+msgstr "Pionowa"
+
 msgid " --vertical"
-msgstr "--Pionowa"
+msgstr " --Pionowa"
 
 msgid "\thorizontal"
 msgstr "\tpozioma"
@@ -310,7 +313,7 @@ msgid "If you select \"yes\" all channels on the satellite being searched will b
 msgstr "Jeżeli wybierzesz \"tak”,wszystkie wyszukiwane kanały z satelity zostaną usunięte przed rozpoczęciem bieżącego wyszukiwania."
 
 msgid "\"channel scan\" searches for channels and saves them to your receiver; \"transponder scan\" does a transponder search and displays the results allowing user to select some or all transponder. Both options save the results in satellites.xml format under /tmp"
-msgstr "\"Wyszukiwanie kanałów” wyszukuje kanały i zapisuje je w odbiorniku; \"wyszukiwanie transpondera” wyszukuje transpondery i wyświetla wyniki pozwalając użytkownikowi wybrać część lub całość transpondera.Obie opcje zapisują wyniki w formacie satellites.xml w /tmp"
+msgstr "\"Wyszukiwanie kanałów” wyszukuje kanały i zapisuje je w odbiorniku; \"Przeszukaj transpondery” wyszukuje transpondery i wyświetla wyniki pozwalając użytkownikowi wybrać część lub całość transpondera.Obie opcje zapisują wyniki w formacie satellites.xml w /tmp"
 
 msgid ""
 "\n"
